@@ -1,4 +1,14 @@
 /*去除首页新闻*/
 .tab-news-content{display:none!important;}
+
 /*隐藏底部*/
 .page-copyright{display:none!important;}
+
+/*隐藏 今日新鲜事*/
+.square-banner-bgicon{display:none!important;}
+
+/*隐藏 上滑加载更多*/
+.s-loading-frame{display:none!important;}
+
+/*隐藏底部*/
+#bottom{display:none!important;}

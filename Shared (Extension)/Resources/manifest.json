@@ -33,7 +33,7 @@
         "matches" : ["*://*.wsgjp.com.cn/*"]
     },{
         "css" : ["baidu.css"],
-        "matches" : ["*://*.baidu.com/"]
+        "matches" : ["*://*.baidu.com/*"]
     }],
 
     "browser_action": {
