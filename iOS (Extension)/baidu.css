@@ -1,0 +1,4 @@
+/*去除首页新闻*/
+.tab-news-content{display:none!important;}
+/*隐藏底部*/
+.page-copyright{display:none!important;}

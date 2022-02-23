@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		838E87132676778200558B4F /* 163.css in Resources */ = {isa = PBXBuildFile; fileRef = 838E87122676778200558B4F /* 163.css */; };
 		838E871526767A4B00558B4F /* 36kr.css in Resources */ = {isa = PBXBuildFile; fileRef = 838E871426767A4B00558B4F /* 36kr.css */; };
+		83CF53C027C65E7000375E9F /* baidu.css in Resources */ = {isa = PBXBuildFile; fileRef = 83CF53BF27C65E7000375E9F /* baidu.css */; };
 		83E017002675036B00A30A29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E016FF2675036B00A30A29 /* AppDelegate.swift */; };
 		83E017022675036B00A30A29 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E017012675036B00A30A29 /* SceneDelegate.swift */; };
 		83E017052675036B00A30A29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83E017032675036B00A30A29 /* LaunchScreen.storyboard */; };
@@ -96,6 +97,7 @@
 /* Begin PBXFileReference section */
 		838E87122676778200558B4F /* 163.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = 163.css; sourceTree = "<group>"; };
 		838E871426767A4B00558B4F /* 36kr.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = 36kr.css; sourceTree = "<group>"; };
+		83CF53BF27C65E7000375E9F /* baidu.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = baidu.css; sourceTree = "<group>"; };
 		83E016E72675036A00A30A29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
 		83E016E82675036A00A30A29 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		83E016E92675036A00A30A29 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
@@ -260,6 +262,7 @@
 				838E871426767A4B00558B4F /* 36kr.css */,
 				83F1C41A267CF8B200CEC9C3 /* gjp.css */,
 				83F1C420267CFA6100CEC9C3 /* gjp.js */,
+				83CF53BF27C65E7000375E9F /* baidu.css */,
 			);
 			path = "iOS (Extension)";
 			sourceTree = "<group>";
@@ -426,6 +429,7 @@
 			files = (
 				838E87132676778200558B4F /* 163.css in Resources */,
 				83E0173E2675036B00A30A29 /* background.js in Resources */,
+				83CF53C027C65E7000375E9F /* baidu.css in Resources */,
 				83E017442675036B00A30A29 /* popup.css in Resources */,
 				83F1C41B267CF8B200CEC9C3 /* gjp.css in Resources */,
 				83E017422675036B00A30A29 /* popup.html in Resources */,

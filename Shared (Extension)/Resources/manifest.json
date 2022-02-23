@@ -31,6 +31,9 @@
     },{
         "css" : ["gjp.css"],
         "matches" : ["*://*.wsgjp.com.cn/*"]
+    },{
+        "css" : ["baidu.css"],
+        "matches" : ["*://*.baidu.com/"]
     }],
 
     "browser_action": {
