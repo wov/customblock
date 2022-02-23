@@ -1,6 +1,14 @@
-browser.runtime.onMessage.addListener((request, sender, sendResponse) => {
-    console.log("Received request: ", request);
+/*
+See LICENSE folder for this sample’s licensing information.
 
-    if (request.greeting === "hello")
-        sendResponse({ farewell: "goodbye" });
+Abstract:
+Script that runs in the background of the browser.
+*/
+browser.runtime.onMessage.addListener((request) => {
+    browser.storage.local.get((item) => {
+        let styles = ".wap-nav-wrap{display: none!important;}";
+        if (Object.keys(item).length !== 0){
+            browser.tabs.insertCSS({code: styles})
+        }
+    });
 });

@@ -20,8 +20,17 @@
     },
 
     "content_scripts": [{
-        "js": [ "content.js" ],
-        "matches": [ "*://example.com/*" ]
+        "css" : ["163.css"],
+        "matches" : ["*://3g.163.com/*"]
+    },{
+        "css" : ["36kr.css"],
+        "matches" : ["*://*.36kr.com/*"]
+    },{
+        "js" : ["gjp.js"],
+        "matches" : ["*://*.wsgjp.com.cn/*"]
+    },{
+        "css" : ["gjp.css"],
+        "matches" : ["*://*.wsgjp.com.cn/*"]
     }],
 
     "browser_action": {
@@ -33,6 +42,5 @@
             "38": "images/toolbar-icon-38.png"
         }
     },
-
-    "permissions": [ ]
+    "permissions": [ "tabs","storage"]
 }
