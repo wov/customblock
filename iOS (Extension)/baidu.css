@@ -26,6 +26,11 @@
 .layer-wrap{display:none!important;}
 .mainContent{height:auto!important;}
 
+/*这个会加到body上，导致无法滚动，去掉overflow hidden*/
+body.scrollHide{
+    overflow:auto!important;
+}
+
 /*语音播报？*/
 .uukjsi6a_zpZccrqYiI3k{display:none!important;}
 
