@@ -23,15 +23,6 @@
         "css" : ["163.css"],
         "matches" : ["*://3g.163.com/*"]
     },{
-        "css" : ["36kr.css"],
-        "matches" : ["*://*.36kr.com/*"]
-    },{
-        "js" : ["gjp.js"],
-        "matches" : ["*://*.wsgjp.com.cn/*"]
-    },{
-        "css" : ["gjp.css"],
-        "matches" : ["*://*.wsgjp.com.cn/*"]
-    },{
         "css" : ["baidu.css"],
         "matches" : ["*://*.baidu.com/*"]
     }],

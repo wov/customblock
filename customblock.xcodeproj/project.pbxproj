@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		838E87132676778200558B4F /* 163.css in Resources */ = {isa = PBXBuildFile; fileRef = 838E87122676778200558B4F /* 163.css */; };
-		838E871526767A4B00558B4F /* 36kr.css in Resources */ = {isa = PBXBuildFile; fileRef = 838E871426767A4B00558B4F /* 36kr.css */; };
 		83CF53C027C65E7000375E9F /* baidu.css in Resources */ = {isa = PBXBuildFile; fileRef = 83CF53BF27C65E7000375E9F /* baidu.css */; };
 		83E017002675036B00A30A29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E016FF2675036B00A30A29 /* AppDelegate.swift */; };
 		83E017022675036B00A30A29 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E017012675036B00A30A29 /* SceneDelegate.swift */; };
@@ -48,8 +47,6 @@
 		83E017452675036B00A30A29 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 83E016F62675036B00A30A29 /* popup.css */; };
 		83E017462675036B00A30A29 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 83E016F72675036B00A30A29 /* popup.js */; };
 		83E017472675036B00A30A29 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 83E016F72675036B00A30A29 /* popup.js */; };
-		83F1C41B267CF8B200CEC9C3 /* gjp.css in Resources */ = {isa = PBXBuildFile; fileRef = 83F1C41A267CF8B200CEC9C3 /* gjp.css */; };
-		83F1C421267CFA6100CEC9C3 /* gjp.js in Resources */ = {isa = PBXBuildFile; fileRef = 83F1C420267CFA6100CEC9C3 /* gjp.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,7 +93,6 @@
 
 /* Begin PBXFileReference section */
 		838E87122676778200558B4F /* 163.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = 163.css; sourceTree = "<group>"; };
-		838E871426767A4B00558B4F /* 36kr.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = 36kr.css; sourceTree = "<group>"; };
 		83CF53BF27C65E7000375E9F /* baidu.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = baidu.css; sourceTree = "<group>"; };
 		83E016E72675036A00A30A29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
 		83E016E82675036A00A30A29 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
@@ -127,8 +123,6 @@
 		83E0171F2675036B00A30A29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83E017242675036B00A30A29 /* customblock Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "customblock Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83E017292675036B00A30A29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		83F1C41A267CF8B200CEC9C3 /* gjp.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = gjp.css; sourceTree = "<group>"; };
-		83F1C420267CFA6100CEC9C3 /* gjp.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = gjp.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -259,9 +253,6 @@
 			children = (
 				83E0171F2675036B00A30A29 /* Info.plist */,
 				838E87122676778200558B4F /* 163.css */,
-				838E871426767A4B00558B4F /* 36kr.css */,
-				83F1C41A267CF8B200CEC9C3 /* gjp.css */,
-				83F1C420267CFA6100CEC9C3 /* gjp.js */,
 				83CF53BF27C65E7000375E9F /* baidu.css */,
 			);
 			path = "iOS (Extension)";
@@ -431,13 +422,10 @@
 				83E0173E2675036B00A30A29 /* background.js in Resources */,
 				83CF53C027C65E7000375E9F /* baidu.css in Resources */,
 				83E017442675036B00A30A29 /* popup.css in Resources */,
-				83F1C41B267CF8B200CEC9C3 /* gjp.css in Resources */,
 				83E017422675036B00A30A29 /* popup.html in Resources */,
 				83E0173A2675036B00A30A29 /* images in Resources */,
-				83F1C421267CFA6100CEC9C3 /* gjp.js in Resources */,
 				83E0173C2675036B00A30A29 /* manifest.json in Resources */,
 				83E017382675036B00A30A29 /* _locales in Resources */,
-				838E871526767A4B00558B4F /* 36kr.css in Resources */,
 				83E017402675036B00A30A29 /* content.js in Resources */,
 				83E017462675036B00A30A29 /* popup.js in Resources */,
 			);

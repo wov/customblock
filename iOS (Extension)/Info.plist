@@ -35,9 +35,7 @@
 			<key>Allowed Domains</key>
 			<array>
 				<string>*.baidu.com</string>
-				<string>*.wsgjp.com.cn</string>
 				<string>3g.163.com</string>
-				<string>*.36kr.com</string>
 			</array>
 		</dict>
 	</dict>

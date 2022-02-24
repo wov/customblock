@@ -1,14 +1,39 @@
+/****百度首页****/
 /*去除首页新闻*/
 .tab-news-content{display:none!important;}
-
 /*隐藏底部*/
 .page-copyright{display:none!important;}
-
 /*隐藏 今日新鲜事*/
 .square-banner-bgicon{display:none!important;}
-
 /*隐藏 上滑加载更多*/
 .s-loading-frame{display:none!important;}
-
 /*隐藏底部*/
 #bottom{display:none!important;}
+/*样式居中*/
+#header{
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/***搜索结果页去广告***/
+.ec_ad_results{display:none!important;}
+
+
+/***百家号***/
+/*遮照层*/
+.layer-wrap{display:none!important;}
+.mainContent{height:auto!important;}
+
+/*语音播报？*/
+.uukjsi6a_zpZccrqYiI3k{display:none!important;}
+
+/*APP 阅读更多*/
+.oPadding{
+    display:none!important;
+}
+
+/*精彩推荐*/
+._3cAIWshMtS86T-V_NTTzch{display:none!important;}
+.infinite-scroll-component__outerdiv{display:none!important;}

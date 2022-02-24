@@ -16,7 +16,6 @@ video{width:50%!important;margin:auto;}
     position: relative!important;
 }
 
-
 .card-type-news a h3{
     display:inline;
 }
@@ -28,6 +27,20 @@ video{width:50%!important;margin:auto;}
   color: #fff!important;
 }
 
+/*顶部通栏广告*/
+.a_topad{display:none!important;}
+
+/*iframe隐藏*/
+iframe{display:none!important;}
+
+/*news-card*/
+.news-card{
+    padding:0!important;
+}
+
+.news-card > a{
+    padding:10px;
+}
 
 /*test block some links*/
 a[href*="/special/channel_virus_report/"],
