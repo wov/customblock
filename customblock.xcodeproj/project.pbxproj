@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		831955E127C8E1AD00446554 /* xiaohongshu.css in Resources */ = {isa = PBXBuildFile; fileRef = 831955E027C8E1AD00446554 /* xiaohongshu.css */; };
 		838E87132676778200558B4F /* 163.css in Resources */ = {isa = PBXBuildFile; fileRef = 838E87122676778200558B4F /* 163.css */; };
 		83CF53C027C65E7000375E9F /* baidu.css in Resources */ = {isa = PBXBuildFile; fileRef = 83CF53BF27C65E7000375E9F /* baidu.css */; };
 		83E017002675036B00A30A29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E016FF2675036B00A30A29 /* AppDelegate.swift */; };
@@ -92,6 +93,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		831955E027C8E1AD00446554 /* xiaohongshu.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = xiaohongshu.css; sourceTree = "<group>"; };
 		838E87122676778200558B4F /* 163.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = 163.css; sourceTree = "<group>"; };
 		83CF53BF27C65E7000375E9F /* baidu.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = baidu.css; sourceTree = "<group>"; };
 		83E016E72675036A00A30A29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
@@ -254,6 +256,7 @@
 				83E0171F2675036B00A30A29 /* Info.plist */,
 				838E87122676778200558B4F /* 163.css */,
 				83CF53BF27C65E7000375E9F /* baidu.css */,
+				831955E027C8E1AD00446554 /* xiaohongshu.css */,
 			);
 			path = "iOS (Extension)";
 			sourceTree = "<group>";
@@ -420,6 +423,7 @@
 			files = (
 				838E87132676778200558B4F /* 163.css in Resources */,
 				83E0173E2675036B00A30A29 /* background.js in Resources */,
+				831955E127C8E1AD00446554 /* xiaohongshu.css in Resources */,
 				83CF53C027C65E7000375E9F /* baidu.css in Resources */,
 				83E017442675036B00A30A29 /* popup.css in Resources */,
 				83E017422675036B00A30A29 /* popup.html in Resources */,

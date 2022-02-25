@@ -1,0 +1,16 @@
+
+/*小红书discovery*/
+/*隐藏头部app*/
+.normal-launch-app-container{
+    display:none!important;
+}
+
+/*展开隐藏内容*/
+main.content{
+    height:auto!important;
+}
+
+.check-more{
+    display:none!important;
+}
+

@@ -25,6 +25,9 @@
     },{
         "css" : ["baidu.css"],
         "matches" : ["*://*.baidu.com/*"]
+    }{
+        "css" : ["xiaohongshu.css"],
+        "matches" : ["*://*.xiaohongshu.com/*"]
     }],
 
     "browser_action": {
