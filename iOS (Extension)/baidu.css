@@ -11,10 +11,10 @@
 #bottom{display:none!important;}
 /*样式居中*/
 #header{
-    height:100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+/*    height:100vh;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    justify-content: space-between;*/
 }
 
 /***搜索结果页去广告***/
@@ -30,6 +30,9 @@
 body.scrollHide{
     overflow:auto!important;
 }
+
+/*头部广告*/
+.headDeflectorContainer{display:none!important;}
 
 /*语音播报？*/
 .uukjsi6a_zpZccrqYiI3k{display:none!important;}
