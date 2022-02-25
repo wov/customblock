@@ -1,0 +1,30 @@
+/**知乎详情页**/
+/*去掉打开时的遮罩层*/
+
+.ModalWrap{
+    display:none!important;
+}
+
+body,body.ModalWrap-body{
+    overflow:auto!important;
+}
+
+/*MBannerAd*/
+.MBannerAd{
+    display:none!important;
+}
+
+/*更多回答被强制使用app打开*/
+.RichContent-inner,.RichContent-inner--collapsed{
+    max-height:unset!important;
+}
+
+/*去掉热门推荐*/
+.HotQuestions{
+    display:none!important;
+}
+
+/*去掉app内打开的按钮*/
+.OpenInAppButton{
+    display:none!important;
+}

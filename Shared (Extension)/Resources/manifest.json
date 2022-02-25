@@ -28,6 +28,9 @@
     },{
         "css" : ["xiaohongshu.css"],
         "matches" : ["*://*.xiaohongshu.com/*"]
+    },{
+        "css" : ["zhihu.css"],
+        "matches" : ["*://*.zhihu.com/*"]
     }],
 
     "browser_action": {
