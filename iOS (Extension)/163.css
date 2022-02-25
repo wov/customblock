@@ -1,10 +1,10 @@
-h1,.section-sports,.section-ent,.section-house,.section-home,.section-headline,.market-promotion,.news-pic,.footer,.hot_news,.widget-slider-article.bottom,.relative_doc,.hotSearch-box,.sub_box,.copyright,.more-client,.toggle-btn,.section-war,.section-recommend,.wap-footer-wrap,.section-bottom-links,.section-dy{display:none!important;}
-article{max-height:none!important;}
-article .content .page{display:block!important;}
-html{font-size:48px!important;}
-.channel-closed{height:auto!important;}
-a:visited .news-info h3{color:#ddd!important;}
-video{width:50%!important;margin:auto;}
+/*h1,.section-sports,.section-ent,.section-house,.section-home,.section-headline,.market-promotion,.news-pic,.footer,.hot_news,.widget-slider-article.bottom,.relative_doc,.hotSearch-box,.sub_box,.copyright,.more-client,.toggle-btn,.section-war,.section-recommend,.wap-footer-wrap,.section-bottom-links,.section-dy{display:none!important;}*/
+/*article{max-height:none!important;}*/
+/*article .content .page{display:block!important;}*/
+/*html{font-size:48px!important;}*/
+/*.channel-closed{height:auto!important;}*/
+/*a:visited .news-info h3{color:#ddd!important;}*/
+video{width:100%!important;margin:auto;}
 
 .card_0,.pk_vote_wrapper,.ad-above-comment,.m_colum_a_d,.new_relative_doc,.article_comment{display:none!important;}
 
@@ -42,12 +42,11 @@ iframe{display:none!important;}
     padding:10px;
 }
 
-/*test block some links*/
-a[href*="/special/channel_virus_report/"],
-a[herf*="/touch/ent/"],
-a[herf*="/touch/sports/"],
-a[herf*="/touch/war/"],
-a[herf*="/touch/liveshow/"]
-{
-    display:none!important;
-}
+/*a[href*="/special/channel_virus_report/"],*/
+/*a[herf*="/touch/ent/"],*/
+/*a[herf*="/touch/sports/"],*/
+/*a[herf*="/touch/war/"],*/
+/*a[herf*="/touch/liveshow/"]*/
+/*{*/
+/*    display:none!important;*/
+/*}*/
