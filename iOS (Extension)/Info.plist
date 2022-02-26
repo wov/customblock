@@ -12,14 +12,30 @@
 		<array>
 			<dict>
 				<key>Script</key>
-				<string>gjp.js</string>
+				<string>jd.js</string>
 			</dict>
 		</array>
 		<key>SFSafariStyleSheet</key>
 		<array>
 			<dict>
 				<key>Style Sheet</key>
-				<string>gjp.css</string>
+				<string>jd.css</string>
+			</dict>
+			<dict>
+				<key>Style Sheet</key>
+				<string>sina.css</string>
+			</dict>
+			<dict>
+				<key>Style Sheet</key>
+				<string>zhuhu.css</string>
+			</dict>
+			<dict>
+				<key>Style Sheet</key>
+				<string>xiaohongshu.css</string>
+			</dict>
+			<dict>
+				<key>Style Sheet</key>
+				<string>baidu.css</string>
 			</dict>
 			<dict>
 				<key>Style Sheet</key>
