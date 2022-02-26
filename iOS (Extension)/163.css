@@ -4,6 +4,20 @@
 /*html{font-size:48px!important;}*/
 /*.channel-closed{height:auto!important;}*/
 /*a:visited .news-info h3{color:#ddd!important;}*/
+
+/*首页*/
+iframe{display:none!important;}
+
+.market-promotion{
+    display:none!important;
+}
+
+/*广告*/
+.m_colum_a_d{
+    display:none!important;
+}
+
+
 video{width:100%!important;margin:auto;}
 
 .card_0,.pk_vote_wrapper,.ad-above-comment,.m_colum_a_d,.new_relative_doc,.article_comment{display:none!important;}
