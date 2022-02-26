@@ -20,6 +20,13 @@
 /***搜索结果页去广告***/
 .ec_ad_results{display:none!important;}
 
+/*去掉领话费*/
+.mkt-ball-wrapper__2HtOM{
+    display:none!important;
+}
+
+/*底部*/
+#page-copyright{display:none!important;}
 
 /***百家号***/
 /*遮照层*/

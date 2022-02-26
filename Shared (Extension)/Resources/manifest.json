@@ -31,6 +31,12 @@
     },{
         "css" : ["zhihu.css"],
         "matches" : ["*://*.zhihu.com/*"]
+    },{
+        "css" : ["36kr.css"],
+        "matches" : ["*://*.36kr.com/*"]
+    },{
+        "css" : ["sina.css"],
+        "matches" : ["*://*.sina.cn/*"]
     }],
 
     "browser_action": {

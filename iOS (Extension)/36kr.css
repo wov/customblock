@@ -1,0 +1,18 @@
+
+/***详情页***/
+/*去掉遮罩层*/
+.tips-mask,.tips-content{display:none!important;}
+body{
+    overflow:auto!important;
+}
+
+/*顶部广告轮播*/
+.article-top-swiper-goapp{display:none!important;}
+
+/*底部评论*/
+.interact-area{display:none!important;}
+
+/*文章被隐藏*/
+#body-content{max-height:unset!important;}
+.article-goapp{display:none!important;}
+

@@ -1,0 +1,29 @@
+/*新浪详情页*/
+
+/*底部悬浮评论*/
+.j_cmnt_bottom{display:none!important;}
+
+/*打开app的按钮*/
+.float-btn{display:none!important;}
+
+/*文章被折叠*/
+section.s_card{
+    height:auto!important;
+    overflow:auto!important;
+}
+
+.artFoldBox,#artFoldBox{display:none!important;}
+
+/*一些广告*/
+.fl_suspension_link{
+    display:none!important;
+}
+
+/*相关新闻*/
+section.j_article_relevent_news{
+    display:none!important;
+}
+/*推荐阅读*/
+section.j_wbrecommend_wrap{
+    display:none!important;
+}

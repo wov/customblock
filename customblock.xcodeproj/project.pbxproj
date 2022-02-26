@@ -8,9 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		831955E127C8E1AD00446554 /* xiaohongshu.css in Resources */ = {isa = PBXBuildFile; fileRef = 831955E027C8E1AD00446554 /* xiaohongshu.css */; };
+		833AF29F27C9F0E60011C1BC /* sina.css in Resources */ = {isa = PBXBuildFile; fileRef = 833AF29E27C9F0E60011C1BC /* sina.css */; };
 		838E87132676778200558B4F /* 163.css in Resources */ = {isa = PBXBuildFile; fileRef = 838E87122676778200558B4F /* 163.css */; };
 		83CF53C027C65E7000375E9F /* baidu.css in Resources */ = {isa = PBXBuildFile; fileRef = 83CF53BF27C65E7000375E9F /* baidu.css */; };
 		83CF53C227C915A100375E9F /* zhihu.css in Resources */ = {isa = PBXBuildFile; fileRef = 83CF53C127C915A100375E9F /* zhihu.css */; };
+		83CF53C427C9EACE00375E9F /* 36kr.css in Resources */ = {isa = PBXBuildFile; fileRef = 83CF53C327C9EACE00375E9F /* 36kr.css */; };
 		83E017002675036B00A30A29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E016FF2675036B00A30A29 /* AppDelegate.swift */; };
 		83E017022675036B00A30A29 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E017012675036B00A30A29 /* SceneDelegate.swift */; };
 		83E017052675036B00A30A29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83E017032675036B00A30A29 /* LaunchScreen.storyboard */; };
@@ -95,9 +97,11 @@
 
 /* Begin PBXFileReference section */
 		831955E027C8E1AD00446554 /* xiaohongshu.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = xiaohongshu.css; sourceTree = "<group>"; };
+		833AF29E27C9F0E60011C1BC /* sina.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = sina.css; sourceTree = "<group>"; };
 		838E87122676778200558B4F /* 163.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = 163.css; sourceTree = "<group>"; };
 		83CF53BF27C65E7000375E9F /* baidu.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = baidu.css; sourceTree = "<group>"; };
 		83CF53C127C915A100375E9F /* zhihu.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = zhihu.css; sourceTree = "<group>"; };
+		83CF53C327C9EACE00375E9F /* 36kr.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = 36kr.css; sourceTree = "<group>"; };
 		83E016E72675036A00A30A29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
 		83E016E82675036A00A30A29 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		83E016E92675036A00A30A29 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
@@ -260,6 +264,8 @@
 				83CF53BF27C65E7000375E9F /* baidu.css */,
 				831955E027C8E1AD00446554 /* xiaohongshu.css */,
 				83CF53C127C915A100375E9F /* zhihu.css */,
+				83CF53C327C9EACE00375E9F /* 36kr.css */,
+				833AF29E27C9F0E60011C1BC /* sina.css */,
 			);
 			path = "iOS (Extension)";
 			sourceTree = "<group>";
@@ -425,12 +431,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				838E87132676778200558B4F /* 163.css in Resources */,
+				83CF53C427C9EACE00375E9F /* 36kr.css in Resources */,
 				83E0173E2675036B00A30A29 /* background.js in Resources */,
 				831955E127C8E1AD00446554 /* xiaohongshu.css in Resources */,
 				83CF53C027C65E7000375E9F /* baidu.css in Resources */,
 				83CF53C227C915A100375E9F /* zhihu.css in Resources */,
 				83E017442675036B00A30A29 /* popup.css in Resources */,
 				83E017422675036B00A30A29 /* popup.html in Resources */,
+				833AF29F27C9F0E60011C1BC /* sina.css in Resources */,
 				83E0173A2675036B00A30A29 /* images in Resources */,
 				83E0173C2675036B00A30A29 /* manifest.json in Resources */,
 				83E017382675036B00A30A29 /* _locales in Resources */,
@@ -731,7 +739,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.09;
+				MARKETING_VERSION = 1.10;
 				OTHER_LDFLAGS = (
 					"-framework",
 					WebKit,
@@ -767,7 +775,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.09;
+				MARKETING_VERSION = 1.10;
 				OTHER_LDFLAGS = (
 					"-framework",
 					WebKit,

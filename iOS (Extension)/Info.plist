@@ -34,7 +34,9 @@
 		<dict>
 			<key>Allowed Domains</key>
 			<array>
-				<string>zhihu.com</string>
+				<string>*.sina.cn</string>
+				<string>*.36kr.com</string>
+				<string>*.zhihu.com</string>
 				<string>*.xiaohongshu.com</string>
 				<string>*.baidu.com</string>
 				<string>3g.163.com</string>

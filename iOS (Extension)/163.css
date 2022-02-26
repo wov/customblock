@@ -42,6 +42,22 @@ iframe{display:none!important;}
     padding:10px;
 }
 
+/**详情页**/
+
+
+.widget-slider-article{
+    display:none!important;
+}
+/*热门搜索*/
+.hotSearch-box{display:none!important;}
+
+/*文章被折叠*/
+article{
+    max-height:unset!important;
+}
+
+.footer{display:none!important;}
+
 /*a[href*="/special/channel_virus_report/"],*/
 /*a[herf*="/touch/ent/"],*/
 /*a[herf*="/touch/sports/"],*/
