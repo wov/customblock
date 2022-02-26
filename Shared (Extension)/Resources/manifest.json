@@ -37,6 +37,12 @@
     },{
         "css" : ["sina.css"],
         "matches" : ["*://*.sina.cn/*"]
+    },{
+        "css" : ["jd.css"],
+        "matches" : ["*://*.jd.com/*"]
+    },{
+        "js" : ["jd.js"],
+        "matches" : ["*://*.jd.com/*"]
     }],
 
     "browser_action": {

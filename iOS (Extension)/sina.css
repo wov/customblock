@@ -4,7 +4,7 @@
 .j_cmnt_bottom{display:none!important;}
 
 /*打开app的按钮*/
-.float-btn{display:none!important;}
+#float-btn{display:none!important;}
 
 /*文章被折叠*/
 section.s_card{
@@ -13,6 +13,11 @@ section.s_card{
 }
 
 .artFoldBox,#artFoldBox{display:none!important;}
+
+/*查看更多*/
+.look_more_a{
+    display:none!important;
+}
 
 /*一些广告*/
 .fl_suspension_link{
