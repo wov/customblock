@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		831955E127C8E1AD00446554 /* xiaohongshu.css in Resources */ = {isa = PBXBuildFile; fileRef = 831955E027C8E1AD00446554 /* xiaohongshu.css */; };
 		833AF29F27C9F0E60011C1BC /* sina.css in Resources */ = {isa = PBXBuildFile; fileRef = 833AF29E27C9F0E60011C1BC /* sina.css */; };
-		833AF2A127C9F7840011C1BC /* jd.css in Resources */ = {isa = PBXBuildFile; fileRef = 833AF2A027C9F7840011C1BC /* jd.css */; };
-		833AF2A527C9FA190011C1BC /* jd.js in Resources */ = {isa = PBXBuildFile; fileRef = 833AF2A427C9FA190011C1BC /* jd.js */; };
 		833AF2AD27CA8E480011C1BC /* blockerList.json in Resources */ = {isa = PBXBuildFile; fileRef = 833AF2AC27CA8E480011C1BC /* blockerList.json */; };
 		833AF2AF27CA8E480011C1BC /* ContentBlockerRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833AF2AE27CA8E480011C1BC /* ContentBlockerRequestHandler.swift */; };
 		833AF2B327CA8E480011C1BC /* blocker.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 833AF2AA27CA8E480011C1BC /* blocker.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -111,8 +109,6 @@
 /* Begin PBXFileReference section */
 		831955E027C8E1AD00446554 /* xiaohongshu.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = xiaohongshu.css; sourceTree = "<group>"; };
 		833AF29E27C9F0E60011C1BC /* sina.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = sina.css; sourceTree = "<group>"; };
-		833AF2A027C9F7840011C1BC /* jd.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = jd.css; sourceTree = "<group>"; };
-		833AF2A427C9FA190011C1BC /* jd.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = jd.js; sourceTree = "<group>"; };
 		833AF2AA27CA8E480011C1BC /* blocker.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = blocker.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		833AF2AC27CA8E480011C1BC /* blockerList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = blockerList.json; sourceTree = "<group>"; };
 		833AF2AE27CA8E480011C1BC /* ContentBlockerRequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentBlockerRequestHandler.swift; sourceTree = "<group>"; };
@@ -304,8 +300,6 @@
 				83CF53C127C915A100375E9F /* zhihu.css */,
 				83CF53C327C9EACE00375E9F /* 36kr.css */,
 				833AF29E27C9F0E60011C1BC /* sina.css */,
-				833AF2A027C9F7840011C1BC /* jd.css */,
-				833AF2A427C9FA190011C1BC /* jd.js */,
 			);
 			path = "iOS (Extension)";
 			sourceTree = "<group>";
@@ -510,11 +504,9 @@
 				83E017422675036B00A30A29 /* popup.html in Resources */,
 				833AF29F27C9F0E60011C1BC /* sina.css in Resources */,
 				83E0173A2675036B00A30A29 /* images in Resources */,
-				833AF2A127C9F7840011C1BC /* jd.css in Resources */,
 				83E0173C2675036B00A30A29 /* manifest.json in Resources */,
 				83E017382675036B00A30A29 /* _locales in Resources */,
 				83E017402675036B00A30A29 /* content.js in Resources */,
-				833AF2A527C9FA190011C1BC /* jd.js in Resources */,
 				83E017462675036B00A30A29 /* popup.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
