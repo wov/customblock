@@ -9,7 +9,12 @@
 		<key>NSExtensionPrincipalClass</key>
 		<string>$(PRODUCT_MODULE_NAME).SafariWebExtensionHandler</string>
 		<key>SFSafariContentScript</key>
-		<array/>
+		<array>
+			<dict>
+				<key>Script</key>
+				<string>163.js</string>
+			</dict>
+		</array>
 		<key>SFSafariStyleSheet</key>
 		<array>
 			<dict>

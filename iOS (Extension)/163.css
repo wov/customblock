@@ -4,6 +4,19 @@
 /*html{font-size:48px!important;}*/
 /*.channel-closed{height:auto!important;}*/
 /*a:visited .news-info h3{color:#ddd!important;}*/
+
+/*这里为了去掉打开app的跳转，配合js食用。*/
+a > *{
+    pointer-events:none;
+}
+
+.to-app{display:none!important;}
+
+/*展开收起的按钮*/
+.toggle-btn{
+    display:none!important;
+}
+
 video{width:100%!important;margin:auto;}
 
 .card_0,.pk_vote_wrapper,.ad-above-comment,.m_colum_a_d,.new_relative_doc,.article_comment{display:none!important;}
@@ -20,15 +33,20 @@ video{width:100%!important;margin:auto;}
     display:inline;
 }
 .card-type-news a:visited {
-  color: #fff!important;
+  color: #999!important;
 }
 
 .card-type-news a:visited h3{
-  color: #fff!important;
+    color: #999!important;
 }
 
 /*顶部通栏广告*/
 .a_topad{display:none!important;}
+
+/*还是广告*/
+.m_a_d_doc{
+    display:none!important;
+}
 
 /*iframe隐藏*/
 iframe{display:none!important;}
