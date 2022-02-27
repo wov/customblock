@@ -38,11 +38,8 @@
         "css" : ["sina.css"],
         "matches" : ["*://*.sina.cn/*"]
     },{
-        "css" : ["jd.css"],
-        "matches" : ["*://*.jd.com/*"]
-    },{
-        "js" : ["jd.js"],
-        "matches" : ["*://*.jd.com/*"]
+        "js" : ["163.js"],
+        "matches" : ["*://3g.163.com/*"]
     }],
 
     "browser_action": {
