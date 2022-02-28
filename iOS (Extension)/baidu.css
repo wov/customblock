@@ -52,3 +52,16 @@ body.scrollHide{
 /*精彩推荐*/
 ._3cAIWshMtS86T-V_NTTzch{display:none!important;}
 .infinite-scroll-component__outerdiv{display:none!important;}
+
+
+/*baidu 百科 详情页*/
+.baike-app-view .yitiao-container{display:none!important;}
+
+/*本来想保留的 不过有随机生成的dom。。。*/
+.BK-after-content-wrapper{display:none!important;}
+
+
+
+
+
+
