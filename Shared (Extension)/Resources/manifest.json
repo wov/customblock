@@ -40,6 +40,9 @@
     },{
         "js" : ["163.js"],
         "matches" : ["*://3g.163.com/*"]
+    },{
+        "css" : ["jianshu.css"],
+        "matches" : ["*://*.jianshu.com/*"]
     }],
 
     "browser_action": {

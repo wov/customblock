@@ -1,0 +1,21 @@
+/*jianshu 详情页*/
+
+/*弹窗*/
+body{
+    overflow:auto!important;
+}
+.download-app-guidance{display:none!important;}
+
+
+.collapse-free-content{height:auto!important;}
+collapse-free-content:after{display:none;}
+button.call-app-btn{display:none!important;}
+.collapse-tips{display:none!important;}
+
+
+
+div[aria-label="baidu-ad"]{display:none!important;}
+
+.note-graceful-button{display:none!important;}
+
+
