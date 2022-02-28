@@ -18,7 +18,7 @@ https://testflight.apple.com/join/bQyq38by
    - 首页去掉了新闻
    - 搜索结果页去掉了部分广告
    - 百家号去掉了提示安装app的弹窗
-- 163
+- 3g.163.com
    - 首页新闻列表去掉了跳转app的方式
    - 去掉了部分广告
 - zhihu
