@@ -11,14 +11,73 @@
 #bottom{display:none!important;}
 /*样式居中*/
 #header{
-/*    height:100vh;*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    justify-content: space-between;*/
+    height:100vh;
 }
+
+#header #logo{
+    margin-top:120px;
+}
+
+#header #navs{
+    display:none!important;
+}
+
+a[data-module=entrance]{
+    display:none!important;
+}
+
+
+@media (prefers-color-scheme: dark) {
+    #page{
+        background:#000!important;
+        color:#f3f3f3!important;
+    }
+    
+    #header{
+        background:#000!important;
+    }
+    
+
+    .his-wrap-new{
+        background:#000!important;
+        color:#fff!important;
+    }
+    
+    .his-wrap-new .fix-wrap{
+        background:#000!important;
+        color:#fff!important;
+    }
+    
+    .his-no-rec-p{
+        color:#fff!important;
+    }
+    
+    .suggest-back{
+        color:#fff!important;
+    }
+    
+    #index-card .suggest-div{
+        background:#000!important;
+        color:#fff!important;
+    }
+    
+    .se-form .sugdir-vs, .se-form .suggest-div button{
+        color:#f2f2f2!important;
+    }
+    
+    .sug-content-p .sugdir-vs em, .sug-content-p .his em, .sug-content-p .sug em{
+        color:#fff!important;
+    }
+    
+
+}
+
+
+
 
 /***搜索结果页去广告***/
 .ec_ad_results{display:none!important;}
+/*.c-result{display:none!important;}*/
 
 /*去掉领话费*/
 .mkt-ball-wrapper__2HtOM{
