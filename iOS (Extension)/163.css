@@ -12,6 +12,49 @@ iframe{display:none!important;}
     display:none!important;
 }
 
+/*暗黑模式*/
+@media (prefers-color-scheme: dark) {
+    body{
+        background:#000!important;
+    }
+    
+    body, html a{
+        color:#ddd!important;
+    }
+    
+    .wap-section{
+        background:#000!important;
+    }
+    
+    .tab-bar{
+        background:#000!important;
+    }
+    
+    .section-headline .news-card,.section-headline .news-card,.news-card{
+        border-color : #333!important;
+    }
+    img{
+        opacity: 0.6;
+    }
+    
+    .stock-board{
+        background:#000!important;
+    }
+    
+    .wap-channel-nav .channel-nav{
+        background:#000!important;
+    }
+    
+    .subchannel-bar{
+        background:#000!important;
+    }
+    
+    .wap-index-nav .login-bar{
+        background:#000!important;
+    }
+    
+}
+
 /*广告*/
 .m_colum_a_d{
     display:none!important;
@@ -91,11 +134,41 @@ article{
 
 .footer{display:none!important;}
 
-/*a[href*="/special/channel_virus_report/"],*/
-/*a[herf*="/touch/ent/"],*/
-/*a[herf*="/touch/sports/"],*/
-/*a[herf*="/touch/war/"],*/
-/*a[herf*="/touch/liveshow/"]*/
-/*{*/
-/*    display:none!important;*/
-/*}*/
+
+/*详情页暗黑模式*/
+@media (prefers-color-scheme: dark) {
+    article{
+        background:#000!important;
+    }
+    
+    article .content{
+        color: #ddd!important;
+    }
+    
+    .topbar{
+        background:#000!important;
+    }
+    .title{
+        color: #eee!important;
+    }
+    .back_home,.channel_logo{
+        border-color:#010101!important;
+    }
+}
+
+/***评论页面***/
+/*dark mode*/
+@media (prefers-color-scheme: dark) {
+    .comment-list > div{
+        border-color : #333!important;
+    }
+    
+    .comment-list > div div{
+        background:#111!important;
+    }
+    
+    .header-article{
+        background:#000!important;
+    }
+    
+}
