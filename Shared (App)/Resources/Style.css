@@ -14,47 +14,22 @@ html {
 }
 
 body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-
     gap: var(--spacing);
     margin: 0 calc(var(--spacing) * 2);
-    height: 100%;
-
     font: -apple-system-short-body;
-    text-align: center;
+    text-align:center;
+    font-size:14px;
 }
 
-body:not(.platform-mac, .platform-ios) :is(.platform-mac, .platform-ios) {
-    display: none;
+body img{
+    width:60%;
+    height:auto;
 }
 
-body.platform-ios .platform-mac {
-    display: none;
+body p{
+    text-align: left;
 }
 
-body.platform-mac .platform-ios {
-    display: none;
-}
-
-body.platform-ios .platform-mac {
-    display: none;
-}
-
-body:not(.state-on, .state-off) :is(.state-on, .state-off) {
-    display: none;
-}
-
-body.state-on :is(.state-off, .state-unknown) {
-    display: none;
-}
-
-body.state-off :is(.state-on, .state-unknown) {
-    display: none;
-}
-
-button {
-    font-size: 1em;
+p .big{
+    font-size:18px;
 }

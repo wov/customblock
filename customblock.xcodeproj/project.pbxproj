@@ -15,6 +15,10 @@
 		833AF2B327CA8E480011C1BC /* blocker.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 833AF2AA27CA8E480011C1BC /* blocker.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		838E87132676778200558B4F /* 163.css in Resources */ = {isa = PBXBuildFile; fileRef = 838E87122676778200558B4F /* 163.css */; };
 		839CD0D627CD077E00E86463 /* jianshu.css in Resources */ = {isa = PBXBuildFile; fileRef = 839CD0D527CD077E00E86463 /* jianshu.css */; };
+		839CD0DB27CE4EF500E86463 /* step1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 839CD0DA27CE4EF500E86463 /* step1.jpeg */; };
+		839CD0DC27CE4EF500E86463 /* step1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 839CD0DA27CE4EF500E86463 /* step1.jpeg */; };
+		839CD0DE27CE50AB00E86463 /* step2.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 839CD0DD27CE50AB00E86463 /* step2.PNG */; };
+		839CD0DF27CE50AB00E86463 /* step2.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 839CD0DD27CE50AB00E86463 /* step2.PNG */; };
 		83CF53C027C65E7000375E9F /* baidu.css in Resources */ = {isa = PBXBuildFile; fileRef = 83CF53BF27C65E7000375E9F /* baidu.css */; };
 		83CF53C227C915A100375E9F /* zhihu.css in Resources */ = {isa = PBXBuildFile; fileRef = 83CF53C127C915A100375E9F /* zhihu.css */; };
 		83CF53C427C9EACE00375E9F /* 36kr.css in Resources */ = {isa = PBXBuildFile; fileRef = 83CF53C327C9EACE00375E9F /* 36kr.css */; };
@@ -118,6 +122,8 @@
 		833AF2B027CA8E480011C1BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		838E87122676778200558B4F /* 163.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = 163.css; sourceTree = "<group>"; };
 		839CD0D527CD077E00E86463 /* jianshu.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = jianshu.css; sourceTree = "<group>"; };
+		839CD0DA27CE4EF500E86463 /* step1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = step1.jpeg; sourceTree = "<group>"; };
+		839CD0DD27CE50AB00E86463 /* step2.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step2.PNG; sourceTree = "<group>"; };
 		83CF53BF27C65E7000375E9F /* baidu.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = baidu.css; sourceTree = "<group>"; };
 		83CF53C127C915A100375E9F /* zhihu.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = zhihu.css; sourceTree = "<group>"; };
 		83CF53C327C9EACE00375E9F /* 36kr.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = 36kr.css; sourceTree = "<group>"; };
@@ -229,7 +235,9 @@
 			isa = PBXGroup;
 			children = (
 				83E016E62675036A00A30A29 /* Main.html */,
+				839CD0DA27CE4EF500E86463 /* step1.jpeg */,
 				83E016E82675036A00A30A29 /* Icon.png */,
+				839CD0DD27CE50AB00E86463 /* step2.PNG */,
 				83E016E92675036A00A30A29 /* Style.css */,
 				83E016EA2675036A00A30A29 /* Script.js */,
 			);
@@ -474,8 +482,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				83E0172C2675036B00A30A29 /* Icon.png in Resources */,
+				839CD0DE27CE50AB00E86463 /* step2.PNG in Resources */,
 				83E017052675036B00A30A29 /* LaunchScreen.storyboard in Resources */,
 				83E0172A2675036B00A30A29 /* Main.html in Resources */,
+				839CD0DB27CE4EF500E86463 /* step1.jpeg in Resources */,
 				83E017302675036B00A30A29 /* Script.js in Resources */,
 				83E017342675036B00A30A29 /* Assets.xcassets in Resources */,
 				83E017082675036B00A30A29 /* Main.storyboard in Resources */,
@@ -489,9 +499,11 @@
 			files = (
 				83E0172D2675036B00A30A29 /* Icon.png in Resources */,
 				83E0172F2675036B00A30A29 /* Style.css in Resources */,
+				839CD0DF27CE50AB00E86463 /* step2.PNG in Resources */,
 				83E017142675036B00A30A29 /* Main.storyboard in Resources */,
 				83E017312675036B00A30A29 /* Script.js in Resources */,
 				83E017352675036B00A30A29 /* Assets.xcassets in Resources */,
+				839CD0DC27CE4EF500E86463 /* step1.jpeg in Resources */,
 				83E0172B2675036B00A30A29 /* Main.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -881,7 +893,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.16;
+				MARKETING_VERSION = 1.17;
 				OTHER_LDFLAGS = (
 					"-framework",
 					WebKit,
@@ -917,7 +929,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.16;
+				MARKETING_VERSION = 1.17;
 				OTHER_LDFLAGS = (
 					"-framework",
 					WebKit,
