@@ -33,9 +33,6 @@ iframe{display:none!important;}
     .section-headline .news-card,.section-headline .news-card,.news-card{
         border-color : #333!important;
     }
-    img{
-        opacity: 0.6;
-    }
     
     .stock-board{
         background:#000!important;
@@ -53,6 +50,26 @@ iframe{display:none!important;}
         background:#000!important;
     }
     
+    .tab-bar{
+        border-color : #333!important;
+    }
+    
+    .tab-bar .tab-item{
+        color:#eee!important;
+    }
+    
+    .recommend-list{
+        background:none!important;
+    }
+    
+    .stock-board ul li{
+        border:none!important;
+    }
+    
+    .subchannel-bar .sublink-item span{
+        color:#eee!important;
+    }
+    
 }
 
 /*广告*/
@@ -60,9 +77,11 @@ iframe{display:none!important;}
     display:none!important;
 }
 
-
-
 /*这里为了去掉打开app的跳转，配合js食用。*/
+a.focus-item{
+    display:block;
+}
+
 a > *{
     pointer-events:none;
 }
@@ -154,6 +173,16 @@ article{
     .back_home,.channel_logo{
         border-color:#010101!important;
     }
+    
+    footer .u_topmenu{
+        background:#000!important;
+        box-shadow:none!important;
+    }
+    
+    footer .u_topmenu .u_c_more{
+        background:#000!important;
+    }
+
 }
 
 /***评论页面***/

@@ -893,7 +893,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.17;
+				MARKETING_VERSION = 1.18;
 				OTHER_LDFLAGS = (
 					"-framework",
 					WebKit,
@@ -929,7 +929,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.17;
+				MARKETING_VERSION = 1.18;
 				OTHER_LDFLAGS = (
 					"-framework",
 					WebKit,
