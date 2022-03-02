@@ -76,6 +76,11 @@ a[data-module=entrance]{
 
 
 /***搜索结果页去广告***/
+
+
+
+
+
 .ec_ad_results{display:none!important;}
 /*.c-result{display:none!important;}*/
 
@@ -86,6 +91,163 @@ a[data-module=entrance]{
 
 /*底部*/
 #page-copyright{display:none!important;}
+
+/*dark mode*/
+@media (prefers-color-scheme: dark) {
+    
+    a {
+        color: #eee!important;
+    }
+    
+    .se-loading{
+        display:none!important;
+    }
+    
+    body,body .se-page-hd{
+        background:#000!important;
+    }
+    
+    .se-head-tablink{
+        border-color:#aaa!important;
+    }
+    
+    .se-page-bd{
+        background:#000!important;
+    }
+    
+    .se-head-tablink{
+        background:#000!important;
+    }
+    
+    .se-tablink-scroll-wrapper .se-tab-cur, .se-tablink-scroll-wrapper .se-tab-nxt{
+        color:#fff!important;
+    }
+    .se-tablink-scroll-wrapper .se-tabitem{
+        color:#eee!important;
+    }
+    
+    .se-head-tabcover{display:none!important;}
+    
+    
+    .c-container{
+        background:#111!important;
+        color:#eee!important;
+    }
+    
+    .c-title, .c-title-noclick{
+        color:#eee!important;
+    }
+    
+    .c-color{
+        color:#ddd!important;
+    }
+    
+    .c-slink-new, .defaultmode .c-slink-strong .c-slink-elem, .defaultmode .c-slink-strong a{
+        background:#222!important;
+    }
+    
+    a:visited{
+        color:#ddd!important;
+    }
+    
+    .c-source-new .middle .text{
+        background:none!important;
+        color:#ddd!important;
+    }
+    
+    div[type=tight],div[type=tight] *{
+        background:#333!important;
+        color:#ddd!important;
+    }
+    
+    .c-slink-new{
+        color:#ddd!important;
+    }
+    
+    .c-color-link{
+        color:#eee!important;
+    }
+    
+    .c-tags-item[data-a-c2bbb6ac],.c-tags-item{
+        background:#222!important;
+        color:#ddd!important;
+    }
+    
+    .c-tabs-nav,.c-tabs-nav-selected,.c-tabs-nav-li{
+        background:#222!important;
+    }
+    
+    .c-tabs-nav-li{
+        color:#ddd!important;
+    }
+    
+    .c-tabs-item[data-a-6654cf06],.c-tabs-item{
+        background:#222!important;
+        color:#ddd!important;
+    }
+    
+    .c-bg-color-white, .defaultmode .c-container-tight{
+        background:#222!important;
+        color:#ddd!important;
+    }
+    
+    .hint-rcmd-cover,.c-tags-container .c-tags-scroll-right-mask[data-a-c2bbb6ac]{
+        display:none!important;
+    }
+    
+    .c-slink-new-strong, .defaultmode .c-slink-new{
+        background:#333!important;
+        border-color:#333!important;
+    }
+    
+    .se-page-controller .new-pagenav{
+        background:#111!important;
+    }
+    
+    .se-page-copyright, .se-page-ft{
+        background:#000!important;
+    }
+    
+    .c-abstract{
+        color:#eee!important;
+    }
+    
+    .suggest-div{
+        background:#000!important;
+    }
+    
+    .his-wrap-new .sug-content-p button{
+        border-color:#aaa!important;
+    }
+    
+    .his-wrap-new .suggest-feedback{
+        background:#000!important;
+        color:#eee!important;
+    }
+    
+/*  日历组件  */
+
+    .c-date-picker__3cfol .date-picker-year__2t6Zx,.c-date-picker__3cfol .date-picker-today__2LoEx{
+        box-shadow:none!important;
+    }
+    .calendar-footer__3dXWx .footer-content__1t1n9{
+        background:#333!important;
+    }
+    
+/*   快递组件 */
+    .ms-express-delivery-phone__2efUL{
+        background:#333!important
+    }
+    .ms-express-delivery-form-num__1BvJW .ms-express-delivery-input__3S33N{
+/*        background: #f3f3f3!important;*/
+        color:#ddd!important;
+    }
+
+    
+    
+}
+
+
 
 /***百家号***/
 /*遮照层*/
