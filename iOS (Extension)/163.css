@@ -15,19 +15,19 @@ iframe{display:none!important;}
 /*暗黑模式*/
 @media (prefers-color-scheme: dark) {
     body{
-        background:#000!important;
+        background:#111!important;
     }
     
     body, html a{
-        color:#ddd!important;
+        color:#ccc!important;
     }
     
     .wap-section{
-        background:#000!important;
+        background:#111!important;
     }
     
     .tab-bar{
-        background:#000!important;
+        background:#111!important;
     }
     
     .section-headline .news-card,.section-headline .news-card,.news-card{
@@ -35,19 +35,19 @@ iframe{display:none!important;}
     }
     
     .stock-board{
-        background:#000!important;
+        background:#111!important;
     }
     
     .wap-channel-nav .channel-nav{
-        background:#000!important;
+        background:#111!important;
     }
     
     .subchannel-bar{
-        background:#000!important;
+        background:#111!important;
     }
     
     .wap-index-nav .login-bar{
-        background:#000!important;
+        background:#111!important;
     }
     
     .tab-bar{
@@ -55,7 +55,7 @@ iframe{display:none!important;}
     }
     
     .tab-bar .tab-item{
-        color:#eee!important;
+        color:#ddd!important;
     }
     
     .recommend-list{
@@ -67,7 +67,7 @@ iframe{display:none!important;}
     }
     
     .subchannel-bar .sublink-item span{
-        color:#eee!important;
+        color:#ddd!important;
     }
     
 }
@@ -157,30 +157,30 @@ article{
 /*详情页暗黑模式*/
 @media (prefers-color-scheme: dark) {
     article{
-        background:#000!important;
+        background:#111!important;
     }
     
     article .content{
-        color: #ddd!important;
+        color: #ccc!important;
     }
     
     .topbar{
-        background:#000!important;
+        background:#111!important;
     }
     .title{
-        color: #eee!important;
+        color: #ddd!important;
     }
     .back_home,.channel_logo{
         border-color:#010101!important;
     }
     
     footer .u_topmenu{
-        background:#000!important;
+        background:#111!important;
         box-shadow:none!important;
     }
     
     footer .u_topmenu .u_c_more{
-        background:#000!important;
+        background:#111!important;
     }
 
 }
@@ -193,11 +193,11 @@ article{
     }
     
     .comment-list > div div{
-        background:#111!important;
+        background:#222!important;
     }
     
     .header-article{
-        background:#000!important;
+        background:#111!important;
     }
     
 }

@@ -1,0 +1,22 @@
+/**播放详情页**/
+.m-video2-main-img{
+    display:none!important;
+}
+
+.__puddingPlayInOriginDiv{
+    margin:0 auto;
+    width:100%;
+    height:48px;
+    line-height:48px;
+    text-align:center;
+    background: #fb7299;
+    color: #fff;
+}
+
+.m-video-new.sticky .m-video-main-launchapp{
+    margin-top:90vw!important;
+}
+
+
+
+

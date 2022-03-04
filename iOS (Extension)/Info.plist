@@ -12,11 +12,19 @@
 		<array>
 			<dict>
 				<key>Script</key>
+				<string>bilibil.js</string>
+			</dict>
+			<dict>
+				<key>Script</key>
 				<string>163.js</string>
 			</dict>
 		</array>
 		<key>SFSafariStyleSheet</key>
 		<array>
+			<dict>
+				<key>Style Sheet</key>
+				<string>bilibili.css</string>
+			</dict>
 			<dict>
 				<key>Style Sheet</key>
 				<string>jianshu.css</string>
@@ -57,6 +65,7 @@
 				<string>*.xiaohongshu.com</string>
 				<string>*.baidu.com</string>
 				<string>3g.163.com</string>
+				<string>*.bilibili.com</string>
 			</array>
 		</dict>
 	</dict>

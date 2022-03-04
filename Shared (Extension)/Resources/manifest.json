@@ -43,6 +43,12 @@
     },{
         "css" : ["jianshu.css"],
         "matches" : ["*://*.jianshu.com/*"]
+    },{
+        "css" : ["bilibili.css"],
+        "matches" : ["*://m.bilibili.com/video/*"]
+    },{
+        "js" : ["bilibili.js"],
+        "matches" : ["*://m.bilibili.com/video/*"]
     }],
 
     "browser_action": {

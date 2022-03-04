@@ -236,16 +236,83 @@ a[data-module=entrance]{
     
 /*   快递组件 */
     .ms-express-delivery-phone__2efUL{
-        background:#333!important
+        background:#333!important;
     }
     .ms-express-delivery-form-num__1BvJW .ms-express-delivery-input__3S33N{
 /*        background: #f3f3f3!important;*/
         color:#ddd!important;
     }
+    
+    .c-btn-light-gray-fill{
+        background:#333!important;
+    }
+    
+    ._2FUx0{
+        color:#ddd!important;
+    }
+}
 
+/***视频页面***/
+@media (prefers-color-scheme: dark) {
+    
+    .topbar-wrapper__3sVwP,.topbar-wrapper__3sVwP .topbar__fv6xm,.topbar-wrapper__3sVwP .topbar__fv6xm .flex-l__3GjWE{
+        background:#000!important;
+    }
+    
+    .c-tags-container[data-a-d082a962]{
+        background:#000!important;
+    }
+    
+    .c-tags-container .c-tags-scroll-wrapper[data-a-d082a962]{
+        background:#000!important;
+    }
+    
+    .video-home__1F4dA{
+        background:#000!important;
+    }
+
+    .filter-btn-container__3hzXB{
+        background:none!important;
+    }
+    
+    .c-tags-container .c-tags-scroll-right-mask[data-a-d082a962]{
+        display:none!important;
+    }
+    .vid-filter-panel__12Klz{
+        background:#333!important;
+    }
+    
+    .filter-btn-container__3hzXB .filter-btn-wrapper__1VxEh{
+        color:#ddd!important;
+    }
+    
+    .desc-title[data-a-a5d0b5a4]{
+        color:#ddd!important;
+    }
+    
+    .c-rec-item[data-a-92cdb772]{
+        background:#333!important;
+    }
+    
+    .c-infinite-scroll-bottom-bar[data-a-16f4fc81]{
+        display:none!important;
+    }
+    
+    .video-rec__1QBHc{
+        display:none!important;
+    }
+    
+    .c-infinite-scroll-bottom-bar[data-a-16f4fc81]{
+        background:none!important;
+    }
+    
     
     
 }
+
+
+
+
 
 
 
