@@ -1,1 +1,11 @@
-
+[
+    {
+        "action" : {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": "downloadAppPlugin"
+        }
+    }
+    
+]
