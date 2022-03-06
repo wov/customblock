@@ -1,3 +1,23 @@
+:root{
+    --pudding-dark-main-bgcolor:#121212;
+    
+    --pudding-dark-00dp-bgcolor:rgba(0,0,0,1);
+    --pudding-dark-01dp-bgcolor:rgba(0,0,0,0.95);
+    --pudding-dark-02dp-bgcolor:rgba(0,0,0,0.93);
+    --pudding-dark-03dp-bgcolor:rgba(0,0,0,0.92);
+    --pudding-dark-04dp-bgcolor:rgba(0,0,0,0.91);
+    --pudding-dark-06dp-bgcolor:rgba(0,0,0,0.89);
+    --pudding-dark-08dp-bgcolor:rgba(0,0,0,0.88);
+    --pudding-dark-12dp-bgcolor:rgba(0,0,0,0.86);
+    --pudding-dark-16dp-bgcolor:rgba(0,0,0,0.85);
+    --pudding-dark-24dp-bgcolor:rgba(0,0,0,0.84);
+
+    --pudding-dark-main-textcolor:rgba(255,255,255,0.87);
+    --pudding-dark-medium-textcolor:rgba(255,255,255,0.6);
+    --pudding-dark-disable-textcolor:rgba(255,255,255,0.38);
+}
+
+
 /****百度首页****/
 /*去除首页新闻*/
 .tab-news-content{display:none!important;}
@@ -29,36 +49,35 @@ a[data-module=entrance]{
 
 @media (prefers-color-scheme: dark) {
     #page{
-        background:#000!important;
-        color:#f3f3f3!important;
+        background:#121212!important;
+        color:rgba(255,255,255,0.87)!important;
     }
     
     #header{
-        background:#000!important;
+        background:#121212!important;
     }
-    
 
     .his-wrap-new{
-        background:#000!important;
-        color:#fff!important;
+        background:#121212!important;
+        color:rgba(255,255,255,0.87)!important;
     }
     
     .his-wrap-new .fix-wrap{
-        background:#000!important;
-        color:#fff!important;
+        background:#121212!important;
+        color:rgba(255,255,255,0.87)!important;
     }
     
     .his-no-rec-p{
-        color:#fff!important;
+        color:rgba(255,255,255,0.87)!important;
     }
     
     .suggest-back{
-        color:#fff!important;
+        color:rgba(255,255,255,0.87)!important;
     }
     
     #index-card .suggest-div{
-        background:#000!important;
-        color:#fff!important;
+        background:#121212!important;
+        color:rgba(255,255,255,0.87)!important;
     }
     
     .se-form .sugdir-vs, .se-form .suggest-div button{
@@ -66,7 +85,7 @@ a[data-module=entrance]{
     }
     
     .sug-content-p .sugdir-vs em, .sug-content-p .his em, .sug-content-p .sug em{
-        color:#fff!important;
+        color:rgba(255,255,255,0.87)!important;
     }
     
 
@@ -96,7 +115,7 @@ a[data-module=entrance]{
 @media (prefers-color-scheme: dark) {
     
     a {
-        color: #eee!important;
+        color: rgba(255,255,255,0.87)!important;
     }
     
     .se-loading{
@@ -104,91 +123,91 @@ a[data-module=entrance]{
     }
     
     body,body .se-page-hd{
-        background:#000!important;
+        background:#121212!important;
     }
     
     .se-head-tablink{
-        border-color:#aaa!important;
+        border-color:rgba(255,255,255,0.6)!important;
     }
     
     .se-page-bd{
-        background:#000!important;
+        background:#121212!important;
     }
     
     .se-head-tablink{
-        background:#000!important;
+        background:#121212!important;
     }
     
     .se-tablink-scroll-wrapper .se-tab-cur, .se-tablink-scroll-wrapper .se-tab-nxt{
-        color:#fff!important;
+        color:rgba(255,255,255,0.87)!important;
     }
     .se-tablink-scroll-wrapper .se-tabitem{
-        color:#eee!important;
+        color:rgba(255,255,255,0.87)!important;
     }
     
     .se-head-tabcover{display:none!important;}
     
     
     .c-container{
-        background:#111!important;
-        color:#eee!important;
+        background:rgba(0,0,0,0.95)!important;
+        color:rgba(255,255,255,0.87)!important;
     }
     
     .c-title, .c-title-noclick{
-        color:#eee!important;
+        color:rgba(255,255,255,0.87)!important;
     }
     
     .c-color{
-        color:#ddd!important;
+        color:rgba(255,255,255,0.87)!important;
     }
     
     .c-slink-new, .defaultmode .c-slink-strong .c-slink-elem, .defaultmode .c-slink-strong a{
-        background:#222!important;
+        background:rgba(0,0,0,0.93)!important;
     }
     
     a:visited{
-        color:#ddd!important;
+        color:rgba(255,255,255,0.87)!important;
     }
     
     .c-source-new .middle .text{
         background:none!important;
-        color:#ddd!important;
+        color:rgba(255,255,255,0.87)!important;
     }
     
     div[type=tight],div[type=tight] *{
-        background:#333!important;
-        color:#ddd!important;
+        background:rgba(0,0,0,0.92)!important;
+        color:rgba(255,255,255,0.87)!important;
     }
     
     .c-slink-new{
-        color:#ddd!important;
+        color:rgba(255,255,255,0.87)!important;
     }
     
     .c-color-link{
-        color:#eee!important;
+        color:rgba(255,255,255,0.87)!important;
     }
     
     .c-tags-item[data-a-c2bbb6ac],.c-tags-item{
-        background:#222!important;
-        color:#ddd!important;
+        background:rgba(0,0,0,0.93)!important;
+        color:rgba(255,255,255,0.87)!important;
     }
     
     .c-tabs-nav,.c-tabs-nav-selected,.c-tabs-nav-li{
-        background:#222!important;
+        background:rgba(0,0,0,0.93)!important;
     }
     
     .c-tabs-nav-li{
-        color:#ddd!important;
+        color:rgba(255,255,255,0.87)!important;
     }
     
     .c-tabs-item[data-a-6654cf06],.c-tabs-item{
-        background:#222!important;
-        color:#ddd!important;
+        background:rgba(0,0,0,0.93)!important;
+        color:rgba(255,255,255,0.87)!important;
     }
     
     .c-bg-color-white, .defaultmode .c-container-tight{
-        background:#222!important;
-        color:#ddd!important;
+        background:rgba(0,0,0,0.93)!important;
+        color:rgba(255,255,255,0.87)!important;
     }
     
     .hint-rcmd-cover,.c-tags-container .c-tags-scroll-right-mask[data-a-c2bbb6ac]{
@@ -196,33 +215,33 @@ a[data-module=entrance]{
     }
     
     .c-slink-new-strong, .defaultmode .c-slink-new{
-        background:#333!important;
-        border-color:#333!important;
+        background:rgba(0,0,0,0.92)!important;
+        border-color:rgba(0,0,0,0.92)!important;
     }
     
     .se-page-controller .new-pagenav{
-        background:#111!important;
+        background:rgba(0,0,0,0.95)!important;
     }
     
     .se-page-copyright, .se-page-ft{
-        background:#000!important;
+        background:#121212!important;
     }
     
     .c-abstract{
-        color:#eee!important;
+        color:rgba(255,255,255,0.87)!important;
     }
     
     .suggest-div{
-        background:#000!important;
+        background:#121212!important;
     }
     
     .his-wrap-new .sug-content-p button{
-        border-color:#aaa!important;
+        border-color:rgba(255,255,255,0.6)!important;
     }
     
     .his-wrap-new .suggest-feedback{
-        background:#000!important;
-        color:#eee!important;
+        background:#121212!important;
+        color:rgba(255,255,255,0.87)!important;
     }
     
 /*  日历组件  */
@@ -231,24 +250,23 @@ a[data-module=entrance]{
         box-shadow:none!important;
     }
     .calendar-footer__3dXWx .footer-content__1t1n9{
-        background:#333!important;
+        background:rgba(0,0,0,0.92)!important;
     }
     
 /*   快递组件 */
     .ms-express-delivery-phone__2efUL{
-        background:#333!important;
+        background:rgba(0,0,0,0.92)!important;
     }
     .ms-express-delivery-form-num__1BvJW .ms-express-delivery-input__3S33N{
-/*        background: #f3f3f3!important;*/
-        color:#ddd!important;
+        color:rgba(255,255,255,0.87)!important;
     }
     
     .c-btn-light-gray-fill{
-        background:#333!important;
+        background:rgba(0,0,0,0.92)!important;
     }
     
     ._2FUx0{
-        color:#ddd!important;
+        color:rgba(255,255,255,0.87)!important;
     }
 }
 
@@ -256,19 +274,19 @@ a[data-module=entrance]{
 @media (prefers-color-scheme: dark) {
     
     .topbar-wrapper__3sVwP,.topbar-wrapper__3sVwP .topbar__fv6xm,.topbar-wrapper__3sVwP .topbar__fv6xm .flex-l__3GjWE{
-        background:#000!important;
+        background:#121212!important;
     }
     
     .c-tags-container[data-a-d082a962]{
-        background:#000!important;
+        background:#121212!important;
     }
     
     .c-tags-container .c-tags-scroll-wrapper[data-a-d082a962]{
-        background:#000!important;
+        background:#121212!important;
     }
     
     .video-home__1F4dA{
-        background:#000!important;
+        background:#121212!important;
     }
 
     .filter-btn-container__3hzXB{
@@ -279,19 +297,19 @@ a[data-module=entrance]{
         display:none!important;
     }
     .vid-filter-panel__12Klz{
-        background:#333!important;
+        background:rgba(0,0,0,0.92)!important;
     }
     
     .filter-btn-container__3hzXB .filter-btn-wrapper__1VxEh{
-        color:#ddd!important;
+        color:rgba(255,255,255,0.87)!important;
     }
     
     .desc-title[data-a-a5d0b5a4]{
-        color:#ddd!important;
+        color:rgba(255,255,255,0.87)!important;
     }
     
     .c-rec-item[data-a-92cdb772]{
-        background:#333!important;
+        background:rgba(0,0,0,0.92)!important;
     }
     
     .c-infinite-scroll-bottom-bar[data-a-16f4fc81]{
@@ -305,15 +323,7 @@ a[data-module=entrance]{
     .c-infinite-scroll-bottom-bar[data-a-16f4fc81]{
         background:none!important;
     }
-    
-    
-    
 }
-
-
-
-
-
 
 
 /***百家号***/

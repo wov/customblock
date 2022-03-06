@@ -1,0 +1,21 @@
+/*create a dark mode colors*/
+/*https://material.io/design/color/dark-theme.html#properties*/
+
+:root{
+    --pudding-dark-main-bgcolor:#121212;
+    
+    --pudding-dark-00dp-bgcolor:rgba(0,0,0,1);
+    --pudding-dark-01dp-bgcolor:rgba(0,0,0,0.95);
+    --pudding-dark-02dp-bgcolor:rgba(0,0,0,0.93);
+    --pudding-dark-03dp-bgcolor:rgba(0,0,0,0.92);
+    --pudding-dark-04dp-bgcolor:rgba(0,0,0,0.91);
+    --pudding-dark-06dp-bgcolor:rgba(0,0,0,0.89);
+    --pudding-dark-08dp-bgcolor:rgba(0,0,0,0.88);
+    --pudding-dark-12dp-bgcolor:rgba(0,0,0,0.86);
+    --pudding-dark-16dp-bgcolor:rgba(0,0,0,0.85);
+    --pudding-dark-24dp-bgcolor:rgba(0,0,0,0.84);
+
+    --pudding-dark-main-textcolor:rgba(255,255,255,0.87);
+    --pudding-dark-medium-textcolor:rgba(255,255,255,0.6);
+    --pudding-dark-disable-textcolor:rgba(255,255,255,0.38);
+}

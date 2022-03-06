@@ -21,6 +21,7 @@
 		839CD0DF27CE50AB00E86463 /* step2.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 839CD0DD27CE50AB00E86463 /* step2.PNG */; };
 		839CD0E327D247D200E86463 /* bilibili.js in Resources */ = {isa = PBXBuildFile; fileRef = 839CD0E227D247D200E86463 /* bilibili.js */; };
 		839CD0E527D24DB300E86463 /* bilibili.css in Resources */ = {isa = PBXBuildFile; fileRef = 839CD0E427D24DB300E86463 /* bilibili.css */; };
+		839CD0E727D46BB300E86463 /* pudding_dark.css in Resources */ = {isa = PBXBuildFile; fileRef = 839CD0E627D46BB300E86463 /* pudding_dark.css */; };
 		83CF53C027C65E7000375E9F /* baidu.css in Resources */ = {isa = PBXBuildFile; fileRef = 83CF53BF27C65E7000375E9F /* baidu.css */; };
 		83CF53C227C915A100375E9F /* zhihu.css in Resources */ = {isa = PBXBuildFile; fileRef = 83CF53C127C915A100375E9F /* zhihu.css */; };
 		83CF53C427C9EACE00375E9F /* 36kr.css in Resources */ = {isa = PBXBuildFile; fileRef = 83CF53C327C9EACE00375E9F /* 36kr.css */; };
@@ -128,6 +129,7 @@
 		839CD0DD27CE50AB00E86463 /* step2.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step2.PNG; sourceTree = "<group>"; };
 		839CD0E227D247D200E86463 /* bilibili.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = bilibili.js; sourceTree = "<group>"; };
 		839CD0E427D24DB300E86463 /* bilibili.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = bilibili.css; sourceTree = "<group>"; };
+		839CD0E627D46BB300E86463 /* pudding_dark.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = pudding_dark.css; sourceTree = "<group>"; };
 		83CF53BF27C65E7000375E9F /* baidu.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = baidu.css; sourceTree = "<group>"; };
 		83CF53C127C915A100375E9F /* zhihu.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = zhihu.css; sourceTree = "<group>"; };
 		83CF53C327C9EACE00375E9F /* 36kr.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = 36kr.css; sourceTree = "<group>"; };
@@ -310,6 +312,7 @@
 			isa = PBXGroup;
 			children = (
 				83E0171F2675036B00A30A29 /* Info.plist */,
+				839CD0E627D46BB300E86463 /* pudding_dark.css */,
 				838E87122676778200558B4F /* 163.css */,
 				831955E227CB662F00446554 /* 163.js */,
 				83CF53BF27C65E7000375E9F /* baidu.css */,
@@ -530,6 +533,7 @@
 				83E017422675036B00A30A29 /* popup.html in Resources */,
 				833AF29F27C9F0E60011C1BC /* sina.css in Resources */,
 				839CD0E327D247D200E86463 /* bilibili.js in Resources */,
+				839CD0E727D46BB300E86463 /* pudding_dark.css in Resources */,
 				83E0173A2675036B00A30A29 /* images in Resources */,
 				83E0173C2675036B00A30A29 /* manifest.json in Resources */,
 				839CD0E527D24DB300E86463 /* bilibili.css in Resources */,
@@ -673,7 +677,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.19;
+				MARKETING_VERSION = 1.20.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.inact.customblock.blocker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -701,7 +705,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.19;
+				MARKETING_VERSION = 1.20.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.inact.customblock.blocker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -840,7 +844,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.19;
+				MARKETING_VERSION = 1.20.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.inact.customblock.Extension;
 				PRODUCT_NAME = "customblock Extension";
 				SDKROOT = iphoneos;
@@ -867,7 +871,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.19;
+				MARKETING_VERSION = 1.20.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.inact.customblock.Extension;
 				PRODUCT_NAME = "customblock Extension";
 				SDKROOT = iphoneos;
@@ -901,7 +905,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.19;
+				MARKETING_VERSION = 1.20.0;
 				OTHER_LDFLAGS = (
 					"-framework",
 					WebKit,
@@ -937,7 +941,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.19;
+				MARKETING_VERSION = 1.20.0;
 				OTHER_LDFLAGS = (
 					"-framework",
 					WebKit,
