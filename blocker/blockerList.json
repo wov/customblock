@@ -1,11 +1,20 @@
 [
     {
-        "action" : {
+        "action": {
             "type": "block"
         },
         "trigger": {
-            "url-filter": "downloadAppPlugin"
+            "url-filter": "downloadAppPlugin",
+            "if-domain": "m.jd.com"
+        }
+    },
+    {
+        "action": {
+            "type": "css-display-none",
+            "selector" : ".topbar"
+        },
+        "trigger": {
+            "url-filter": ".*"
         }
     }
-    
 ]

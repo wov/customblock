@@ -149,6 +149,11 @@ article{
 
 /*详情页暗黑模式*/
 @media (prefers-color-scheme: dark) {
+    
+    .home header{
+        background:#121212!important;
+    }
+    
     article{
         background:#121212!important;
     }
