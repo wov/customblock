@@ -1,10 +1,3 @@
-/*h1,.section-sports,.section-ent,.section-house,.section-home,.section-headline,.market-promotion,.news-pic,.footer,.hot_news,.widget-slider-article.bottom,.relative_doc,.hotSearch-box,.sub_box,.copyright,.more-client,.toggle-btn,.section-war,.section-recommend,.wap-footer-wrap,.section-bottom-links,.section-dy{display:none!important;}*/
-/*article{max-height:none!important;}*/
-/*article .content .page{display:block!important;}*/
-/*html{font-size:48px!important;}*/
-/*.channel-closed{height:auto!important;}*/
-/*a:visited .news-info h3{color:#ddd!important;}*/
-
 /*首页*/
 iframe{display:none!important;}
 
@@ -15,47 +8,47 @@ iframe{display:none!important;}
 /*暗黑模式*/
 @media (prefers-color-scheme: dark) {
     body{
-        background:#111!important;
+        background:#121212!important;
     }
     
     body, html a{
-        color:#ccc!important;
+        color:rgba(255,255,255,0.87)!important;
     }
     
     .wap-section{
-        background:#111!important;
+        background:#121212!important;
     }
     
     .tab-bar{
-        background:#111!important;
+        background:#121212!important;
     }
     
     .section-headline .news-card,.section-headline .news-card,.news-card{
-        border-color : #333!important;
+        border-color : rgba(0,0,0,0.92)!important;
     }
     
     .stock-board{
-        background:#111!important;
+        background:#121212!important;
     }
     
     .wap-channel-nav .channel-nav{
-        background:#111!important;
+        background:#121212!important;
     }
     
     .subchannel-bar{
-        background:#111!important;
+        background:#121212!important;
     }
     
     .wap-index-nav .login-bar{
-        background:#111!important;
+        background:#121212!important;
     }
     
     .tab-bar{
-        border-color : #333!important;
+        border-color : rgba(0,0,0,0.92)!important;
     }
     
     .tab-bar .tab-item{
-        color:#ddd!important;
+        color:rgba(255,255,255,0.87)!important;
     }
     
     .recommend-list{
@@ -67,7 +60,7 @@ iframe{display:none!important;}
     }
     
     .subchannel-bar .sublink-item span{
-        color:#ddd!important;
+        color:rgba(255,255,255,0.87)!important;
     }
     
 }
@@ -157,30 +150,30 @@ article{
 /*详情页暗黑模式*/
 @media (prefers-color-scheme: dark) {
     article{
-        background:#111!important;
+        background:#121212!important;
     }
     
     article .content{
-        color: #ccc!important;
+        color: rgba(255,255,255,0.87)!important;
     }
     
     .topbar{
-        background:#111!important;
+        background:#121212!important;
     }
     .title{
-        color: #ddd!important;
+        color: rgba(255,255,255,0.87)!important;
     }
     .back_home,.channel_logo{
         border-color:#010101!important;
     }
     
     footer .u_topmenu{
-        background:#111!important;
+        background:#121212!important;
         box-shadow:none!important;
     }
     
     footer .u_topmenu .u_c_more{
-        background:#111!important;
+        background:#121212!important;
     }
 
 }
@@ -189,15 +182,15 @@ article{
 /*dark mode*/
 @media (prefers-color-scheme: dark) {
     .comment-list > div{
-        border-color : #333!important;
+        border-color : rgba(0,0,0,0.92)!important;
     }
     
     .comment-list > div div{
-        background:#222!important;
+        background:rgba(0,0,0,0.93)!important;
     }
     
     .header-article{
-        background:#111!important;
+        background:#121212!important;
     }
     
 }
