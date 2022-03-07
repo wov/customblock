@@ -267,6 +267,25 @@ a[data-module=entrance]{
     ._2FUx0{
         color:rgba(255,255,255,0.87)!important;
     }
+    
+    .c-bg-color-light-gray{
+        background:rgba(0,0,0,0.91)!important;
+    }
+    
+    .scroll-mask__2_qOj{
+        display:none!important;
+    }
+    
+    .page-interactive-wrapper,._2KEPI ._1CStb,._2KEPI .page-interactive-icon._1u_6h ._1z9lf,._2KEPI .page-interactive-icon._2fipl ._1z9lf{
+        color:rgba(255,255,255,0.6)!important;
+    }
+    
+    .c-gap-left-small{
+        background:rgba(255,255,255,0.07)!important;
+    }
+    
+    ._2Q19f{display:none!important;}
+    
 }
 
 /***视频页面***/

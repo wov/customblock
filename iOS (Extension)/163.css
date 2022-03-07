@@ -86,7 +86,6 @@ a > *{
     display:none!important;
 }
 
-
 video{width:100%!important;margin:auto;}
 
 .card_0,.pk_vote_wrapper,.ad-above-comment,.m_colum_a_d,.new_relative_doc,.article_comment{display:none!important;}
@@ -131,8 +130,6 @@ iframe{display:none!important;}
 }
 
 /**详情页**/
-
-
 .widget-slider-article{
     display:none!important;
 }
@@ -158,12 +155,16 @@ main > article{
         background:#121212!important;
     }
     
-    article{
+    main article{
         background:#121212!important;
     }
     
-    article .content{
+    main article .content{
         color: rgba(255,255,255,0.87)!important;
+    }
+    
+    main .m_separate, section{
+        background:#121212!important;
     }
     
     .topbar{
