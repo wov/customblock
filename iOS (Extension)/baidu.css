@@ -376,8 +376,76 @@ body.scrollHide{
 /*本来想保留的 不过有随机生成的dom。。。*/
 .BK-after-content-wrapper{display:none!important;}
 
+/***baidu 百科****/
+.w-detail-container{
+    max-height: unset!important;
+}
 
+.iknow-root-dom-element .w-detail-full .w-detail-display-btn{
+    display:none!important;
+}
 
+div[class^="wgt-"][class$="-asp"]{
+    display:none!important;
+}
 
+.wap-youx-change-asp{
+    display:none!important;
+}
 
+#feed-recommend{
+    display:none!important;
+}
 
+@media (prefers-color-scheme: dark) {
+    
+    .iknow-root-dom-element{
+        background:#121212!important;
+    }
+    
+    .iknow-root-dom-element #iknow-common-header{
+        background:#121212!important;
+    }
+    
+    .iknow-root-dom-element .wgt-toggle-header{
+        background:#121212!important;
+    }
+    
+    .iknow-root-dom-element .wgt-toggle-header .toggle-header-title{
+        color:rgba(255,255,255,0.87)!important;
+    }
+    
+    .iknow-root-dom-element .question-container{
+        background:#121212!important;
+    }
+    
+    .iknow-root-dom-element .wgt-question{
+        background:#121212!important;
+    }
+    
+    .iknow-root-dom-element .wgt-question .wgt-question-title h2{
+        color:rgba(255,255,255,0.87)!important;
+    }
+    
+    .iknow-root-dom-element .question-line{
+        background:rgba(255,255,255,0.07)!important;
+    }
+
+    .iknow-root-dom-element .best-answer-container:not(:first-child)::after{
+        display:none!important;
+    }
+    
+    .iknow-root-dom-element .w-detail-full .w-detail-content{
+        color:rgba(255,255,255,0.87)!important;
+    }
+    
+    .iknow-root-dom-element .ask-for-friend{
+        background:#121212!important;
+    }
+    
+    .iknow-root-dom-element .respect{
+        background:#121212!important;
+    }
+    
+
+}
