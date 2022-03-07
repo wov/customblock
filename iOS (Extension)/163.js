@@ -6,12 +6,16 @@ document.addEventListener('click', event => {
     }
 })
 
-// 方法终止对所有目标元素可见性变化的观察。
-// https://developer.mozilla.org/zh-CN/docs/Web/API/IntersectionObserver/disconnect
-window.IntersectionObserver = null;
+//去掉所有“3天前的新闻列表”
+document.addEventListener('scroll', _ => {
+    console.log('scroll')
+    const _dom_pubtimes = document.querySelectorAll('.pubtime');
+    [].forEach.call(_dom_pubtimes, function(t,t_index) {
+        if(t.textContent === '3天前' ){
+            console.log(t_index)
+            const _article = t.closest('article');
+            _article.parentNode.removeChild( _article );
+        }
+    });
+})
 
-//remove all scroll events...
-setTimeout( _ => {
-    window.onscroll = null;
-    document.body.onscroll = null;
-},2000)

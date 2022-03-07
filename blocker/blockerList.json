@@ -10,8 +10,34 @@
     },
     {
         "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": "aunchJdWxappPlugin",
+            "if-domain": "wq.360buyimg.com"
+        }
+    },
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": "aunchjdwxappplugin"
+        }
+    },
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": "commonFooter",
+            "if-domain": "wq.360buyimg.com"
+        }
+    },
+    {
+        "action": {
             "type": "css-display-none",
-            "selector" : ".topbar"
+            "selector" : ".floor"
         },
         "trigger": {
             "url-filter": ".*"

@@ -140,8 +140,12 @@ iframe{display:none!important;}
 .hotSearch-box{display:none!important;}
 
 /*文章被折叠*/
-article{
+main > article{
     max-height:unset!important;
+    height:100%!important;
+    max-height:calc(100vh - 0.98rem)!important;
+    overflow:scroll!important;
+    -webkit-overflow-scrolling: touch; /* Lets it scroll lazy */
 }
 
 .footer{display:none!important;}
