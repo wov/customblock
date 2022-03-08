@@ -10,9 +10,6 @@
 		831955E127C8E1AD00446554 /* xiaohongshu.css in Resources */ = {isa = PBXBuildFile; fileRef = 831955E027C8E1AD00446554 /* xiaohongshu.css */; };
 		831955E327CB662F00446554 /* 163.js in Resources */ = {isa = PBXBuildFile; fileRef = 831955E227CB662F00446554 /* 163.js */; };
 		833AF29F27C9F0E60011C1BC /* sina.css in Resources */ = {isa = PBXBuildFile; fileRef = 833AF29E27C9F0E60011C1BC /* sina.css */; };
-		833AF2AD27CA8E480011C1BC /* blockerList.json in Resources */ = {isa = PBXBuildFile; fileRef = 833AF2AC27CA8E480011C1BC /* blockerList.json */; };
-		833AF2AF27CA8E480011C1BC /* ContentBlockerRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833AF2AE27CA8E480011C1BC /* ContentBlockerRequestHandler.swift */; };
-		833AF2B327CA8E480011C1BC /* blocker.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 833AF2AA27CA8E480011C1BC /* blocker.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		838E87132676778200558B4F /* 163.css in Resources */ = {isa = PBXBuildFile; fileRef = 838E87122676778200558B4F /* 163.css */; };
 		839CD0D627CD077E00E86463 /* jianshu.css in Resources */ = {isa = PBXBuildFile; fileRef = 839CD0D527CD077E00E86463 /* jianshu.css */; };
 		839CD0DB27CE4EF500E86463 /* step1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 839CD0DA27CE4EF500E86463 /* step1.jpeg */; };
@@ -66,13 +63,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		833AF2B127CA8E480011C1BC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 83E016E02675036900A30A29 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 833AF2A927CA8E480011C1BC;
-			remoteInfo = blocker;
-		};
 		83E0171C2675036B00A30A29 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83E016E02675036900A30A29 /* Project object */;
@@ -97,7 +87,6 @@
 			dstSubfolderSpec = 13;
 			files = (
 				83E0171B2675036B00A30A29 /* customblock Extension.appex in Embed App Extensions */,
-				833AF2B327CA8E480011C1BC /* blocker.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -119,10 +108,6 @@
 		831955E027C8E1AD00446554 /* xiaohongshu.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = xiaohongshu.css; sourceTree = "<group>"; };
 		831955E227CB662F00446554 /* 163.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = 163.js; sourceTree = "<group>"; };
 		833AF29E27C9F0E60011C1BC /* sina.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = sina.css; sourceTree = "<group>"; };
-		833AF2AA27CA8E480011C1BC /* blocker.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = blocker.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		833AF2AC27CA8E480011C1BC /* blockerList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = blockerList.json; sourceTree = "<group>"; };
-		833AF2AE27CA8E480011C1BC /* ContentBlockerRequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentBlockerRequestHandler.swift; sourceTree = "<group>"; };
-		833AF2B027CA8E480011C1BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		838E87122676778200558B4F /* 163.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = 163.css; sourceTree = "<group>"; };
 		839CD0D527CD077E00E86463 /* jianshu.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = jianshu.css; sourceTree = "<group>"; };
 		839CD0DA27CE4EF500E86463 /* step1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = step1.jpeg; sourceTree = "<group>"; };
@@ -165,13 +150,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		833AF2A727CA8E480011C1BC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		83E016F92675036B00A30A29 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -203,16 +181,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		833AF2AB27CA8E480011C1BC /* blocker */ = {
-			isa = PBXGroup;
-			children = (
-				833AF2AC27CA8E480011C1BC /* blockerList.json */,
-				833AF2AE27CA8E480011C1BC /* ContentBlockerRequestHandler.swift */,
-				833AF2B027CA8E480011C1BC /* Info.plist */,
-			);
-			path = blocker;
-			sourceTree = "<group>";
-		};
 		83E016DF2675036900A30A29 = {
 			isa = PBXGroup;
 			children = (
@@ -222,7 +190,6 @@
 				83E0170F2675036B00A30A29 /* macOS (App) */,
 				83E0171E2675036B00A30A29 /* iOS (Extension) */,
 				83E017282675036B00A30A29 /* macOS (Extension) */,
-				833AF2AB27CA8E480011C1BC /* blocker */,
 				83E016FD2675036B00A30A29 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -281,7 +248,6 @@
 				83E0170E2675036B00A30A29 /* customblock.app */,
 				83E0171A2675036B00A30A29 /* customblock Extension.appex */,
 				83E017242675036B00A30A29 /* customblock Extension.appex */,
-				833AF2AA27CA8E480011C1BC /* blocker.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -338,23 +304,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		833AF2A927CA8E480011C1BC /* blocker */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 833AF2B427CA8E480011C1BC /* Build configuration list for PBXNativeTarget "blocker" */;
-			buildPhases = (
-				833AF2A627CA8E480011C1BC /* Sources */,
-				833AF2A727CA8E480011C1BC /* Frameworks */,
-				833AF2A827CA8E480011C1BC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = blocker;
-			productName = blocker;
-			productReference = 833AF2AA27CA8E480011C1BC /* blocker.appex */;
-			productType = "com.apple.product-type.app-extension";
-		};
 		83E016FB2675036B00A30A29 /* customblock (iOS) */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 83E0174E2675036B00A30A29 /* Build configuration list for PBXNativeTarget "customblock (iOS)" */;
@@ -368,7 +317,6 @@
 			);
 			dependencies = (
 				83E0171D2675036B00A30A29 /* PBXTargetDependency */,
-				833AF2B227CA8E480011C1BC /* PBXTargetDependency */,
 			);
 			name = "customblock (iOS)";
 			productName = "customblock (iOS)";
@@ -438,9 +386,6 @@
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					833AF2A927CA8E480011C1BC = {
-						CreatedOnToolsVersion = 13.2.1;
-					};
 					83E016FB2675036B00A30A29 = {
 						CreatedOnToolsVersion = 13.0;
 					};
@@ -472,20 +417,11 @@
 				83E0170D2675036B00A30A29 /* customblock (macOS) */,
 				83E017192675036B00A30A29 /* customblock Extension (iOS) */,
 				83E017232675036B00A30A29 /* customblock Extension (macOS) */,
-				833AF2A927CA8E480011C1BC /* blocker */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		833AF2A827CA8E480011C1BC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				833AF2AD27CA8E480011C1BC /* blockerList.json in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		83E016FA2675036B00A30A29 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -561,14 +497,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		833AF2A627CA8E480011C1BC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				833AF2AF27CA8E480011C1BC /* ContentBlockerRequestHandler.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		83E016F82675036B00A30A29 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -607,11 +535,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		833AF2B227CA8E480011C1BC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 833AF2A927CA8E480011C1BC /* blocker */;
-			targetProxy = 833AF2B127CA8E480011C1BC /* PBXContainerItemProxy */;
-		};
 		83E0171D2675036B00A30A29 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 83E017192675036B00A30A29 /* customblock Extension (iOS) */;
@@ -660,63 +583,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		833AF2B527CA8E480011C1BC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7EDV5GHJYS;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = blocker/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = blocker;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.20.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.inact.customblock.blocker;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Debug;
-		};
-		833AF2B627CA8E480011C1BC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7EDV5GHJYS;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = blocker/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = blocker;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.20.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.inact.customblock.blocker;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		83E017482675036B00A30A29 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -844,7 +710,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.20.1;
+				MARKETING_VERSION = 1.20.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.inact.customblock.Extension;
 				PRODUCT_NAME = "customblock Extension";
 				SDKROOT = iphoneos;
@@ -871,7 +737,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.20.1;
+				MARKETING_VERSION = 1.20.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.inact.customblock.Extension;
 				PRODUCT_NAME = "customblock Extension";
 				SDKROOT = iphoneos;
@@ -905,7 +771,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.20.1;
+				MARKETING_VERSION = 1.20.2;
 				OTHER_LDFLAGS = (
 					"-framework",
 					WebKit,
@@ -941,7 +807,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.20.1;
+				MARKETING_VERSION = 1.20.2;
 				OTHER_LDFLAGS = (
 					"-framework",
 					WebKit,
@@ -1093,15 +959,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		833AF2B427CA8E480011C1BC /* Build configuration list for PBXNativeTarget "blocker" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				833AF2B527CA8E480011C1BC /* Debug */,
-				833AF2B627CA8E480011C1BC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		83E016E32675036900A30A29 /* Build configuration list for PBXProject "customblock" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

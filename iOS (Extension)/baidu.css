@@ -1,21 +1,22 @@
-:root{
-    --pudding-dark-main-bgcolor:#121212;
-    
-    --pudding-dark-00dp-bgcolor:rgba(0,0,0,1);
-    --pudding-dark-01dp-bgcolor:rgba(0,0,0,0.95);
-    --pudding-dark-02dp-bgcolor:rgba(0,0,0,0.93);
-    --pudding-dark-03dp-bgcolor:rgba(0,0,0,0.92);
-    --pudding-dark-04dp-bgcolor:rgba(0,0,0,0.91);
-    --pudding-dark-06dp-bgcolor:rgba(0,0,0,0.89);
-    --pudding-dark-08dp-bgcolor:rgba(0,0,0,0.88);
-    --pudding-dark-12dp-bgcolor:rgba(0,0,0,0.86);
-    --pudding-dark-16dp-bgcolor:rgba(0,0,0,0.85);
-    --pudding-dark-24dp-bgcolor:rgba(0,0,0,0.84);
+/*
+ main-bg-color : background:#121212!important;
+ 00dp-bg-color : background:rgba(255,255,255,0)!important;
+ 01dp-bg-color : background:rgba(255,255,255,0.05)!important;
+ 02dp-bg-color : background:rgba(255,255,255,0.07)!important;
+ 03dp-bg-color : background:rgba(255,255,255,0.08)!important;
+ 04dp-bg-color : background:rgba(255,255,255,0.09)!important;
+ 06dp-bg-color : background:rgba(255,255,255,0.11)!important;
+ 08dp-bg-color : background:rgba(255,255,255,0.12)!important;
+ 12dp-bg-color : background:rgba(255,255,255,0.14)!important;
+ 16dp-bg-color : background:rgba(255,255,255,0.15)!important;
+ 24dp-bg-color : background:rgba(255,255,255,0.16)!important;
 
-    --pudding-dark-main-textcolor:rgba(255,255,255,0.87);
-    --pudding-dark-medium-textcolor:rgba(255,255,255,0.6);
-    --pudding-dark-disable-textcolor:rgba(255,255,255,0.38);
-}
+ main-text-color : color:rgba(255,255,255,0.87)!important;
+ medium-text-color : color:rgba(255,255,255,0.6)!important;
+ disable-text-color : color:rgba(255,255,255,0.38)!important;
+ 
+ */
+
 
 /****百度首页****/
 /*去除首页新闻*/
@@ -30,7 +31,7 @@
 #bottom{display:none!important;}
 /*样式居中*/
 #header{
-    height:100vh;
+    height:calc(100vh - 100px)!important;
 }
 
 #header #logo{
@@ -54,6 +55,11 @@ a[data-module=entrance]{
     
     #header{
         background:#121212!important;
+    }
+    
+    #index-bn{
+        background:rbga(78,110,242,0.93)!important;
+        color:rgba(255,255,255,0.87)!important;
     }
 
     .his-wrap-new{
@@ -86,7 +92,6 @@ a[data-module=entrance]{
     .sug-content-p .sugdir-vs em, .sug-content-p .his em, .sug-content-p .sug em{
         color:rgba(255,255,255,0.87)!important;
     }
-    
 
 }
 
@@ -375,6 +380,170 @@ body.scrollHide{
 
 /*本来想保留的 不过有随机生成的dom。。。*/
 .BK-after-content-wrapper{display:none!important;}
+
+@media (prefers-color-scheme: dark) {
+    .rt-view .rt-head{
+        background:#121212!important;
+    }
+    
+    .baike-app-view .topbar{
+        border-color:rgba(255,255,255,0.6)!important;
+    }
+    
+    .baike-app-view .topbar .top-icon .layout-icons{
+        color:rgba(255,255,255,0.87)!important;
+    }
+    .rt-view .rt-head .rt-title,.baike-app-view .topbar .baike-icon a{
+        color:rgba(255,255,255,0.87)!important;
+    }
+    
+    .baike-app-view .loft-wrap .loft-unfold-top,.baike-app-view .BK-body-content-wrapper{
+        background:#121212!important;
+    }
+    
+    .baike-app-view .authority-list .wapBrand-simple-content .black-text, .baike-app-view .authority-list .feature-content .black-text,.baike-app-view .card-part .summary-content,.baike-app-view .BK-body-wrapper{
+        color:rgba(255,255,255,0.87)!important;
+    }
+    .baike-app-view .basicInfo .info-title{
+        color:rgba(255,255,255,0.87)!important;
+    }
+    
+    .baike-app-view .basicInfo .info-content{
+        color:rgba(255,255,255,0.6)!important;
+    }
+
+    .baike-app-view .human-relation .human-relation-content .human-relation-title{
+        color:rgba(255,255,255,0.87)!important;
+    }
+    
+    .baike-app-view .human-relation .human-relation-content .human-relation-list .human-relation-item .relation-item-info .item-main{
+        color:rgba(255,255,255,0.87)!important;
+    }
+    
+    .baike-app-view .human-relation-margin,.baike-app-view .lemma-star-map-wrap .star-map-margin{
+        background:rgba(255,255,255,0.07)!important;
+    }
+    
+    .baike-app-view .human-relation .human-relation-content .human-relation-list .human-relation-item.view-more .text{
+        color:rgba(255,255,255,0.6)!important;
+    }
+    
+    .baike-app-view .lemma-star-map-wrap .star-map-title{
+        color:rgba(255,255,255,0.87)!important;
+    }
+    
+    .baike-app-view .lemma-star-map-wrap .star-map-item{
+        background:rgba(255,255,255,0.08)!important;
+    }
+    
+    .baike-app-view .lemma-star-map-wrap .star-map-item .lemma-title{
+        color:rgba(255,255,255,0.87)!important;
+    }
+    
+    .baike-app-view .quickNav{
+        background:rgba(255,255,255,0.07)!important;
+    }
+    
+    .baike-app-view .quickNav .items-mask{
+        display:none!important;
+    }
+    
+    .baike-app-view .quickNav .scroll li a{
+        background:rgba(255,255,255,0.09)!important;
+    }
+    
+    .baike-app-view .BK-content-wrapper .BK-content-margin,.baike-app-view .reference-margin{
+        background:rgba(255,255,255,0.07)!important;
+    }
+    
+    .baike-app-view .title-level-2{
+        color:rgba(255,255,255,0.87)!important;
+    }
+    .baike-app-view .lemma-content-video-wrapper .lemma-content-video-title .lemma-content-video-type{
+        background:rgba(255,255,255,0.08)!important;
+    }
+    
+    .baike-app-view .BK-body-wrapper .tool-right-btn em{
+        color:rgba(255,255,255,0.6)!important;
+    }
+    
+    .baike-app-view .sup{
+        color:rgba(255,255,255,0.6)!important;
+    }
+    
+    .baike-app-view .content-albums .img-list .album-img{
+        background:#121212!important;
+    }
+    
+    .baike-app-view .lemma-content-video-wrapper .lemma-content-video-album-info .lemma-content-video-album-vtitle{
+        color:rgba(255,255,255,0.87)!important;
+    }
+    
+    .baike-app-view .content-albums .album-desc{
+        color:rgba(255,255,255,0.6)!important;
+    }
+    
+    .baike-app-view .yx-load-more-flow .yx-load-more-bg{
+        background:none!important;
+    }
+    
+    .baike-app-view .yx-load-more-flow .yx-load-more-inner{
+        background:rgba(255,255,255,0.07)!important;
+        color:rgba(255,255,255,0.87)!important;
+    }
+    
+    .baike-app-view .floatTashuo-list-wrapper{
+        background:rgba(255,255,255,0.07)!important;
+    }
+    
+    .baike-app-view .floatTashuo-list-wrapper .title .title-text{
+        color:rgba(255,255,255,0.87)!important;
+    }
+    
+    .baike-app-view .BK-content-wrapper .table-container table td, .baike-app-view .BK-content-wrapper .college-table-container table td{
+        color:rgba(255,255,255,0.87)!important;
+    }
+    
+    .baike-app-view .content-album .album-desc{
+        color:rgba(255,255,255,0.6)!important;
+    }
+    .baike-app-view .title-level-3{
+        color:rgba(255,255,255,0.87)!important;
+    }
+    
+    .baike-app-view .BK-content-wrapper .table-container table thead th, .baike-app-view .BK-content-wrapper .college-table-container table thead th{
+        background:rgba(255,255,255,0.07)!important;
+    }
+    
+    .baike-app-view .BK-content-wrapper .table-container table th, .baike-app-view .BK-content-wrapper .college-table-container table th{
+        color:rgba(255,255,255,0.87)!important;
+    }
+    
+    
+    .baike-app-view .BK-content-wrapper .table-container table tbody tr:nth-child(2n), .baike-app-view .BK-content-wrapper .college-table-container table tbody tr:nth-child(2n){
+        background:rgba(255,255,255,0.07)!important;
+    }
+    
+    body .baike-app-view i{
+        color:rgba(255,255,255,0.6)!important;
+    }
+    
+    .baike-app-view .music-single__new .music-single .music-list .music-item .music-info{
+        color:rgba(255,255,255,0.87)!important;
+    }
+    
+    .baike-app-view .reference{
+        color:rgba(255,255,255,0.87)!important;
+    }
+    
+    .baike-app-view .reference .reference-list li{
+        color:rgba(255,255,255,0.87)!important;
+    }
+    
+    .baike-app-view .reference .reference-list .reference-data{
+        color:rgba(255,255,255,0.6)!important;
+    }
+}
 
 /***baidu 百科****/
 .w-detail-container{

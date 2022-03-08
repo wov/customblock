@@ -65,6 +65,12 @@ iframe{display:none!important;}
     
 }
 
+/*频道页面*/
+.wap-section{
+    padding:0!important;
+}
+
+
 /*广告*/
 .m_colum_a_d{
     display:none!important;
@@ -189,10 +195,15 @@ main > article{
 }
 
 /***评论页面***/
+.newsapp-download{
+    display:none!important;
+}
+
 /*dark mode*/
 @media (prefers-color-scheme: dark) {
     .comment-list > div{
         border-color : rgba(0,0,0,0.92)!important;
+        color: rgba(255,255,255,0.87)!important;
     }
     
     .comment-list > div div{
@@ -204,3 +215,21 @@ main > article{
     }
     
 }
+
+/**选择城市页面**/
+
+@media (prefers-color-scheme: dark) {
+    
+    .sequence_info{
+        background:rgba(255,255,255,0.07)!important;
+        color: rgba(255,255,255,0.87)!important;
+    }
+    
+    .city:active, .city:hover{
+        background:rgba(255,255,255,0.07)!important;
+    }
+    .city{
+        color: rgba(255,255,255,0.87)!important;
+    }
+}
+
