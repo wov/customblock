@@ -127,8 +127,14 @@ video{width:100%!important;margin:auto;}
 iframe{display:none!important;}
 
 /*news-card*/
-.news-card{
+
+.recommend-list{
     padding:0!important;
+}
+.news-card{
+    padding:0.1rem!important;
+    margin:0!important;
+    box-sizing:border-box!important;
 }
 
 .news-card > a{
