@@ -1,4 +1,9 @@
 /**播放详情页**/
+a > *{
+    pointer-events:none;
+}
+
+
 .m-video2-main-img{
     display:none!important;
 }
@@ -11,12 +16,18 @@
     text-align:center;
     background: #fb7299;
     color: #fff;
+    position:fixed;
+    bottom:0;
+    z-index:1000;
 }
 
 .m-video-new.sticky .m-video-main-launchapp{
-    margin-top:90vw!important;
+    margin-top:72vw!important;
 }
 
+.m-float-openapp{
+    display:none!important;
+}
 
 
 

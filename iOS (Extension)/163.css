@@ -9,6 +9,31 @@ iframe{display:none!important;}
     margin:0!important;
 }
 
+.channel-bar ul{
+    height:auto!important;
+    overflow:auto!important;
+}
+
+.card-type-news .news-pic img{
+    object-fit: cover;
+    max-width:100%;
+    height:auto!important;
+}
+
+.wap-section .wap-linklist .link-item{
+    overflow:hidden;
+}
+
+.section-bottom-links .sec-top{
+    padding-left:0.2rem!important;
+    padding-right:0.2rem!important;
+}
+
+.wap-section .wap-linklist .link-item{
+    margin-left:0.1rem!important;
+}
+
+
 
 /*暗黑模式*/
 @media (prefers-color-scheme: dark) {
@@ -155,6 +180,12 @@ iframe{display:none!important;}
 .widget-slider-article{
     display:none!important;
 }
+
+.photo{
+    pointer-events:none!important;
+}
+
+
 /*热门搜索*/
 .hotSearch-box{display:none!important;}
 
@@ -167,7 +198,7 @@ main > article{
     -webkit-overflow-scrolling: touch; /* Lets it scroll lazy */
 }
 
-.footer{display:none!important;}
+.footer,footer{display:none!important;}
 
 
 /*详情页暗黑模式*/

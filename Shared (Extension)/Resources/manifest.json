@@ -45,10 +45,10 @@
         "matches" : ["*://*.jianshu.com/*"]
     },{
         "css" : ["bilibili.css"],
-        "matches" : ["*://m.bilibili.com/video/*"]
+        "matches" : ["*://*.bilibili.com/*"]
     },{
         "js" : ["bilibili.js"],
-        "matches" : ["*://m.bilibili.com/video/*"]
+        "matches" : ["*://*.bilibili.com/*"]
     },{
         "js" : ["taobao.js"],
         "matches" : ["*://*.m.taobao.com/*"]
