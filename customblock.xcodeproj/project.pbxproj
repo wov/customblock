@@ -19,6 +19,7 @@
 		839CD0E327D247D200E86463 /* bilibili.js in Resources */ = {isa = PBXBuildFile; fileRef = 839CD0E227D247D200E86463 /* bilibili.js */; };
 		839CD0E527D24DB300E86463 /* bilibili.css in Resources */ = {isa = PBXBuildFile; fileRef = 839CD0E427D24DB300E86463 /* bilibili.css */; };
 		839CD0E727D46BB300E86463 /* pudding_dark.css in Resources */ = {isa = PBXBuildFile; fileRef = 839CD0E627D46BB300E86463 /* pudding_dark.css */; };
+		839CD10127D7937900E86463 /* taobao.js in Resources */ = {isa = PBXBuildFile; fileRef = 839CD10027D7937900E86463 /* taobao.js */; };
 		83CF53C027C65E7000375E9F /* baidu.css in Resources */ = {isa = PBXBuildFile; fileRef = 83CF53BF27C65E7000375E9F /* baidu.css */; };
 		83CF53C227C915A100375E9F /* zhihu.css in Resources */ = {isa = PBXBuildFile; fileRef = 83CF53C127C915A100375E9F /* zhihu.css */; };
 		83CF53C427C9EACE00375E9F /* 36kr.css in Resources */ = {isa = PBXBuildFile; fileRef = 83CF53C327C9EACE00375E9F /* 36kr.css */; };
@@ -115,6 +116,7 @@
 		839CD0E227D247D200E86463 /* bilibili.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = bilibili.js; sourceTree = "<group>"; };
 		839CD0E427D24DB300E86463 /* bilibili.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = bilibili.css; sourceTree = "<group>"; };
 		839CD0E627D46BB300E86463 /* pudding_dark.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = pudding_dark.css; sourceTree = "<group>"; };
+		839CD10027D7937900E86463 /* taobao.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = taobao.js; sourceTree = "<group>"; };
 		83CF53BF27C65E7000375E9F /* baidu.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = baidu.css; sourceTree = "<group>"; };
 		83CF53C127C915A100375E9F /* zhihu.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = zhihu.css; sourceTree = "<group>"; };
 		83CF53C327C9EACE00375E9F /* 36kr.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = 36kr.css; sourceTree = "<group>"; };
@@ -289,6 +291,7 @@
 				839CD0D527CD077E00E86463 /* jianshu.css */,
 				839CD0E227D247D200E86463 /* bilibili.js */,
 				839CD0E427D24DB300E86463 /* bilibili.css */,
+				839CD10027D7937900E86463 /* taobao.js */,
 			);
 			path = "iOS (Extension)";
 			sourceTree = "<group>";
@@ -459,6 +462,7 @@
 			files = (
 				831955E327CB662F00446554 /* 163.js in Resources */,
 				838E87132676778200558B4F /* 163.css in Resources */,
+				839CD10127D7937900E86463 /* taobao.js in Resources */,
 				83CF53C427C9EACE00375E9F /* 36kr.css in Resources */,
 				83E0173E2675036B00A30A29 /* background.js in Resources */,
 				839CD0D627CD077E00E86463 /* jianshu.css in Resources */,
@@ -710,7 +714,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.20.3;
+				MARKETING_VERSION = 1.20.4;
 				PRODUCT_BUNDLE_IDENTIFIER = com.inact.customblock.Extension;
 				PRODUCT_NAME = "customblock Extension";
 				SDKROOT = iphoneos;
@@ -737,7 +741,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.20.3;
+				MARKETING_VERSION = 1.20.4;
 				PRODUCT_BUNDLE_IDENTIFIER = com.inact.customblock.Extension;
 				PRODUCT_NAME = "customblock Extension";
 				SDKROOT = iphoneos;
@@ -771,7 +775,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.20.3;
+				MARKETING_VERSION = 1.20.4;
 				OTHER_LDFLAGS = (
 					"-framework",
 					WebKit,
@@ -807,7 +811,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.20.3;
+				MARKETING_VERSION = 1.20.4;
 				OTHER_LDFLAGS = (
 					"-framework",
 					WebKit,

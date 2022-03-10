@@ -618,3 +618,43 @@ div[class^="wgt-"][class$="-asp"]{
     
 
 }
+
+
+/**视频详情页***/
+a[data-type="native_ad"]{
+    display:none;
+}
+@media (prefers-color-scheme: dark) {
+    .title-waterfallB[data-a-3b3cba84]{
+        color:rgba(255,255,255,0.87)!important;
+    }
+    
+    .c-color-gray, .defaultmode .c-color-gray-a,.sfc-video-page-info-nopraise[data-a-50d94a1e],.sfc-video-page-info-icon-text[data-a-50d94a1e]{
+        color:rgba(255,255,255,0.6)!important;
+    }
+    
+    .sfc-video-page-info-icon-feedback[data-a-50d94a1e]{
+        color:rgba(255,255,255,0.6)!important;
+    }
+    
+    .sfc-video-page-info-contentfold-button[data-a-3b3cba84]{
+        background:rgba(255,255,255,0.08)!important;
+    }
+    
+    .sfc-video-page-index-info-cambrian-name[data-a-82136538]{
+        color:rgba(255,255,255,0.87)!important;
+    }
+    
+    .reclist-waterfallB{
+        background:#121212!important;
+    }
+    .gradual-waterfall-b{
+        background:none!important;
+    }
+    
+    .item-card[data-a-4310e3ce]{
+        background:rgba(255,255,255,0.08)!important;
+    }
+}
+
+

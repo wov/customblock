@@ -12,6 +12,10 @@
 		<array>
 			<dict>
 				<key>Script</key>
+				<string>taobao.js</string>
+			</dict>
+			<dict>
+				<key>Script</key>
 				<string>bilibil.js</string>
 			</dict>
 			<dict>

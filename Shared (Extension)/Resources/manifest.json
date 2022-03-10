@@ -49,6 +49,9 @@
     },{
         "js" : ["bilibili.js"],
         "matches" : ["*://m.bilibili.com/video/*"]
+    },{
+        "js" : ["taobao.js"],
+        "matches" : ["*://*.m.taobao.com/*"]
     }],
 
     "browser_action": {
@@ -60,5 +63,5 @@
             "38": "images/toolbar-icon-38.png"
         }
     },
-    "permissions": [ "tabs","storage"]
+    "permissions": [ "tabs","storage","webNavigation"]
 }

@@ -12,3 +12,19 @@ browser.runtime.onMessage.addListener((request) => {
         }
     });
 });
+
+
+//const filter = {
+//  url:
+//  [
+//    {schemes: ["tbopen"]}
+//  ]
+//}
+//
+//function logOnBefore(details) {
+//    alert(`are you sure to load  ${details.url}`);
+//  console.log(`onBeforeNavigate to: ${details.url}`);
+//}
+//
+//browser.webNavigation.onBeforeNavigate.addListener(logOnBefore);
+
