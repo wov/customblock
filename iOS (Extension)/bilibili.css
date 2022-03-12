@@ -1,3 +1,10 @@
+/*首页*/
+/*隐藏打开app按钮*/
+.home-float-openapp{
+    display:none!important;
+}
+
+
 /**播放详情页**/
 a > *{
     pointer-events:none;
@@ -19,6 +26,7 @@ a > *{
     position:fixed;
     bottom:0;
     z-index:1000;
+    font-size:12px;
 }
 
 .m-video-new.sticky .m-video-main-launchapp{
@@ -28,6 +36,19 @@ a > *{
 .m-float-openapp{
     display:none!important;
 }
+
+/*把原来跳转到app的去掉*/
+.video-list .card-box .v-card-toapp{
+    display:none!important;
+}
+
+.video-list .card-box .v-card-toapp.__pudding_create{
+    display:block!important;
+}
+
+
+
+
 
 
 

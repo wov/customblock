@@ -63,5 +63,5 @@
             "38": "images/toolbar-icon-38.png"
         }
     },
-    "permissions": [ "tabs","storage","webNavigation"]
+    "permissions": [ "tabs","storage"]
 }
