@@ -1,4 +1,86 @@
 /*首页*/
+
+@media (prefers-color-scheme: dark) {
+    html{
+        color:rgba(255,255,255,0.87)!important;
+    }
+    
+    body{
+        background-color:#121212!important;
+    }
+    
+    .suspension-box,.m-navbar,.v-switcher__header{
+        background-color:#121212!important;
+    }
+    
+    .v-switcher__header__tabs__item{
+        color:rgba(255,255,255,0.87)!important;
+    }
+    
+    .v-drawer__wrap{
+        background-color:#121212!important;
+    }
+    
+    .channel-drawer .drawer-box{
+        color:rgba(255,255,255,0.87)!important;
+    }
+    
+    .m-home{
+        background-color:#121212!important;
+    }
+    
+    .v-card .title{
+        color:rgba(255,255,255,0.87)!important;
+    }
+    
+    .v-card-single .card .info .title{
+        color:rgba(255,255,255,0.87)!important;
+    }
+    
+    .m-video-info-new .title .left h1,.m-video-info-new .fold-container .fold-area .up .face .info .name{
+        color:rgba(255,255,255,0.87)!important;
+    }
+    
+    .v-switcher__content__item{
+        background-color:#121212!important;
+        color:rgba(255,255,255,0.87)!important;
+    }
+    .v-card-toapp .title{
+        color:rgba(255,255,255,0.87)!important;
+    }
+    
+    .m-video-comment .list ul li.comment-item .detail .content{
+        color:rgba(255,255,255,0.87)!important;
+    }
+    
+    .m-sub-reply-preview{
+        background:rgba(255,255,255,0.08)!important;
+    }
+    
+    .m-sub-reply-preview .sub-preview-item{
+        color:rgba(255,255,255,0.87)!important;
+    }
+    
+    .m-video-new .m-footer{
+        background-color:#121212!important;
+    }
+    
+    .m-footer p{
+        color:rgba(255,255,255,0.6)!important;
+    }
+    
+    .v-navbar__body{
+        background-color:#121212!important;
+    }
+    
+    .v-card-single .rank-num{
+        color:rgba(255,255,255,0.6)!important;
+    }
+    
+}
+
+
+
 /*隐藏打开app按钮*/
 .home-float-openapp{
     display:none!important;
