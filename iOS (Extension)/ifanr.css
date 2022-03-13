@@ -1,25 +1,5 @@
 /*首页*/
 
-/*去掉烦人的轮播*/
-.top-news{
-    overflow:scroll!important;
-    -webkit-overflow-scrolling: touch; /* Lets it scroll lazy */
-}
-
-.top-news .swipe-wrap{
-    white-space:nowrap;
-    display:flex;
-}
-
-.top-news .news-item{
-    transform:none!important;
-    left:auto!important;
-    transition-duration:unset!important;
-}
-
-.top-news .dots{
-    display:none!important;
-}
 
 .home-container .home-buzz-container .home-buzz--right{
     height: 9rem!important;
@@ -31,13 +11,25 @@
     transform:none!important;
 }
 
+.home-container .home-buzz-container .title{
+    white-space: normal!important;
+}
+
 
 /*添加dark mode*/
 @media (prefers-color-scheme: dark) {
+    
+    img{
+        filter: brightness(0.8);
+    }
 
     body,html,.home-container{
         background:#121212!important;
         color: rgba(255,255,255,0.87)!important;
+    }
+    
+    .ifr-nav-logo{
+        filter: brightness(0) invert(1);
     }
     
     a{
@@ -146,12 +138,41 @@
         background:rgba(255,255,255,0.08)!important;
     }
     
-    #stick-header .ifr-logo{
+    
+    
+    .home-container .home-buzz-container .home-buzz--left,
+    #stick-header .ifr-logo,
+    .popup-top .popup-top__desc{
         filter: brightness(0) invert(1);
     }
     
-    img{
-        filter: brightness(0.8);
+    /*  ifanr 快讯  */
+    #BuzzPages .buzz-cover{
+        background: none!important;
+    }
+
+    #BuzzPages .buzz-cover .buzz-title__chinese{
+        filter: brightness(0) invert(1);
+    }
+    
+    #BuzzPages .buzz-container{
+        background:#121212!important;
+    }
+    
+    #BuzzPages .buzz-list-item .buzz-time-node_time{
+        color: rgba(255,255,255,0.87)!important;
+    }
+    
+    #BuzzPages .buzz-list-item .buzz-node_title{
+        color: rgba(255,255,255,0.87)!important;
+    }
+    
+    #BuzzPages .buzz-list-item .buzz-node_excerpt{
+        color: rgba(255,255,255,0.6)!important;
+    }
+    
+    #BuzzPages .expand-more{
+        color: rgba(255,255,255,0.87)!important;
     }
     
 }
