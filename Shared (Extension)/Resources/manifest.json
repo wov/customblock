@@ -50,8 +50,8 @@
         "js" : ["bilibili.js"],
         "matches" : ["*://*.bilibili.com/*"]
     },{
-        "js" : ["taobao.js"],
-        "matches" : ["*://*.m.taobao.com/*"]
+        "css" : ["ifanr.css"],
+        "matches" : ["*://*.ifanr.com/*"]
     }],
 
     "browser_action": {

@@ -204,6 +204,10 @@ main > article{
 /*详情页暗黑模式*/
 @media (prefers-color-scheme: dark) {
     
+    img{
+        filter: brightness(0.8);
+    }
+    
     .home header{
         background:#121212!important;
     }

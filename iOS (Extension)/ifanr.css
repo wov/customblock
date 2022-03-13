@@ -1,0 +1,157 @@
+/*首页*/
+
+/*去掉烦人的轮播*/
+.top-news{
+    overflow:scroll!important;
+    -webkit-overflow-scrolling: touch; /* Lets it scroll lazy */
+}
+
+.top-news .swipe-wrap{
+    white-space:nowrap;
+    display:flex;
+}
+
+.top-news .news-item{
+    transform:none!important;
+    left:auto!important;
+    transition-duration:unset!important;
+}
+
+.top-news .dots{
+    display:none!important;
+}
+
+.home-container .home-buzz-container .home-buzz--right{
+    height: 9rem!important;
+    overflow:scroll!important;
+    -webkit-overflow-scrolling: touch; /* Lets it scroll lazy */
+}
+
+.home-container .home-buzz-container .list{
+    transform:none!important;
+}
+
+
+/*添加dark mode*/
+@media (prefers-color-scheme: dark) {
+
+    body,html,.home-container{
+        background:#121212!important;
+        color: rgba(255,255,255,0.87)!important;
+    }
+    
+    a{
+        color: rgba(255,255,255,0.87)!important;
+    }
+    
+    .home-container .header-container .search-button .ifanr2015,.global-nav-overlay-container.simple .ifanr2015, .header.simple .ifanr2015{
+        color: rgba(255,255,255,0.87)!important;
+    }
+    
+    .home-container .home-buzz-wrapper{
+        background:rgba(255,255,255,0.07)!important;
+    }
+    
+    .home-container .home-buzz-container .title{
+        color: rgba(255,255,255,0.87)!important;
+    }
+    .home-container .banner-container .banner-box .banner-item-box .title,.home-container .article-container .article-item .right-box .title{
+        color: rgba(255,255,255,0.87)!important;
+    }
+    
+    .home-container .outer-container{
+        background:none!important;
+    }
+    
+    .home-container .nav-header-container,.home-container .nav-container{
+        background:#121212!important;
+    }
+    
+    .home-container .nav-container ul .nav-item{
+        color: rgba(255,255,255,0.87)!important;
+    }
+    
+    
+    /*菜单页面 */
+    
+    .global-navigator .nav-controller{
+        background:#121212!important;
+    }
+    .global-navigator{
+        background:rgba(0,0,0,0.92)!important;
+    }
+    
+    .global-navigator .link-box,.global-navigator .about-box{
+        background:rgba(255,255,255,0.08)!important;
+    }
+    
+    .global-navigator .nav-user .login-register-area-en, .global-navigator .nav-user .nav-user-signature{
+        color: rgba(255,255,255,0.87)!important;
+    }
+    
+    .global-navigator .nav-controller .ifanr2015{
+        color: rgba(255,255,255,0.87)!important;
+    }
+    .global-navigator .app-box .app-desc{
+        color: rgba(255,255,255,0.87)!important;
+    }
+    
+/*  视频详情页  */
+
+    .page-content{
+        background:#121212!important;
+    }
+    
+    .article-info .article-info__category time{
+        color: rgba(255,255,255,0.87)!important;
+    }
+    
+    .main-singular .entry-content p{
+        color: rgba(255,255,255,0.87)!important;
+    }
+    
+    .article-sns-tool .share-text{
+        color: rgba(255,255,255,0.6)!important;
+    }
+    
+    .recommend-article .recommend-article-item .article .article-title{
+        color: rgba(255,255,255,0.87)!important;
+    }
+    
+    .comments-box{
+        background:#121212!important;
+    }
+    
+    .article-footer-header{
+        color: rgba(255,255,255,0.87)!important;
+    }
+    
+    #stick-header{
+        background:#121212!important;
+    }
+    
+    #stick-header i{
+        color: rgba(255,255,255,0.87)!important;
+    }
+    
+    .main-singular .entry-content{
+        color: rgba(255,255,255,0.6)!important;
+    }
+    
+    .comment-body{
+        color: rgba(255,255,255,0.87)!important;
+    }
+    
+    .main-singular .entry-content .entry-content__tags a{
+        background:rgba(255,255,255,0.08)!important;
+    }
+    
+    #stick-header .ifr-logo{
+        filter: brightness(0) invert(1);
+    }
+    
+    img{
+        filter: brightness(0.8);
+    }
+    
+}
