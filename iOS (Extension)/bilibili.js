@@ -21,7 +21,7 @@ function addNativePlayButton(){
     if( !document.querySelector('.__puddingPlayInOriginDiv') ){
         const playInOrignButton = document.createElement('div');
         playInOrignButton.className = '__puddingPlayInOriginDiv';
-        playInOrignButton.innerText = '布丁：在原生播放器中播放，上滑可以画中画';
+        playInOrignButton.innerText = '布丁：在原生播放器中播放';
 
         playInOrignButton.addEventListener('click', _ => {
             const video = document.querySelector('video')
