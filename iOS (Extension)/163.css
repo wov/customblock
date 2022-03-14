@@ -284,3 +284,11 @@ main > article{
     }
 }
 
+/*hot*/
+@media (prefers-color-scheme: dark) {
+
+    .tab-content[data-v-1ad00be9], .tab-content[data-v-63da0cf8]{
+        background:#121212!important;
+    }
+
+}
