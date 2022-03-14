@@ -33,8 +33,6 @@ iframe{display:none!important;}
     margin-left:0.1rem!important;
 }
 
-
-
 /*暗黑模式*/
 @media (prefers-color-scheme: dark) {
     body{
@@ -292,3 +290,24 @@ main > article{
     }
 
 }
+
+/*视频页*/
+
+.recommend-top-ad{
+    display:none!important;
+}
+
+@media (prefers-color-scheme: dark) {
+    
+    .video_article_content,
+    .video_article_content .video_area{
+        background:#121212!important;
+    }
+    
+    .video_recommend_flow{
+        background:rgba(255,255,255,0.07)!important;
+    }
+
+}
+
+
