@@ -710,7 +710,7 @@
 				DEVELOPMENT_TEAM = 7EDV5GHJYS;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "customblock Extension";
+				INFOPLIST_KEY_CFBundleDisplayName = "布丁扩展";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -737,7 +737,7 @@
 				DEVELOPMENT_TEAM = 7EDV5GHJYS;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "customblock Extension";
+				INFOPLIST_KEY_CFBundleDisplayName = "布丁扩展";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (

@@ -8,7 +8,7 @@ document.addEventListener('click', event => {
 
 //去掉所有“3天前的新闻列表”
 document.addEventListener('scroll', _ => {
-    console.log('scroll')
+    
     const _dom_pubtimes = document.querySelectorAll('.pubtime');
     [].forEach.call(_dom_pubtimes, function(t,t_index) {
         if(t.textContent === '3天前' ){

@@ -19,6 +19,12 @@
 
 
 /****百度首页****/
+
+.searchbox-exp div[style="overflow: hidden;background: #fff;"]{
+    display:none!important;
+}
+
+
 /*去除首页新闻*/
 .tab-news-content{display:none!important;}
 /*隐藏底部*/
@@ -93,16 +99,16 @@ a[data-module=entrance]{
         color:rgba(255,255,255,0.87)!important;
     }
 
+    .menu-newsearch-v2 .menu-avator-login,.square-enterance{
+        filter: brightness(0) invert(1);
+    }
+    
+    .sug-edit-p,.sug-searchicon-p{
+        filter: brightness(0) invert(1);
+    }
+    
 }
-
-
-
-
 /***搜索结果页去广告***/
-
-
-
-
 
 .ec_ad_results{display:none!important;}
 /*.c-result{display:none!important;}*/
@@ -117,6 +123,11 @@ a[data-module=entrance]{
 
 /*dark mode*/
 @media (prefers-color-scheme: dark) {
+    
+    html,body{
+        background:#121212!important;
+        color:rgba(255,255,255,0.87)!important;
+    }
     
     a {
         color: rgba(255,255,255,0.87)!important;
@@ -291,6 +302,14 @@ a[data-module=entrance]{
     
     ._2Q19f{display:none!important;}
     
+    .fy-dictwisenew-icon-wrap__7KQb1{
+        background:#121212!important;
+    }
+    
+    .fy-dictwisenew-icon__2oNUS{
+        filter: brightness(0) invert(1);
+    }
+    
 }
 
 /***视频页面***/
@@ -382,6 +401,31 @@ body.scrollHide{
 .BK-after-content-wrapper{display:none!important;}
 
 @media (prefers-color-scheme: dark) {
+    .baike-app-view #J-lemma{
+        background:#121212!important;
+    }
+    
+    .baike-app-view .card-part .title-part .title .lemma-title-container .lemma-title{
+        color:rgba(255,255,255,0.87)!important;
+    }
+    
+    .baike-app-view .margin{
+        background:rgba(255,255,255,0.08)!important;
+    }
+    
+    .baike-app-view .BK-body-wrapper{
+        background:#121212!important;
+    }
+    
+    .baike-app-view .audio-control-container{
+        background:#121212!important;
+        color:rgba(255,255,255,0.87)!important;
+    }
+    
+    .baike-app-view .extra-info-n .extra-list-item.extra-lemma-desc{
+        color:rgba(255,255,255,0.6)!important;
+    }
+    
     .rt-view .rt-head{
         background:#121212!important;
     }
@@ -543,9 +587,32 @@ body.scrollHide{
     .baike-app-view .reference .reference-list .reference-data{
         color:rgba(255,255,255,0.6)!important;
     }
+    
+    
+    .baike-app-view .extra-info-n .extra-list-item.extra-polysemant .polysemant-content{
+        background:none!important;
+    }
+    
+    .baike-app-view .lemma-videos{
+        background:#121212!important;
+    }
+    
+    .baike-app-view .lemma-videos .lemma-video-list-wrapper .multi-videos .video-item-list .video-item .text-box{
+        background:rgba(255,255,255,0.08)!important;
+    }
+    
+    .baike-app-view .button-fixed{
+        background:#121212!important;
+        border-color:rgba(255,255,255,0.87)!important;
+    }
+    
+    .baike-app-view .button-fixed .layout-icons{
+        color:rgba(255,255,255,0.87)!important;
+    }
+    
 }
 
-/***baidu 百科****/
+/***baidu 知道****/
 .w-detail-container{
     max-height: unset!important;
 }
@@ -563,6 +630,18 @@ div[class^="wgt-"][class$="-asp"]{
 }
 
 #feed-recommend{
+    display:none!important;
+}
+
+.wgt-recommend-answer-container.ec-ad{
+    display:none!important;
+}
+
+.iknow-root-dom-element .chat-consult.shorten{
+    height:auto!important;
+}
+
+.iknow-root-dom-element .chat-consult .circusee-bg{
     display:none!important;
 }
 
@@ -616,7 +695,58 @@ div[class^="wgt-"][class$="-asp"]{
         background:#121212!important;
     }
     
+    .iknow-root-dom-element #iknow-common-header .iknow-common-header-content .go-to-ask .g-t-a-icon{
+        filter: brightness(0) invert(1);
+    }
+    
+    .iknow-root-dom-element .question-meta-container .question-meta{
+        color:rgba(255,255,255,0.87)!important;
+    }
+    
+    .iknow-root-dom-element .question-meta-icon-support,.iknow-root-dom-element .question-meta-icon-unsupport,.iknow-root-dom-element .question-meta-container .question-meta-icon-comment,.iknow-root-dom-element #iknow-common-header .appendix .option .header-option-icon,.iknow-root-dom-element .question-meta-container .question-meta-icon-more{
+        filter: brightness(0) invert(1);
+    }
+    
+    .iknow-root-dom-element .consult-gowenyiwen-logo .consult-gowenyiwen-logo-img{
+        filter: brightness(0) invert(1);
+    }
 
+    .iknow-root-dom-element .chat-consult .chat-consult-content .chat-item .chat-type{
+        background:none!important;
+    }
+    
+    .iknow-root-dom-element .question-author-container .question-author-follow-box .question-author-follow, .iknow-root-dom-element .question-author-container .question-author-follow-box .question-author-follow-link{
+        background:#121212!important;
+        color:rgba(255,255,255,0.87)!important;
+
+    }
+    
+    .iknow-root-dom-element .chat-consult .chat-consult-content .chat-item .chat-content{
+        background:rgba(255,255,255,0.08)!important;
+    }
+    
+    .iknow-root-dom-element .chat-consult .chat-consult-content .chat-item .chat-content .chat-content-text{
+        color:rgba(255,255,255,0.87)!important;
+    }
+    
+    .iknow-root-dom-element .wgt-iknow-replies-entry .fold-num-container{
+        background:none!important;
+    }
+    
+    .iknow-root-dom-element .wgt-iknow-replies-entry .fold-num-container .fold-num{
+        color:rgba(255,255,255,0.87)!important;
+    }
+    
+    .iknow-root-dom-element .dwboj62334f h2.dec{
+        color:rgba(255,255,255,0.87)!important;
+    }
+    .iknow-root-dom-element .ask-for-friend:before{
+        filter: brightness(0) invert(1);
+    }
+    
+    .iknow-root-dom-element .w-question-list-video .item-text .item-title{
+        color:rgba(255,255,255,0.87)!important;
+    }
 }
 
 
@@ -655,6 +785,163 @@ a[data-type="native_ad"]{
     .item-card[data-a-4310e3ce]{
         background:rgba(255,255,255,0.08)!important;
     }
+}
+
+/*baidu 文库*/
+.pay-doc-marquee{
+    display:none!important;
+}
+
+.wk-student[data-v-3ba8c9bc]{
+    display:none!important;
+}
+
+.show-protocol[data-v-a7a26d4c]{
+    display:none!important;
+}
+
+.bartop[data-v-6e9ef9ce]{
+    padding-top:0!important;
+}
+
+
+@media (prefers-color-scheme: dark) {
+    .bartop{
+        background:#121212!important;
+    }
+    
+    .bartop .w-container>div.search-button[data-v-cbd099d6]{
+        color:rgba(255,255,255,0.87)!important;
+    }
+    
+    .top-card{
+        background:#121212!important;
+    }
+    
+    
+    .top-card .content{
+        background:rgba(255,255,255,0.08)!important;
+    }
+    
+    .rec-text-root .rec-head,.rec-wrap,.guess-rec-wrap,.guess-rec-text-root .rec-head,.shops-hot,.shops-hot .shops-hot-inner,.shops-hot .shops-hot-inner .shops-hot-head{
+        background:#121212!important;
+        color:rgba(255,255,255,0.87)!important;
+    }
+    
+    .rec-text-root .rec-list li:active,.guess-rec-text-root .rec-list li:active{
+        background:none!important;
+    }
+    
+    .shops-hot .shops-hot-inner .shops-hot-body .shop-item .shop-name{
+        color:rgba(255,255,255,0.87)!important;
+    }
+    
+    .video-rec-wrap{
+        background:#121212!important;
+    }
+    
+    .video-rec-wrap .video-rec-inner .video-info .title{
+        color:rgba(255,255,255,0.87)!important;
+    }
+    
+    .dsp-item:active,.video-rec-wrap .video-rec-inner .li-item:active{
+        background:none!important;
+    }
+    
+    .video-rec-wrap .video-rec-inner h3{
+        color:rgba(255,255,255,0.87)!important;
+    }
+    
+    .barbottom{
+        background:#121212!important;
+    }
+    
+    .barbottom>.w-container>div.features-wrap>div{
+        color:rgba(255,255,255,0.87)!important;
+    }
+    
+    .barbottom>.w-container>div.features-wrap>div .icon{
+        filter: brightness(0) invert(1);
+    }
+    
+    .header-wrap{
+        background:#121212!important;
+    }
+    
+    .header-wrap .doc-title{
+        background:#121212!important;
+        color:rgba(255,255,255,0.87)!important;
+    }
+
+}
+
+/*baidu学术*/
+@media (prefers-color-scheme: dark) {
+    
+    .main_content .abstract_more{
+        background:#121212!important;
+        box-shadow:none!important;
+    }
+    
+    .paper_src_wr .paper_src_tab{
+        color:rgba(255,255,255,0.87)!important;
+    }
+
+    .recm_list_tab{
+        background:#121212!important;
+        color:rgba(255,255,255,0.87)!important;
+    }
+    
+    #paperhelp_wr h4{
+        color:rgba(255,255,255,0.87)!important;
+    }
+
+}
+
+
+/*m.baidu.com*/
+@media (prefers-color-scheme: dark) {
+    
+    .results{
+        background:#121212!important;
+    }
+    .wa-channel-gradient{
+        background:none!important;
+    }
+
+    .wa-channel-back{
+        filter: brightness(0) invert(1);
+    }
+    
+    .wa-channel-scroller-wrap,.news-top-height,.news-container{
+        background:none!important;
+    }
+    
+    .news-icon{
+        color:rgba(255,255,255,0.87)!important;
+    }
+    
+    .square-container{
+        background:rgba(255,255,255,0.08)!important;
+    }
+    
+    .square-card-title{
+        color:rgba(255,255,255,0.87)!important;
+    }
+        
+    .tool-item-name{
+        color:rgba(255,255,255,0.87)!important;
+    }
+
+    .square-hot-container{
+      background:rgba(255,255,255,0.08)!important;
+    }
+    
+    .hot-content{
+        background:none!important;
+    }
+
+
 }
 
 
