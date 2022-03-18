@@ -9,6 +9,10 @@ iframe{display:none!important;}
     margin:0!important;
 }
 
+.channel-bar{
+    transition:none!important;
+}
+
 .channel-bar ul{
     height:auto!important;
     overflow:auto!important;
@@ -31,6 +35,11 @@ iframe{display:none!important;}
 
 .wap-section .wap-linklist .link-item{
     margin-left:0.1rem!important;
+}
+
+/*这个动画体验非常糟糕*/
+img[lazy=loaded]{
+    transition:none!important;
 }
 
 /*暗黑模式*/
@@ -96,6 +105,17 @@ iframe{display:none!important;}
 /*频道页面*/
 .wap-section{
     padding:0!important;
+}
+
+@media (prefers-color-scheme: dark) {
+    .link-auto .info{
+        color:rgba(255,255,255,0.87)!important;
+    }
+    
+    .wap-channel-nav .home-back strong:before{
+        filter: brightness(0) invert(1);
+    }
+    
 }
 
 

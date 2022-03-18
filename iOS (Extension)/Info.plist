@@ -12,6 +12,10 @@
 		<array>
 			<dict>
 				<key>Script</key>
+				<string>smzdm.js</string>
+			</dict>
+			<dict>
+				<key>Script</key>
 				<string>taobao.js</string>
 			</dict>
 			<dict>
@@ -25,6 +29,10 @@
 		</array>
 		<key>SFSafariStyleSheet</key>
 		<array>
+			<dict>
+				<key>Style Sheet</key>
+				<string>smzdm.css</string>
+			</dict>
 			<dict>
 				<key>Style Sheet</key>
 				<string>ifanr.css</string>
@@ -66,6 +74,7 @@
 		<dict>
 			<key>Allowed Domains</key>
 			<array>
+				<string>*.smzdm.com</string>
 				<string>*.jianshu.com</string>
 				<string>*.sina.cn</string>
 				<string>*.36kr.com</string>

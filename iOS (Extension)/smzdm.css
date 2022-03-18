@@ -1,0 +1,25 @@
+/*这里优化强制在app中打开*/
+
+/*详情页*/
+a > *{
+    pointer-events:none;
+}
+
+.download-normal{
+    display:none!important;
+}
+
+
+.footer-banner{
+    display:none!important;
+}
+
+
+/*展开全文*/
+.article-wrapper{
+    height:auto!important;
+}
+
+.article-wrapper .expand-btn{
+    display:none!important;
+}

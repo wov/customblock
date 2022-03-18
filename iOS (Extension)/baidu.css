@@ -310,6 +310,15 @@ a[data-module=entrance]{
         filter: brightness(0) invert(1);
     }
     
+    /*歌词组件 */
+    .lyrics-container__3sIyS .lyrics-container-row__12jkn .ly-bg__xCNvw{
+        background:none!important;
+    }
+    
+    /*   图片组件 */
+    .c-tags-scroll-right-mask{
+        display:none!important;
+    }
 }
 
 /***视频页面***/
@@ -400,9 +409,16 @@ body.scrollHide{
 /*本来想保留的 不过有随机生成的dom。。。*/
 .BK-after-content-wrapper{display:none!important;}
 
+.baike-app-view .super-layer-promote.squareAni{display:none!important;}
+
 @media (prefers-color-scheme: dark) {
     .baike-app-view #J-lemma{
         background:#121212!important;
+    }
+    
+    .baike-app-view .summary-content{
+        color:rgba(255,255,255,0.87)!important;
+
     }
     
     .baike-app-view .card-part .title-part .title .lemma-title-container .lemma-title{

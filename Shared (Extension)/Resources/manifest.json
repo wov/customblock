@@ -56,6 +56,12 @@
     },{
         "css" : ["ifanr.css"],
         "matches" : ["*://*.ifanr.com/*"]
+    },{
+        "js" : ["smzdm.js"],
+        "matches" : ["*://*.smzdm.com/*"]
+    },{
+        "css" : ["smzdm.css"],
+        "matches" : ["*://*.smzdm.com/*"]
     }],
 
     "browser_action": {
