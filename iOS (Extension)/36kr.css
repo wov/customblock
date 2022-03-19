@@ -1,7 +1,17 @@
 /*首页*/
 .kr-mobile-goapp{display:none!important;}
 
+/*去掉轮博的自动滚动*/
+.home-banner{
+    overflow-x:scroll!important;
+    -webkit-overflow-scrolling: touch; /* Lets it scroll lazy */
+}
 
+.banner-list{
+    left:0!important;
+}
+
+.home-banner .banner-control{display:none!important;}
 
 /***详情页***/
 /*去掉遮罩层*/
@@ -19,4 +29,82 @@ body{
 /*文章被隐藏*/
 #body-content{max-height:unset!important;}
 .article-goapp{display:none!important;}
+
+.goapp-wrapper .suction-bottom-dummy{display:none!important;}
+
+@media (prefers-color-scheme: dark) {
+    html,body{
+        background:#121212!important;
+        color: rgba(255,255,255,0.87)!important;
+    }
+    
+    img{
+        filter: brightness(0.8);
+    }
+    
+    .kr-mobile-layout{
+        background:#121212!important;
+    }
+    
+    .logo-container{
+        background:rgba(255,255,255,0.08)!important;
+    }
+    .user-login .login-txt{
+        color: rgba(255,255,255,0.87)!important;
+    }
+    
+    .home-banner .banner-list .item-wrapper .banner-item .item-title{
+        color: rgba(255,255,255,0.87)!important;
+    }
+    .home-flow .flow-title{
+        color: rgba(255,255,255,0.87)!important;
+    }
+    
+    .article-item .item-info>.item-title{
+        color: rgba(255,255,255,0.87)!important;
+    }
+    
+    .article-item .item-info:visited>.item-title{
+        color:rgba(255,255,255,0.6)!important;
+    }
+    
+    .article-item .item-info .item-bar{
+        color:rgba(255,255,255,0.6)!important;
+    }
+    
+/*    详情页*/
+    .article-body .body-title{
+        color: rgba(255,255,255,0.87)!important;
+    }
+    
+    .article-body .body-bar .author-name{
+        color: rgba(255,255,255,0.87)!important;
+    }
+    
+    .body-content-wrapper #body-content{
+        color: rgba(255,255,255,0.87)!important;
+    }
+    
+    .article-body .body-quote{
+        background:rgba(255,255,255,0.08)!important;
+        color: rgba(255,255,255,0.6)!important;
+    }
+    
+    .article-body .body-quote .quote-icon{
+        filter: brightness(0) invert(1);
+    }
+    
+    .article-no-comment .temp,.article-comment .comment-wrapper:before{
+        background:rgba(255,255,255,0.08)!important;
+    }
+    
+    .article-no-comment .article-no-comment-wrap .comment-title,
+    .article-comment .comment-wrapper .comment-title,
+    .article-comment .comment-wrapper .regular-comment .comment-detail .user-info>span:first-child,
+    .article-comment .comment-wrapper .regular-comment .comment-detail .comment-content{
+        color: rgba(255,255,255,0.87)!important;
+    }
+    
+    
+}
 

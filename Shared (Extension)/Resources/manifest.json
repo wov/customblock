@@ -20,7 +20,8 @@
 
     "content_scripts": [{
         "css" : ["163.css"],
-        "matches" : ["*://3g.163.com/*","*://m.home.163.com/*"]
+        "matches" : ["*://3g.163.com/*",
+                    "*://m.home.163.com/*"]
     },{
         "css" : ["baidu.css"],
         "matches" : [
@@ -37,7 +38,8 @@
         "matches" : ["*://*.zhihu.com/*"]
     },{
         "css" : ["36kr.css"],
-        "matches" : ["*://*.36kr.com/*"]
+        "matches" : ["*://m.36kr.com/",
+                    "*://m.36kr.com/p/*"]
     },{
         "css" : ["sina.css"],
         "matches" : ["*://*.sina.cn/*"]

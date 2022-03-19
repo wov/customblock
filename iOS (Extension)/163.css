@@ -133,7 +133,7 @@ a > *{
     pointer-events:none;
 }
 
-.to-app{display:none!important;}
+/*.to-app{display:none!important;}*/
 
 /*展开收起的按钮*/
 .toggle-btn{
@@ -283,6 +283,11 @@ main > article{
         background:#121212!important;
     }
     
+    .page-btn, .page-btn:visited{
+        background:rgba(0,0,0,0.93)!important;
+        color: rgba(255,255,255,0.87)!important;
+    }
+    
 }
 
 /**选择城市页面**/
@@ -338,3 +343,17 @@ main > article{
     }
 
 }
+
+/*special 页面*/
+@media (prefers-color-scheme: dark) {
+    .newsTitle{
+        color: rgba(255,255,255,0.87)!important;
+    }
+    
+    h2{
+        background:none!important;
+        color: rgba(255,255,255,0.87)!important;
+    }
+}
+
+
