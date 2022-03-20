@@ -65,6 +65,9 @@
     },{
         "css" : ["smzdm.css"],
         "matches" : ["*://*.smzdm.com/*"]
+    },{
+        "css" : ["v2ex.css"],
+        "matches" : ["*://v2ex.com/*"]
     }],
 
     "browser_action": {

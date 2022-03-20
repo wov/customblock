@@ -1,0 +1,98 @@
+/*添加暗黑模式*/
+@media (prefers-color-scheme: dark) {
+    html,body{
+        background:#121212!important;
+        color:rgba(255,255,255,0.87)!important;
+    }
+    
+    #site-header{
+        background:#121212!important;
+    }
+    
+    #LogoMobile{
+        filter: brightness(0) invert(1);
+    }
+    
+    #Wrapper{
+        background:rgba(255,255,255,0.08)!important;
+    }
+    
+    .box{
+        background:#121212!important;
+        color:rgba(255,255,255,0.87)!important;
+    }
+    
+    a.tab:active, a.tab:link, a.tab:visited{
+        color:rgba(255,255,255,0.6)!important;
+    }
+    
+    a.tab:hover{
+        background:rgba(255,255,255,0.08)!important;
+    }
+    
+    a:active, a:link, a:visited{
+        color:rgba(255,255,255,0.87)!important;
+    }
+    a:hover{
+        color:rgba(255,255,255,0.6)!important;
+    }
+    
+    a.node:active, a.node:link, a.node:visited,a.node:hover{
+        background:rgba(255,255,255,0.08)!important;
+    }
+    
+    .cell{
+        border-color:rgba(255,255,255,0.08)!important;
+    }
+    
+   a.count_blue:visited ,a.count_blue:hover,a.count_blue:link,
+   a.count_green:visited,a.count_green:hover,a.count_green:link,
+   a.count_livid:visited,a.count_livid:hover,a.count_livid:link,
+   a.count_orange:visited,a.count_orange:hover,a.count_orange:link{
+        background-color:rgba(255,255,255,0.08)!important;
+    }
+   
+/*  详情页 */
+
+    .header,h2,.box,hr{
+        border-color:rgba(255,255,255,0.08)!important;
+    }
+    
+    hr{
+        background-color:rgba(255,255,255,0.08)!important;
+    }
+    
+    .topic_content{
+        color:rgba(255,255,255,0.87)!important;
+    }
+    
+    .tag:hover,.tag:visited,.tag:link{
+        background:rgba(255,255,255,0.08)!important;
+    }
+    
+    .page_current{
+        background:rgba(255,255,255,0.08)!important;
+        color:rgba(255,255,255,0.87)!important;
+    }
+    
+    .page_normal:active, .page_normal:link, .page_normal:visited{
+        background:rgba(255,255,255,0.08)!important;
+        color:rgba(255,255,255,0.87)!important;
+    }
+    
+    .reply_content{
+        color:rgba(255,255,255,0.87)!important;
+    }
+    
+    .no{
+        background:rgba(255,255,255,0.08)!important;
+        color:rgba(255,255,255,0.87)!important;
+    }
+    
+    
+    #Bottom{
+        background:rgba(255,255,255,0.08)!important;
+        color:rgba(255,255,255,0.87)!important;
+    }
+    
+}

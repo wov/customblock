@@ -16,10 +16,6 @@
 			</dict>
 			<dict>
 				<key>Script</key>
-				<string>taobao.js</string>
-			</dict>
-			<dict>
-				<key>Script</key>
 				<string>bilibil.js</string>
 			</dict>
 			<dict>
@@ -29,6 +25,10 @@
 		</array>
 		<key>SFSafariStyleSheet</key>
 		<array>
+			<dict>
+				<key>Style Sheet</key>
+				<string>v2ex.css</string>
+			</dict>
 			<dict>
 				<key>Style Sheet</key>
 				<string>smzdm.css</string>
@@ -74,6 +74,7 @@
 		<dict>
 			<key>Allowed Domains</key>
 			<array>
+				<string>v2ex.com</string>
 				<string>*.smzdm.com</string>
 				<string>*.jianshu.com</string>
 				<string>*.sina.cn</string>
