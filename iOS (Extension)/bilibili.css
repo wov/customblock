@@ -124,9 +124,9 @@ a > *{
 }
 
 /*把原来跳转到app的去掉*/
-.video-list .card-box .v-card-toapp{
-    display:none!important;
-}
+/*.video-list .card-box .v-card-toapp{*/
+/*    display:none!important;*/
+/*}*/
 
 .video-list .card-box .v-card-toapp.__pudding_create{
     display:block!important;

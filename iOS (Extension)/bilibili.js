@@ -9,7 +9,7 @@ document.addEventListener('click', event => {
     if(target.closest('.v-card-single')){
         setTimeout( _ => {
             addNativePlayButton();
-            rebulidVideoRelated();
+//            rebulidVideoRelated();
         },1000)
     }
     
