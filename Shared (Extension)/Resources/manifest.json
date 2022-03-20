@@ -28,7 +28,8 @@
             "*://www.baidu.com/*",
             "*://m.baidu.com/*",
             "*://baike.baidu.com/item/*",
-            "*://zhidao.baidu.com/question/*"
+            "*://zhidao.baidu.com/question/*",
+            "*://baijiahao.baidu.com/s*"
         ]
     },{
         "css" : ["xiaohongshu.css"],

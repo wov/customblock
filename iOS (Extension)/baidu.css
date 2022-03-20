@@ -107,10 +107,14 @@ a[data-module=entrance]{
         filter: brightness(0) invert(1);
     }
     
+    ._63stz74{
+        color:rgba(255,255,255,0.87)!important;
+    }
+    
 }
 /***搜索结果页去广告***/
 
-.ec_ad_results{display:none!important;}
+/*.ec_ad_results{display:none!important;}*/
 /*.c-result{display:none!important;}*/
 
 /*去掉领话费*/
@@ -297,7 +301,7 @@ a[data-module=entrance]{
     }
     
     .c-gap-left-small{
-        background:rgba(255,255,255,0.07)!important;
+/*        background:rgba(255,255,255,0.07)!important;*/
     }
     
     ._2Q19f{display:none!important;}
@@ -401,6 +405,42 @@ body.scrollHide{
 /*精彩推荐*/
 ._3cAIWshMtS86T-V_NTTzch{display:none!important;}
 .infinite-scroll-component__outerdiv{display:none!important;}
+
+@media (prefers-color-scheme: dark) {
+    .landingHead{
+        background:#121212!important;
+    }
+    
+    .landingHead h1,.landingHead .infoSet{
+        color:rgba(255,255,255,0.87)!important;
+    }
+    
+    .mainContent{
+        background:#121212!important;
+        color:rgba(255,255,255,0.87)!important;
+    }
+    .mainContent img{
+        filter: brightness(0.8);
+    }
+    
+    #content_wrapper{
+        border:none!important;
+    }
+    
+    ._2XKy-X8cYkv-8A7g0HIRIi ._2a_7OPRkh_5hhJ5Fv1HPgI{
+        filter: brightness(0) invert(1);
+    }
+    
+    .horizontal,._2XKy-X8cYkv-8A7g0HIRIi{
+        background:#121212!important;
+    }
+    
+    ._2XKy-X8cYkv-8A7g0HIRIi ._2c5sKfEMs0kjcCqDQnV3Hc{
+        color:rgba(255,255,255,0.87)!important;
+    }
+    
+}
+
 
 
 /*baidu 百科 详情页*/
