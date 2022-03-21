@@ -354,6 +354,58 @@ main > article{
         background:none!important;
         color: rgba(255,255,255,0.87)!important;
     }
+    
+    .banner-digest{
+        color: rgba(255,255,255,0.6)!important;
+        border-color:rgba(255,255,255,0.11)!important;
+    }
+    
+    .timeline-holder>.timeline-item:first-child .point-icon,
+    .timeline-holder .timeline-item:last-child .point-icon{
+        background:none!important;
+    }
+    
+    .t-item-title{
+        color: rgba(255,255,255,0.87)!important;
+    }
+    
+    .more-news-btn, .submit-vote-btn{
+        background:rgba(255,255,255,0.07)!important;
+        border:none!important;
+        box-shadow:none!important;
+    }
+    
+    .timeline-item .n-list{
+        border-color:rgba(255,255,255,0.11)!important;
+    }
+    
+    .timeline-item:last-of-type .n-list{
+        border:none!important;
+    }
+    
+    .topNews .newsPage>li:not(:last-child){
+        border-color:rgba(255,255,255,0.11)!important;
+    }
+    
+    .newsPage>.newsHead .newsTips .join,
+    .big-img-news .newsTips .join{
+        background:rgba(255,255,255,0.07)!important;
+    }
+    
+    .newsPage>.newsHead .newsTips{
+        color: rgba(255,255,255,0.6)!important;
+    }
+    
+    .newsPage>.newsHead .newsTips i{
+        display:none;
+    }
+    
+    .big-img-news .newsTips .advance, .big-img-news .newsTips .playBack{
+        background:none!important;
+        color: rgba(255,255,255,0.6)!important;
+    }
+    
+    
 }
 
 

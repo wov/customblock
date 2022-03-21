@@ -22,6 +22,13 @@
         color:rgba(255,255,255,0.87)!important;
     }
     
+    a.balance_area:active,
+    a.balance_area:link,
+    a.balance_area:visited,
+    a.balance_area:hover{
+        background:rgba(255,255,255,0.08)!important;
+    }
+    
     a.tab:active, a.tab:link, a.tab:visited{
         color:rgba(255,255,255,0.6)!important;
     }
@@ -94,5 +101,37 @@
         background:rgba(255,255,255,0.08)!important;
         color:rgba(255,255,255,0.87)!important;
     }
+    
+    
+    .wwads-cn{
+        background:rgba(255,255,255,0.08)!important;
+    }
+    
+    .social_label:visited,
+    .social_label:active,
+    .social_label:link,
+    .social_label:hover{
+        background:rgba(255,255,255,0.08)!important;
+    }
+    
+    
+    .dock_area{
+        background:rgba(255,255,255,0.05)!important;
+    }
+    
+    
+    a.op:visited, button.op:visited,
+    a.op:active, button.op:active,
+    a.op:link, button.op:link,
+    a.op:hover, button.op:hover{
+        background:rgba(255,255,255,0.08)!important;
+    }
+    
+    .subtle{
+        background:rgba(255,255,255,0.08)!important;
+        border-color:rgba(255,255,255,0.11)!important;
+    }
+    
+
     
 }

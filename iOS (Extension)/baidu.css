@@ -322,6 +322,10 @@ a[data-module=entrance]{
     .c-tags-scroll-right-mask{
         display:none!important;
     }
+    
+    .c-slink-auto, .defaultmode .c-slink-new-strong{
+        background:rgba(255,255,255,0.07)!important;
+    }
 }
 
 /***视频页面***/
@@ -435,6 +439,10 @@ body.scrollHide{
     }
     
     ._2XKy-X8cYkv-8A7g0HIRIi ._2c5sKfEMs0kjcCqDQnV3Hc{
+        color:rgba(255,255,255,0.87)!important;
+    }
+    
+    .mainContent p{
         color:rgba(255,255,255,0.87)!important;
     }
     
