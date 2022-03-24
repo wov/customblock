@@ -405,7 +405,14 @@ main > article{
         color: rgba(255,255,255,0.6)!important;
     }
     
-    
 }
 
 
+/*图片频道*/
+
+@media (prefers-color-scheme: dark) {
+    .photoset-square{
+        background:rgba(255,255,255,0.07)!important;
+        box-shadow:none!important;
+    }
+}

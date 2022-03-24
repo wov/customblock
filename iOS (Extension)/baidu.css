@@ -855,6 +855,38 @@ div[class^="wgt-"][class$="-asp"]{
     .iknow-root-dom-element .w-question-list-video .item-text .item-title{
         color:rgba(255,255,255,0.87)!important;
     }
+    
+    .iknow-root-dom-element .question-answer-container .question-answer-btn-wraper .question-answer-viewall, .iknow-root-dom-element .question-answer-container .question-answer-btn-wraper .question-answer-viewall-txt{
+        color:rgba(255,255,255,0.6)!important;
+    }
+    
+    .iknow-root-dom-element .wgt-replies h2.dec{
+        color:rgba(255,255,255,0.87)!important;
+    }
+    
+    .iknow-root-dom-element .w-detail-full .w-detail-content .w-reply-yun .w-reply-yun-content-info .w-reply-yun-filetitle{
+        color:rgba(255,255,255,0.87)!important;
+    }
+    
+    .iknow-root-dom-element .question-answer-container .question-answer-deploy .question-answer-deploy-btn{
+        background:rgba(255,255,255,0.08)!important;
+    }
+    
+    .iknow-root-dom-element #iknow-common-header .iknow-msg-list,
+    .iknow-root-dom-element #iknow-common-header .appendix{
+        background:#121212!important;
+        opacity:0.95;
+    }
+    
+    .iknow-root-dom-element #iknow-common-header .iknow-msg-list .msg-list .msg-link:before{
+        background:rgba(255,255,255,0.08)!important;
+    }
+    
+    .iknow-root-dom-element #iknow-common-header .iknow-msg-list .msg-list .ico{
+        filter: brightness(0) invert(1);
+    }
+    
+    
 }
 
 
