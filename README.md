@@ -18,7 +18,6 @@ https://testflight.apple.com/join/bQyq38by
 ### 目前支持的网站如下
 - baidu（首页、搜索结果页、百度知道详情页、百度百科详情页）
    - 首页去掉了新闻
-   - 搜索结果页去掉了部分广告
    - 百家号去掉了提示安装app的弹窗
    - 添加了屏蔽域名的功能
    - 增加dark mode
@@ -26,6 +25,7 @@ https://testflight.apple.com/join/bQyq38by
    - 首页新闻列表去掉了跳转app的方式
    - 去掉了部分广告
    - 增加dark mode
+   - 优化了详情页的性能，他们的性能真的太烂了，浏览器老是崩溃
 - zhihu
    - 文章默认展开
    - 去掉打开app的弹窗
