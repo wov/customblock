@@ -24,7 +24,7 @@ function addCloseAndHideResult(){
         _close.className = "__pudding_close";
         _close.addEventListener('click',function(){
             
-            const c = confirm(`【布丁扩展】确定屏蔽：${host}的结果？`);
+            const c = confirm(`【布丁扩展】\n\n是否屏蔽来自“${host}”的结果？`);
             if(c){
                 blockSites.push(host);
                 localStorage.setItem(BS_NAME,JSON.stringify(blockSites));
@@ -44,6 +44,15 @@ setTimeout( _ => {
 },500)
 
 addCloseAndHideResult();
+
+//点击下一页的时候
+const dom_next = document.querySelector('.new-pagenav-right');
+dom_next.addEventListener('click', _ => {
+    setTimeout( _ => {
+        addCloseAndHideResult();
+    },1000)
+})
+
 
 document.addEventListener('scroll', _ => {
     addCloseAndHideResult();

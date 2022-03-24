@@ -110,6 +110,21 @@ a[data-module=entrance]{
         color:rgba(255,255,255,0.87)!important;
     }
     
+    .suggest-content .direct-new.sug-improve .left-section .content-section .title-section .title,
+    .suggest-content .direct-new.sug-improve .left-section .content-section .desc-section{
+        color:rgba(255,255,255,0.87)!important;
+    }
+    
+    
+    .new-pagenav .c-icon{
+        color:rgba(255,255,255,0.87)!important;
+    }
+    
+    .c-result-content span{
+        color:rgba(255,255,255,0.87)!important;
+    }
+    
+    
 }
 /***搜索结果页去广告***/
 
