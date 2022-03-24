@@ -12,6 +12,10 @@
 		<array>
 			<dict>
 				<key>Script</key>
+				<string>baidu.js</string>
+			</dict>
+			<dict>
+				<key>Script</key>
 				<string>smzdm.js</string>
 			</dict>
 			<dict>

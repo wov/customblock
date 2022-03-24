@@ -24,6 +24,3 @@ replaceLinks();
 document.addEventListener('scroll', _ => {
     replaceLinks();
 })
-
-
-
