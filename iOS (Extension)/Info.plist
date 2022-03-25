@@ -12,6 +12,10 @@
 		<array>
 			<dict>
 				<key>Script</key>
+				<string>douban.js</string>
+			</dict>
+			<dict>
+				<key>Script</key>
 				<string>baidu.js</string>
 			</dict>
 			<dict>
@@ -29,6 +33,10 @@
 		</array>
 		<key>SFSafariStyleSheet</key>
 		<array>
+			<dict>
+				<key>Style Sheet</key>
+				<string>douban.css</string>
+			</dict>
 			<dict>
 				<key>Style Sheet</key>
 				<string>v2ex.css</string>
@@ -78,6 +86,7 @@
 		<dict>
 			<key>Allowed Domains</key>
 			<array>
+				<string>*.douban.com</string>
 				<string>v2ex.com</string>
 				<string>*.smzdm.com</string>
 				<string>*.jianshu.com</string>

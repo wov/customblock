@@ -74,7 +74,13 @@
     },{
         "css" : ["v2ex.css"],
         "matches" : ["*://*.v2ex.com/*"]
-    }],
+    },{
+        "js" : ["douban.js"],
+        "matches" : ["*://movie.douban.com/*"]
+    },{
+        "css" : ["douban.css"],
+        "matches" : ["*://movie.douban.com/*"]
+    },],
 
     "browser_action": {
         "default_popup": "popup.html",
