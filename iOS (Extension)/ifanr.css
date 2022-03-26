@@ -15,6 +15,9 @@
     white-space: normal!important;
 }
 
+.popup-top{
+    display:none!important;
+}
 
 /*添加dark mode*/
 @media (prefers-color-scheme: dark) {
@@ -62,6 +65,8 @@
     .home-container .nav-container ul .nav-item{
         color: rgba(255,255,255,0.87)!important;
     }
+    
+    
     
     
     /*菜单页面 */
@@ -172,6 +177,10 @@
     }
     
     #BuzzPages .expand-more{
+        color: rgba(255,255,255,0.87)!important;
+    }
+    
+    .main-singular .entry-content ol, .main-singular .entry-content ul{
         color: rgba(255,255,255,0.87)!important;
     }
     
