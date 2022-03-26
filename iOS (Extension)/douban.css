@@ -7,174 +7,260 @@
 /*  and (-webkit-min-device-pixel-ratio: 2)*/
 /*  and (orientation: portrait) {*/
 /*      */
-      html body, html td, html th, html .pl, html input{
-          font-size:12px!important;
-      }
-      
-      body{
-          width: 100%!important;
-      }
-      
-      #db-global-nav{
-          width: 100%!important;
-          min-width: 0!important;
-          height: auto!important;
-      }
-      
-      
-      #db-global-nav .top-nav-doubanapp{
-          display:none;
-      }
-      
-      .nav{
-           min-width:unset!important;
-           margin-bottom:10px!important;
-      }
-      
-      .nav .nav-primary, .nav .nav-secondary{
-          width:100%!important;
-          padding: 0 10px!important;
-          box-sizing:border-box;
-      }
-      
-      .nav .nav-logo{
-          float:none!important;
-          width:72px!important;
-          height:28px!important;
-          background-size:contain!important;
-      }
-      
-      .nav-search{
-          margin:0!important;
-      }
-      
-      .nav-search fieldset{
-          display: flex;
-      }
-      
-      .nav-search .inp{
-          width: auto!important;
-          flex:1;
-          float:none!important;
-      }
-      
-      .nav-secondary .nav-items{
-          font-size:12px!important
-      }
-      
-      #wrapper{
-          width:100%!important;
-          padding: 0 10px!important;
-          box-sizing:border-box;
-      }
-      
-      .grid-16-8 .article{
-          float:none!important;
-          width: auto!important;
-          padding: 0!important;
-      }
-      
-      .grid-16-8 .aside{
-          float:none!important;
-          width: auto!important;
-      }
-      
-      html h2{
-          font-size:14px!important
-      }
-      
-      #content h2{
-          position: relative;
-      }
-      
-      #content h2 .filter{
-          margin:0!important;
-      }
-      
-      
-      #content h2 .more-link{
-          position: absolute;
-          right:0;
-          top:5px;
-      }
-      
-      #content h2  .tags label{
-          margin-right: 5px!important;
-      }
-      
-      #content h2 span{
-          font-size:12px!important
-      }
-      
-      .gaia.gaia-lite .fliter-wp h2>[data-type], .gaia.gaia-lite .fliter-wp .filter{
-          float:none!important;
-      }
-      
-      .gaia.gaia-lite .fliter-wp .filter{
-          width: auto!important;
-      }
-      
-      .gaia.gaia-lite .fliter-wp .more-link{
-          float:none!important;
-      }
-      
-      .gaia .list-wp{
-          width: 100%!important;
-      }
-      
-      #gallery-frames{
-          overflow:hidden;
-      }
-      
-      .rating_answer{
-          width: 100%!important;
-          box-sizing:border-box;
-      }
-      
-      .gaia .slider .slide-container{
-          height:auto!important;
-      }
-      
-      .gaia .slider .slide-container .slide-wrapper{
-          width:100%!important;
-          position:relative!important;
-          left:0!important;
-      }
-      
-      .gaia .slider .slide-container .slide-wrapper .slide-page{
-          float:none!important;
-          width:100%!important;
-      }
-      
-      .gaia .slider .slide-container .slide-wrapper .slide-page:first-of-type,
-      .gaia .slider .slide-container .slide-wrapper .slide-page:last-of-type{
-          display:none!important;
-      }
-      
-      .gaia .slider .slide-ctrl{
-          display:none!important;
-      }
-    
-    
-    /*电影详情页*/
-    .subject{
-        width: 100%!important;
-    }
-    #mainpic{
-        float:none!important;
-    }
-    #info{
-        float:none!important;
-        width: 100%!important;
-        max-width:unset!important;
-    }
-    
-    #recommendations .recommendations-bd{
-        margin: 0!important;
-    }
-    
-    #recommendations .recommendations-bd dl{
-        margin-right: 5px!important;
-    }
+html body, html td, html th, html .pl, html input{
+    font-size:12px!important;
+}
+
+body{
+    width: 100%!important;
+}
+
+#db-global-nav{
+    width: 100%!important;
+    min-width: 0!important;
+    height: auto!important;
+}
+
+
+#db-global-nav .top-nav-doubanapp{
+    display:none;
+}
+
+.nav{
+    min-width:unset!important;
+    margin-bottom:10px!important;
+}
+
+.nav .nav-primary, .nav .nav-secondary{
+    width:100%!important;
+    padding: 0 10px!important;
+    box-sizing:border-box;
+}
+
+.nav .nav-logo{
+    float:none!important;
+    width:72px!important;
+    height:28px!important;
+    background-size:contain!important;
+}
+
+.nav-search{
+    margin:0!important;
+}
+
+.nav-search fieldset{
+    display: flex;
+}
+
+.nav-search .inp{
+    width: auto!important;
+    flex:1;
+    float:none!important;
+}
+
+.nav-secondary .nav-items{
+    font-size:12px!important
+}
+
+#wrapper{
+    width:100%!important;
+    padding: 0 10px!important;
+    box-sizing:border-box;
+}
+
+.grid-16-8 .article{
+    float:none!important;
+    width: auto!important;
+    padding: 0!important;
+}
+
+.grid-16-8 .aside{
+    float:none!important;
+    width: auto!important;
+    position:relative!important;
+    inset: 0!important;
+}
+
+html h2{
+    font-size:14px!important
+}
+
+#screening .ui-slide-content{
+    width:100%;
+    overflow:scroll!important;
+    -webkit-overflow-scrolling: touch; /* Lets it scroll lazy */
+}
+
+#content h2{
+    position: sticky;
+    top:0;
+}
+
+#content h2 .filter{
+    margin:0!important;
+}
+
+#content h2 .more-link{
+    position: absolute;
+    right:0;
+    top:5px;
+}
+
+#content h2  .tags label{
+    margin-right: 5px!important;
+}
+
+#content h2 span{
+    font-size:12px!important
+}
+
+#screening .ui-slide-item{
+    width:auto!important;
+}
+
+/*暂时没有浏览器支持Orz*/
+#screening .ui-slide-item:blank{
+    display:none;
+}
+
+
+
+.gaia.gaia-lite .fliter-wp h2>[data-type], .gaia.gaia-lite .fliter-wp .filter{
+    float:none!important;
+}
+
+.gaia.gaia-lite .fliter-wp .filter{
+    width: auto!important;
+}
+
+.gaia.gaia-lite .fliter-wp .more-link{
+    float:none!important;
+}
+
+.gaia .list-wp{
+    width: 100%!important;
+}
+
+#gallery-frames{
+    overflow:hidden;
+}
+
+.rating_answer{
+    width: 100%!important;
+    box-sizing:border-box;
+}
+
+.gaia .slider .slide-container{
+    height:auto!important;
+}
+
+.gaia .slider .slide-container .slide-wrapper{
+    width:100%!important;
+    position:relative!important;
+    left:0!important;
+}
+
+.gaia .slider .slide-container .slide-wrapper .slide-page{
+    float:none!important;
+    width:100%!important;
+}
+
+.gaia .slider .slide-container .slide-wrapper .slide-page:first-of-type,
+.gaia .slider .slide-container .slide-wrapper .slide-page:last-of-type{
+    display:none!important;
+}
+
+.gaia .slider .slide-ctrl{
+    display:none!important;
+}
+
+
+/*电影详情页*/
+.subject{
+    width: 100%!important;
+}
+#mainpic{
+    float:none!important;
+}
+#info{
+    float:none!important;
+    width: 100%!important;
+    max-width:unset!important;
+}
+
+#recommendations .recommendations-bd{
+    margin: 0!important;
+}
+
+#recommendations .recommendations-bd dl{
+    margin-right: 5px!important;
+}
+
+#interest_sectl{
+    float:none!important;
+    position:absolute;
+    right:0;
+    top:0;
+}
+
+#celebrities .celebrities-list.__oneline li{
+    margin: 0 5px!important;
+}
+
+.related-pic-bd li{
+    margin: 5px;
+}
+
+#dale_movie_nowplaying_top_left{
+    display:none!important;
+}
+
+#nowplaying .mod-bd .lists, #upcoming .mod-bd .lists{
+    margin:0!important;
+}
+
+.list-item{
+    margin:4px!important;
+}
 
 /*}*/
+
+
+.pudding_request_desktop_wrap{
+    padding: 20px;
+    width:90%;
+    margin: 0 auto;
+    position: fixed;
+    bottom: 3px;
+    background: rgba(255,255,255,0.95);
+    border-radius: 5px;
+    left: 5%;
+    box-sizing:border-box;
+    text-align: center;
+    box-shadow: 0 0 3px rgba(33,33,33,0.3);
+}
+
+.pudding_request_desktop_wrap.displaynone{
+    display:none;
+}
+
+.pudding_request_desktop_wrap .title{
+    font-size:16px;
+    margin-bottom: 10px;
+}
+
+
+.pudding_request_desktop_wrap .content,
+.pudding_request_desktop_wrap a{
+    display:block;
+    font-size:14px;
+    margin-bottom: 10px;
+    text-align:left;
+}
+
+.pudding_request_desktop_wrap button{
+    font-size:14px;
+}
+
+
+

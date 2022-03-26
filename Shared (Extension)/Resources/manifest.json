@@ -76,10 +76,16 @@
         "matches" : ["*://*.v2ex.com/*"]
     },{
         "js" : ["douban.js"],
-        "matches" : ["*://movie.douban.com/*"]
+        "matches" : [
+            "*://m.douban.com/movie/*",
+            "*://movie.douban.com/*"
+        ]
     },{
         "css" : ["douban.css"],
-        "matches" : ["*://movie.douban.com/*"]
+        "matches" : [
+            "*://m.douban.com/movie/*",
+            "*://movie.douban.com/*"
+        ]
     }],
 
     "browser_action": {
