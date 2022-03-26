@@ -6,6 +6,11 @@ meta.name = "viewport";
 meta.content = "width=device-width, initial-scale=1, user-scalable=no";
 document.getElementsByTagName('head')[0].appendChild(meta);
 
+setTimeout( _ => {
+    window.scrollTo(0, 0);
+},500)
+
+
 
 // 移除target
 function removeAllTarget(){
@@ -17,10 +22,57 @@ function removeAllTarget(){
 
 removeAllTarget();
 
+document.addEventListener('scroll', _ => {
+    removeAllTarget();
+})
 
 function addRequestDesktopTip(){
-    
     if(document.querySelector('.pudding_request_desktop_wrap')){return;}
+    
+    var styles = `
+        .pudding_request_desktop_wrap{
+            padding: 20px;
+            width:90%;
+            margin: 0 auto;
+            position: fixed;
+            bottom: 3px;
+            background: rgba(255,255,255,0.95);
+            border-radius: 5px;
+            left: 5%;
+            box-sizing:border-box;
+            text-align: center;
+            box-shadow: 0 0 3px rgba(33,33,33,0.3);
+        }
+
+        .pudding_request_desktop_wrap.displaynone{
+            display:none;
+        }
+
+        .pudding_request_desktop_wrap .title{
+            font-size:16px;
+            margin-bottom: 10px;
+        }
+
+
+        .pudding_request_desktop_wrap .content,
+        .pudding_request_desktop_wrap a{
+            display:block;
+            font-size:14px;
+            margin-bottom: 10px;
+            text-align:left;
+        }
+
+        .pudding_request_desktop_wrap button{
+            font-size:14px;
+        }
+    `
+
+    var styleSheet = document.createElement("style")
+    styleSheet.innerText = styles
+    document.head.appendChild(styleSheet)
+
+    
+    
     
     const wrap = document.createElement('DIV');
     wrap.className = 'pudding_request_desktop_wrap';

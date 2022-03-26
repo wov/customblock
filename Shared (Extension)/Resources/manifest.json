@@ -83,7 +83,6 @@
     },{
         "css" : ["douban.css"],
         "matches" : [
-            "*://m.douban.com/movie/*",
             "*://movie.douban.com/*"
         ]
     }],

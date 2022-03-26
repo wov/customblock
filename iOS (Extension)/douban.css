@@ -226,41 +226,79 @@ html h2{
 /*}*/
 
 
-.pudding_request_desktop_wrap{
-    padding: 20px;
-    width:90%;
-    margin: 0 auto;
-    position: fixed;
-    bottom: 3px;
-    background: rgba(255,255,255,0.95);
-    border-radius: 5px;
-    left: 5%;
+/*视频页*/
+
+.stage{
+    width:100%!important;
+}
+
+#player{
+    float:none!important;
+    width:100%!important;
+}
+
+#player-cover{
+    width:100%!important;
+}
+
+.video-js{
+    width:100%!important;
+}
+
+
+#video-list{
+    float:none!important;
+    height: auto!important;
+    width: 100%!important;
+    margin: 0!important;
+    padding: 5px;
     box-sizing:border-box;
-    text-align: center;
-    box-shadow: 0 0 3px rgba(33,33,33,0.3);
 }
 
-.pudding_request_desktop_wrap.displaynone{
-    display:none;
+#video-list-wp{
+    position:relative!important;
+    width:auto!important;
 }
 
-.pudding_request_desktop_wrap .title{
-    font-size:16px;
-    margin-bottom: 10px;
+.video-list-col{
+    float:none!important;
+}
+
+.video-list-col li{
+    display:inline-block!important;
+    width: 32%!important;
+    padding:0!important;
+    background:none!important;
+}
+
+.pr-video{
+    width:100%!important;
+}
+
+.pr-video img{
+    width:100%!important;
+    object-fit:cover;
+}
+
+#video-list-op{
+    display:none!important;
+}
+
+.main-info{
+    width:100%!important;
+}
+
+.aside{
+    position:relative!important;
+    width:100%!important;
+    inset:0!important;
 }
 
 
-.pudding_request_desktop_wrap .content,
-.pudding_request_desktop_wrap a{
-    display:block;
-    font-size:14px;
-    margin-bottom: 10px;
-    text-align:left;
+#recent_movies li, #best_movies li{
+    margin-right:12px!important;
 }
 
-.pudding_request_desktop_wrap button{
-    font-size:14px;
+#photos li{
+    margin-right:12px!important;
 }
-
-
-
