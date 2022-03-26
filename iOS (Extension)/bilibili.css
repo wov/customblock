@@ -85,6 +85,54 @@
         background-color:#121212!important;
     }
     
+    .m-search-search-bar{
+        background-color:#121212!important;
+    }
+    
+    .m-search-hot .list .hotword-item{
+        color:rgba(255,255,255,0.87)!important;
+        background:rgba(255,255,255,0.08)!important;
+    }
+    
+    .m-search-history{
+        border-color:rgba(255,255,255,0.08)!important;
+    }
+    
+    .m-search-history .history-list li a{
+        color:rgba(255,255,255,0.87)!important;
+    }
+    
+    .m-search-suggest{
+        background-color:#121212!important;
+    }
+    
+    .m-search-suggest .suggest-list li{
+        color:rgba(255,255,255,0.87)!important;
+    }
+    
+    .m-search-result .tabs{
+        background-color:#121212!important;
+    }
+    
+    .m-search-result .tabs .tab-item{
+        color:rgba(255,255,255,0.87)!important;
+    }
+    
+    .m-search-together .order-tabs{
+        background:rgba(255,255,255,0.08)!important;
+        border-color:rgba(255,255,255,0.08)!important;
+    }
+    
+    .m-search-together .order-tabs .order-tab-item{
+        color:rgba(255,255,255,0.87)!important;
+    }
+    
+    .m-search-result .result-panel{
+        background-color:#121212!important;
+    }
+    
+    
+    
 }
 
 
