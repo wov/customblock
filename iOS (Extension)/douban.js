@@ -89,9 +89,13 @@ function addRequestDesktopTip(){
     content2.textContent = '2.点击请求桌面网站';
     content2.className = "content";
     
+    const content3 = document.createElement('P');
+    content3.textContent = '3.可能也需要点击豆瓣右上角电脑图标';
+    content3.className = "content";
+    
     const a = document.createElement('A');
     a.href = 'https://movie.douban.com';
-    a.textContent = '3.点击这里访问桌面版';
+    a.textContent = '4.点击这里访问桌面版';
     
     const button = document.createElement('BUTTON');
     button.textContent = '不再提示'
@@ -105,6 +109,7 @@ function addRequestDesktopTip(){
     wrap.appendChild(title);
     wrap.appendChild(content1);
     wrap.appendChild(content2);
+    wrap.appendChild(content3);
     wrap.appendChild(a);
     wrap.appendChild(button);
     

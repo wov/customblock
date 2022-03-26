@@ -94,6 +94,7 @@ html h2{
 #content h2{
     position: sticky;
     top:0;
+    background:#fff;
 }
 
 #content h2 .filter{
@@ -207,8 +208,12 @@ html h2{
     margin: 0 5px!important;
 }
 
+.related-pic-bd{
+    text-align: left!important;
+}
+
 .related-pic-bd li{
-    margin: 5px;
+    margin: 4px;
 }
 
 #dale_movie_nowplaying_top_left{
@@ -301,4 +306,27 @@ html h2{
 
 #photos li{
     margin-right:12px!important;
+}
+
+
+.comment_btn{
+    float:none!important;
+    
+}
+
+
+.gaia{
+    overflow:unset!important;
+}
+
+.gaia .fliter-wp,.reviews-hd{
+    position:sticky;
+    top:0;
+    background:#fff;
+    z-index:1000;
+}
+
+.gaia .fliter-wp h2{
+    margin-bottom: 0!important;
+    
 }
