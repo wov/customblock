@@ -29,7 +29,9 @@
             "*://m.baidu.com/*",
             "*://baike.baidu.com/item/*",
             "*://zhidao.baidu.com/question/*",
-            "*://baijiahao.baidu.com/s*"
+            "*://baijiahao.baidu.com/s*",
+            "*://jingyan.baidu.com/article/*"
+
         ]
     },{
         "js" : ["baidu.js"],

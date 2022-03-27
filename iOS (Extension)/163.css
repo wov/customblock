@@ -32,13 +32,13 @@ iframe{display:none!important;}
 .wap-section .wap-linklist .link-item{
     margin-left:0.1rem!important;
     overflow:hidden;
-    width: 3.5em;
-
+    width: 3.5em!important;
 }
 
 /*这个动画体验非常糟糕*/
 img[lazy=loaded]{
     transition:none!important;
+    animation:none!important;
 }
 
 /*暗黑模式*/
