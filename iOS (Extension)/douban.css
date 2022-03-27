@@ -89,6 +89,7 @@ html h2{
     width:100%;
     overflow:scroll!important;
     -webkit-overflow-scrolling: touch; /* Lets it scroll lazy */
+    left:0!im
 }
 
 #content h2{

@@ -23,7 +23,8 @@ function addCloseAndHideResult(){
         const _close = document.createElement('div');
         _close.className = "__pudding_close";
         _close.addEventListener('click',function(){
-            
+            let blockSites = localStorage.getItem(BS_NAME) ? JSON.parse(localStorage.getItem(BS_NAME)) : [];
+
             const c = confirm(`【布丁扩展】\n\n是否屏蔽来自“${host}”的结果？`);
             if(c){
                 blockSites.push(host);
