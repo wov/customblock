@@ -37,7 +37,8 @@
         "js" : ["baidu.js"],
         "matches" : [
             "*://www.baidu.com/*",
-            "*://m.baidu.com/*"
+            "*://m.baidu.com/*",
+            "*://baike.baidu.com/item/*"
         ]
     },{
         "css" : ["xiaohongshu.css"],
@@ -60,10 +61,16 @@
         "matches" : ["*://*.jianshu.com/*"]
     },{
         "css" : ["bilibili.css"],
-        "matches" : ["*://*.bilibili.com/*"]
+        "matches" : ["*://m.bilibili.com/*"]
     },{
         "js" : ["bilibili.js"],
-        "matches" : ["*://*.bilibili.com/*"]
+        "matches" : ["*://m.bilibili.com/*"]
+    },{
+        "css" : ["bilibili_pc.css"],
+        "matches" : ["*://www.bilibili.com/*"]
+    },{
+        "js" : ["bilibili_pc.js"],
+        "matches" : ["*://www.bilibili.com/*"]
     },{
         "css" : ["ifanr.css"],
         "matches" : ["*://*.ifanr.com/*"]

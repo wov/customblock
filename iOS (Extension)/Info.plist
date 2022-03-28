@@ -12,6 +12,10 @@
 		<array>
 			<dict>
 				<key>Script</key>
+				<string>bilibili_pc.js</string>
+			</dict>
+			<dict>
+				<key>Script</key>
 				<string>douban.js</string>
 			</dict>
 			<dict>
@@ -33,6 +37,10 @@
 		</array>
 		<key>SFSafariStyleSheet</key>
 		<array>
+			<dict>
+				<key>Style Sheet</key>
+				<string>bilibili_pc.css</string>
+			</dict>
 			<dict>
 				<key>Style Sheet</key>
 				<string>douban.css</string>

@@ -730,6 +730,12 @@ body.scrollHide{
         color:rgba(255,255,255,0.87)!important;
     }
     
+    .baike-app-view .yx-load-more{
+        background:#121212!important;
+        color:rgba(255,255,255,0.87)!important;
+        border-color:rgba(255,255,255,0.08)!important;
+    }
+    
 }
 
 /***baidu 知道****/

@@ -1,0 +1,168 @@
+/*PC 版的样式*/
+html,body{
+    height:unset!important;
+}
+
+body{
+    min-width: unset!important;
+}
+
+.bili-header .bili-header__banner{
+    min-width: unset!important;
+}
+
+.bili-header .left-entry .entry-title, .bili-header .left-entry .download-entry, .bili-header .left-entry .default-entry, .bili-header .left-entry .loc-entry{
+    color:var(--text1)!important;
+}
+
+.bili-header .right-entry__outside .right-entry-icon{
+    color:var(--text1)!important;
+}
+
+.bili-header .bili-header__bar{
+    padding: 0 10px!important;
+    position: sticky!important;
+    display: block!important;
+    height: auto!important;
+    background:var(--bg1_float);
+}
+
+.v-popover.is-top, .v-popover.is-bottom{
+    display:none!important;
+}
+
+.bili-header .bili-header__banner{
+    display:none!important;
+}
+
+.bili-header .left-entry__title .mini-header__logo{
+    display:none!important;
+}
+
+.bili-header .slide-down{
+    animation: none!important;
+}
+
+
+.bili-header .slide-down .center-search-container{
+    margin:0!important;
+}
+
+
+.bili-header .left-entry .entry-title, .bili-header .left-entry .download-entry, .bili-header .left-entry .default-entry, .bili-header .left-entry .loc-entry,
+.bili-header .left-entry__title{
+    height: 32px!important;
+    line-height:32px!important;
+}
+
+.bili-header .left-entry .entry-title .zhuzhan-icon{
+    color:var(--text1)!important;
+}
+
+.bili-header .right-entry{
+    margin:0!important;
+    padding: 5px 0!important;
+}
+
+
+.bili-header .bili-header__channel{
+    padding: 0 10px!important;
+    height: unset!important;
+}
+
+.bili-header .bili-header__channel{
+    display:block!important;
+}
+
+.bili-header .bili-header__channel .right-channel-container{
+    display:block!important;
+}
+
+.bili-header .bili-header__channel .channel-items__right{
+    width: 100%!important;
+}
+
+.bili-header .bili-header__channel .channel-items__left{
+    display:block!important;
+    padding: 0!important;
+    border: none!important;
+}
+
+.bili-header .bili-header__channel .channel-entry-more__link, .bili-header .bili-header__channel .channel-link{
+    width:auto!important;
+    padding: 0 5px;
+    margin: 3px 5px;
+}
+
+.bili-header .bili-header__channel .channel-items__right{
+    display: block!important;
+}
+
+.bili-header .bili-header__channel .channel-link__right{
+    display:inline-block!important;
+    width:auto!important;
+    padding: 0 5px;
+    margin: 3px 5px;
+}
+
+.bili-layout{
+    padding: 0 10px!important;
+}
+
+.bili-grid{
+    display: block!important;
+    margin-bottom: 15px!important;
+}
+
+.recommend-container__2-line{
+    display:block!important;
+}
+
+.bili-video-card{
+    display: inline-block!important;
+    width: 49%!important;
+    margin: 5px 0.5%;
+}
+
+.bili-grid .recommend-container__2-line>*:nth-of-type(1n + 6){
+    display: inline-block!important;
+}
+
+.eva-extension-area .eva-extension-body{
+    display:block!important;
+}
+
+
+.bili-grid .eva-extension-area .eva-extension-body>*:nth-of-type(1n + 5){
+    display: inline-block!important;
+}
+
+/*直播*/
+.live-card-body{
+    display:block!important;
+}
+
+.bili-live-card{
+    display: inline-block!important;
+    width: 49%!important;
+    margin: 5px 0.5%;
+}
+
+
+.bili-grid .live-card-body>*:nth-of-type(1n + 7){
+    display: inline-block!important;
+}
+
+
+.aside-wrap{
+    position:relative!important;
+}
+
+
+.aside-core{
+    position:relative!important;
+}
+
+.aside-body .aside-core .carousel-slide .list-state-error{
+    padding: 30px 0!important;
+}

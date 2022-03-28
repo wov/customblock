@@ -1,6 +1,7 @@
 // block storage name.
 const BS_NAME = "pudding_block_authors";
 
+
 document.addEventListener('click', event => {
     let target = event.target;
     // 假设有链接就直接走链接了，不要使用js跳转
@@ -58,7 +59,7 @@ function addCloseAndHideResult(){
         const _close = document.createElement('div');
         _close.className = "__pudding_close";
         _close.addEventListener('click',function(){
-            
+            let blockAuthors = localStorage.getItem(BS_NAME) ? JSON.parse(localStorage.getItem(BS_NAME)) : [];
             const c = confirm(`【布丁扩展】\n\n是否在列表/搜索页中屏蔽来自“${author}”的结果？`);
             if(c){
                 blockAuthors.push(author);
