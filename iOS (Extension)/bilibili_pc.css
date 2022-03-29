@@ -156,6 +156,7 @@ body{
 
 .aside-wrap{
     position:relative!important;
+    margin-bottom: 30px;
 }
 
 
@@ -166,3 +167,157 @@ body{
 .aside-body .aside-core .carousel-slide .list-state-error{
     padding: 30px 0!important;
 }
+
+
+.video-card-list.is-main .video-card-body, .video-card-list.is-full .video-card-body{
+    display: block!important;
+}
+
+.bili-grid .video-card-list.is-main .video-card-body>*:nth-of-type(1n + 7){
+    display:inline-block!important;
+}
+
+
+.bili-layout aside{
+    margin-top: 15px;
+    margin-bottom:30px;
+}
+
+
+.bili-footer,
+.bili-footer .b-footer-wrap{
+    min-width:unset!important;
+}
+
+.bili-footer .link-box{
+    display:block!important;
+}
+
+.bili-footer .b-footer-wrap .link-box{
+    margin: 0!important;
+}
+
+.bili-footer .link-box .link-item__center{
+    width:100%!important;
+}
+
+.bili-footer .other-link .text-con{
+    width:100%!important;
+}
+
+
+.roll-btn-wrap{
+    left:unset!important;
+    right:0!important;
+}
+
+/*赛事*/
+.battle-area .battle-body{
+    display:block!important;
+}
+
+/*番剧*/
+.area-header .title{
+    font-size:18px!important;
+}
+
+
+.area-header{
+    display:block!important;
+    height:auto!important;
+}
+
+.bangumi-card-list .track-switch button{
+    font-size:12px!important;
+    padding: 3px!important;
+}
+
+.bangumi-card-body, .bangumi-card-shim{
+    display: block!important;
+}
+
+.bangumi-card-shim{
+    display:none!important;
+}
+
+.bili-bangumi-card{
+    display: inline-block!important;
+    width: 49%!important;
+    margin: 5px 0.5%;
+}
+
+.bili-grid .bangumi-card-body.is-loading>*:nth-of-type(1n + 7){
+    display: inline-block!important;
+}
+
+
+.bangumi-activity-area .bangumi-activity-body{
+    display:block!important;
+}
+
+.bili-movie-card{
+    display: inline-block!important;
+    width: 49%!important;
+    margin: 5px 0.5%;
+}
+
+.bili-grid .bangumi-activity-area .bangumi-activity-body>*:nth-of-type(1n + 9){
+    display: inline-block!important;
+}
+
+.variety-area .variety-body{
+    display:block!important;
+}
+
+.bili-grid .variety-area .variety-body>*:nth-of-type(1n + 9){
+    display: inline-block!important;
+}
+
+.information-area .information-body{
+    display:block!important;
+}
+
+.manga-card-list{
+    min-height: unset!important;
+}
+
+.cheese-card-list .cheese-card-body{
+    display:block!important;
+}
+
+.bili-grid .cheese-card-list .cheese-card-body>*:nth-of-type(1n + 7){
+    display: inline-block!important;
+}
+
+.bili-grid .information-area .information-body>*:nth-of-type(1n + 9){
+    display: inline-block!important;
+}
+
+
+.bili-article-card .bili-article-card__wrap{
+    flex-direction: column;
+}
+
+.movie-card-body{
+    display:block!important;
+}
+
+.bili-grid .movie-card-body>*:nth-of-type(1n + 7){
+    display: inline-block!important;
+}
+
+.movie-card-body{
+    display:block!important;
+}
+
+.bili-grid .movie-card-body>*:nth-of-type(1n + 7){
+    display: inline-block!important;
+}
+
+
+.bili-cheese-card{
+    display: inline-block!important;
+    width: 49%!important;
+    margin: 5px 0.5%;
+}
+
