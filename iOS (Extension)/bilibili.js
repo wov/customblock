@@ -8,13 +8,6 @@ document.addEventListener('click', event => {
     if(target.href){
         window.location.href = target.href;
     }
-    
-    if(target.closest('.v-card-single')){
-        setTimeout( _ => {
-            addNativePlayButton();
-            
-        },1000)
-    }
 })
 
 //添加原生播放按钮
@@ -31,9 +24,9 @@ function addNativePlayButton(){
     }
 }
 
-if(window.location.href.indexOf('video') !== -1){
-    addNativePlayButton();
-}
+//if(window.location.href.indexOf('video') !== -1){
+//    addNativePlayButton();
+//}
 
 
 // 添加关闭按钮

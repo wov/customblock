@@ -321,3 +321,118 @@ body{
     margin: 5px 0.5%;
 }
 
+.bili-footer .footer-icons{
+    width:100%!important;
+}
+
+
+.area-header{
+    position: sticky!important;
+    top:0;
+    background:#fff;
+    z-index: 1000!important;
+    padding: 5px 0!important;
+}
+
+
+.bili-grid .battle-area .battle-body>*:nth-of-type(1n + 5){
+        display:inline-block!important;
+}
+
+
+.bangumi-card-data{
+    position:relative!important;
+}
+
+.palette-button-outer{
+    display:none!important;
+}
+
+
+/*video*/
+.unlogin-popover{
+    display:none!important;
+}
+
+/*先处理页面撑开的问题*/
+#app{
+    width:100%!important;
+}
+
+.bili-header{
+    min-width:unset!important;
+}
+
+.v-wrap{
+    min-width:unset!important;
+    width:100%!important;
+    padding: 0 5px!important;
+    display:block!important;
+    box-sizing:border-box;
+}
+
+
+.l-con{
+    width:100%!important;
+}
+
+.v-wrap .r-con{
+    width:100%!important;
+    margin: 0!important;
+    padding: 0 5px!important;
+    box-sizing: border-box;
+}
+/**/
+/*#bilibili-player{*/
+/*    width:100%!important;*/
+/*}*/
+
+#bilibili-player{
+    width:100%!important;
+    height: 300px!important;
+}
+
+.video-desc .desc-info{
+    width:100%!important;
+}
+
+body.header-v3 #biliMainHeader,
+body.header-v3 #biliMainHeader .mini-header{
+    height: auto!important;
+}
+
+.video-toolbar{
+    height:auto!important;
+}
+
+.video-toolbar .ops,
+.video-toolbar .more,
+.video-toolbar .rigth-btn{
+    float:none!important;
+}
+
+
+.bilibili-player.mode-miniscreen.bilibili-player .bilibili-player-area .bilibili-player-video-state, .bilibili-player.mode-miniscreen[class*=mode-] .bilibili-player-area .bilibili-player-video-state{
+    display: block!important;
+}
+
+.bb-comment .comment-list .list-item .user-face, .comment-bilibili-fold .comment-list .list-item .user-face{
+    width:48px!important;
+}
+
+.bb-comment .comment-list .list-item .con, .comment-bilibili-fold .comment-list .list-item .con{
+    margin-left: 60px!important;
+}
+
+
+.up-info .u-face.has-pendant{
+    left:0!important;
+}
+
+.player-auxiliary-area{
+    width:100%!important;
+}
+
+.bb-comment .comment-send.comment-send-lite, .comment-bilibili-fold .comment-send.comment-send-lite, .bb-comment .comment-send-lite.comment-send-lite, .comment-bilibili-fold .comment-send-lite.comment-send-lite{
+    display:none!important;
+}

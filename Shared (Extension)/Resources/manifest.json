@@ -67,10 +67,16 @@
         "matches" : ["*://m.bilibili.com/*"]
     },{
         "css" : ["bilibili_pc.css"],
-        "matches" : ["*://www.bilibili.com/*"]
+        "matches" : [
+            "*://www.bilibili.com/",
+            "*://www.bilibili.com/video/*"
+        ]
     },{
         "js" : ["bilibili_pc.js"],
-        "matches" : ["*://www.bilibili.com/*"]
+        "matches" : [
+            "*://www.bilibili.com/",
+            "*://www.bilibili.com/video/*"
+        ]
     },{
         "css" : ["ifanr.css"],
         "matches" : ["*://*.ifanr.com/*"]

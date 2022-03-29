@@ -10,3 +10,25 @@ setTimeout( _ => {
 },500)
 
 
+// 去掉所有的 a target 属性
+function removeAllTarget(){
+    let As = document.querySelectorAll('a');
+    As.forEach(function(_a) {
+        _a.removeAttribute('target');
+    });
+}
+
+removeAllTarget();
+
+//TODO: 添加关闭的功能...
+document.addEventListener('scroll', _ => {
+    
+//    const player = document.querySelector('#bilibiliPlayer');
+////    if(player){
+////        player.classList.remove("mode-miniscreen");
+////    }
+
+    removeAllTarget();
+    
+    
+})
