@@ -349,7 +349,7 @@ body{
 }
 
 
-/*video*/
+/* 旧版 video*/
 .unlogin-popover{
     display:none!important;
 }
@@ -436,3 +436,109 @@ body.header-v3 #biliMainHeader .mini-header{
 .bb-comment .comment-send.comment-send-lite, .comment-bilibili-fold .comment-send.comment-send-lite, .bb-comment .comment-send-lite.comment-send-lite, .comment-bilibili-fold .comment-send-lite.comment-send-lite{
     display:none!important;
 }
+/* 旧版 video 结束*/
+
+/* 新版video */
+/*解决撑开的问题开始*/
+
+.video-container-v1{
+    min-width:unset!important;
+    flex-direction:column;
+}
+
+.left-container{
+    width:100%!important;
+}
+
+.video-container-v1 .right-container{
+    width:100%!important;
+}
+
+.video-container-v1 .right-container{
+    margin:0!important;
+}
+
+.video-toolbar-v1{
+    height:auto!important;
+}
+
+.video-toolbar-v1 .toolbar-left{
+    float:none!important;
+}
+
+.video-toolbar-v1 .toolbar-right{
+    float:none!important;
+}
+
+/*解决撑开的问题结束*/
+
+body #app #bilibili-player.mini-player{
+    position:relative!important;
+}
+
+
+/* 新版video 结束 */
+
+
+.video-info .video-data{
+    display:block!important;
+    white-space: unset!important;
+    padding: 5px 0!important;
+}
+
+
+/*登陆框*/
+
+.bili-mini{
+    width:90%!important;
+    display:block!important;
+    padding:15px!important;
+    box-sizing:border-box;
+}
+
+.bili-mini-scan{
+    display: none!important;
+}
+
+.bili-mini-content .bili-mini-line{
+    display: none!important;
+}
+
+.bili-mini-login-wrapper{
+    width:100%!important;
+}
+
+.bili-mini-account,
+.bili-mini-password{
+    padding:0 5px!important;
+}
+
+.bili-mini-password input{
+    width:unset!important;
+}
+
+.third-party-login-wrapper .sns .btn{
+    margin-right: 15px!important;
+}
+
+.bili-mini-tel,
+.bili-mini-code{
+    padding: 0 5px!important;
+}
+
+.bili-mini-tel .bili-mini-tel_left{
+    display:flex;
+}
+
+.bili-mini-tel .bili-mini-tel_right .line{
+    margin-right: 5px!important;
+}
+
+.bili-mini-tel .bili-mini-tel_left .tel-input{
+    width: unset!important;
+}
+
+.bili-mini-tel .bili-mini-tel_right .text{
+    font-size: 12px!important;
+}
+

@@ -742,7 +742,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.20.24;
+				MARKETING_VERSION = 1.20.25;
 				PRODUCT_BUNDLE_IDENTIFIER = com.inact.customblock.Extension;
 				PRODUCT_NAME = "customblock Extension";
 				SDKROOT = iphoneos;
@@ -769,7 +769,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.20.24;
+				MARKETING_VERSION = 1.20.25;
 				PRODUCT_BUNDLE_IDENTIFIER = com.inact.customblock.Extension;
 				PRODUCT_NAME = "customblock Extension";
 				SDKROOT = iphoneos;
@@ -803,7 +803,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.20.24;
+				MARKETING_VERSION = 1.20.25;
 				OTHER_LDFLAGS = (
 					"-framework",
 					WebKit,
@@ -839,7 +839,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.20.24;
+				MARKETING_VERSION = 1.20.25;
 				OTHER_LDFLAGS = (
 					"-framework",
 					WebKit,
