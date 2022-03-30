@@ -542,3 +542,16 @@ body #app #bilibili-player.mini-player{
     font-size: 12px!important;
 }
 
+.pd__ex .bili-header .mini-avatar--large .header-entry-avatar{
+    animation:none;
+}
+
+.pd__ex .bili-header .mini-avatar--large .header-entry-mini{
+    animation:none;
+}
+
+.bili-header .header-avatar-wrap .header-avatar-wrap--container .bili-avatar{
+    width: 100%!important;
+    height: 100%!important;
+    transform:none!important;
+}

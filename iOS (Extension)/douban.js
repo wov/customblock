@@ -2,7 +2,7 @@ const ST_NAME = 'pudding_show_desktop_tip'
 
 //给body添加一个class
 
-document.querySelector('body').classList.add('pd__ex')
+document.querySelector('body').classList.add('pd__ex');
 
 // add meta.
 var meta = document.createElement('meta');
