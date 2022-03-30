@@ -74,17 +74,11 @@ function addRequestDesktopTip(){
         .pudding_request_desktop_wrap button{
             font-size:14px;
         }
-    
-        
-    
     `
     
     var styleSheet = document.createElement("style")
     styleSheet.innerText = styles
     document.head.appendChild(styleSheet)
-    
-    
-    
     
     const wrap = document.createElement('DIV');
     wrap.className = 'pudding_request_desktop_wrap';
@@ -109,14 +103,7 @@ function addRequestDesktopTip(){
     a.href = 'https://movie.douban.com';
     a.textContent = '4.点击这里访问桌面版';
     
-    //    const button = document.createElement('BUTTON');
-    //    button.textContent = '不再提示'
-    //
-    //    button.addEventListener('click', _ => {
-    //        wrap.classList.add('displaynone');
-    //        localStorage.setItem(ST_NAME,"false");
-    //    })
-    
+
     
     wrap.appendChild(title);
     wrap.appendChild(content1);
