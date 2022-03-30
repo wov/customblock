@@ -93,12 +93,14 @@
         "js" : ["douban.js"],
         "matches" : [
             "*://m.douban.com/movie/*",
-            "*://movie.douban.com/*"
+            "*://movie.douban.com/*",
+            "*://www.douban.com/group/topic/*"
         ]
     },{
         "css" : ["douban.css"],
         "matches" : [
-            "*://movie.douban.com/*"
+            "*://movie.douban.com/*",
+            "*://www.douban.com/group/topic/*"
         ]
     }],
 

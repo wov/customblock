@@ -1,5 +1,9 @@
 const ST_NAME = 'pudding_show_desktop_tip'
 
+//给body添加一个class
+
+document.querySelector('body').classList.add('pd__ex')
+
 // add meta.
 var meta = document.createElement('meta');
 meta.name = "viewport";
@@ -22,9 +26,6 @@ function removeAllTarget(){
 
 removeAllTarget();
 
-document.addEventListener('scroll', _ => {
-    removeAllTarget();
-})
 
 function addRequestDesktopTip(){
     if(document.querySelector('.pudding_request_desktop_wrap')){return;}
@@ -36,24 +37,32 @@ function addRequestDesktopTip(){
             margin: 0 auto;
             position: fixed;
             bottom: 3px;
-            background: rgba(255,255,255,0.95);
+            background: rgba(255,255,255);
             border-radius: 5px;
             left: 5%;
             box-sizing:border-box;
             text-align: center;
             box-shadow: 0 0 3px rgba(33,33,33,0.3);
+            transition: 1s;
+    
         }
-
+    
+        .pudding_request_desktop_wrap.hide{
+            transform:translate3d(0,100%,0);
+            opacity: 0;
+            pointer-events: none;
+        }
+    
         .pudding_request_desktop_wrap.displaynone{
             display:none;
         }
-
+    
         .pudding_request_desktop_wrap .title{
             font-size:16px;
             margin-bottom: 10px;
         }
-
-
+    
+    
         .pudding_request_desktop_wrap .content,
         .pudding_request_desktop_wrap a{
             display:block;
@@ -61,16 +70,19 @@ function addRequestDesktopTip(){
             margin-bottom: 10px;
             text-align:left;
         }
-
+    
         .pudding_request_desktop_wrap button{
             font-size:14px;
         }
+    
+        
+    
     `
-
+    
     var styleSheet = document.createElement("style")
     styleSheet.innerText = styles
     document.head.appendChild(styleSheet)
-
+    
     
     
     
@@ -82,7 +94,7 @@ function addRequestDesktopTip(){
     title.className = "title";
     
     const content1 = document.createElement('P');
-    content1.textContent = '1.点击浏览器文字图标';
+    content1.textContent = '1.点击浏览器下方图标"大小"';
     content1.className = "content";
     
     const content2 = document.createElement('P');
@@ -97,13 +109,13 @@ function addRequestDesktopTip(){
     a.href = 'https://movie.douban.com';
     a.textContent = '4.点击这里访问桌面版';
     
-    const button = document.createElement('BUTTON');
-    button.textContent = '不再提示'
-    
-    button.addEventListener('click', _ => {
-        wrap.classList.add('displaynone');
-        localStorage.setItem(ST_NAME,"false");
-    })
+    //    const button = document.createElement('BUTTON');
+    //    button.textContent = '不再提示'
+    //
+    //    button.addEventListener('click', _ => {
+    //        wrap.classList.add('displaynone');
+    //        localStorage.setItem(ST_NAME,"false");
+    //    })
     
     
     wrap.appendChild(title);
@@ -111,7 +123,7 @@ function addRequestDesktopTip(){
     wrap.appendChild(content2);
     wrap.appendChild(content3);
     wrap.appendChild(a);
-    wrap.appendChild(button);
+    //    wrap.appendChild(button);
     
     document.body.appendChild(wrap);
 }
@@ -123,3 +135,16 @@ const is_close_tip = (localStorage.getItem(ST_NAME) && localStorage.getItem(ST_N
 if(is_mobile_site && !is_close_tip){
     addRequestDesktopTip();
 }
+
+
+document.addEventListener('scroll', _ => {
+    //移除a的target
+    removeAllTarget();
+    
+    // 只要用户滚动就隐藏这个。。
+    const pudding_tip = document.querySelector('.pudding_request_desktop_wrap');
+    if(pudding_tip){
+        pudding_tip.classList.add('hide');
+    }
+    
+})

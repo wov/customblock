@@ -85,11 +85,11 @@ html h2{
     font-size:14px!important
 }
 
-#screening .ui-slide-content{
+.pd__ex #screening .ui-slide-content{
     width:100%;
     overflow:scroll!important;
     -webkit-overflow-scrolling: touch; /* Lets it scroll lazy */
-    left:0!im
+    left:0!important;
 }
 
 #content h2{
@@ -124,7 +124,6 @@ html h2{
 #screening .ui-slide-item:blank{
     display:none;
 }
-
 
 
 .gaia.gaia-lite .fliter-wp h2>[data-type], .gaia.gaia-lite .fliter-wp .filter{
@@ -328,4 +327,71 @@ html h2{
 
 .gaia .fliter-wp h2{
     margin-bottom: 0!important;
+}
+
+/*https://movie.douban.com/cinema/later/shanghai/*/
+/*开始使用前缀，必用用太多的important*/
+.pd__ex .tab-bd .mod{
+    width: 32%;
+    height: auto;
+    padding: 1%;
+    box-sizing:border-box;
+    margin: 0;
+    border:none;
+    text-align: center;
+}
+
+.pd__ex .article .thumb{
+    position:relative;
+}
+
+.pd__ex .tab-bd img{
+    width:100%;
+    height:auto;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+}
+
+.pd__ex .tab-bd .odd .thumb{
+    left:0;
+}
+
+html .pd__ex h3{
+    font-size: 14px;
+    line-height: 1.4;
+    margin:5px 0;
+}
+
+/*.pd__ex .intro li{*/
+/*    display:inline-block;*/
+/*}*/
+/**/
+/*.pd__ex .trailer_icon:link, .trailer_icon:visited, .trailer_icon:hover, .trailer_icon:active{*/
+/*    display:block;*/
+/*}*/
+
+/*豆瓣小组讨论*/
+/*因为豆瓣电影包含了豆瓣小组的帖子列表*/
+/*https://www.douban.com/group/topic/263185689/?_i=8360513OFf_Y12,8631437X4BGccv*/
+
+.pd__ex #db-nav-group .nav-items{
+    float:none;
+}
+
+.pd__ex #db-nav-group .nav-items li{
+    display:inline-block;
+    margin-right:15px;
+}
+
+.pd__ex #db-nav-group .nav-search{
+    position:relative;
+    right:unset;
+}
+
+html .pd__ex h1{
+    font-size: 18px;
+}
+
+.pd__ex .topic-content .topic-doc{
+    width:100%;
 }
