@@ -433,7 +433,7 @@ body.header-v3 #biliMainHeader .mini-header{
     width:100%!important;
 }
 
-.bb-comment .comment-send.comment-send-lite, .comment-bilibili-fold .comment-send.comment-send-lite, .bb-comment .comment-send-lite.comment-send-lite, .comment-bilibili-fold .comment-send-lite.comment-send-lite{
+.bb-comment .comment-send.comment-send-lite, .comment-bilibili-fold .comment-send.comment-send-lite, .bb-comment .comment-send-lite.comment-send-lite, .comment-bilibili-fold .comment-send-lite.comment-send-lite,.comment-send-lite-mask{
     display:none!important;
 }
 /* 旧版 video 结束*/
