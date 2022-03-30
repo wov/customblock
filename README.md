@@ -31,7 +31,9 @@ https://testflight.apple.com/join/bQyq38by
    - 增加随系统的dark mode
    - 在列表中添加针对up主的不感兴趣功能
    - 添加使用原生播放器播放的功能 
-   - 增加对PC站点的支持，手机版阉割太多（近期支持）
+   - 增加对PC站点的支持 
+      -  首页（暂未上架）
+      -  video页（暂未上架）
 - 36kr
    - 增加随系统的dark mode
 - ifanr
