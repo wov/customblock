@@ -1,0 +1,28 @@
+/* .pd__ex */
+/*https://drafts.csswg.org/css-nesting-1/ css nssting 暂时还不支持Orz*/
+
+
+.pd__ex .header, .header-menu,
+.pd__ex .s-header,
+.pd__ex .wrapper{
+    min-width: unset;
+}
+
+.pd__ex .header-con{
+    width: 100%;
+}
+
+.pd__ex .header .left-con{
+    float: none;
+}
+
+
+.pd__ex .header .middle-con{
+    float: none;
+    width: 100%;
+    margin : 0;
+}
+
+.pd__ex .header .right-con{
+    float: none;
+}

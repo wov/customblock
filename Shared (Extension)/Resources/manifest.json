@@ -102,6 +102,16 @@
             "*://movie.douban.com/*",
             "*://www.douban.com/group/topic/*"
         ]
+    },{
+        "js" : ["qimao.js"],
+        "matches" : [
+            "*://www.qimao.com/"
+        ]
+    },{
+        "css" : ["qimao.css"],
+        "matches" : [
+            "*://www.qimao.com/"
+        ]
     }],
 
     "browser_action": {

@@ -12,6 +12,10 @@
 		<array>
 			<dict>
 				<key>Script</key>
+				<string>qimao.js</string>
+			</dict>
+			<dict>
+				<key>Script</key>
 				<string>bilibili_pc.js</string>
 			</dict>
 			<dict>
@@ -37,6 +41,10 @@
 		</array>
 		<key>SFSafariStyleSheet</key>
 		<array>
+			<dict>
+				<key>Style Sheet</key>
+				<string>qimao.css</string>
+			</dict>
 			<dict>
 				<key>Style Sheet</key>
 				<string>bilibili_pc.css</string>
@@ -94,6 +102,7 @@
 		<dict>
 			<key>Allowed Domains</key>
 			<array>
+				<string>*.qimao.com</string>
 				<string>*.douban.com</string>
 				<string>v2ex.com</string>
 				<string>*.smzdm.com</string>
