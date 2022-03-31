@@ -362,6 +362,30 @@ html .pd__ex h3{
     margin:5px 0;
 }
 
+
+.pd__ex .gaia .item{
+    width: 18%;
+    float: none;
+    margin: 5px 0.5% 10px;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 12px;
+}
+
+.pd__ex .gaia .item .cover-wp{
+    height: auto;
+    aspect-ratio: 3 / 4;
+}
+
+.pd__ex .gaia .item .cover-wp img{
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+}
+
+.pd__ex .gaia .item p{
+    height: auto;
+}
+
 /*豆瓣电影 详情 讨论区*/
 
 
