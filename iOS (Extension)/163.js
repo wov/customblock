@@ -48,25 +48,15 @@ function addCloseAndHideResult(){
     });
 }
 
-
-
 setTimeout( _ => {
     addCloseAndHideResult();
 },500)
 
-addCloseAndHideResult();
-
 document.addEventListener('scroll', _ => {
     replaceToAppText();
-    addCloseAndHideResult();
-    
-    // 只要用户滚动就隐藏这个。。
-    const pudding_tip = document.querySelector('.pudding_blocked_tip');
-    if(pudding_tip){
-        pudding_tip.classList.add('hide');
-    }
 })
 
+let hideTipTimer;
 
 // 显示可以重置屏蔽的按钮
 function showBlockButton(){
@@ -81,6 +71,17 @@ function showBlockButton(){
         //如果已经有了，就显示出来
         pudding_blocked_tip.classList.remove('hide');
         pudding_blocked_tip.querySelector('.countText').textContent = `已为您屏蔽了${count}个频道`;
+        
+        
+        if(hideTipTimer){
+            clearTimeout(hideTipTimer);
+            hideTipTimer = null;
+        }
+        // 5秒后自动关闭。
+        hideTipTimer = setTimeout( _ => {
+            pudding_blocked_tip.classList.add('hide');
+        },5000)
+        
     }else{
         // 没有的话就创建一个
         //css
@@ -92,7 +93,7 @@ function showBlockButton(){
                 padding: 8px;
                 margin: 0 auto;
                 bottom: 5px;
-                background: rgba(255,255,255);
+                background-color: rgba(255,255,255);
                 left: 30%;
                 box-sizing:border-box;
                 text-align: center;
@@ -107,19 +108,27 @@ function showBlockButton(){
                 pointer-events: none;
             }
         
-        
             .pudding_blocked_tip .pudding_tip_title{
                 display:flex;
-                margin-bottom: 10px;
+                margin-bottom: 5px;
                 font-size:14px;
                 align-items: center;
                 justify-content : center;
-                
             }
         
             .pudding_blocked_tip .pudding_tip_avatar{
                 width:16px;
                 height:16px;
+            }
+        
+            .pudding_blocked_tip .tip_button{
+               color: rgb(10, 132, 255);
+            }
+            
+            @media (prefers-color-scheme: dark) {
+                .pudding_blocked_tip{
+                    background-color: #222;
+                }
             }
         `
         
@@ -147,9 +156,8 @@ function showBlockButton(){
         content.textContent = `已为您屏蔽了${count}个频道`
         
         const content2 = document.createElement('P');
-        content2.className = 'pudding_tip_content';
+        content2.className = 'pudding_tip_content tip_button';
         content2.textContent = `点击重置`
-        
         
         title.appendChild(avatar)
         title.appendChild(name)
@@ -168,8 +176,32 @@ function showBlockButton(){
         })
         
         document.body.appendChild(tip_wrap);
+        
+        if(hideTipTimer){
+            clearTimeout(hideTipTimer);
+            hideTipTimer = null;
+        }
+        // 5秒后自动关闭。
+        hideTipTimer = setTimeout( _ => {
+            tip_wrap.classList.add('hide');
+        },5000)
+        
     }
 }
 
+let sectionChannels = document.querySelectorAll('.section-channel');
+if(sectionChannels.length){
+    
+    addCloseAndHideResult();
+    showBlockButton();
 
-showBlockButton();
+    document.addEventListener('scroll', _ => {
+        addCloseAndHideResult();
+        // 只要用户滚动就隐藏这个。。
+        const pudding_tip = document.querySelector('.pudding_blocked_tip');
+        if(pudding_tip){
+            pudding_tip.classList.add('hide');
+        }
+    })
+}
+
