@@ -1,11 +1,23 @@
 /* .pd__ex */
 /*https://drafts.csswg.org/css-nesting-1/ css nssting 暂时还不支持Orz*/
 
+/*上古前端么。。。这么喜欢用float*/
+.pd__ex *{
+    float: none!important;
+    min-width: unset!important;
+    max-width:100%;
+    box-sizing: border-box;
+}
 
-.pd__ex .header, .header-menu,
-.pd__ex .s-header,
-.pd__ex .wrapper{
-    min-width: unset;
+.pd__ex img{
+    width:100%!important;
+    height:auto!important;
+}
+
+.pd__ex .header{
+    padding: 0 15px;
+    position: sticky;
+    top:0;
 }
 
 .pd__ex .header-con{
@@ -13,16 +25,142 @@
 }
 
 .pd__ex .header .left-con{
-    float: none;
+    display: flex;
+    padding:0;
 }
 
 
 .pd__ex .header .middle-con{
-    float: none;
     width: 100%;
     margin : 0;
+    display: flex;
+}
+
+.pd__ex .header .a-logo{
+    width: 30%;
+    display: inline-block;
+}
+
+
+.pd__ex .header .a-logo img,
+.pd__ex .header .a-logo svg{
+    width: 100%;
+    height: auto;
+}
+
+.pd__ex .header .a-slogan{
+    width: 28%;
+    display: inline-block;
+}
+
+.pd__ex .header .a-slogan img,
+.pd__ex .header .a-slogan svg{
+    width: 100%;
+    height: auto;
+}
+
+.pd__ex .header .search{
+    width: 100%;
+}
+
+.pd__ex .header .search .s-input,
+.pd__ex .s-header .search .s-input{
+    background: none;
+    border : 1px solid #fcc800;
+    display: flex;
+    line-height:unset;
+    padding:0;
+}
+
+.pd__ex .header .search .s-input{
+    display:block;
+    width: 100%;
+}
+
+.pd__ex .header .search .s-input input{
+    width: 100%;
+    height: 32px;
+    padding: 0 10px;
+    box-sizing:border-box;
+}
+
+.pd__ex .header .search .s-input .a-search-btn{
+    z-index:100;
+    height:36px;
+    line-height: 36px;
 }
 
 .pd__ex .header .right-con{
-    float: none;
+    display:flex;
+    padding:0;
+}
+
+.pd__ex .s-header{
+    display:none!important;
+}
+
+
+.pd__ex .header-menu{
+    padding: 0 15px;
+}
+
+
+.pd__ex .footer-con{
+    width:100%;
+}
+
+.pd__ex .header-menu .p-left-menu a{
+    font-size:14px;
+    margin-left:10px;
+    display: inline-block;
+}
+
+.pd__ex .header-menu .p-left-menu a.cur{
+    font-size:14px;
+}
+
+.pd__ex .header-menu .p-right-menu a{
+    font-size:14px;
+}
+
+.pd__ex .header-menu-con{
+    line-height:32px;
+}
+
+.pd__ex  .wrapper,
+.pd__ex .wrapper.p-t-20{
+    padding:0;
+}
+
+.pd__ex .wrapper .row.row-ivy{
+    height:auto;
+}
+
+.pd__ex .wrapper .row.pb20,
+.pd__ex .wrapper.p-b-20{
+    padding-bottom:0!important;
+}
+
+.pd__ex .swiper-wrap-index{
+    height:auto;
+    aspect-ratio: 3 / 1;
+}
+
+.pd__ex .swiper-wrap-index .swiper-content .swiper-item{
+    height:100%;
+}
+
+.pd__ex .home-banner-rf{
+    width: 100%;
+    height: auto;
+}
+
+.pd__ex .dynamic-th .right-tt .titt{
+    display:inline-block;
+}
+
+.pd__ex .dynamic-tb li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
