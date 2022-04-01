@@ -157,10 +157,143 @@
 
 .pd__ex .dynamic-th .right-tt .titt{
     display:inline-block;
+    font-size: 18px;
 }
 
 .pd__ex .dynamic-tb li{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin:0;
+}
+
+.pd__ex .wrapper .row{
+    padding-bottom:0;
+}
+
+.pd__ex .classify-box{
+    height: auto;
+    border: none;
+}
+
+.pd__ex .classify-box .classify-complete{
+    display:flex;
+    height: auto;
+    padding: 0;
+    padding: 0 15px;
+}
+
+.pd__ex .header-menu .p-right-menu a i{
+    display:none;
+}
+
+.pd__ex .txt-links dt a{
+    
+}
+
+.pd__ex .txt-links dt a .tit{
+    
+}
+.pd__ex .classify-complete .txt-links dd a{
+    margin-right:5px;
+}
+
+.pd__ex .classify-complete .classify-icon{
+    height: auto;
+    display:flex;
+    flex-direction: column;
+    padding: 0;
+    width: 90px;
+    align-items: center;
+    justify-content: center;
+}
+
+.pd__ex .classify-complete .classify-icon a{
+    display:inline-block;
+}
+
+.pd__ex .classify-complete .txt-links-box{
+    margin: 0;
+    padding: 15px 0;
+    
+    width: auto;
+}
+
+.pd__ex .classify-complete .txt-links{
+    width:100%!important;
+}
+
+.pd__ex .author-prefecture{
+    height: auto;
+    padding: 0;
+    display: flex;
+    border: none;
+    align-items: center;
+}
+
+.pd__ex .classify-box .author-prefecture-box{
+    padding: 0 15px;
+}
+
+.pd__ex .classify-complete .classify-icon a{
+    width: auto;
+}
+
+.pd__ex .author-prefecture dd{
+    display:flex;
+}
+
+
+.pd__ex .qm-pic-txt.pic-110-146-classify.height-316,
+.pd__ex .qm-pic-txt.pic-110-146-single.height-316,
+.pd__ex .qm-pic-txt.pic-110-146.height-316{
+    height: auto;
+}
+
+.wrapper .con-box{
+    padding: 0 15px;
+}
+
+.pd__ex .qm-pic-txt.pic-110-146 li,
+.pd__ex .qm-pic-txt.pic-110-146-classify li,
+.pd__ex .qm-pic-txt.pic-110-146-single li{
+    display:inline-block;
+    width:31%;
+    margin: 0 0.5%;
+    vertical-align: top;
+}
+
+.pd__ex .qm-pic-txt li .txt span.s-des{
+    height:auto;
+}
+
+.pd__ex .qm-pic-txt li .txt .p-bottom,
+.pd__ex .qm-pic-txt li .txt .p-bottom-inline{
+    position:relative;
+}
+
+.pd__ex .qm-pic-txt.pic-110-146 li .txt,
+.pd__ex .qm-pic-txt.pic-110-146-classify li .txt,
+.pd__ex .qm-pic-txt.pic-110-146-single li .txt{
+    height:auto;
+}
+
+.pd__ex .qm-mod-th .tit,
+.pd__ex .qm-mod-th-m .tit,
+.pd__ex .qm-mod-th-s .tit{
+    font-size:18px;
+}
+
+.pd__ex .qm-txt.txt-260 li{
+    width:100%;
+}
+
+.pd__ex .qm-txt li{
+    padding:0;
+}
+
+
+.pd__ex .col-b{
+    width: 100%;
+    padding: 0 15px;
 }
