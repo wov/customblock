@@ -180,7 +180,6 @@
     display:flex;
     height: auto;
     padding: 0;
-    padding: 0 15px;
 }
 
 .pd__ex .header-menu .p-right-menu a i{
@@ -231,10 +230,6 @@
     align-items: center;
 }
 
-.pd__ex .classify-box .author-prefecture-box{
-    padding: 0 15px;
-}
-
 .pd__ex .classify-complete .classify-icon a{
     width: auto;
 }
@@ -248,10 +243,6 @@
 .pd__ex .qm-pic-txt.pic-110-146-single.height-316,
 .pd__ex .qm-pic-txt.pic-110-146.height-316{
     height: auto;
-}
-
-.wrapper .con-box{
-    padding: 0 15px;
 }
 
 .pd__ex .qm-pic-txt.pic-110-146 li,
@@ -284,16 +275,221 @@
     font-size:18px;
 }
 
+.pd__ex .qm-mod-th,
+.pd__ex .qm-mod-th-m,
+.pd__ex .qm-mod-th-s{
+    height: 48px;
+    line-height:48px;
+    position:sticky;
+    top:0;
+    display:flex;
+}
+
 .pd__ex .qm-txt.txt-260 li{
     width:100%;
+    margin-bottom: 8px;
 }
 
 .pd__ex .qm-txt li{
     padding:0;
 }
 
-
 .pd__ex .col-b{
     width: 100%;
+    margin-bottom: 5px;
+}
+
+.pd__ex .qm-rank li{
+    display:flex;
+    padding: 0!important;
+    margin-bottom:10px;
+
+}
+
+.pd__ex .qm-rank li .pic{
+    display: block;
+    margin-right: 10px;
+}
+
+.pd__ex .qm-rank li .txt{
+    width:auto;
+    flex:1;
+    height:auto;
+}
+
+.pd__ex .qm-rank li .txt span.s-des{
+    padding:0;
+}
+
+.pd__ex .wrapper .main{
     padding: 0 15px;
+}
+
+
+.pd__ex .qm-pic{
+    height: auto;
+}
+
+.pd__ex .qm-pic.pic-131-174 li{
+    display:inline-block;
+    width:31%;
+    margin:0 0.5% 5px;
+}
+
+.pd__ex .qm-pic.pic-131-174 li .pic{
+    aspect-ratio: 3 / 4;
+    height:auto;
+}
+
+.pd__ex .swiper-reader .swiper-content{
+    width: 100%;
+    display: flex;
+    height:auto;
+}
+
+.pd__ex .swiper-reader .swiper-content a{
+    aspect-ratio: 3 / 4;
+    height:auto;
+    margin: 0 0.5%;
+}
+
+.pd__ex .swiper-reader .swiper-content a,
+.pd__ex .swiper-reader .swiper-content img{
+    left: unset!important;
+    top: unset!important;
+    position: relative!important;
+    opacity: 1!important;
+    
+}
+
+.pd__ex .swiper-reader .txt{
+    display:inline-block!important;
+    width: 31%!important;
+    margin: 0 0.5%;
+}
+
+.pd__ex .swiper-reader .txt span.s-tit{
+    height: auto;
+    padding: 0;
+    font-size: 14px;
+}
+
+.pd__ex .swiper-reader .txt span{
+    height: auto;
+    padding: 0;
+}
+
+.qm-btn{
+    font-size:12px!important;
+    padding: 0!important;
+    width: 100%!important;
+}
+
+.pd__ex  .qm-pic-txt.pic-110-146-single.height-146{
+    height: auto;
+}
+
+.pd__ex  .qm-pic-txt.pic-110-146-single.height-146 li{
+    display: flex;
+    width: 100%;
+}
+
+.pd__ex .qm-pic-txt.pic-110-146-single li .pic{
+    aspect-ratio: 3 / 4;
+    height:auto;
+    margin-right: 15px;
+    width: 150px;
+    box-shadow: none;
+}
+
+.pd__ex .qm-pic-txt.pic-110-146-single li .txt span.s-des{
+    height: auto;
+}
+
+.pd__ex .qm-txt li span.s-des,
+.pd__ex .qm-txt li .p-other{
+    height: auto;
+}
+
+.pd__ex .pt24,
+.pd__ex .wrapper.padding-top{
+    padding-top:0;
+}
+
+.pd__ex .qm-pic.pic-110-146 li{
+    display:inline-block;
+    width: 31%;
+    margin: 0 0.5%;
+}
+.pd__ex .qm-pic.pic-110-146.height-418{
+    height: auto;
+}
+
+.pd__ex .qm-table-list li{
+    height: 28px;
+    line-height: 28px;
+}
+
+.pd__ex .manito-writers li{
+    display: flex;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+.pd__ex .manito-writers li .pic{
+    margin-right: 15px;
+}
+
+.pd__ex .manito-writers li .txt span.s-works{
+    display: flex;
+}
+
+.pd__ex .qm-rank li .txt span.s-important{
+    padding: 0;
+}
+
+.pd__ex .friend-links{
+    padding: 10px 15px;
+    display: flex;
+}
+
+.qm-right-fixed{
+    display:none!important;
+}
+
+
+
+.pd__ex .footer{
+    padding: 0 15px;
+}
+
+.pd__ex  .footer .p-copyright{
+    line-height: 1.2;
+    display:block;
+    overflow: hidden;
+}
+
+.pd__ex .footer .p-link a{
+    margin: 0 5px;
+}
+
+.pd__ex .footer .p-link i{
+    display:none;
+}
+
+.pd__ex .footer .p-copyright img{
+    width: 20px!important;
+    height: 20px!important;
+    padding: 0!important;
+
+}
+
+.pd__ex .footer .p-company img{
+    width: 110px!important;
+    height: 40px!important;
+    padding: 0!important;
+}
+
+.footer .p-copyright a{
+    display: block;
 }
