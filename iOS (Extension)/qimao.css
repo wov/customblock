@@ -7,6 +7,7 @@
     min-width: unset!important;
     max-width:100%;
     box-sizing: border-box;
+    -webkit-text-size-adjust: none;
 }
 
 .pd__ex img{
@@ -490,6 +491,6 @@
     padding: 0!important;
 }
 
-.footer .p-copyright a{
-    display: block;
+.pd__ex  .qm-pic.pic-131-174.height-225{
+    height:auto;
 }
