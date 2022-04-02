@@ -7,6 +7,11 @@
 /*  and (-webkit-min-device-pixel-ratio: 2)*/
 /*  and (orientation: portrait) {*/
 /*      */
+
+body.pd__ex,body.pd__ex *{
+    -webkit-text-size-adjust: none;
+}
+
 html body, html td, html th, html .pl, html input{
     font-size:12px!important;
 }
@@ -423,3 +428,124 @@ html .pd__ex h1{
 .pd__ex .topic-content .topic-doc{
     width:100%;
 }
+
+/*首页*/
+@media (prefers-color-scheme: dark) {
+    html,body.pd__ex{
+        background: #121212;
+        color:rgba(255,255,255,0.87);
+    }
+    
+    body.pd__ex *{
+        border-color:rgba(255,255,255,0.08)!important;
+    }
+    
+    .pd__ex #db-nav-movie{
+        background: #121212;
+    }
+    
+    .pd__ex #content h2{
+        background: #121212;
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex #screening .title a,
+    .pd__ex #screening .title a:hover{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex #screening .title a:link,
+    .pd__ex #screening .title a:visited,
+    .pd__ex #screening .title a:hover,
+    .pd__ex #screening .title a:active{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .gaia.gaia-lite .fliter-wp h2 .activate{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .gaia.gaia-lite .fliter-wp h2 .activate{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .gaia.gaia-lite .tags label.activate:hover{
+        color:rgba(255,255,255,0.6);
+    }
+    
+    .pd__ex #search_suggest{
+        background: #333;
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex #search_suggest li a:hover{
+        color:rgba(255,255,255,0.6);
+    }
+    
+    .pd__ex .rating_answer{
+        background:rgba(255,255,255,0.6);
+    }
+    .pd__ex a:visited{
+        color:rgba(255,255,255,0.6);
+    }
+    
+    .pd__ex  .review-bd .review-meta a{
+        color:rgba(255,255,255,0.6);
+    }
+    
+}
+
+
+/*评论*/
+@media (prefers-color-scheme: dark) {
+    .pd__ex h1{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .review-content p,
+    .pd__ex .review-content blockquote,
+    .pd__ex .review-content .DRE-unstyled{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .review-content .subject-wrapper,
+    .pd__ex .review-content .video-card{
+        background:rgba(255,255,255,0.08);
+    }
+    
+    .pd__ex .review-content .subject-wrapper .subject-summary{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .review-content .subject-wrapper .subject-title,
+    .pd__ex .review-content .video-card .video-card-title{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .meta-header{
+        background:rgba(255,255,255,0.08)!important;
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .comments-app-wrapper{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .sidebar-info-wrapper .info-item .info-item-val{
+        color:rgba(255,255,255,0.87);
+    }
+
+}
+
+/*电影页面*/
+@media (prefers-color-scheme: dark) {
+    .pd__ex #wrapper{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex #celebrities .celebrities-list .info span.name a{
+        color:rgba(255,255,255,0.87);
+    }
+}
+
+
