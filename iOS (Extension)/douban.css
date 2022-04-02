@@ -8,6 +8,13 @@
 /*  and (orientation: portrait) {*/
 /*      */
 
+/*去掉所有hover属性，豆瓣实在太喜欢用hover了。*/
+/*.pd__ex *:hover,*/
+/*.pd__ex *:active{*/
+/*    all:unset!important;*/
+/*}*/
+
+
 body.pd__ex,body.pd__ex *{
     -webkit-text-size-adjust: none;
 }
@@ -390,6 +397,48 @@ html .pd__ex h3{
 .pd__ex .gaia .item p{
     height: auto;
 }
+/**/
+
+/* 分类开始：https://movie.douban.com/tag/#/*/
+
+.pd__ex  .item[data-v-2c455d87]{
+    width: 32%;
+    margin: 0 0.5%;
+}
+
+.pd__ex .item .cover-wp[data-v-2c455d87]:after{
+    display:none;
+}
+
+.pd__ex .more[data-v-3e982be2]{
+    margin: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+    .pd__ex .category li[data-v-3e982be2]{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .item p[data-v-2c455d87]{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .info .title[data-v-423dbb08]{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    
+    .pd__ex .more,
+    .pd__ex .more:hover{
+        background:rgba(255,255,255,0.08)!important;
+        color:rgba(255,255,255,0.87)!important;
+    }
+    
+}
+
+
+/*分类结束：https://movie.douban.com/tag/#/*/
+
 
 /*豆瓣电影 详情 讨论区*/
 
@@ -429,8 +478,62 @@ html .pd__ex h1{
     width:100%;
 }
 
+.pd__ex #landing-bar{
+    display:none;
+}
+.pd__ex .back-to-top{
+    display:none;
+}
+
+@media (prefers-color-scheme: dark) {
+    .pd__ex #db-nav-group{
+        background: #121212;
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .rich-content .market-group-buying-caption,
+    .pd__ex .topic-richtext .market-group-buying-caption,
+    .pd__ex .rich-content .image-caption,
+    .pd__ex .topic-richtext .image-caption,
+    .pd__ex .rich-content .video-card .video-caption,
+    .pd__ex .topic-richtext .video-card .video-caption,
+    .pd__ex .rich-content .subject-caption,
+    .pd__ex .topic-richtext .subject-caption{
+        color:rgba(255,255,255,0.6);
+    }
+    
+    
+    .pd__ex .rich-content p,
+    .pd__ex .topic-richtext p,
+    .pd__ex .rich-content blockquote,
+    .pd__ex .topic-richtext blockquote{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .popular-hd{
+        background:rgba(255,255,255,0.08);
+        color:rgba(255,255,255,0.6);
+    }
+    
+    .pd__ex .bg-img-green,
+    .pd__ex .nlst,
+    .pd__ex .nlst h3,
+    .pd__ex .bg-img-green h4{
+        background:rgba(255,255,255,0.08);
+        color:rgba(255,255,255,0.6);
+    }
+    
+
+}
+
+
 /*首页*/
 @media (prefers-color-scheme: dark) {
+    
+    img{
+        filter: brightness(0.8);
+    }
+    
     html,body.pd__ex{
         background: #121212;
         color:rgba(255,255,255,0.87);
@@ -493,6 +596,8 @@ html .pd__ex h1{
         color:rgba(255,255,255,0.6);
     }
     
+
+    
 }
 
 
@@ -546,6 +651,96 @@ html .pd__ex h1{
     .pd__ex #celebrities .celebrities-list .info span.name a{
         color:rgba(255,255,255,0.87);
     }
+    
+    .pd__ex .tab-hd .on:link,
+    .pd__ex .tab-hd .on:visited,
+    .pd__ex .tab-hd .on:hover,
+    .pd__ex .tab-hd .on:active{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex #comments-section .comment-item .comment{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .comment-content{
+        color:rgba(255,255,255,0.6);
+    }
+    
+    .pd__ex .review-list .review-item .review-short{
+        color:rgba(255,255,255,0.6);
+    }
+    
+    .pd__ex .ticket{
+        background: #121212;
+    }
 }
+
+
+/*影讯&购票*/
+@media (prefers-color-scheme: dark) {
+    
+    .pd__ex .list-item .stitle a:hover,
+    .pd__ex .list-item .stitle a:active,
+    .pd__ex .list-item .stitle a:link,
+    .pd__ex .list-item .stitle a:visited{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    
+    .pd__ex .list-item .sbtn a,
+    .pd__ex .chart-item .mod-bd .sbtn{
+        background:rgba(255,255,255,0.08)!important;
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex #nowplaying .more,
+    .pd__ex #nowplaying .more:hover{
+        background:rgba(255,255,255,0.08)!important;
+        color:rgba(255,255,255,0.87);
+    }
+
+    .pd__ex .gaia .fliter-wp, .reviews-hd{
+        background: #121212;
+    }
+    
+    .pd__ex .gaia .tags label, .gaia .tags .custom-btn,
+    .pd__ex .gaia .sub-tags label,
+    .pd__ex .gaia .sub-tags .custom-btn{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .gaia .tags label:hover,
+    .pd__ex .gaia .tags .custom-btn:hover,
+    .pd__ex .gaia .sub-tags label:hover,
+    .pd__ex .gaia .sub-tags .custom-btn:hover{
+        background: none;
+    }
+    
+    .pd__ex .gaia .tags .activate:hover,
+    .pd__ex .gaia .sub-tags .activate:hover{
+        background: #4b8ccb;
+    }
+    
+    .pd__ex .gaia .tool{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .gaia .more,
+    .pd__ex .gaia .more:hover{
+        background:rgba(255,255,255,0.08)!important;
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .gaia .detail-pop{
+        display:none!important;
+    }
+    
+    .pd__ex .pl{
+        color:rgba(255,255,255,0.6);
+    }
+}
+
+/*选电影*/
 
 
