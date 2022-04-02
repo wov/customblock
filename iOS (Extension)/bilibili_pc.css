@@ -555,3 +555,18 @@ body #app #bilibili-player.mini-player{
     height: 100%!important;
     transform:none!important;
 }
+
+
+.pd__ex .video-info-v1 .video-data{
+    flex-wrap : wrap;
+    height: auto;
+}
+
+.pd__ex .video-info-v1{
+    height: auto;
+    padding-top:10px;
+}
+
+.pd__ex .video-info-v1 .video-title{
+    font-size: 18px;
+}

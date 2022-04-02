@@ -64,7 +64,9 @@
         "matches" : ["*://m.bilibili.com/*"]
     },{
         "js" : ["bilibili.js"],
-        "matches" : ["*://m.bilibili.com/*"]
+        "matches" : ["*://m.bilibili.com/",
+            "*://m.bilibili.com/video/*"
+            ]
     },{
         "css" : ["bilibili_pc.css"],
         "matches" : [
