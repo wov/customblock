@@ -767,8 +767,9 @@ body #app #bilibili-player.mini-player{
     transform: none!important;
     position:relative;
     display:inline-block;
-    width: 90%;
+    width: 90%!important;
     height: auto;
+    margin: 0 2%;
 }
 
 .pd__ex .fixed-wrapper{
@@ -786,6 +787,11 @@ body #app #bilibili-player.mini-player{
 
 .pd__ex .channel-swiper .carousel .carousel-container .carousel-transform .carousel-slide .channel-img{
     opacity:1;
+    display:inline-block!important;
+}
+
+.pd__ex .channel-swiper .carousel .carousel-container .carousel-transform .carousel-slide .channel-img .channel-img__mask .channel-img__mask--text{
+    font-size:12px;
 }
 
 
