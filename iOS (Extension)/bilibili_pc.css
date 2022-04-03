@@ -753,6 +753,7 @@ body #app #bilibili-player.mini-player{
 
 .pd__ex .channel-swiper{
     height:auto;
+    margin-bottom: 0;
 }
 
 .pd__ex .channel-swiper .carousel .carousel-container .carousel-transform{
