@@ -499,7 +499,8 @@ body.scrollHide{
         color:rgba(255,255,255,0.87)!important;
     }
     
-    .mainContent p{
+    .mainContent p,
+    .mainContent p span{
         color:rgba(255,255,255,0.87)!important;
     }
     

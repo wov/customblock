@@ -1,5 +1,22 @@
 /*PC 版的样式*/
 
+.pd__ex *{
+    float: none!important;
+    min-width: unset!important;
+    max-width:100%!important;
+    box-sizing: border-box;
+    -webkit-text-size-adjust: none;
+}
+
+/*.pd__ex *:hover{*/
+/*    all: unset!important;*/
+/*}*/
+
+/*.pd__ex img{*/
+/*    width:100%!important;*/
+/*    height:auto!important;*/
+/*}*/
+
 
 html,body{
     height:unset!important;
@@ -572,4 +589,204 @@ body #app #bilibili-player.mini-player{
 .pd__ex .video-info-v1 .video-title{
     font-size: 18px;
 }
+/**/
+/**/
+/* 排名开始 www.bilibili.com/v/popular/rank/*/
+.pd__ex #app{
+    padding: 0 10px;
+}
+.pd__ex #app.app-v1{
+    padding:0;
+}
 
+
+.pd__ex .nav-tabs,
+.pd__ex .nav-tabs__item{
+    flex-wrap: wrap;
+    height: auto;
+}
+
+.pd__ex .nav-tabs__item{
+    margin-right: 5px;
+}
+
+.pd__ex .nav-tabs__item>div>img{
+    width:16px;
+    height:16px;
+    margin-right: 5px;
+}
+
+.pd__ex .rank-tab-wrap{
+    padding: 5px 0;
+    margin:0;
+}
+
+.pd__ex .rank-tab-wrap .rank-tab{
+    height: auto;
+}
+
+.pd__ex .popular-list[data-v-85e600c4]{
+    padding-top:10px;
+}
+
+.pd__ex .popular-list .popular-tips[data-v-85e600c4]{
+    margin-bottom:10px;
+}
+
+.pd__ex .video-card[data-v-0c3f5fbc],
+.pd__ex .video-card__content[data-v-0c3f5fbc]{
+    height: auto;
+    margin-bottom:10px;
+}
+
+.pd__ex .video-card[data-v-0c3f5fbc]{
+    flex-direction: column;
+}
+
+.pd__ex .video-card__info[data-v-0c3f5fbc]{
+    padding: 0;
+}
+
+
+.pd__ex .rank-list .rank-item .content{
+    flex-direction: column;
+    padding: 0 0 10px;
+}
+
+.pd__ex .rank-list .rank-item .content .info{
+    height:auto;
+    margin-left:0;
+    padding-right:0;
+}
+
+.pd__ex .rank-list .rank-item .content .info .title{
+    height:auto;
+}
+
+.pd__ex .rank-list .rank-item .content .info .detail{
+    margin-top: 0;
+}
+
+.pd__ex .more-data{
+    position:relative;
+    right:unset;
+    bottom: unset;
+}
+
+
+.pd__ex .international-footer{
+    padding:10px;
+}
+
+.pd__ex .international-footer .link-box{
+/*    flex-wrap: wrap;*/
+    display:block;
+}
+
+.pd__ex .international-footer .link-box .footer_left{
+    display:block;
+}
+
+.pd__ex .international-footer .link-box .link-item{
+    margin:10px 0 0 ;
+    padding:0;
+    border:none;
+}
+
+.pd__ex .international-footer .link-box .footer_right{
+    margin-top: 10px;
+}
+
+.pd__ex  .international-footer .link-box .link-item.link-c p{
+    margin:0;
+}
+
+.pd__ex .international-footer .partner{
+    display:block;
+}
+
+.pd__ex .international-footer .partner .pic-box{
+    width: 100%;
+    margin:0;
+}
+
+.pd__ex .international-footer .partner .text-con{
+    width: 100%;
+}
+
+.pd__ex .popular-container{
+    padding: 0;
+}
+
+.pd__ex .s_tag-v1 .tag-wrap .tag-area > li{
+    display:inline-block;
+}
+
+.pd__ex .activity-m-v1 .inside-wrp .left{
+    padding: 0;
+    margin: 0;
+    height: auto;
+    text-align: center;
+}
+
+.pd__ex .activity-m-v1 .inside-wrp .right .inside-bg{
+    width: 100%;
+}
+
+
+/*排名结束*/
+/**/
+/**/
+
+/* 科技频道  start*/
+.pd__ex .go-back-btn,
+.pd__ex .channel-layout,
+.pd__ex .channel-outer-nav{
+    padding: 0 10px;
+}
+
+.pd__ex .channel-nav{
+    display: block;
+    z-index: 100;
+}
+
+
+.pd__ex .channel-swiper{
+    height:auto;
+}
+
+.pd__ex .channel-swiper .carousel .carousel-container .carousel-transform{
+    display:block;
+    overflow:scroll!important;
+    -webkit-overflow-scrolling: touch;
+    white-space: nowrap;
+}
+
+.pd__ex .channel-swiper-client .carousel .carousel-container .carousel-transform .carousel-slide{
+    transition: none;
+    transform: none!important;
+    position:relative;
+    display:inline-block;
+    width: 90%;
+    height: auto;
+}
+
+.pd__ex .fixed-wrapper{
+    position:relative;
+}
+
+
+.pd__ex .channel-swiper .channel-carousel-buttons{
+    display:none;
+}
+
+.pd__ex .channel-swiper .channel-carousel-tool{
+    display:none;
+}
+
+.pd__ex .channel-swiper .carousel .carousel-container .carousel-transform .carousel-slide .channel-img{
+    opacity:1;
+}
+
+
+/* 科技频道 OVER*/

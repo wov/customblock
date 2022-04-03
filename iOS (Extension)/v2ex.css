@@ -132,6 +132,14 @@
         border-color:rgba(255,255,255,0.11)!important;
     }
     
+    .header-transparent{
+        background:rgba(255,255,255,0.05)!important;
+    }
+    
+    .cell-translucent{
+        background:rgba(255,255,255,0.08)!important;
+    }
+    
 
     
 }

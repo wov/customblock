@@ -71,13 +71,17 @@
         "css" : ["bilibili_pc.css"],
         "matches" : [
             "*://www.bilibili.com/",
-            "*://www.bilibili.com/video/*"
+            "*://www.bilibili.com/video/*",
+            "*://www.bilibili.com/v/popular/*",
+            "*://www.bilibili.com/v/tech/*"
         ]
     },{
         "js" : ["bilibili_pc.js"],
         "matches" : [
             "*://www.bilibili.com/",
-            "*://www.bilibili.com/video/*"
+            "*://www.bilibili.com/video/*",
+            "*://www.bilibili.com/v/popular/*",
+            "*://www.bilibili.com/v/tech/*"
         ]
     },{
         "css" : ["ifanr.css"],
