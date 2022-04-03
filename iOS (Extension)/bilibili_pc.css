@@ -795,4 +795,24 @@ body #app #bilibili-player.mini-player{
 }
 
 
+.pd__ex .bili-grid,
+.pd__ex .video-card-list .video-card-body{
+    display:block;
+}
+
+.pd__ex .video-card-list .video-card-body>*:nth-of-type(1n + 7){
+    display:inline-block!important;
+}
+
+.pd__ex .aside-core > div{
+    display: inline-block;
+    width: 49%;
+    margin: 5px 0.5%;
+}
+
+.pd__ex .aside-core .bili-rank-list-video{
+    width: 100%;
+    margin: 0;
+}
+
 /* 科技频道 OVER*/
