@@ -36,9 +36,14 @@ https://testflight.apple.com/join/bQyq38by
    - 增加对PC站点的支持 
       -  首页（暂未上架）
       -  video页（暂未上架）
+      -  热门页（暂未上架）
+      -  频道页（暂未开发）
+      -  首页屏蔽频道（暂未开发）
+      -  屏蔽up主（暂未开发）
 - 36kr
    - 增加随系统的dark mode
    - 去掉在app中打开的干扰
+   - 去掉新窗口打开（暂未开发）
 - ifanr
    - 增加随系统的dark mode
    - 去掉在app中打开的干扰
