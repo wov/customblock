@@ -32,6 +32,8 @@ document.addEventListener('scroll', _ => {
 let video = document.querySelector('video');
 if(video){
     video.setAttribute('playsinline',"true");
+    video.setAttribute('controls',"true");
+    vid.volume = 1;
 }
 
 
@@ -39,5 +41,7 @@ setTimeout( _ => {
     let video = document.querySelector('video');
     if(video){
         video.setAttribute('playsinline',"true");
+        video.setAttribute('controls',"true");
+        vid.volume = 1;
     }
 },2000);

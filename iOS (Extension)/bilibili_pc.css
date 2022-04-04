@@ -434,21 +434,25 @@ body.header-v3 #biliMainHeader .mini-header{
     display:flex!important;
 }
 
+/*.bilibili-player.mode-miniscreen.bilibili-player .bilibili-player-area .bilibili-player-video-state,*/
+/*.bilibili-player.mode-miniscreen[class*=mode-] .bilibili-player-area .bilibili-player-video-state{*/
+/*    display: block!important;*/
+/*    opacity: 0.2!important;*/
+/*    bottom: 5px!important;*/
+/*    right: 5px!important;*/
+/*}*/
+/**/
+/*.bilibili-player.mode-miniscreen.bilibili-player .bilibili-player-area.video-state-pause .bilibili-player-video-state,*/
+/*.bilibili-player.mode-miniscreen[class*=mode-] .bilibili-player-area.video-state-pause .bilibili-player-video-state{*/
+/*    display: block!important;*/
+/*    bottom: 5px!important;*/
+/*    right: 5px!important;*/
+/*    opacity: 0.8!important;*/
+/*}*/
 
-.bilibili-player.mode-miniscreen.bilibili-player .bilibili-player-area .bilibili-player-video-state,
-.bilibili-player.mode-miniscreen[class*=mode-] .bilibili-player-area .bilibili-player-video-state{
-    display: block!important;
-    opacity: 0.2!important;
-    bottom: 5px!important;
-    right: 5px!important;
-}
-
-.bilibili-player.mode-miniscreen.bilibili-player .bilibili-player-area.video-state-pause .bilibili-player-video-state,
-.bilibili-player.mode-miniscreen[class*=mode-] .bilibili-player-area.video-state-pause .bilibili-player-video-state{
-    display: block!important;
-    bottom: 5px!important;
-    right: 5px!important;
-    opacity: 0.8!important;
+/*不要点中弹幕了*/
+.pd__ex .b-danmaku{
+    pointer-events: none;
 }
 
 .bb-comment .comment-list .list-item .user-face, .comment-bilibili-fold .comment-list .list-item .user-face{
