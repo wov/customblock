@@ -445,6 +445,10 @@ body.header-v3 #biliMainHeader .mini-header{
     display:none!important;
 }
 
+.pd__ex .bilibili-player .bilibili-player-area{
+    max-height: 50vh;
+}
+
 /*.bilibili-player.mode-miniscreen.bilibili-player .bilibili-player-area .bilibili-player-video-state,*/
 /*.bilibili-player.mode-miniscreen[class*=mode-] .bilibili-player-area .bilibili-player-video-state{*/
 /*    display: block!important;*/
