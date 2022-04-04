@@ -1,9 +1,9 @@
 /*PC 版的样式*/
 
 .pd__ex *{
-    float: none!important;
+/*    float: none!important;*/
     min-width: unset!important;
-    max-width:100%!important;
+/*    max-width:100%!important;*/
     box-sizing: border-box;
     -webkit-text-size-adjust: none;
 }
@@ -805,15 +805,25 @@ body #app #bilibili-player.mini-player{
     display:inline-block!important;
 }
 
-.pd__ex .aside-core > div{
-    display: inline-block;
-    width: 49%;
-    margin: 5px 0.5%;
+.pd__ex .bili-rank-list-video .rank-video-card__info--tit{
+    overflow:auto;
 }
 
-.pd__ex .aside-core .bili-rank-list-video{
-    width: 100%;
-    margin: 0;
+.pd__ex .bili-video-card .bili-video-card__info--tit{
+    padding-right: 0;
+    overflow: auto;
+    font-size: 12px;
 }
+
+/*.pd__ex .aside-core > div{*/
+/*    display: inline-block;*/
+/*    width: 49%;*/
+/*    margin: 5px 0.5%;*/
+/*}*/
+
+/*.pd__ex .aside-core .bili-rank-list-video{*/
+/*    width: 100%;*/
+/*    margin: 0;*/
+/*}*/
 
 /* 科技频道 OVER*/
