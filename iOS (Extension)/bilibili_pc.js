@@ -34,7 +34,10 @@ if(video){
     video.setAttribute('playsinline',"true");
     video.setAttribute('controls',"true");
     video.volume = 1;
-    video.muted= false;
+    video.addEventListener('play', (event) => {
+        video.muted= false;
+    });
+    
 }
 
 

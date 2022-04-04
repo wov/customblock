@@ -518,6 +518,18 @@ body.header-v3 #biliMainHeader .mini-header{
     display:none!important;
 }
 
+.pd__ex .video-toolbar .ops > span{
+    width: auto;
+}
+
+.pd__ex .bilibili-player-video-sendbar .bilibili-player-video-inputbar{
+    width: auto;
+}
+
+/*设置弹幕的，先隐藏了吧*/
+.pd__ex .bilibili-player-video-sendbar .bilibili-player-video-danmaku-root .bilibili-player-video-danmaku-setting{
+    display:none;
+}
 
 .video-container-v1{
     min-width:unset!important;
