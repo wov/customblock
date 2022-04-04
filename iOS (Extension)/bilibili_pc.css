@@ -430,9 +430,25 @@ body.header-v3 #biliMainHeader .mini-header{
     float:none!important;
 }
 
+.pd__ex .bilibili-player-video-sendbar{
+    display:flex!important;
+}
 
-.bilibili-player.mode-miniscreen.bilibili-player .bilibili-player-area .bilibili-player-video-state, .bilibili-player.mode-miniscreen[class*=mode-] .bilibili-player-area .bilibili-player-video-state{
+
+.bilibili-player.mode-miniscreen.bilibili-player .bilibili-player-area .bilibili-player-video-state,
+.bilibili-player.mode-miniscreen[class*=mode-] .bilibili-player-area .bilibili-player-video-state{
     display: block!important;
+    opacity: 0.2!important;
+    bottom: 5px!important;
+    right: 5px!important;
+}
+
+.bilibili-player.mode-miniscreen.bilibili-player .bilibili-player-area.video-state-pause .bilibili-player-video-state,
+.bilibili-player.mode-miniscreen[class*=mode-] .bilibili-player-area.video-state-pause .bilibili-player-video-state{
+    display: block!important;
+    bottom: 5px!important;
+    right: 5px!important;
+    opacity: 0.8!important;
 }
 
 .bb-comment .comment-list .list-item .user-face, .comment-bilibili-fold .comment-list .list-item .user-face{
@@ -459,6 +475,35 @@ body.header-v3 #biliMainHeader .mini-header{
 
 /* 新版video */
 /*解决撑开的问题开始*/
+.pd__ex #playerWrap{
+    height:auto;
+    position: sticky;
+    top:0;
+    z-index: 1000;
+}
+
+.pd__ex #app #bilibili-player{
+    height:auto!important;
+}
+
+.pd__ex #app #bilibili-player.mini-player{
+    width: 100%!important;
+    height:auto!important;
+    right: unset!important;
+    bottom: unset!important;
+}
+
+.pd__ex #app #bilibili-player.mini-player .player{
+    width: 100%!important;
+    height:auto!important;
+}
+
+.pd__ex #bilibili-player.mini-player:hover .bilibili-player-drag-mask-close,
+.pd__ex #bilibili-player.mini-player:hover .bilibili-player-drag-mask-state,
+.pd__ex .bilibili-player.mode-miniscreen .bilibili-player-area .bilibili-player-drag-mask-progress{
+    display: none;
+}
+
 
 .video-container-v1{
     min-width:unset!important;

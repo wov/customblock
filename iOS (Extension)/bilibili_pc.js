@@ -12,6 +12,8 @@ setTimeout( _ => {
 },500)
 
 
+
+
 // 去掉所有的 a target 属性
 function removeAllTarget(){
     let As = document.querySelectorAll('a');
@@ -25,3 +27,17 @@ removeAllTarget();
 document.addEventListener('scroll', _ => {
     removeAllTarget();
 })
+
+// 给视频添加inline的播放
+let video = document.querySelector('video');
+if(video){
+    video.setAttribute('playsinline',"true");
+}
+
+
+setTimeout( _ => {
+    let video = document.querySelector('video');
+    if(video){
+        video.setAttribute('playsinline',"true");
+    }
+},2000);
