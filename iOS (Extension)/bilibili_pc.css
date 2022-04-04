@@ -7,6 +7,13 @@
     box-sizing: border-box;
     -webkit-text-size-adjust: none;
 }
+
+
+.pd__ex div{
+    max-width:100%!important;
+}
+
+
 /**/
 /*.pd__ex *:hover{*/
 /*    all: unset!important;*/

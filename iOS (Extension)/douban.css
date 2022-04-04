@@ -240,6 +240,13 @@ html h2{
     margin:4px!important;
 }
 
+
+.pd__ex #celebrities .celebrities-list.__oneline{
+    white-space: nowrap;
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch; /* Lets it scroll lazy */
+}
+
 /*}*/
 
 
@@ -376,9 +383,9 @@ html .pd__ex h3{
 
 
 .pd__ex .gaia .item{
-    width: 18%;
+    width: 48%;
     float: none;
-    margin: 5px 0.5% 10px;
+    margin: 5px 0.5% 15px;
     display: inline-block;
     vertical-align: top;
     font-size: 12px;

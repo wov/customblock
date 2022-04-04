@@ -111,12 +111,14 @@
     },{
         "js" : ["qimao.js"],
         "matches" : [
-            "*://www.qimao.com/"
+            "*://www.qimao.com/",
+            "*://www.qimao.com/shuku/*"
         ]
     },{
         "css" : ["qimao.css"],
         "matches" : [
-            "*://www.qimao.com/"
+            "*://www.qimao.com/",
+            "*://www.qimao.com/shuku/*"
         ]
     }],
 
