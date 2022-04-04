@@ -33,7 +33,8 @@ let video = document.querySelector('video');
 if(video){
     video.setAttribute('playsinline',"true");
     video.setAttribute('controls',"true");
-    vid.volume = 1;
+    video.volume = 1;
+    video.muted= false;
 }
 
 
@@ -42,6 +43,7 @@ setTimeout( _ => {
     if(video){
         video.setAttribute('playsinline',"true");
         video.setAttribute('controls',"true");
-        vid.volume = 1;
+        video.volume = 1;
+        video.muted= false;
     }
 },2000);
