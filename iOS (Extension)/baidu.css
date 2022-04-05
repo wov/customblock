@@ -19,6 +19,18 @@
 
 /****百度首页****/
 
+.pd__ex{
+/*    min-height:100vh;*/
+    background:#fff;
+}
+
+@media (prefers-color-scheme: dark) {
+    .pd__ex{
+        background:#121212;
+    }
+}
+
+
 .searchbox-exp div[style="overflow: hidden;background: #fff;"]{
     display:none!important;
 }
@@ -53,6 +65,10 @@ a[data-module=entrance]{
 
 
 @media (prefers-color-scheme: dark) {
+    img{
+        filter: brightness(0.8);
+    }
+    
     #page{
         background:#121212!important;
         color:rgba(255,255,255,0.87)!important;

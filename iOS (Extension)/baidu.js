@@ -1,5 +1,8 @@
 const BS_NAME = "pudding_block_sites";
 
+// add a class for reset the styles easly.
+document.querySelector('body').classList.add('pd__ex')
+
 let _search_results_doms = document.querySelectorAll('.c-result.result');
 let hideTipTimer;
 

@@ -41,8 +41,6 @@
 		83E017252675036B00A30A29 /* customblock Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 83E017242675036B00A30A29 /* customblock Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		83E0172A2675036B00A30A29 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 83E016E62675036A00A30A29 /* Main.html */; };
 		83E0172B2675036B00A30A29 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 83E016E62675036A00A30A29 /* Main.html */; };
-		83E0172C2675036B00A30A29 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 83E016E82675036A00A30A29 /* Icon.png */; };
-		83E0172D2675036B00A30A29 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 83E016E82675036A00A30A29 /* Icon.png */; };
 		83E0172E2675036B00A30A29 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 83E016E92675036A00A30A29 /* Style.css */; };
 		83E0172F2675036B00A30A29 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 83E016E92675036A00A30A29 /* Style.css */; };
 		83E017302675036B00A30A29 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 83E016EA2675036A00A30A29 /* Script.js */; };
@@ -137,7 +135,6 @@
 		83CF53C127C915A100375E9F /* zhihu.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = zhihu.css; sourceTree = "<group>"; };
 		83CF53C327C9EACE00375E9F /* 36kr.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = 36kr.css; sourceTree = "<group>"; };
 		83E016E72675036A00A30A29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
-		83E016E82675036A00A30A29 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		83E016E92675036A00A30A29 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
 		83E016EA2675036A00A30A29 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
 		83E016EB2675036A00A30A29 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -228,7 +225,6 @@
 				83CD752827E76AF0004CE7AF /* step1.PNG */,
 				83CD752927E76AF0004CE7AF /* step2.PNG */,
 				83E016E62675036A00A30A29 /* Main.html */,
-				83E016E82675036A00A30A29 /* Icon.png */,
 				83E016E92675036A00A30A29 /* Style.css */,
 				83E016EA2675036A00A30A29 /* Script.js */,
 			);
@@ -299,6 +295,7 @@
 				838E87122676778200558B4F /* 163.css */,
 				831955E227CB662F00446554 /* 163.js */,
 				83CF53BF27C65E7000375E9F /* baidu.css */,
+				83CD753227EC212A004CE7AF /* baidu.js */,
 				831955E027C8E1AD00446554 /* xiaohongshu.css */,
 				83CF53C127C915A100375E9F /* zhihu.css */,
 				83CF53C327C9EACE00375E9F /* 36kr.css */,
@@ -310,7 +307,6 @@
 				83CD752427E4D3B2004CE7AF /* smzdm.js */,
 				83CD752627E4D486004CE7AF /* smzdm.css */,
 				83CD752E27E783CF004CE7AF /* v2ex.css */,
-				83CD753227EC212A004CE7AF /* baidu.js */,
 				83CD753427EDED74004CE7AF /* douban.js */,
 				83CD753627EDED8B004CE7AF /* douban.css */,
 				836479A927F1DBEA0081B72B /* bilibili_pc.css */,
@@ -453,7 +449,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83E0172C2675036B00A30A29 /* Icon.png in Resources */,
 				83CD752C27E76AF0004CE7AF /* step2.PNG in Resources */,
 				83CD752A27E76AF0004CE7AF /* step1.PNG in Resources */,
 				83E017052675036B00A30A29 /* LaunchScreen.storyboard in Resources */,
@@ -469,7 +464,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83E0172D2675036B00A30A29 /* Icon.png in Resources */,
 				83E0172F2675036B00A30A29 /* Style.css in Resources */,
 				83CD752D27E76AF0004CE7AF /* step2.PNG in Resources */,
 				83E017142675036B00A30A29 /* Main.storyboard in Resources */,
