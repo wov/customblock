@@ -106,5 +106,59 @@ body{
     }
     
     
+    .body-content-wrapper #body-content p{
+        color: rgba(255,255,255,0.87)!important;
+    }
+    
+    .body-content-wrapper #body-content h3{
+        color: rgba(255,255,255,0.87)!important;
+    }
+    
+    .body-content-wrapper #body-content section{
+        box-shadow: none!important;
+        line-height: 1.5!important;
+        color: rgba(255,255,255,0.87)!important;
+    }
+    
+    .pd__ex .kr-mobile-footer{
+        background:#121212;
+    }
+    
+    .pd__ex .kr-mobile-footer .list .row a,
+    .pd__ex .kr-mobile-footer .record{
+        color: rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .kr-mobile-footer .record a,
+    .pd__ex .kr-mobile-footer .record a:active,
+    .pd__ex .kr-mobile-footer .record a:hover,
+    .pd__ex .kr-mobile-footer .record a:visited{
+        color: rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .may-like-art-wrp:before{
+        background:rgba(255,255,255,0.08);
+    }
+    
+    .pd__ex .may-like-art-wrp .title{
+        color: rgba(255,255,255,0.87);
+    }
+    
+    
+    .pd__ex #article-detail-right-qifu .qifu-recom-articles-title{
+        color: rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex #article-detail-right-qifu .qifu-recom-articles .qifu-recom-i-cap>a{
+        color: rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex #article-detail-right-qifu .qifu-follow-box .qifu-t{
+        color: rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex #article-detail-right-qifu .qifu-follow-box .qifu-txt{
+        color: rgba(255,255,255,0.87);
+    }
 }
 

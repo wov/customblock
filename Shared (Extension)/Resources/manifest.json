@@ -51,6 +51,10 @@
         "matches" : ["*://m.36kr.com/",
                     "*://m.36kr.com/p/*"]
     },{
+        "js" : ["36kr.js"],
+        "matches" : ["*://m.36kr.com/",
+                    "*://m.36kr.com/p/*"]
+    },{
         "css" : ["sina.css"],
         "matches" : ["*://*.sina.cn/*"]
     },{

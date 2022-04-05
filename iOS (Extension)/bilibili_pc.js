@@ -12,8 +12,6 @@ setTimeout( _ => {
 },500)
 
 
-
-
 // 去掉所有的 a target 属性
 function removeAllTarget(){
     let As = document.querySelectorAll('a');
