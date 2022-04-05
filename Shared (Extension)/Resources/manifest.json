@@ -108,20 +108,6 @@
             "*://movie.douban.com/*",
             "*://www.douban.com/group/topic/*"
         ]
-    },{
-        "js" : ["qimao.js"],
-        "matches" : [
-            "*://www.qimao.com/",
-            "*://www.qimao.com/site/index/",
-            "*://www.qimao.com/shuku/*"
-        ]
-    },{
-        "css" : ["qimao.css"],
-        "matches" : [
-            "*://www.qimao.com/",
-            "*://www.qimao.com/site/index/",
-            "*://www.qimao.com/shuku/*"
-        ]
     }],
 
     "browser_action": {

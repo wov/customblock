@@ -17,8 +17,6 @@
 		839CD0E327D247D200E86463 /* bilibili.js in Resources */ = {isa = PBXBuildFile; fileRef = 839CD0E227D247D200E86463 /* bilibili.js */; };
 		839CD0E527D24DB300E86463 /* bilibili.css in Resources */ = {isa = PBXBuildFile; fileRef = 839CD0E427D24DB300E86463 /* bilibili.css */; };
 		83B2530227F5550C00C11371 /* base.css in Resources */ = {isa = PBXBuildFile; fileRef = 83B2530127F5550C00C11371 /* base.css */; };
-		83B2530427F5EADB00C11371 /* qimao.css in Resources */ = {isa = PBXBuildFile; fileRef = 83B2530327F5EADB00C11371 /* qimao.css */; };
-		83B2530627F5EB2A00C11371 /* qimao.js in Resources */ = {isa = PBXBuildFile; fileRef = 83B2530527F5EB2A00C11371 /* qimao.js */; };
 		83B8D43E27DDFD1B00FCC661 /* ifanr.css in Resources */ = {isa = PBXBuildFile; fileRef = 83B8D43D27DDFD1B00FCC661 /* ifanr.css */; };
 		83CD752527E4D3B2004CE7AF /* smzdm.js in Resources */ = {isa = PBXBuildFile; fileRef = 83CD752427E4D3B2004CE7AF /* smzdm.js */; };
 		83CD752727E4D486004CE7AF /* smzdm.css in Resources */ = {isa = PBXBuildFile; fileRef = 83CD752627E4D486004CE7AF /* smzdm.css */; };
@@ -126,8 +124,6 @@
 		839CD0E227D247D200E86463 /* bilibili.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = bilibili.js; sourceTree = "<group>"; };
 		839CD0E427D24DB300E86463 /* bilibili.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = bilibili.css; sourceTree = "<group>"; };
 		83B2530127F5550C00C11371 /* base.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = base.css; sourceTree = "<group>"; };
-		83B2530327F5EADB00C11371 /* qimao.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = qimao.css; sourceTree = "<group>"; };
-		83B2530527F5EB2A00C11371 /* qimao.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = qimao.js; sourceTree = "<group>"; };
 		83B8D43D27DDFD1B00FCC661 /* ifanr.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = ifanr.css; sourceTree = "<group>"; };
 		83CD752427E4D3B2004CE7AF /* smzdm.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = smzdm.js; sourceTree = "<group>"; };
 		83CD752627E4D486004CE7AF /* smzdm.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = smzdm.css; sourceTree = "<group>"; };
@@ -320,8 +316,6 @@
 				836479A927F1DBEA0081B72B /* bilibili_pc.css */,
 				836479AB27F1DC090081B72B /* bilibili_pc.js */,
 				83B2530127F5550C00C11371 /* base.css */,
-				83B2530327F5EADB00C11371 /* qimao.css */,
-				83B2530527F5EB2A00C11371 /* qimao.js */,
 			);
 			path = "iOS (Extension)";
 			sourceTree = "<group>";
@@ -496,8 +490,6 @@
 				831955E327CB662F00446554 /* 163.js in Resources */,
 				838E87132676778200558B4F /* 163.css in Resources */,
 				83CD753727EDED8B004CE7AF /* douban.css in Resources */,
-				83B2530627F5EB2A00C11371 /* qimao.js in Resources */,
-				83B2530427F5EADB00C11371 /* qimao.css in Resources */,
 				83CF53C427C9EACE00375E9F /* 36kr.css in Resources */,
 				83E0173E2675036B00A30A29 /* background.js in Resources */,
 				836479AC27F1DC090081B72B /* bilibili_pc.js in Resources */,
