@@ -16,7 +16,7 @@
 }
 
 .pd__ex .header{
-    padding: 0 15px;
+    padding: 0 10px;
     position: sticky;
     top:0;
 }
@@ -100,9 +100,8 @@
     display:none!important;
 }
 
-
 .pd__ex .header-menu{
-    padding: 0 15px;
+    padding: 0 10px;
 }
 
 
@@ -323,7 +322,7 @@
 }
 
 .pd__ex .wrapper .main{
-    padding: 0 15px;
+    padding: 0 10px;
 }
 
 
@@ -461,7 +460,7 @@
 
 
 .pd__ex .footer{
-    padding: 0 15px;
+    padding: 0 10px;
 }
 
 .pd__ex  .footer .p-copyright{
@@ -493,4 +492,193 @@
 
 .pd__ex  .qm-pic.pic-131-174.height-225{
     height:auto;
+}
+
+
+/*shuku 页*/
+
+.pd__ex .detail-main{
+    padding: 0 10px;
+}
+
+.pd__ex .qm-crumbs{
+    padding: 10px 0;
+    height: auto;
+}
+
+.pd__ex .col-a{
+    display: flex;
+    height: auto;
+}
+
+.pd__ex .detail-main .book-information .poster-pic{
+    margin-right: 10px;
+    box-shadow: none;
+    height: auto;
+}
+
+.pd__ex .detail-main .book-information .poster-pic:after{
+    display:none;
+}
+
+.pd__ex .detail-main .book-information .poster-pic .i-mask{
+    display: none;
+}
+
+
+.pd__ex .detail-main .book-information .data-txt .tit{
+    font-size: 18px;
+    line-height: 1.2;
+    height: auto;
+    padding-right:0;
+}
+
+
+.pd__ex .detail-main .book-information .data-txt .s-score{
+    pointer-events: none;
+    transform: scale(0.5);
+    transform-origin: right top;
+}
+
+.pd__ex .detail-main .book-information .data-txt .p-tags{
+    padding-top: 5px;
+}
+
+.pd__ex .qm-tags[size="14"]{
+    font-size: 12px;
+}
+
+.pd__ex .qm-tags.black a,
+.pd__ex .qm-tags.black em{
+    margin:0 4px 0 0;
+}
+
+.pd__ex .detail-main .book-information .data-txt .p-alias,
+.pd__ex .detail-main .book-information .data-txt .p-name{
+    padding-top: 5px;
+    font-size: 12px;
+}
+
+.pd__ex .detail-main .book-information .data-txt .p-num i{
+    display:none;
+}
+
+.pd__ex .detail-main .book-information .data-txt .p-num span{
+    margin: 0 5px;
+}
+
+.pd__ex .detail-main .book-information .data-txt .p-num{
+    padding-top: 5px;
+    font-size: 12px;
+}
+
+.pd__ex .detail-main .book-information .data-txt .data-txt-top-con{
+    min-height: unset;
+}
+
+.pd__ex .detail-main .book-information .data-txt .p-update{
+    padding-top: 5px;
+    line-height: 1.2;
+}
+
+.pd__ex .detail-main .book-information .data-txt .p-update em.time{
+    display:block;
+    padding-left:0;
+}
+
+.pd__ex .detail-main .book-information .data-txt .p-fun{
+    padding-top: 10px;
+    height: auto;
+}
+
+.pd__ex .detail-main .book-information .data-txt .p-fun .qm-btn{
+    display:inline-block;
+    margin-right: 12px;
+    width: 60%!important;
+    text-align:center;
+}
+
+.pd__ex .detail-main .book-information .data-txt .p-fun .app-code-pop{
+    display: inline-block;
+}
+
+.pd__ex .pd__ex .detail-main .book-information .data-txt .p-fun .qm-btn[style*="inline"]{
+    display: inline-block!important;
+}
+
+.pd__ex .detail-main .book-information .author-intro{
+    display:flex;
+    padding: 0 10px;
+    align-items:center;
+}
+
+.pd__ex .detail-main .book-information .author-intro .author{
+    padding: 5px;
+}
+
+.pd__ex .detail-main .book-information .author-intro .data-list{
+    padding: 0;
+    display: flex;
+    flex:1;
+}
+
+.pd__ex .detail-main .book-information .author-intro .data-list li{
+    display:block;
+    width: auto;
+    flex:1;
+}
+
+.pd__ex .detail-main .book-information .author-intro .author .txt{
+    width: auto;
+}
+
+.pd__ex .detail-main .book-information{
+    padding-bottom:15px;
+}
+
+.pd__ex .mt32{
+    margin: 0;
+}
+
+.pd__ex .wrapper .main .col-a{
+    flex-wrap: wrap;
+}
+
+.pd__ex .chapter-directory dt{
+    height: auto;
+}
+
+.pd__ex .chapter-directory dd span{
+    height: auto;
+    display:block;
+    line-height: 2;
+}
+
+.pd__ex .chapter-directory dd span .vip{
+    position: relative;
+}
+
+.pd__ex .qm-tab li.cur span.s-tit:before{
+    bottom: -5px;
+}
+
+.pd__ex .qm-mod-th-m .tit{
+    background:#f8f8f8;
+    width: 100%;
+}
+
+.pd__ex .qm-tab.border{
+    width: 100%;
+}
+
+.pd__ex .qm-pic-txt.pic-90-120 li{
+    width: 49%;
+    display: inline-block;
+    vertical-align : top;
+    margin-top: 0;
+}
+
+.pd__ex .qm-pic-txt.pic-90-120 li .txt{
+    width: auto;
+    height: auto;
 }
