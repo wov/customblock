@@ -28,6 +28,7 @@
     *{
         border-color:rgba(255,255,255,0.08)!important;
     }
+
 }
 
 
@@ -197,4 +198,7 @@
         color: rgba(255,255,255,0.87)!important;
     }
     
+    .home-container .article-container .article-item .article-separator{
+        background-color:rgba(255,255,255,0.08)!important;
+    }
 }
