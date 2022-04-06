@@ -14,13 +14,11 @@
  main-text-color : color:rgba(255,255,255,0.87)!important;
  medium-text-color : color:rgba(255,255,255,0.6)!important;
  disable-text-color : color:rgba(255,255,255,0.38)!important;
- 
  */
 
 /****百度首页****/
-
 .pd__ex{
-/*    min-height:100vh;*/
+    /*    min-height:100vh;*/
     background:#fff;
 }
 
@@ -28,6 +26,11 @@
     .pd__ex{
         background:#121212;
     }
+    
+    *{
+        border-color:rgba(255,255,255,0.08)!important;
+    }
+    
 }
 
 
@@ -1227,6 +1230,166 @@ a[data-type="native_ad"]{
     
     .wgt-rel-exp-feed .rel-exp-feed .rel-exp-feed-item .rel-exp-feed-item-img-wrap .rel-exp-feed-item-img{
         filter: brightness(0.8);
+    }
+    
+}
+
+
+/*http://gamecenter.baidu.com/static/game/zone.html?srcid=5868&appId=157871355117023232&channelid=60052&query=夜勤人&sid*/
+/*dark mode*/
+
+@media (prefers-color-scheme: dark) {
+    .pd__ex .app-zone-container .page-head{
+        background:#121212;
+    }
+    
+    .pd__ex .app-tab-container{
+        background:#121212;
+    }
+    
+    .pd__ex .detail-info-wrapper{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .detail-info-wrapper .detail-info-content{
+        background:rgba(255,255,255,0.08);
+    }
+    
+    .pd__ex .detail-info-wrapper .end-tour{
+        background:rgba(255,255,255,0.11);
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .detail-info-wrapper .end-tour .end-tour-tab .tab-tiem-focus{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .detail-info-wrapper .end-tour .end-tour-content .content-item-key{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .detail-info-wrapper .end-tour .end-tour-content .content-item-value{
+        color:rgba(255,255,255,0.6);
+    }
+    
+    .pd__ex header.title{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .game-desc{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .bar-header{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .base-info{
+        background:rgba(255,255,255,0.08);
+    }
+    
+    .pd__ex .base-info .base-info-block .title,
+    .pd__ex .base-info .base-info-block .content{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .app-tab-container .tab-wrapper .tab-item{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .app-specs{
+        color:rgba(255,255,255,0.6);
+    }
+    
+    .pd__ex .media-eva .eva-list-box .eva-item .introduce .intro-left .name-desc .name .name-left[data-v-6b726d5c]{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .media-eva .eva-list-box .eva-item .item-title[data-v-6b726d5c]{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .media-eva .eva-list-box .eva-item .item-text[data-v-6b726d5c]{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .media-eva .eva-list-box .eva-item .eva-msg[data-v-6b726d5c]{
+        color:rgba(255,255,255,0.6);
+    }
+    
+    .pd__ex .media-eva .eva-list-box .eva-item .eva-msg .eva-icon-item .eva-icon[data-v-6b726d5c],
+    .pd__ex .comment-bottom .is-like .bottom-support img[data-v-45e894cd],
+    .pd__ex .comment-bottom .is-like img[data-v-45e894cd],
+    .pd__ex .detail-comment-wrapper .more .arrow-right{
+        filter: brightness(0) invert(1);
+    }
+    
+    .pd__ex .comment-bottom .is-like span[data-v-45e894cd]{
+        color:rgba(255,255,255,0.6);
+    }
+    
+    .pd__ex .detail-comment-wrapper .more{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .tieba-item-content .item-content-desc{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .tieba-item-content .item-content-user-detail .user-comment img,
+    .pd__ex .tieba-item-content .item-content-user-detail .user-support img{
+        filter: brightness(0) invert(1);
+    }
+    
+    .pd__ex .game-item .game-name{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .game-item .game-label .game-label-item{
+        color:rgba(255,255,255,0.6);
+    }
+    
+    .pd__ex .detail-download-wrapper[data-v-661bec29]{
+        box-shadow: none;
+        background: #121212;
+    }
+    
+    /*问答*/
+    .pd__ex .app-answer-container{
+        background: #121212;
+    }
+    
+    .pd__ex .app-answer-container .answer-title{
+        background: #121212;
+        z-index: 1000;
+    }
+    
+    .pd__ex .app-answer-container .answer-title .answer-title-name{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .answer-list-item{
+        background:rgba(255,255,255,0.08);
+    }
+    
+    .pd__ex .answer-list-item .list-item-user .name{
+        color:rgba(255,255,255,0.6);
+    }
+    
+    .pd__ex .answer-list-item .list-item-area .textArea{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .answer-list-item .list-item-bottom{
+        color:rgba(255,255,255,0.6);
+    }
+    
+    .pd__ex .detail-video-container .sort-title{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .detail-video-container .sort-title .sort-filter .filter-content .selected-str{
+        color:rgba(255,255,255,0.6);
     }
     
 }

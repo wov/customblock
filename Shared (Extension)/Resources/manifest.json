@@ -30,15 +30,16 @@
             "*://baike.baidu.com/item/*",
             "*://zhidao.baidu.com/question/*",
             "*://baijiahao.baidu.com/s*",
-            "*://jingyan.baidu.com/article/*"
-
+            "*://jingyan.baidu.com/article/*",
+            "*://gamecenter.baidu.com/static/game/*"
         ]
     },{
         "js" : ["baidu.js"],
         "matches" : [
             "*://www.baidu.com/*",
             "*://m.baidu.com/*",
-            "*://baike.baidu.com/item/*"
+            "*://baike.baidu.com/item/*",
+            "*://gamecenter.baidu.com/static/game/*"
         ]
     },{
         "css" : ["xiaohongshu.css"],

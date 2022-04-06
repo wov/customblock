@@ -19,6 +19,19 @@
     display:none!important;
 }
 
+
+@media (prefers-color-scheme: dark) {
+    .pd__ex{
+        background:#121212;
+    }
+    
+    *{
+        border-color:rgba(255,255,255,0.08)!important;
+    }
+}
+
+
+
 /*添加dark mode*/
 @media (prefers-color-scheme: dark) {
     

@@ -79,3 +79,21 @@ https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/
     --color-yellow: var(--color-dark-yellow);
   }
 }
+
+/*
+ main-bg-color : background:#121212!important;
+ 00dp-bg-color : background:rgba(255,255,255,0)!important;
+ 01dp-bg-color : background:rgba(255,255,255,0.05)!important;
+ 02dp-bg-color : background:rgba(255,255,255,0.07)!important;
+ 03dp-bg-color : background:rgba(255,255,255,0.08)!important;
+ 04dp-bg-color : background:rgba(255,255,255,0.09)!important;
+ 06dp-bg-color : background:rgba(255,255,255,0.11)!important;
+ 08dp-bg-color : background:rgba(255,255,255,0.12)!important;
+ 12dp-bg-color : background:rgba(255,255,255,0.14)!important;
+ 16dp-bg-color : background:rgba(255,255,255,0.15)!important;
+ 24dp-bg-color : background:rgba(255,255,255,0.16)!important;
+ 
+ main-text-color : color:rgba(255,255,255,0.87)!important;
+ medium-text-color : color:rgba(255,255,255,0.6)!important;
+ disable-text-color : color:rgba(255,255,255,0.38)!important;
+ */
