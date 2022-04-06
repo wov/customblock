@@ -112,6 +112,16 @@
             "*://movie.douban.com/*",
             "*://www.douban.com/group/topic/*"
         ]
+    },{
+        "js" : ["qq.js"],
+        "matches" : [
+            "*://xw.qq.com/amphtml/*"
+        ]
+    },{
+        "css" : ["qq.css"],
+        "matches" : [
+            "*://xw.qq.com/amphtml/*"
+        ]
     }],
 
     "browser_action": {

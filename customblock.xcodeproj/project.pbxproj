@@ -13,6 +13,8 @@
 		836479AA27F1DBEA0081B72B /* bilibili_pc.css in Resources */ = {isa = PBXBuildFile; fileRef = 836479A927F1DBEA0081B72B /* bilibili_pc.css */; };
 		836479AC27F1DC090081B72B /* bilibili_pc.js in Resources */ = {isa = PBXBuildFile; fileRef = 836479AB27F1DC090081B72B /* bilibili_pc.js */; };
 		837F025927FC748D00A677BD /* 36kr.js in Resources */ = {isa = PBXBuildFile; fileRef = 837F025827FC748D00A677BD /* 36kr.js */; };
+		837F025B27FDC13C00A677BD /* qq.css in Resources */ = {isa = PBXBuildFile; fileRef = 837F025A27FDC13C00A677BD /* qq.css */; };
+		837F025D27FDC14900A677BD /* qq.js in Resources */ = {isa = PBXBuildFile; fileRef = 837F025C27FDC14900A677BD /* qq.js */; };
 		838E87132676778200558B4F /* 163.css in Resources */ = {isa = PBXBuildFile; fileRef = 838E87122676778200558B4F /* 163.css */; };
 		839CD0D627CD077E00E86463 /* jianshu.css in Resources */ = {isa = PBXBuildFile; fileRef = 839CD0D527CD077E00E86463 /* jianshu.css */; };
 		839CD0E327D247D200E86463 /* bilibili.js in Resources */ = {isa = PBXBuildFile; fileRef = 839CD0E227D247D200E86463 /* bilibili.js */; };
@@ -119,6 +121,8 @@
 		836479A927F1DBEA0081B72B /* bilibili_pc.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = bilibili_pc.css; sourceTree = "<group>"; };
 		836479AB27F1DC090081B72B /* bilibili_pc.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = bilibili_pc.js; sourceTree = "<group>"; };
 		837F025827FC748D00A677BD /* 36kr.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = 36kr.js; sourceTree = "<group>"; };
+		837F025A27FDC13C00A677BD /* qq.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = qq.css; sourceTree = "<group>"; };
+		837F025C27FDC14900A677BD /* qq.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = qq.js; sourceTree = "<group>"; };
 		838E87122676778200558B4F /* 163.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = 163.css; sourceTree = "<group>"; };
 		839CD0D527CD077E00E86463 /* jianshu.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = jianshu.css; sourceTree = "<group>"; };
 		839CD0E227D247D200E86463 /* bilibili.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = bilibili.js; sourceTree = "<group>"; };
@@ -315,6 +319,8 @@
 				836479A927F1DBEA0081B72B /* bilibili_pc.css */,
 				836479AB27F1DC090081B72B /* bilibili_pc.js */,
 				83B2530127F5550C00C11371 /* base.css */,
+				837F025A27FDC13C00A677BD /* qq.css */,
+				837F025C27FDC14900A677BD /* qq.js */,
 			);
 			path = "iOS (Extension)";
 			sourceTree = "<group>";
@@ -489,6 +495,7 @@
 				83CD753727EDED8B004CE7AF /* douban.css in Resources */,
 				83CF53C427C9EACE00375E9F /* 36kr.css in Resources */,
 				83E0173E2675036B00A30A29 /* background.js in Resources */,
+				837F025D27FDC14900A677BD /* qq.js in Resources */,
 				836479AC27F1DC090081B72B /* bilibili_pc.js in Resources */,
 				83B8D43E27DDFD1B00FCC661 /* ifanr.css in Resources */,
 				839CD0D627CD077E00E86463 /* jianshu.css in Resources */,
@@ -506,6 +513,7 @@
 				83E0173C2675036B00A30A29 /* manifest.json in Resources */,
 				83B2530227F5550C00C11371 /* base.css in Resources */,
 				83CD753127E78804004CE7AF /* v2ex.css in Resources */,
+				837F025B27FDC13C00A677BD /* qq.css in Resources */,
 				839CD0E527D24DB300E86463 /* bilibili.css in Resources */,
 				83E017382675036B00A30A29 /* _locales in Resources */,
 				83E017402675036B00A30A29 /* content.js in Resources */,

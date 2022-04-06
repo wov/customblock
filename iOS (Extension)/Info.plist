@@ -12,6 +12,10 @@
 		<array>
 			<dict>
 				<key>Script</key>
+				<string>qq.js</string>
+			</dict>
+			<dict>
+				<key>Script</key>
 				<string>36kr.js</string>
 			</dict>
 			<dict>
@@ -41,6 +45,10 @@
 		</array>
 		<key>SFSafariStyleSheet</key>
 		<array>
+			<dict>
+				<key>Style Sheet</key>
+				<string>qq.css</string>
+			</dict>
 			<dict>
 				<key>Style Sheet</key>
 				<string>bilibili_pc.css</string>
@@ -98,6 +106,7 @@
 		<dict>
 			<key>Allowed Domains</key>
 			<array>
+				<string>*.qq.com</string>
 				<string>*.douban.com</string>
 				<string>v2ex.com</string>
 				<string>*.smzdm.com</string>
