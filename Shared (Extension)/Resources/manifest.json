@@ -116,11 +116,23 @@
     },{
         "js" : ["qq.js"],
         "matches" : [
+            "*://xw.qq.com/",
+            "*://xw.qq.com/hot",
+            "*://xw.qq.com/video",
+            "*://xw.qq.com/cmsid/*",
+            "*://xw.qq.com/m/*",
+            "*://xw.qq.com/c/coral/*",
             "*://xw.qq.com/amphtml/*"
         ]
     },{
         "css" : ["qq.css"],
         "matches" : [
+            "*://xw.qq.com/",
+            "*://xw.qq.com/hot",
+            "*://xw.qq.com/video",
+            "*://xw.qq.com/cmsid/*",
+            "*://xw.qq.com/m/*",
+            "*://xw.qq.com/c/coral/*",
             "*://xw.qq.com/amphtml/*"
         ]
     }],

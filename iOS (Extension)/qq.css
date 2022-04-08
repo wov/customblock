@@ -12,8 +12,356 @@
 
 /*腾讯网*/
 /*https://xw.qq.com/?pgv_ref=amp&ADTAG=amp*/
-/*dark mode*/
 
+/*首页奇怪的广告..*/
+.pd__ex div[data-boss-expo="ad&modular=feeds"]{
+    display:none;
+}
 
+/*global*/
+@media (prefers-color-scheme: dark) {
+    body.pd__ex{
+        background-color: #121212;
+        color:rgba(255,255,255,0.87);
+    }
+    
+    body.pd__ex *{
+        border-color:rgba(255,255,255,0.08)!important;
+    }
+    
+    body.pd__ex img{
+        filter: brightness(0.8);
+    }
+}
 
+/*index page*/
+@media (prefers-color-scheme: dark) {
+    
+    .pd__ex .__xw_app{
+        background-color: #121212!important;
+    }
+    
+    .pd__ex header.jsx-180037714{
+        background: #121212;
+    }
+    
+    .pd__ex .nav.jsx-112949125{
+        background-color:rgba(255,255,255,0.08);
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex a.jsx-112949125{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex #index-top-nav{
+        background-color: #121212!important;
+    }
+    
+    .pd__ex .title.jsx-4066685292{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .showDividingLine.jsx-3088035717:after,
+    .pd__ex .line.jsx-256197824,
+    .pd__ex .showDividingLine.jsx-2687038152:after,
+    .pd__ex .ssp.jsx-4292684899:after,
+    .pd__ex .showDividingLine.jsx-2092920064:after,
+    .pd__ex .main.jsx-1429544516:after,
+    .pd__ex .more.border.jsx-3268639510:before,
+    .pd__ex .footer.jsx-2005580460::before,
+    .pd__ex .header.white.jsx-2577261539::after,
+    .pd__ex .ct-related .line,
+    .pd__ex .focus-slider.jsx-4238858185::after,
+    .pd__ex .list-wrap.jsx-3121287768 div.jsx-3121287768:not(:last-child)::after{
+        background-color:rgba(255,255,255,0.08)!important;
+        border-color:rgba(255,255,255,0.08)!important;
+    }
+    
+    .pd__ex .inner.jsx-1465378214{
+        background-color:rgba(255,255,255,0.08);
+    }
+    
+    .pd__ex .title.jsx-2687038152{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .info.jsx-2687038152{
+        color:rgba(255,255,255,0.6);
+    }
+    
+    .pd__ex .gap{
+        background-color:rgba(255,255,255,0.08)!important;
+    }
+    
+    /*这个是图片容器，不知道为啥不用img*/
+    .pd__ex .viewer{
+        filter: brightness(0.8);
+    }
+    
+    .pd__ex .nav.jsx-560229217 li.jsx-560229217 a.jsx-560229217{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .footer.jsx-873733093{
+        background: #121212;
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .footer.jsx-873733093 .links.jsx-873733093 a.jsx-873733093{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .copyright.jsx-873733093{
+        color:rgba(255,255,255,0.6);
+    }
+    
+    .pd__ex .item.jsx-1640586532,
+    .pd__ex .item.ad-edit.jsx-1640586532{
+        background-color:#333;
+    }
+    
+    /*hot*/
+    .pd__ex .container.jsx-2452889249{
+        background-color: #121212!important;
+    }
+    
+    .pd__ex .root.jsx-2452889249,
+    .pd__ex .topborder.jsx-2452889249{
+        background:#121212;
+    }
+    
+    .pd__ex span.jsx-669417692{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    /*video*/
+    .pd__ex .ct-videos.jsx-1715643046{
+        background:#121212;
+    }
+    
+    .pd__ex  .source.jsx-2092920064 span.jsx-2092920064{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .categories.jsx-2092920064 span.jsx-2092920064{
+        background-color:rgba(255,255,255,0.08);
+        color:rgba(255,255,255,0.6);
+    }
+    
+    /*cms*/
+    
+    .pd__ex .main.jsx-3636217773{
+        background-color:#333;
+    }
+    
+    .pd__ex .title.jsx-3310944876{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .media-name.jsx-3310944876{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .media-desc.jsx-3310944876{
+        color:rgba(255,255,255,0.6);
+    }
+    
+    .pd__ex .text.jsx-2558377382{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .main.jsx-1429544516 .nick.jsx-1429544516{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .main.jsx-1429544516 .content.jsx-1429544516 p.jsx-1429544516{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .footer.jsx-2005580460{
+        background-color: #333;
+    }
+    
+    .pd__ex .footer.jsx-2005580460 .item.jsx-2005580460::before{
+        filter: brightness(0) invert(0.6);
+    }
+    
+    
+    /*频道设置*/
+    .pd__ex .main.jsx-3012703141{
+        background: #121212;
+    }
+    
+    .pd__ex .header.white.jsx-2577261539{
+        background-color:rgba(255,255,255,0.08);
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .header.white.jsx-2577261539 .end.close.jsx-2577261539{
+        filter: brightness(0) invert(1);
+    }
+    
+    .pd__ex .section-title.jsx-3012703141 h3.jsx-3012703141{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .section-title.jsx-3012703141 .status.jsx-3012703141{
+        color:rgba(255,255,255,0.6);
+    }
+    
+    .pd__ex .section-title.jsx-3012703141 button.edit.jsx-3012703141, .section-title.jsx-3012703141 button.reset.jsx-3012703141{
+        background-color:rgba(255,255,255,0.08);
+        color:rgba(255,255,255,0.6);
+    }
+    
+    .pd__ex ul.ch-list.jsx-3012703141 li.jsx-3012703141 a.jsx-3012703141{
+        background-color:rgba(255,255,255,0.08);
+        color:rgba(255,255,255,0.6);
+    }
+    
+    .pd__ex .section-title.jsx-3012703141 h3.current.jsx-3012703141 a.jsx-3012703141{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .J_Comment:not(.J_Comment_dark){
+        background: #121212;
+    }
+    
+    .pd__ex .comment-sdk-font-color{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .comment-sdk-block-background-color{
+        background-color:rgba(255,255,255,0.08);
+    }
+
+    .pd__ex .comment-children-wrapper{
+        color:rgba(255,255,255,0.6);
+    }
+    
+    .pd__ex .J_CommentBar .comment-bar-container,
+    .pd__ex .comment-sdk-background-color{
+        background: #333;
+    }
+    
+    
+    .pd__ex nav.top{
+        background: #121212;
+    }
+    
+    .pd__ex .header-main{
+        background: #121212;
+    }
+
+    .pd__ex .header-main .meta .datePublished{
+        color:rgba(255,255,255,0.6);
+    }
+    
+    .pd__ex amp-img{
+        background: #121212;
+    }
+    
+    .pd__ex .article-main{
+        background: #121212;
+    }
+    
+    .pd__ex .ct-related{
+        background: #121212;
+    }
+    
+    .pd__ex .ct-related .stitle,
+    .pd__ex .related .title{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .related .info{
+        color:rgba(255,255,255,0.6);
+    }
+    
+    .pd__ex footer{
+        background: #121212;
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex footer .ul-nav{
+        background: #121212;
+    }
+    
+    .pd__ex footer .ul-nav a{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .nav-sidebar{
+        background: #333;
+    }
+    
+    .pd__ex .nav-sidebar li a,
+    .pd__ex .nav-sidebar button.close{
+        background-color:rgba(255,255,255,0.08);
+        color:rgba(255,255,255,0.6);
+    }
+    
+    .pd__ex nav.top button.nav-btn{
+        border-color:rgba(255,255,255,0.87)!important;
+    }
+    
+    .pd__ex nav.top button.nav-btn::after{
+        background-color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .scroller.jsx-2114784110{
+        background-color:#222;
+    }
+    
+    .pd__ex .scroller.jsx-2114784110 .main.jsx-2114784110 .gradient-r.jsx-2114784110,
+    .pd__ex .scroller.jsx-2114784110 .main.jsx-2114784110 .gradient-l.jsx-2114784110{
+        display:none;
+    }
+    
+    .pd__ex .title.jsx-2540305353{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .scroller.jsx-2114784110 .main.jsx-2114784110 .track.jsx-2114784110 .list.jsx-2114784110 a.jsx-2114784110{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex a.jsx-3209024614{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex li.jsx-140730662 h3.jsx-140730662{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .location-panel.jsx-3121287768{
+        background: #121212;
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .subtitle.jsx-3121287768{
+        background: #333;
+        color:rgba(255,255,255,0.6);
+    }
+    
+    .pd__ex .list.jsx-3121287768 a.jsx-3121287768,
+    .pd__ex .list.jsx-3121287768 .menu.jsx-3121287768{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .header.white.jsx-2577261539 .end.close.jsx-2577261539,
+    .pd__ex .list.jsx-3121287768 label.jsx-3121287768::after{
+        filter: brightness(0) invert(1);
+    }
+    
+    .pd__ex .summary.jsx-2558377382:after,
+    .pd__ex .summary.jsx-2558377382:before{
+        filter: brightness(0.3);
+    }
+    
+    .pd__ex .image-wrap.jsx-2558377382{
+        background: none;
+    }
+}
 
