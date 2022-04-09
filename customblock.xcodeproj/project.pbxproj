@@ -15,6 +15,9 @@
 		837F025927FC748D00A677BD /* 36kr.js in Resources */ = {isa = PBXBuildFile; fileRef = 837F025827FC748D00A677BD /* 36kr.js */; };
 		837F025B27FDC13C00A677BD /* qq.css in Resources */ = {isa = PBXBuildFile; fileRef = 837F025A27FDC13C00A677BD /* qq.css */; };
 		837F025D27FDC14900A677BD /* qq.js in Resources */ = {isa = PBXBuildFile; fileRef = 837F025C27FDC14900A677BD /* qq.js */; };
+		837F02612801768C00A677BD /* pudding_global.js in Resources */ = {isa = PBXBuildFile; fileRef = 837F02602801768C00A677BD /* pudding_global.js */; };
+		837F026328019B0E00A677BD /* pudding_global.css in Resources */ = {isa = PBXBuildFile; fileRef = 837F026228019B0E00A677BD /* pudding_global.css */; };
+		837F026528019FA000A677BD /* zhihu.js in Resources */ = {isa = PBXBuildFile; fileRef = 837F026428019FA000A677BD /* zhihu.js */; };
 		838E87132676778200558B4F /* 163.css in Resources */ = {isa = PBXBuildFile; fileRef = 838E87122676778200558B4F /* 163.css */; };
 		839CD0D627CD077E00E86463 /* jianshu.css in Resources */ = {isa = PBXBuildFile; fileRef = 839CD0D527CD077E00E86463 /* jianshu.css */; };
 		839CD0E327D247D200E86463 /* bilibili.js in Resources */ = {isa = PBXBuildFile; fileRef = 839CD0E227D247D200E86463 /* bilibili.js */; };
@@ -123,6 +126,9 @@
 		837F025827FC748D00A677BD /* 36kr.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = 36kr.js; sourceTree = "<group>"; };
 		837F025A27FDC13C00A677BD /* qq.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = qq.css; sourceTree = "<group>"; };
 		837F025C27FDC14900A677BD /* qq.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = qq.js; sourceTree = "<group>"; };
+		837F02602801768C00A677BD /* pudding_global.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = pudding_global.js; sourceTree = "<group>"; };
+		837F026228019B0E00A677BD /* pudding_global.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = pudding_global.css; sourceTree = "<group>"; };
+		837F026428019FA000A677BD /* zhihu.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = zhihu.js; sourceTree = "<group>"; };
 		838E87122676778200558B4F /* 163.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = 163.css; sourceTree = "<group>"; };
 		839CD0D527CD077E00E86463 /* jianshu.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = jianshu.css; sourceTree = "<group>"; };
 		839CD0E227D247D200E86463 /* bilibili.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = bilibili.js; sourceTree = "<group>"; };
@@ -304,6 +310,7 @@
 				83CD753227EC212A004CE7AF /* baidu.js */,
 				831955E027C8E1AD00446554 /* xiaohongshu.css */,
 				83CF53C127C915A100375E9F /* zhihu.css */,
+				837F026428019FA000A677BD /* zhihu.js */,
 				83CF53C327C9EACE00375E9F /* 36kr.css */,
 				837F025827FC748D00A677BD /* 36kr.js */,
 				833AF29E27C9F0E60011C1BC /* sina.css */,
@@ -321,6 +328,8 @@
 				83B2530127F5550C00C11371 /* base.css */,
 				837F025A27FDC13C00A677BD /* qq.css */,
 				837F025C27FDC14900A677BD /* qq.js */,
+				837F02602801768C00A677BD /* pudding_global.js */,
+				837F026228019B0E00A677BD /* pudding_global.css */,
 			);
 			path = "iOS (Extension)";
 			sourceTree = "<group>";
@@ -501,6 +510,7 @@
 				839CD0D627CD077E00E86463 /* jianshu.css in Resources */,
 				831955E127C8E1AD00446554 /* xiaohongshu.css in Resources */,
 				83CF53C027C65E7000375E9F /* baidu.css in Resources */,
+				837F026328019B0E00A677BD /* pudding_global.css in Resources */,
 				83CF53C227C915A100375E9F /* zhihu.css in Resources */,
 				83E017442675036B00A30A29 /* popup.css in Resources */,
 				837F025927FC748D00A677BD /* 36kr.js in Resources */,
@@ -511,6 +521,7 @@
 				839CD0E327D247D200E86463 /* bilibili.js in Resources */,
 				83E0173A2675036B00A30A29 /* images in Resources */,
 				83E0173C2675036B00A30A29 /* manifest.json in Resources */,
+				837F026528019FA000A677BD /* zhihu.js in Resources */,
 				83B2530227F5550C00C11371 /* base.css in Resources */,
 				83CD753127E78804004CE7AF /* v2ex.css in Resources */,
 				837F025B27FDC13C00A677BD /* qq.css in Resources */,
@@ -518,6 +529,7 @@
 				83E017382675036B00A30A29 /* _locales in Resources */,
 				83E017402675036B00A30A29 /* content.js in Resources */,
 				83E017462675036B00A30A29 /* popup.js in Resources */,
+				837F02612801768C00A677BD /* pudding_global.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -752,7 +764,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.21.2;
+				MARKETING_VERSION = 1.21.4;
 				PRODUCT_BUNDLE_IDENTIFIER = com.inact.customblock.Extension;
 				PRODUCT_NAME = "customblock Extension";
 				SDKROOT = iphoneos;
@@ -779,7 +791,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.21.2;
+				MARKETING_VERSION = 1.21.4;
 				PRODUCT_BUNDLE_IDENTIFIER = com.inact.customblock.Extension;
 				PRODUCT_NAME = "customblock Extension";
 				SDKROOT = iphoneos;
@@ -813,7 +825,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.21.2;
+				MARKETING_VERSION = 1.21.4;
 				OTHER_LDFLAGS = (
 					"-framework",
 					WebKit,
@@ -849,7 +861,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.21.2;
+				MARKETING_VERSION = 1.21.4;
 				OTHER_LDFLAGS = (
 					"-framework",
 					WebKit,

@@ -15,6 +15,7 @@
 /*}*/
 
 
+
 body.pd__ex,body.pd__ex *{
     -webkit-text-size-adjust: none;
 }
@@ -74,6 +75,8 @@ body{
     font-size:12px!important
 }
 
+
+
 #wrapper{
     width:100%!important;
     padding: 0 10px!important;
@@ -128,8 +131,19 @@ html h2{
     font-size:12px!important
 }
 
-#screening .ui-slide-item{
-    width:auto!important;
+.pd__ex #screening .ui-slide-item{
+    width:auto;
+    margin-right: 5px;
+}
+
+.pd__ex #screening .ui-slide-item:empty,
+.pd__ex #screening .ui-slide-item:blank{
+    display:none;
+}
+
+/*手机上的hover展示模块不太友好了*/
+.pd__ex #subject-tip{
+    display:none!important;
 }
 
 /*暂时没有浏览器支持Orz*/
@@ -745,6 +759,39 @@ html .pd__ex h1{
     }
 }
 
-/*选电影*/
+/*剧照 开始*/
+
+.pd__ex .opt-bar-line{
+    display:flex;
+    justify-content: space-between;
+    color:rgba(255,255,255,0.6);
+}
+.pd__ex .opt-bar-line #photo{
+    display:none;
+}
+
+.pd__ex .opt-bar-line .opt-mid{
+    position:relative;
+    margin:0;
+}
+
+.pd__ex .opt-bar-line .opt-left,
+.pd__ex .opt-bar-line .fright{
+    position:relative;
+}
+
+.pd__ex .clearfix:after{
+    display:none;
+}
+
+.pd__ex .fav-num{
+    color:rgba(255,255,255,0.6);
+}
+
+
+.pd__ex .comment-item .author{
+    background:rgba(255,255,255,0.08)!important;
+    color:rgba(255,255,255,0.6);
+}
 
 

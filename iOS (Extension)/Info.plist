@@ -12,6 +12,10 @@
 		<array>
 			<dict>
 				<key>Script</key>
+				<string>pudding_global.js</string>
+			</dict>
+			<dict>
+				<key>Script</key>
 				<string>qq.js</string>
 			</dict>
 			<dict>
@@ -41,6 +45,10 @@
 			<dict>
 				<key>Script</key>
 				<string>163.js</string>
+			</dict>
+			<dict>
+				<key>Script</key>
+				<string>zhihu.js</string>
 			</dict>
 		</array>
 		<key>SFSafariStyleSheet</key>
@@ -100,6 +108,10 @@
 			<dict>
 				<key>Style Sheet</key>
 				<string>36kr.css</string>
+			</dict>
+			<dict>
+				<key>Style Sheet</key>
+				<string>pudding_global.css</string>
 			</dict>
 		</array>
 		<key>SFSafariWebsiteAccess</key>

@@ -45,7 +45,16 @@
         "css" : ["xiaohongshu.css"],
         "matches" : ["*://*.xiaohongshu.com/*"]
     },{
-        "css" : ["zhihu.css"],
+        "css" : [
+            "pudding_global.css",
+            "zhihu.css"
+        ],
+        "matches" : ["*://*.zhihu.com/*"]
+    },{
+        "js" : [
+            "zhihu.js",
+            "pudding_global.js"
+            ],
         "matches" : ["*://*.zhihu.com/*"]
     },{
         "css" : ["36kr.css"],

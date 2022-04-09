@@ -36,3 +36,11 @@ body,body.ModalWrap-body{
 .OpenInAppButton{
     display:none!important;
 }
+
+/*在dark下隐藏亮色的*/
+@media (prefers-color-scheme: dark) {
+    html[data-theme="light"]{
+        display:none;
+        background:#121212;
+    }
+}
