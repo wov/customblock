@@ -317,14 +317,14 @@
 				839CD0D527CD077E00E86463 /* jianshu.css */,
 				839CD0E227D247D200E86463 /* bilibili.js */,
 				839CD0E427D24DB300E86463 /* bilibili.css */,
+				836479AB27F1DC090081B72B /* bilibili_pc.js */,
+				836479A927F1DBEA0081B72B /* bilibili_pc.css */,
 				83B8D43D27DDFD1B00FCC661 /* ifanr.css */,
 				83CD752427E4D3B2004CE7AF /* smzdm.js */,
 				83CD752627E4D486004CE7AF /* smzdm.css */,
 				83CD752E27E783CF004CE7AF /* v2ex.css */,
 				83CD753427EDED74004CE7AF /* douban.js */,
 				83CD753627EDED8B004CE7AF /* douban.css */,
-				836479A927F1DBEA0081B72B /* bilibili_pc.css */,
-				836479AB27F1DC090081B72B /* bilibili_pc.js */,
 				83B2530127F5550C00C11371 /* base.css */,
 				837F025A27FDC13C00A677BD /* qq.css */,
 				837F025C27FDC14900A677BD /* qq.js */,
@@ -764,7 +764,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.21.4;
+				MARKETING_VERSION = 1.21.5;
 				PRODUCT_BUNDLE_IDENTIFIER = com.inact.customblock.Extension;
 				PRODUCT_NAME = "customblock Extension";
 				SDKROOT = iphoneos;
@@ -791,7 +791,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.21.4;
+				MARKETING_VERSION = 1.21.5;
 				PRODUCT_BUNDLE_IDENTIFIER = com.inact.customblock.Extension;
 				PRODUCT_NAME = "customblock Extension";
 				SDKROOT = iphoneos;
@@ -825,7 +825,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.21.4;
+				MARKETING_VERSION = 1.21.5;
 				OTHER_LDFLAGS = (
 					"-framework",
 					WebKit,
@@ -861,7 +861,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.21.4;
+				MARKETING_VERSION = 1.21.5;
 				OTHER_LDFLAGS = (
 					"-framework",
 					WebKit,

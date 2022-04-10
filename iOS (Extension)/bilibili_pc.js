@@ -1,11 +1,28 @@
-// add meta.
-var meta = document.createElement('meta');
-meta.name = "viewport";
-meta.content = "width=device-width, initial-scale=1, user-scalable=no";
-document.getElementsByTagName('head')[0].appendChild(meta);
+
 
 // add a class for reset the styles easly.
-document.querySelector('body').classList.add('pd__ex')
+document.querySelector('body').classList.add('pd__ex');
+
+
+function addViewPortMeta(){
+    // add meta.
+    var meta = document.createElement('meta');
+    meta.name = "viewport";
+    meta.content = "width=device-width, initial-scale=1, user-scalable=no";
+    document.getElementsByTagName('head')[0].appendChild(meta);
+}
+
+addViewPortMeta();
+
+//function removeIosDownloadMeta(){
+//    // add meta.
+//    var meta = document.createElement('meta');
+//    meta.name = "apple-itunes-app";
+//    meta.content = "app-id=1586983153";
+//    document.getElementsByTagName('head')[0].appendChild(meta);
+//}
+//
+//removeIosDownloadMeta();
 
 setTimeout( _ => {
     window.scrollTo(0, 0);

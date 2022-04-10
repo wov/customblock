@@ -87,7 +87,8 @@
             "*://www.bilibili.com/",
             "*://www.bilibili.com/video/*",
             "*://www.bilibili.com/v/popular/*",
-            "*://www.bilibili.com/v/tech/*"
+            "*://www.bilibili.com/v/tech/*",
+            "*://t.bilibili.com/*"
         ]
     },{
         "js" : ["bilibili_pc.js"],
@@ -95,7 +96,8 @@
             "*://www.bilibili.com/",
             "*://www.bilibili.com/video/*",
             "*://www.bilibili.com/v/popular/*",
-            "*://www.bilibili.com/v/tech/*"
+            "*://www.bilibili.com/v/tech/*",
+            "*://t.bilibili.com/*"
         ]
     },{
         "css" : ["ifanr.css"],

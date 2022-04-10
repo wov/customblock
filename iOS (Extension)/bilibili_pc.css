@@ -954,3 +954,114 @@ body #app #bilibili-player.mini-player{
 /*}*/
 
 /* 科技频道 OVER*/
+
+
+/*频道页https://t.bilibili.com/?spm_id_from=333.1007.0.0*/
+.pd__ex .bili-dyn-home--member{
+    flex-wrap:wrap;
+}
+
+.pd__ex  main{
+    width:100%;
+}
+
+.pd__ex aside.left{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.pd__ex .bili-dyn-up-list__window{
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.pd__ex .bili-dyn-up-list__next,
+.pd__ex .bili-dyn-up-list__prev{
+    display:none;
+}
+
+.pd__ex .bili-dyn-publishing__control{
+    flex-wrap: wrap;
+}
+
+.pd__ex .bili-dyn-publishing__headquarters{
+    width: 100%;
+    justify-content: end;
+    margin-top: 5px;
+}
+
+.pd__ex .bili-dyn-item__main{
+    padding: 0 10px;
+}
+
+.pd__ex .bili-dyn-item__avatar{
+    top: 10px;
+}
+
+.pd__ex .bili-dyn-item__header{
+    padding: 10px 0 0 80px;
+}
+
+.pd__ex .bili-dyn-content{
+    width: 100%;
+}
+
+.pd__ex .bili-dyn-content__orig__major{
+    width: 100%;
+}
+
+.pd__ex .bili-dyn-card-pgc{
+    height: auto;
+}
+
+.pd__ex .bili-dyn-card-pgc__header{
+    width: 100px;
+    height:auto;
+}
+
+.pd__ex .bili-dyn-content__orig.reference{
+    margin: 0;
+}
+
+
+.pd__ex .bili-dyn-card-video__header{
+    width: 100px;
+    height: auto;
+    background: #fff;
+}
+.pd__ex .bili-dyn-card-video{
+    height:auto;
+}
+
+.pd__ex .bili-dyn-card-video__cover{
+    aspect-ratio: 4/3;
+    height: auto;
+}
+
+.pd__ex .bili-dyn-content__orig__additional{
+    width: 100%;
+}
+
+.pd__ex .dyn-reserve__action{
+    width: 80px;
+}
+
+.pd__ex .dyn-reserve__action button{
+    padding: 0 5px;
+}
+
+.pd__ex .bili-dyn-card-video__desc{
+    height: auto;
+}
+
+.pd__ex .bili-dyn-card-video__body{
+    padding: 5px;
+}
+
+.pd__ex .content{
+    width: 100%;
+}
+
+.pd__ex .bili-dyn-list-tabs__highlight{
+    display:none;
+}
