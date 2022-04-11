@@ -213,3 +213,14 @@ if(_search_results_doms.length){
     });
 }
 
+
+// baidu baike
+const baikeLoadmore = document.querySelector('.yx-load-more-inner.J-yx-load-moreContent');
+if(baikeLoadmore){
+    const observer = new IntersectionObserver(callback);
+    observer.observe(baikeLoadmore);
+    function callback(entries) {
+        var _tap = new Event('tap');
+        baikeLoadmore.dispatchEvent(_tap);
+    }
+}
