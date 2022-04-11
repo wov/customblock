@@ -18,8 +18,8 @@
 
 /****百度首页****/
 .pd__ex{
-    /*    min-height:100vh;*/
     background:#fff;
+    min-height: -webkit-fill-available;
 }
 
 @media (prefers-color-scheme: dark) {
