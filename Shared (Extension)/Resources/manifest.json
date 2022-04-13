@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "default_locale": "en",
     "name": "布丁扩展",
-    "description": "提升某些网站的浏览体验，包括去掉强制跳转app、暗黑模式等。偶尔也为部分网站添加定制的增强功能。",
+    "description": "提升某些网站的浏览体验，包括去掉强制跳转app、暗黑模式等。也为部分网站添加定制的增强功能。",
     "version": "1.0",
 
     "icons": {
@@ -145,6 +145,22 @@
             "*://xw.qq.com/m/*",
             "*://xw.qq.com/c/coral/*",
             "*://xw.qq.com/amphtml/*"
+        ]
+    },{
+        "css" : [
+            "pudding_global.css",
+            "weibo.css"
+        ],
+        "matches" : [
+            "*://m.weibo.cn/"
+        ]
+    },{
+        "js" : [
+            "pudding_global.js",
+            "weibo.js"
+        ],
+        "matches" : [
+            "*://m.weibo.cn/"
         ]
     }],
 

@@ -50,6 +50,10 @@
 				<key>Script</key>
 				<string>zhihu.js</string>
 			</dict>
+			<dict>
+				<key>Script</key>
+				<string>weibo.js</string>
+			</dict>
 		</array>
 		<key>SFSafariStyleSheet</key>
 		<array>
@@ -113,6 +117,10 @@
 				<key>Style Sheet</key>
 				<string>pudding_global.css</string>
 			</dict>
+			<dict>
+				<key>Style Sheet</key>
+				<string>weibo.css</string>
+			</dict>
 		</array>
 		<key>SFSafariWebsiteAccess</key>
 		<dict>
@@ -130,6 +138,7 @@
 				<string>*.baidu.com</string>
 				<string>3g.163.com</string>
 				<string>*.bilibili.com</string>
+				<string>m.weibo.cn</string>
 			</array>
 		</dict>
 	</dict>
