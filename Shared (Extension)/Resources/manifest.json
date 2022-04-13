@@ -152,7 +152,7 @@
             "weibo.css"
         ],
         "matches" : [
-            "*://m.weibo.cn/"
+            "*://m.weibo.cn/*"
         ]
     },{
         "js" : [
@@ -160,7 +160,7 @@
             "weibo.js"
         ],
         "matches" : [
-            "*://m.weibo.cn/"
+            "*://m.weibo.cn/*"
         ]
     }],
 
