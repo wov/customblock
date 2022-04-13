@@ -145,7 +145,6 @@ document.addEventListener('scroll', _ => {
 })
 
 //首页轮播图的处理
-
 function clearSlide(){
     const dom_ui_slide_items = document.querySelectorAll('.ui-slide-item');
     console.log(dom_ui_slide_items.length)
@@ -156,31 +155,41 @@ function clearSlide(){
     //2. 去掉重复的dom
     //3. 就不管排序了吧...
     let titles = [];
-    
-    dom_ui_slide_items.forEach(function(slide) {
+    let putToBack = true;
+        
+    dom_ui_slide_items.forEach(function(slide,index) {
         const children = slide.childNodes;
         // 因为浏览器暂时还不支持 blank伪类，先用js删除
         if(children.length === 1 && children[0].nodeType === Node.TEXT_NODE ){
             slide.remove();
         }
-        
         const title = slide.getAttribute('data-title');
-        
-        if(titles.includes(title)){
-            slide.remove();
-        }else{
-            titles.push(title);
+        if(title){
+            if(titles.includes(title)){
+                slide.remove();
+                console.log(slide,title)
+            }else{
+                if(slide.classList.contains('s') && index > 0){
+                    putToBack = false;
+                }
+                
+                if(putToBack){
+                    const cloneSlide = slide.cloneNode(true);
+                    slide.parentNode.appendChild(cloneSlide);
+                    slide.remove();
+                }
+            
+                titles.push(title);
+            }
         }
-
+    
     });
 }
-
-clearSlide();
-
 
 // 最后的计时器处理。
 setTimeout( _ => {
     window.scrollTo(0, 0);
+    clearSlide();
 },500)
 
 
