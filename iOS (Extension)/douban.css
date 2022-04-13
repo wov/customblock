@@ -764,7 +764,6 @@ html .pd__ex h1{
 .pd__ex .opt-bar-line{
     display:flex;
     justify-content: space-between;
-    color:rgba(255,255,255,0.6);
 }
 .pd__ex .opt-bar-line #photo{
     display:none;
@@ -784,14 +783,21 @@ html .pd__ex h1{
     display:none;
 }
 
-.pd__ex .fav-num{
-    color:rgba(255,255,255,0.6);
+
+
+@media (prefers-color-scheme: dark) {
+    .pd__ex .opt-bar-line{
+        color:rgba(255,255,255,0.6);
+    }
+    .pd__ex .fav-num{
+        color:rgba(255,255,255,0.6);
+    }
+    
+    .pd__ex .comment-item .author{
+        background:rgba(255,255,255,0.08)!important;
+        color:rgba(255,255,255,0.6);
+    }
+
+
 }
-
-
-.pd__ex .comment-item .author{
-    background:rgba(255,255,255,0.08)!important;
-    color:rgba(255,255,255,0.6);
-}
-
 
