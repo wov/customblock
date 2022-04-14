@@ -1,5 +1,5 @@
 html, body, #app{
-    min-height: -webkit-fill-available;
+    min-height: -webkit-fill-available!important;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -9,7 +9,7 @@ html, body, #app{
     }
     
     .pd__ex .lite-topbar{
-        background:#121212;
+        background:#333;
         color:rgba(255,255,255,0.87);
     }
     
@@ -50,7 +50,7 @@ html, body, #app{
     
     
     .pd__ex .m-panel{
-        background:rgba(255,255,255,0.08);
+        background:#121212;
     }
     
     .pd__ex .m-item-box{
@@ -236,5 +236,289 @@ html, body, #app{
         color:rgba(255,255,255,0.87);
     }
     
+    .pd__ex .refresh-btn{
+        background:#333;
+        color: rgb(10, 132, 255);
+    }
+    
+    .pd__ex .m-top-bar .nav-ctrl{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .m-top-bar .nav-main h3{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .m-bar-panel{
+        background: #333;
+    }
+    
+    .pd__ex .m-ctrl-box .m-diy-btn img{
+        filter: brightness(0) invert(1);
+    }
+    
+    .pd__ex .m-ctrl-box .m-diy-btn{
+        color:rgba(255,255,255,0.6);
+    }
+    
+    .pd__ex .m-bar-panel{
+        box-shadow: inset 0 1px 0 0 rgba(255,255,255,0.6),0 -2px 2px -1px rgba(0,0,0,.15);
+    }
+    
+    .pd__ex .profile-header,
+    .pd__ex .profile-header .prf-topbar{
+        background:#333;
+    }
+    
+    .pd__ex .profile-header .prf-topbar .nav-left,
+    .pd__ex .profile-header .prf-topbar .nav-right{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .profile-header .prf-detail .m-text-box h3{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .lite-btn-more{
+        background:rgba(255,255,255,0.08);
+        color:rgba(255,255,255,0.6);
+    }
+    
+    .pd__ex .profile-header .prf-handle .bar-btn .m-btn-lite-white{
+        color:rgba(255,255,255,0.6);
+    }
+    
+    .pd__ex .lite-iconf-male:before{
+        color:rgba(255,255,255,0.6);
+    }
+    
+    
+    .pd__ex .card31{
+        background:rgba(255,255,255,0.08);
+    }
+    
+    .pd__ex .m-search input[type=search],
+    .pd__ex .card31 .search-cancel,
+    .pd__ex .card11>.card-title{
+        color:rgba(255,255,255,0.6);
+    }
+    
+    .pd__ex .lite-msg-list{
+        background:#121212;
+    }
+    
+    .pd__ex .m-reles-top{
+        background:rgba(255,255,255,0.08);
+        color:rgba(255,255,255,0.6);
+    }
+    
+    .pd__ex .m-main>*{
+        background:#121212;
+    }
+    
+    .pd__ex .composer-footer-box .lite-iconf{
+        color:rgba(255,255,255,0.6);
+    }
+    
+    .pd__ex .nav[data-v-4b99cc1d]{
+        background: #333;
+    }
+    
+    .pd__ex .contactlist{
+        background:#121212;
+    }
+    
+    .pd__ex .m-reles-nr span textarea,
+    .pd__ex .composer-footer{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .more-image[data-v-524af2c2]{
+        border-color:rgba(255,255,255,0.87)!important;
+    }
+    
+    .pd__ex  .m-top-nav{
+        background:#333;
+    }
+    
+    .pd__ex .m-top-nav .nav-item li{
+        color:rgba(255,255,255,0.87);
+    }
+
+    .pd__ex .m-top-nav .nav-main::before{
+        display: none;
+    }
+
+    .pd__ex .m-top-nav .nav-item li.m-cur span{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .card121 .tab-item[data-v-e7b93ac6]{
+        background:rgba(255,255,255,0.08);
+        color:rgba(255,255,255,0.6);
+    }
+    
+    .pd__ex .no-bg .npg-wz h4.firsth[data-v-390314fb]{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .no-bg .npg-wz[data-v-390314fb]{
+        color:rgba(255,255,255,0.6);
+    }
+    
+    .pd__ex .card7 article{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .card42 .box-left .main-link{
+        color:rgba(255,255,255,0.6);
+    }
+    
+    .pd__ex .m-pop.m-pop-s{
+        background: #333;
+    }
+    
+    .pd__ex .m-pop.m-pop-s ul{
+        background:rgba(255,255,255,0.08);
+    }
+    
+    .pd__ex .m-tab-bar .m-ctrl-box .m-diy-btn .toolbar_menu_list li h4{
+        color:rgba(255,255,255,0.6);
+    }
+    
+    .pd__ex .m-pop.m-pop-s:after{
+        display:none;
+    }
+    
+    .pd__ex  .lite-setup{
+        background:rgba(255,255,255,0.08);
+    }
+    
+    .pd__ex  .lite-setup .box-left{
+        color:rgba(255,255,255,0.6);
+    }
+    
+    .pd__ex .lite-setup.bst{
+        box-shadow: 0 1px 0 0 rgba(255,255,255,0.08);
+    }
+    
+    .pd__ex .lite-setup.bsb{
+        box-shadow: 0 -1px 0 0 rgba(255,255,255,0.08);
+    }
+    
+    .pd__ex .lite-setup.bsa{
+        box-shadow: 0 -1px 0 0  rgba(255,255,255,0.08),0 1px 0 0  rgba(255,255,255,0.08);
+    }
+    
+    .pd__ex .sub-header{
+        background: #121212;
+        box-shadow: none;
+    }
+
+    .pd__ex .sub-header,
+    .pd__ex .tit-popup{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex  .list-info-page{
+        background:rgba(255,255,255,0.08);
+    }
+    
+    .pd__ex .tit-info-page,
+    .pd__ex .item-info-page span{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .L-selected-select::before{
+        border-color:rgba(255,255,255,0.87) transparent!important
+    }
+    
+    .pd__ex .BtnGreenLev1,
+    .pd__ex .BtnLev3,
+    .pd__ex .item-card.type-1{
+        text-shadow: none;
+    }
+    
+    .pd__ex .module .selector{
+        background: #121212;
+    }
+    
+    .pd__ex .privacy_wrap_3YZVT,
+    .pd__ex  .textContent_wrap_1MwMs{
+        background: rgba(255,255,255,0.08);
+    }
+    
+    
+    .pd__ex  .module .selector .card-wrap.select:active{
+        background: rgba(255,255,255,0.08);
+    }
+    
+    .pd__ex .module .selector .card-wrap.sub{
+        margin-left:0;
+        padding-left: 1.75rem;
+    }
+    
+    .pd__ex .f-weibo .m-img-box,
+    .pd__ex .empty-bg{
+        background: rgba(255,255,255,0.08);
+        animation: none!important;
+    }
+    
+    .pd__ex .m-dialog{
+        background: #333;
+    }
+    
+    .pd__ex  .wrapper[data-v-0652ffe1],
+    .pd__ex .verify-wrap .verify-box[data-v-0652ffe1]{
+        background: #121212;
+    }
+    
+    .pd__ex .v-b-tit[data-v-0652ffe1]{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex  .v-b-info[data-v-0652ffe1],
+    .pd__ex .v-s-tit[data-v-0652ffe1]{
+        color:rgba(255,255,255,0.6);
+    }
+    
+    .pd__ex .input-container[data-v-0652ffe1],
+    .pd__ex .number-code[data-v-0652ffe1]{
+        color:rgba(255,255,255,0.6);
+        background: rgba(255,255,255,0.08);
+    }
+    
+    .pd__ex .module-topbar{
+        background: #333;
+        box-shadow: none;
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .module-topbar .title-group .title{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .module-topbar .iconf{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .line-bottom,
+    .pd__ex .card-combine .line-around:not(.card9),
+    .pd__ex .line-separate::after{
+        background: rgba(255,255,255,0.08);
+        border-bottom: 1px solid rgba(255,255,255,0.11)!important;
+    }
+    
+    
+    .pd__ex a .mct-a,
+    .pd__ex .mct-a{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .card .btn-red{
+        color:rgb(255, 69, 58);
+        background: rgba(255,255,255,0.08);
+    }
+
 }
 
