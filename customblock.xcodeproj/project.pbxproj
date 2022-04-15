@@ -30,12 +30,9 @@
 		83CCA08A2808FEB2002340ED /* ReviewHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CCA0892808FEB2002340ED /* ReviewHandler.swift */; };
 		83CCA08C2809028E002340ED /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CCA08B2809028E002340ED /* Home.swift */; };
 		83CCA08E280925C4002340ED /* Websites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CCA08D280925C4002340ED /* Websites.swift */; };
+		83CCA0902809AF13002340ED /* Privacy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CCA08F2809AF13002340ED /* Privacy.swift */; };
 		83CD752527E4D3B2004CE7AF /* smzdm.js in Resources */ = {isa = PBXBuildFile; fileRef = 83CD752427E4D3B2004CE7AF /* smzdm.js */; };
 		83CD752727E4D486004CE7AF /* smzdm.css in Resources */ = {isa = PBXBuildFile; fileRef = 83CD752627E4D486004CE7AF /* smzdm.css */; };
-		83CD752A27E76AF0004CE7AF /* step1.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 83CD752827E76AF0004CE7AF /* step1.PNG */; };
-		83CD752B27E76AF0004CE7AF /* step1.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 83CD752827E76AF0004CE7AF /* step1.PNG */; };
-		83CD752C27E76AF0004CE7AF /* step2.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 83CD752927E76AF0004CE7AF /* step2.PNG */; };
-		83CD752D27E76AF0004CE7AF /* step2.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 83CD752927E76AF0004CE7AF /* step2.PNG */; };
 		83CD753127E78804004CE7AF /* v2ex.css in Resources */ = {isa = PBXBuildFile; fileRef = 83CD752E27E783CF004CE7AF /* v2ex.css */; };
 		83CD753327EC212A004CE7AF /* baidu.js in Resources */ = {isa = PBXBuildFile; fileRef = 83CD753227EC212A004CE7AF /* baidu.js */; };
 		83CD753527EDED74004CE7AF /* douban.js in Resources */ = {isa = PBXBuildFile; fileRef = 83CD753427EDED74004CE7AF /* douban.js */; };
@@ -150,10 +147,9 @@
 		83CCA0892808FEB2002340ED /* ReviewHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewHandler.swift; sourceTree = "<group>"; };
 		83CCA08B2809028E002340ED /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		83CCA08D280925C4002340ED /* Websites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Websites.swift; sourceTree = "<group>"; };
+		83CCA08F2809AF13002340ED /* Privacy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Privacy.swift; sourceTree = "<group>"; };
 		83CD752427E4D3B2004CE7AF /* smzdm.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = smzdm.js; sourceTree = "<group>"; };
 		83CD752627E4D486004CE7AF /* smzdm.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = smzdm.css; sourceTree = "<group>"; };
-		83CD752827E76AF0004CE7AF /* step1.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step1.PNG; sourceTree = "<group>"; };
-		83CD752927E76AF0004CE7AF /* step2.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step2.PNG; sourceTree = "<group>"; };
 		83CD752E27E783CF004CE7AF /* v2ex.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = v2ex.css; sourceTree = "<group>"; };
 		83CD753227EC212A004CE7AF /* baidu.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = baidu.js; sourceTree = "<group>"; };
 		83CD753427EDED74004CE7AF /* douban.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = douban.js; sourceTree = "<group>"; };
@@ -230,6 +226,7 @@
 				83CCA08628087E97002340ED /* Tutorial.swift */,
 				83CCA08B2809028E002340ED /* Home.swift */,
 				83CCA08D280925C4002340ED /* Websites.swift */,
+				83CCA08F2809AF13002340ED /* Privacy.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -268,8 +265,6 @@
 		83E016E52675036A00A30A29 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				83CD752827E76AF0004CE7AF /* step1.PNG */,
-				83CD752927E76AF0004CE7AF /* step2.PNG */,
 				83E016E62675036A00A30A29 /* Main.html */,
 				83E016E92675036A00A30A29 /* Style.css */,
 				83E016EA2675036A00A30A29 /* Script.js */,
@@ -506,8 +501,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83CD752C27E76AF0004CE7AF /* step2.PNG in Resources */,
-				83CD752A27E76AF0004CE7AF /* step1.PNG in Resources */,
 				83E017052675036B00A30A29 /* LaunchScreen.storyboardbak in Resources */,
 				83E0172A2675036B00A30A29 /* Main.html in Resources */,
 				83E017302675036B00A30A29 /* Script.js in Resources */,
@@ -521,11 +514,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				83E0172F2675036B00A30A29 /* Style.css in Resources */,
-				83CD752D27E76AF0004CE7AF /* step2.PNG in Resources */,
 				83E017142675036B00A30A29 /* Main.storyboard in Resources */,
 				83E017312675036B00A30A29 /* Script.js in Resources */,
 				83E017352675036B00A30A29 /* Assets.xcassets in Resources */,
-				83CD752B27E76AF0004CE7AF /* step1.PNG in Resources */,
 				83E0172B2675036B00A30A29 /* Main.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -601,6 +592,7 @@
 				83CCA08A2808FEB2002340ED /* ReviewHandler.swift in Sources */,
 				83E017002675036B00A30A29 /* AppDelegate.swift in Sources */,
 				8A9A58BB28083D5C00C60926 /* ContentView.swift in Sources */,
+				83CCA0902809AF13002340ED /* Privacy.swift in Sources */,
 				8A9A58B528083ABB00C60926 /* CustomBlockWebView.swift in Sources */,
 				83CCA08C2809028E002340ED /* Home.swift in Sources */,
 				83E017022675036B00A30A29 /* SceneDelegate.swift in Sources */,
@@ -804,7 +796,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.22.1;
+				MARKETING_VERSION = 1.23.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.inact.customblock.Extension;
 				PRODUCT_NAME = "customblock Extension";
 				SDKROOT = iphoneos;
@@ -831,7 +823,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.22.1;
+				MARKETING_VERSION = 1.23.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.inact.customblock.Extension;
 				PRODUCT_NAME = "customblock Extension";
 				SDKROOT = iphoneos;
@@ -864,7 +856,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.22.1;
+				MARKETING_VERSION = 1.23.0;
 				OTHER_LDFLAGS = (
 					"-framework",
 					WebKit,
@@ -899,7 +891,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.22.1;
+				MARKETING_VERSION = 1.23.0;
 				OTHER_LDFLAGS = (
 					"-framework",
 					WebKit,

@@ -33,13 +33,7 @@ struct Home: View {
                     }
                     
                     NavigationLink {
-                        Tutorial()
-                    } label: {
-                        Text("工作原理")
-                    }
-                    
-                    NavigationLink {
-                        Tutorial()
+                        Privacy()
                     } label: {
                         Text("隐私保护")
                     }
