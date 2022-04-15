@@ -7,10 +7,11 @@
 
 import SwiftUI
 
+
+
 struct ContentView: View {
     var body: some View {
-        let url = Bundle.main.url(forResource: "Main", withExtension: "html")!
-        CustomWebView(url:url)
+        Home()
     }
 }
 

@@ -26,6 +26,10 @@
 		839CD0E527D24DB300E86463 /* bilibili.css in Resources */ = {isa = PBXBuildFile; fileRef = 839CD0E427D24DB300E86463 /* bilibili.css */; };
 		83B2530227F5550C00C11371 /* base.css in Resources */ = {isa = PBXBuildFile; fileRef = 83B2530127F5550C00C11371 /* base.css */; };
 		83B8D43E27DDFD1B00FCC661 /* ifanr.css in Resources */ = {isa = PBXBuildFile; fileRef = 83B8D43D27DDFD1B00FCC661 /* ifanr.css */; };
+		83CCA08728087E97002340ED /* Tutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CCA08628087E97002340ED /* Tutorial.swift */; };
+		83CCA08A2808FEB2002340ED /* ReviewHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CCA0892808FEB2002340ED /* ReviewHandler.swift */; };
+		83CCA08C2809028E002340ED /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CCA08B2809028E002340ED /* Home.swift */; };
+		83CCA08E280925C4002340ED /* Websites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CCA08D280925C4002340ED /* Websites.swift */; };
 		83CD752527E4D3B2004CE7AF /* smzdm.js in Resources */ = {isa = PBXBuildFile; fileRef = 83CD752427E4D3B2004CE7AF /* smzdm.js */; };
 		83CD752727E4D486004CE7AF /* smzdm.css in Resources */ = {isa = PBXBuildFile; fileRef = 83CD752627E4D486004CE7AF /* smzdm.css */; };
 		83CD752A27E76AF0004CE7AF /* step1.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 83CD752827E76AF0004CE7AF /* step1.PNG */; };
@@ -142,6 +146,10 @@
 		839CD0E427D24DB300E86463 /* bilibili.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = bilibili.css; sourceTree = "<group>"; };
 		83B2530127F5550C00C11371 /* base.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = base.css; sourceTree = "<group>"; };
 		83B8D43D27DDFD1B00FCC661 /* ifanr.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = ifanr.css; sourceTree = "<group>"; };
+		83CCA08628087E97002340ED /* Tutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutorial.swift; sourceTree = "<group>"; };
+		83CCA0892808FEB2002340ED /* ReviewHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewHandler.swift; sourceTree = "<group>"; };
+		83CCA08B2809028E002340ED /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		83CCA08D280925C4002340ED /* Websites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Websites.swift; sourceTree = "<group>"; };
 		83CD752427E4D3B2004CE7AF /* smzdm.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = smzdm.js; sourceTree = "<group>"; };
 		83CD752627E4D486004CE7AF /* smzdm.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = smzdm.css; sourceTree = "<group>"; };
 		83CD752827E76AF0004CE7AF /* step1.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step1.PNG; sourceTree = "<group>"; };
@@ -216,6 +224,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		83CCA08528087E50002340ED /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				83CCA08628087E97002340ED /* Tutorial.swift */,
+				83CCA08B2809028E002340ED /* Home.swift */,
+				83CCA08D280925C4002340ED /* Websites.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		83CCA0882808FE83002340ED /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				83CCA0892808FEB2002340ED /* ReviewHandler.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		83E016DF2675036900A30A29 = {
 			isa = PBXGroup;
 			children = (
@@ -289,6 +315,8 @@
 		83E016FE2675036B00A30A29 /* iOS (App) */ = {
 			isa = PBXGroup;
 			children = (
+				83CCA0882808FE83002340ED /* Helper */,
+				83CCA08528087E50002340ED /* Views */,
 				8A9A58B428083ABB00C60926 /* CustomBlockWebView.swift */,
 				8A9A58BA28083D5C00C60926 /* ContentView.swift */,
 				83E016FF2675036B00A30A29 /* AppDelegate.swift */,
@@ -568,9 +596,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				83E017322675036B00A30A29 /* ViewController.swift in Sources */,
+				83CCA08E280925C4002340ED /* Websites.swift in Sources */,
+				83CCA08728087E97002340ED /* Tutorial.swift in Sources */,
+				83CCA08A2808FEB2002340ED /* ReviewHandler.swift in Sources */,
 				83E017002675036B00A30A29 /* AppDelegate.swift in Sources */,
 				8A9A58BB28083D5C00C60926 /* ContentView.swift in Sources */,
 				8A9A58B528083ABB00C60926 /* CustomBlockWebView.swift in Sources */,
+				83CCA08C2809028E002340ED /* Home.swift in Sources */,
 				83E017022675036B00A30A29 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -772,7 +804,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.22.0;
+				MARKETING_VERSION = 1.22.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.inact.customblock.Extension;
 				PRODUCT_NAME = "customblock Extension";
 				SDKROOT = iphoneos;
@@ -799,7 +831,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.22.0;
+				MARKETING_VERSION = 1.22.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.inact.customblock.Extension;
 				PRODUCT_NAME = "customblock Extension";
 				SDKROOT = iphoneos;
@@ -832,7 +864,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.22.0;
+				MARKETING_VERSION = 1.22.1;
 				OTHER_LDFLAGS = (
 					"-framework",
 					WebKit,
@@ -867,7 +899,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.22.0;
+				MARKETING_VERSION = 1.22.1;
 				OTHER_LDFLAGS = (
 					"-framework",
 					WebKit,
