@@ -68,6 +68,8 @@ struct Websites: View {
                     
                     Spacer()
                     HStack {
+                        
+                        Image(systemName: "speedometer")
                         Image(systemName: "puzzlepiece.extension")
                         Image(systemName: "moon.stars.fill")
                     }
@@ -163,6 +165,18 @@ struct Websites: View {
                         .font(.footnote)
                         .foregroundColor(Color.gray)
                         
+                    }
+                }
+                
+                HStack{
+                    Image(systemName: "speedometer")
+                    Spacer()
+                    VStack(alignment: .trailing){
+                        Text("性能优化")
+                            .font(.footnote)
+                        Text("解决浏览器可能会崩溃的问题")
+                            .font(.footnote)
+                            .foregroundColor(Color.gray)
                     }
                 }
             }

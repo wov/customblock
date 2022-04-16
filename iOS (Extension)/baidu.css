@@ -81,6 +81,26 @@ a[data-module=entrance]{
         background:#121212!important;
     }
     
+    .pd__ex .searchbox-exp #index-form,
+    .pd__ex .his-wrap-new #index-form .index-fix,
+    .se-form{
+        border:1px solid #4e6ef2!important;
+        background:rgba(255,255,255,0.08);
+    }
+    
+    
+    .pd__ex  .his-wrap-new #index-form,
+    .pd__ex .his-wrap-new #index-form.se-form{
+        border:none!important;
+    }
+    
+
+    .pd__ex #index-card .se-form .se-input{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    
+    
     #index-bn{
         background:rbga(78,110,242,0.93)!important;
         color:rgba(255,255,255,0.87)!important;
@@ -166,6 +186,7 @@ a[data-module=entrance]{
     display:none!important;
 }
 
+.c-container .__pudding_close,
 .c-result .__pudding_close,
 .result .__pudding_close{
     position:absolute;
@@ -179,18 +200,21 @@ a[data-module=entrance]{
     background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gU3ZnIFZlY3RvciBJY29ucyA6IGh0dHA6Ly93d3cub25saW5ld2ViZm9udHMuY29tL2ljb24gLS0+DQo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMTAwMCAxMDAwIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAxMDAwIDEwMDAiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPG1ldGFkYXRhPiBTdmcgVmVjdG9yIEljb25zIDogaHR0cDovL3d3dy5vbmxpbmV3ZWJmb250cy5jb20vaWNvbiA8L21ldGFkYXRhPg0KPGc+PHBhdGggZD0iTTUwMCw5OTBDMjI5LjgsOTkwLDEwLDc3MC4yLDEwLDUwMFMyMjkuOCwxMCw1MDAsMTBzNDkwLDIxOS44LDQ5MCw0OTBTNzcwLjIsOTkwLDUwMCw5OTB6IE01MDAsODAuM0MyNjguNiw4MC4zLDgwLjMsMjY4LjYsODAuMyw1MDBjMCwyMzEuNCwxODguMyw0MTkuNyw0MTkuNyw0MTkuN2MyMzEuNCwwLDQxOS43LTE4OC4zLDQxOS43LTQxOS43QzkxOS43LDI2OC42LDczMS40LDgwLjMsNTAwLDgwLjN6IE01NDkuMyw1MDEuNWwxNTEuMy0xNDkuN2MxMy44LTEzLjYsMTMuOS0zNS43LDAuMy00OS41Yy0xMy42LTEzLjgtMzUuOC0xMy45LTQ5LjUtMC4zTDQ5OS45LDQ1MS45TDM1MC42LDMwMi4yYy0xMy43LTEzLjctMzUuOC0xMy44LTQ5LjUtMC4xYy0xMy43LDEzLjYtMTMuNywzNS44LTAuMSw0OS41bDE0OSwxNDkuNUwyOTkuOCw2NDkuOGMtMTMuOCwxMy42LTEzLjksMzUuNy0wLjMsNDkuNWM2LjksNi45LDE1LjksMTAuNCwyNC45LDEwLjRjOC45LDAsMTcuOC0zLjQsMjQuNi0xMC4xbDE1MC41LTE0OC44bDE1MS43LDE1Mi4yYzYuOCw2LjksMTUuOCwxMC4zLDI0LjgsMTAuM2M5LDAsMTcuOS0zLjQsMjQuNy0xMC4yYzEzLjctMTMuNywxMy43LTM1LjgsMC4xLTQ5LjVMNTQ5LjMsNTAxLjV6Ii8+PC9nPg0KPC9zdmc+");
 }
 
+.c-container .__pudding_close{
+    top: 0;
+    right: 0;
+}
 
 @media (prefers-color-scheme: dark) {
+    
+    .c-container .__pudding_close,
     .c-result .__pudding_close,
     .result .__pudding_close{
         filter: brightness(0) invert(1);
     }
+    
 }
 
-
-
-/*.ec_ad_results{display:none!important;}*/
-/*.c-result{display:none!important;}*/
 
 /*去掉领话费*/
 .mkt-ball-wrapper__2HtOM{

@@ -1,10 +1,13 @@
 const BS_NAME = "pudding_block_sites";
+const BAD_NAME = "pudding_block_ads";
 
 // add a class for reset the styles easly.
 document.querySelector('body').classList.add('pd__ex')
 
 let _search_results_doms = document.querySelectorAll('.c-result.result');
 let hideTipTimer;
+let SiteBlockCount = 0;
+let ADBlockCount = 0;
 
 // 百度搜索
 if(_search_results_doms.length){
@@ -12,17 +15,18 @@ if(_search_results_doms.length){
     // 显示可以重置屏蔽的按钮
     function showBlockButton(){
         const pudding_blocked_tip = document.querySelector(".pudding_blocked_tip");
-        let blockChannels = localStorage.getItem(BS_NAME) ? JSON.parse(localStorage.getItem(BS_NAME)) : [];
-        
-        if(!blockChannels.length){return;}
-        
-        const count = blockChannels.length;
-        
+        if(!SiteBlockCount && !ADBlockCount){return;}
+    
         if(pudding_blocked_tip){
             //如果已经有了，就显示出来
             pudding_blocked_tip.classList.remove('hide');
-            pudding_blocked_tip.querySelector('.countText').textContent = `已为您屏蔽了${count}个域名`;
-            
+            if(SiteBlockCount){
+                pudding_blocked_tip.querySelector('.countText').textContent = `屏蔽了${SiteBlockCount}个域名`;
+            }
+            if(ADBlockCount){
+                pudding_blocked_tip.querySelector('.countTextAd').textContent = `屏蔽了${ADBlockCount}个广告`;
+            }
+
             if(hideTipTimer){
                 clearTimeout(hideTipTimer);
                 hideTipTimer = null;
@@ -102,25 +106,37 @@ if(_search_results_doms.length){
             name.className = 'pudding_tip_name';
             name.textContent = '布丁扩展';
             
+            
             const content = document.createElement('P');
             content.className = 'pudding_tip_content countText';
-            content.textContent = `已为您屏蔽了${count}个域名`
+            if(SiteBlockCount){
+                content.textContent = `屏蔽了${SiteBlockCount}个域名`
+            }
             
             const content2 = document.createElement('P');
-            content2.className = 'pudding_tip_content tip_button';
-            content2.textContent = `点击重置`
+            content2.className = 'pudding_tip_content countTextAd';
+            
+            if(ADBlockCount){
+                content2.textContent = `屏蔽了${ADBlockCount}个广告`
+            }
+            
+            const content3 = document.createElement('P');
+            content3.className = 'pudding_tip_content tip_button';
+            content3.textContent = `点击重置`
             
             title.appendChild(avatar)
             title.appendChild(name)
-
+            
             tip_wrap.appendChild(title)
             tip_wrap.appendChild(content)
             tip_wrap.appendChild(content2)
+            tip_wrap.appendChild(content3)
             
             tip_wrap.addEventListener( 'click', _ =>{
-                const r = confirm('确定要取消屏蔽所有域名吗？')
+                const r = confirm('确定要重置所有屏蔽吗？')
                 if(r){
                     localStorage.removeItem(BS_NAME);
+                    localStorage.removeItem(BAD_NAME);
                     tip_wrap.classList.add('hide');
                     window.location.reload();
                 }
@@ -143,6 +159,9 @@ if(_search_results_doms.length){
     
     // 添加关闭按钮
     function addCloseAndHideResult(){
+        SiteBlockCount = 0;
+        ADBlockCount = 0;
+        
         let results = document.querySelectorAll('.c-result.result');
         results.forEach(function(_r) {
             if(_r.classList.contains('__pudding')){return;}
@@ -155,23 +174,26 @@ if(_search_results_doms.length){
             
             let blockSites = localStorage.getItem(BS_NAME) ? JSON.parse(localStorage.getItem(BS_NAME)) : [];
             const host = (new URL(logData.mu)).host;
-
+            
             // 假设包含了这个结果，则直接删除
             if(blockSites.includes(host)){
+                SiteBlockCount++;
                 _r.remove();
             }
             
             const _close = document.createElement('div');
             _close.className = "__pudding_close";
-            _close.addEventListener('click',function(){
+            _close.addEventListener('click',function(e){
+                e.stopPropagation();
+                
                 let blockSites = localStorage.getItem(BS_NAME) ? JSON.parse(localStorage.getItem(BS_NAME)) : [];
-
+                
                 const c = confirm(`【布丁扩展】\n\n是否屏蔽来自“${host}”的结果？`);
                 if(c){
                     blockSites.push(host);
                     localStorage.setItem(BS_NAME,JSON.stringify(blockSites));
-                    _r.classList.remove();
-                    
+                    _r.remove();
+                    SiteBlockCount++;
                     showBlockButton();
                 }else{
                     // nothing will happen
@@ -181,15 +203,61 @@ if(_search_results_doms.length){
             _r.appendChild(_close);
             _r.classList.add('__pudding');
         });
-    }
+        
+        let ads = document.querySelectorAll('.c-container');
+        ads.forEach( ad => {
+            if(ad.classList.contains('__pudding')){return;}
+            
+            //判断是不是广告
+            if(ad.querySelector('.ec-tuiguang') && ad.querySelector('.ec-tuiguang').textContent === "广告" && ad.querySelector('.c-showurl > span') && ad.querySelector('.c-showurl > span').textContent ){
+                const adSource = ad.querySelector('.c-showurl > span').textContent;
+                
+                let blockAds = localStorage.getItem(BAD_NAME) ? JSON.parse(localStorage.getItem(BAD_NAME)) : [];
+                
+                // 假设包含了这个结果，则直接删除
+                if(blockAds.includes(adSource)){
+                    ADBlockCount++;
+                    ad.remove();
+                }
+                
+                const _close = document.createElement('div');
+                _close.className = "__pudding_close";
+                _close.addEventListener('click',function(e){
+                    e.stopPropagation();
 
+                    const adSource = ad.querySelector('.c-showurl > span').textContent;
+                    let blockAds = localStorage.getItem(BAD_NAME) ? JSON.parse(localStorage.getItem(BAD_NAME)) : [];
+
+                    const c = confirm(`【布丁扩展】\n\n是否屏蔽来自“${adSource}”的广告？`);
+                    if(c){
+                        if(!blockAds.includes(adSource)){
+                            blockAds.push(adSource);
+                            localStorage.setItem(BAD_NAME,JSON.stringify(blockAds));
+                        }
+                        ad.remove();
+                        ADBlockCount++;
+                        showBlockButton();
+                    }else{
+                        // nothing will happen
+                    }
+                })
+                
+                ad.appendChild(_close);
+            }
+            
+            ad.classList.add('__pudding');
+        })
+        
+        showBlockButton();
+    }
+    
     setTimeout( _ => {
         addCloseAndHideResult();
     },500)
-
+    
     showBlockButton();
     addCloseAndHideResult();
-
+    
     //点击下一页的时候
     const dom_next = document.querySelector('.new-pagenav-right');
     
@@ -201,9 +269,9 @@ if(_search_results_doms.length){
         })
     }
     
-
+    
     document.addEventListener('scroll', _ => {
-        addCloseAndHideResult();
+//        addCloseAndHideResult();
         
         // 只要用户滚动就隐藏这个。。
         const pudding_tip = document.querySelector('.pudding_blocked_tip');
@@ -211,6 +279,20 @@ if(_search_results_doms.length){
             pudding_tip.classList.add('hide');
         }
     });
+}
+
+
+const pageDom = document.querySelector('#page');
+
+if(pageDom){
+    const config = { attributes: true, childList: true, subtree: true };
+
+    const callback = function(mutationsList, observer) {
+        addCloseAndHideResult();
+    };
+
+    const observer = new MutationObserver(callback);
+    observer.observe(pageDom, config);
 }
 
 
@@ -224,3 +306,5 @@ if(baikeLoadmore){
         baikeLoadmore.dispatchEvent(_tap);
     }
 }
+
+
