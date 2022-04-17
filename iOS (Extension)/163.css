@@ -45,6 +45,11 @@ img[lazy=loaded]{
 @media (prefers-color-scheme: dark) {
     body{
         background:#121212!important;
+        min-height: -webkit-fill-available;
+    }
+    
+    .pd__ex *{
+        border-color:rgba(255,255,255,0.08)!important;
     }
     
     body, html a{
@@ -214,7 +219,7 @@ iframe{display:none!important;}
 main > article{
     max-height:unset!important;
     height:100%!important;
-    max-height:calc(100vh - 0.98rem)!important;
+    max-height:calc(100vh - 2rem)!important;
     overflow:scroll!important;
     -webkit-overflow-scrolling: touch; /* Lets it scroll lazy */
 }

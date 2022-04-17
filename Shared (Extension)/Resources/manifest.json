@@ -116,13 +116,15 @@
         "matches" : [
             "*://m.douban.com/movie/*",
             "*://movie.douban.com/*",
-            "*://www.douban.com/group/topic/*"
+            "*://www.douban.com/group/topic/*",
+            "*://search.douban.com/movie/*"
         ]
     },{
         "css" : ["douban.css"],
         "matches" : [
             "*://movie.douban.com/*",
-            "*://www.douban.com/group/topic/*"
+            "*://www.douban.com/group/topic/*",
+            "*://search.douban.com/movie/*"
         ]
     },{
         "js" : ["qq.js"],

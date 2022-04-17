@@ -107,6 +107,10 @@ html h2{
     left:0!important;
 }
 
+.pd__ex #gallery-frames{
+    display: none;
+}
+
 #content h2{
     position: sticky;
     top:0;
@@ -622,7 +626,7 @@ html .pd__ex h1{
 /*评论*/
 @media (prefers-color-scheme: dark) {
     .pd__ex h1{
-        color:rgba(255,255,255,0.87);
+        color:rgba(255,255,255,0.87)!important;
     }
     
     .pd__ex .review-content p,
@@ -801,3 +805,19 @@ html .pd__ex h1{
 
 }
 
+
+
+/*电影搜索结果*/
+@media (prefers-color-scheme: dark) {
+    .pd__ex  .jPEetW ._lm92edjkh,
+    .pd__ex .hxTOIE ._92d6g3cm7{
+        width: 100%;
+        float:none;
+    }
+    
+    .pd__ex  #footer{
+        color:rgba(255,255,255,0.6);
+    }
+    
+  
+}
