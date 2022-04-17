@@ -16,8 +16,13 @@ function replaceToAppText(){
 
 replaceToAppText();
 
+var BlockedChannelCount = 0;
+
 // 添加关闭按钮
 function addCloseAndHideResult(){
+    
+    BlockedChannelCount = 0;
+    
     // 关闭频道
     let results = document.querySelectorAll('.section-channel');
     results.forEach(function(_r) {
@@ -30,11 +35,15 @@ function addCloseAndHideResult(){
         // 假设包含了这个结果，则在dom中删除
         if(blockChannels.includes(cn)){
             _r.remove();
+            BlockedChannelCount++;
         }
         
         const _close = document.createElement('div');
         _close.className = "__pudding_close";
-        _close.addEventListener('click',function(){
+        _close.addEventListener('click',function(e){
+            
+            e.stopPropagation();
+
             const name = _r.querySelector('.sec-name') ? _r.querySelector('.sec-name').textContent : '';
             const c = confirm(`【布丁扩展】\n\n不再显示 ${name} 频道？`);
             let blockChannels = localStorage.getItem(BS_NAME) ? JSON.parse(localStorage.getItem(BS_NAME)) : [];
@@ -43,6 +52,7 @@ function addCloseAndHideResult(){
                 blockChannels.push(cn);
                 localStorage.setItem(BS_NAME,JSON.stringify(blockChannels));
                 _r.remove();
+                BlockedChannelCount++;
                 showBlockButton();
             }else{
                 // nothing will happen
@@ -52,30 +62,17 @@ function addCloseAndHideResult(){
     });
 }
 
-setTimeout( _ => {
-    addCloseAndHideResult();
-},500)
-
-document.addEventListener('scroll', _ => {
-    replaceToAppText();
-})
-
 let hideTipTimer;
 
 // 显示可以重置屏蔽的按钮
 function showBlockButton(){
     const pudding_blocked_tip = document.querySelector(".pudding_blocked_tip");
-    let blockChannels = localStorage.getItem(BS_NAME) ? JSON.parse(localStorage.getItem(BS_NAME)) : [];
-    
-    if(!blockChannels.length){return;}
-    
-    const count = blockChannels.length;
+    if(!BlockedChannelCount){return;}
     
     if(pudding_blocked_tip){
         //如果已经有了，就显示出来
         pudding_blocked_tip.classList.remove('hide');
-        pudding_blocked_tip.querySelector('.countText').textContent = `已为您屏蔽了${count}个频道`;
-        
+        pudding_blocked_tip.querySelector('.countText').textContent = `已为您屏蔽了${BlockedChannelCount}个频道`;
         
         if(hideTipTimer){
             clearTimeout(hideTipTimer);
@@ -157,7 +154,7 @@ function showBlockButton(){
         
         const content = document.createElement('P');
         content.className = 'pudding_tip_content countText';
-        content.textContent = `已为您屏蔽了${count}个频道`
+        content.textContent = `已为您屏蔽了${BlockedChannelCount}个频道`
         
         const content2 = document.createElement('P');
         content2.className = 'pudding_tip_content tip_button';
@@ -195,12 +192,7 @@ function showBlockButton(){
 
 let sectionChannels = document.querySelectorAll('.section-channel');
 if(sectionChannels.length){
-    
-    addCloseAndHideResult();
-    showBlockButton();
-
     document.addEventListener('scroll', _ => {
-        addCloseAndHideResult();
         // 只要用户滚动就隐藏这个。。
         const pudding_tip = document.querySelector('.pudding_blocked_tip');
         if(pudding_tip){
@@ -225,3 +217,23 @@ function addDarkMeta(){
 }
 
 addDarkMeta();
+
+
+const pageDom = document.querySelector('.wap-content-wrap');
+
+if(pageDom){
+    const config = { attributes: true, childList: true, subtree: true };
+
+    const callback = function(mutationsList, observer) {
+        addCloseAndHideResult();
+        replaceToAppText();
+        showBlockButton();
+    };
+
+    const observer = new MutationObserver(callback);
+    observer.observe(pageDom, config);
+}
+
+
+
+//

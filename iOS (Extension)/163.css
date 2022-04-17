@@ -219,7 +219,7 @@ iframe{display:none!important;}
 main > article{
     max-height:unset!important;
     height:100%!important;
-    max-height:calc(100vh - 2rem)!important;
+    max-height:calc(100vh - 2.5rem)!important;
     overflow:scroll!important;
     -webkit-overflow-scrolling: touch; /* Lets it scroll lazy */
 }
@@ -283,9 +283,14 @@ main > article{
         color: rgba(255,255,255,0.87)!important;
     }
     
-    .comment-list > div div{
+   .pd__ex .comment-list > div div{
         background:rgba(0,0,0,0.93)!important;
+        border-color: rgba(255,255,255,0.38)!important;
     }
+   
+   .pd__ex .comment-list > div div p{
+       margin-bottom:0;
+   }
     
     .header-article{
         background:#121212!important;
@@ -294,6 +299,24 @@ main > article{
     .page-btn, .page-btn:visited{
         background:rgba(0,0,0,0.93)!important;
         color: rgba(255,255,255,0.87)!important;
+    }
+    
+    .pd__ex  .floor-num{
+        background:rgba(255,255,255,0.08);
+        color:rgba(255,255,255,0.6);
+    }
+    
+    .pd__ex  .post-comment textarea{
+        background:rgba(255,255,255,0.08);
+        color:rgba(255,255,255,0.6);
+    }
+    
+    .pd__ex .login_panel{
+        background:#121212;
+    }
+    
+    .pd__ex .third_login .title{
+        background:#121212;
     }
     
 }
