@@ -98,7 +98,8 @@ function showBlockButton(){
                 left: 30%;
                 box-sizing:border-box;
                 text-align: center;
-                transition: 1s;
+                transition-property: transform, opacity;
+                transition-duration: 1s;
                 font-size: 12px;
                 box-shadow: 0 0 3px rgba(33,33,33,0.3);
             }
