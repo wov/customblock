@@ -19,6 +19,13 @@
     },
 
     "content_scripts": [{
+        "js" : ["pudding_global.js"],
+        "matches" : [
+            "*://*.v2ex.com/*",
+            "*://*.zhihu.com/*",
+            "*://m.weibo.cn/*"
+        ]
+    },{
         "css" : ["163.css"],
         "matches" : ["*://3g.163.com/*",
                     "*://m.home.163.com/*"]
@@ -51,10 +58,7 @@
         ],
         "matches" : ["*://*.zhihu.com/*"]
     },{
-        "js" : [
-            "zhihu.js",
-            "pudding_global.js"
-            ],
+        "js" : ["zhihu.js"],
         "matches" : ["*://*.zhihu.com/*"]
     },{
         "css" : ["36kr.css"],
@@ -157,10 +161,7 @@
             "*://m.weibo.cn/*"
         ]
     },{
-        "js" : [
-            "pudding_global.js",
-            "weibo.js"
-        ],
+        "js" : ["weibo.js"],
         "matches" : [
             "*://m.weibo.cn/*"
         ]

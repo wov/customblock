@@ -172,8 +172,17 @@ if(_search_results_doms.length){
             const logData = JSON.parse(log);
             if(!logData || !logData.mu){return;}
             
-            let blockSites = localStorage.getItem(BS_NAME) ? JSON.parse(localStorage.getItem(BS_NAME)) : [];
-            const host = (new URL(logData.mu)).host;
+            let blockSites = localStorage.getItem(BS_NAME) ? JSON.parse(localStorage.getItem(BS_NAME)) : []
+            
+            let host;
+            
+            try {
+                host = (new URL(logData.mu)).host || '';
+            } catch (_){
+                
+            }
+            if(!host){return;}
+
             
             // 假设包含了这个结果，则直接删除
             if(blockSites.includes(host)){
