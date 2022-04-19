@@ -44,3 +44,13 @@ body,body.ModalWrap-body{
         background:#121212;
     }
 }
+
+/*baidu跳转过来的广告*/
+
+.pd__ex .Baidu-header{
+    display: none;
+}
+
+.pd__ex .Baidu-ad{
+    display:none;
+}
