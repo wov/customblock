@@ -1,0 +1,225 @@
+/*登录相关开始*/
+.pd__ex .w1000{
+    max-width:100%;
+}
+
+.pd__ex .login_l{
+    display:none;
+}
+
+.pd__ex .login_r{
+    float: none;
+    width: 100%;
+    height: auto;
+}
+
+.pd__ex #loginbox{
+    padding: 15px;
+}
+
+.pd__ex #login01 .text{
+    margin: 0;
+    width: 200px;
+}
+
+.pd__ex #login01 table td > div{
+    width:200px!important;
+    margin:0!important;
+    display: flex;
+    white-space:nowrap;
+}
+
+.pd__ex .btnlogin{
+    width: 80%;
+}
+
+.pd__ex .otherway .tb{
+    float: none;
+}
+
+.pd__ex .otherway .tb .btn{
+    margin: 0;
+}
+
+.pd__ex .otherway .wx{
+    margin: 0;
+}
+
+.pd__ex *{
+    max-width: 100%;
+}
+
+.pd__ex #mainbox div.popup-box{
+    width: 90%;
+    height: auto;
+    max-height: 80vh;
+    margin-top: 5vh;
+}
+
+.pd__ex #mainbox .content{
+    height: auto;
+    padding: 5%;
+    box-sizing:border-box;
+}
+
+.pd__ex #mainbox .text{
+    box-sizing: border-box;
+    height:auto;
+    text-align: left;
+    width: 90%;
+}
+
+/*登录相关结束*/
+
+
+/*管家婆界面*/
+
+/*.pd__ex *:hover{*/
+/*    all:unset!important;*/
+/*}*/
+
+/*.pd__ex *{*/
+/*    float:none!important;*/
+/*}*/
+
+/*.pd__ex *:empty{*/
+/*    display:none;*/
+/*}*/
+
+
+html {
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+}
+
+body.pd__ex > div[style *= "99999999"],
+body.pd__ex > div[style *= "99999998"],
+body.pd__ex > .FormOverlay{
+    display: none;
+}
+
+/*.pd__ex *:hover {*/
+/*    pointer-events: none !important;*/
+/*}*/
+
+/*.pd__ex *:hover,*/
+/*.pd__ex *:active {*/
+/*    color: inherit !important;*/
+/*    background-color: inherit !important;*/
+/*}*/
+
+.pd__ex .MDITabCaption .TabCloseButton,
+.pd__ex .MDITabCaption.active .TabCloseButton,
+.pd__ex .MDITabCaption:hover .TabCloseButton{
+    display: block!important;
+    color: #377bff;
+    visibility: visible!important;
+}
+
+.pd__ex .topbar .searchmenu{
+    margin-top:0;
+    line-height:unset;
+    height:auto;
+}
+
+.pd__ex .topbar .controlitem:empty{
+    display:none;
+}
+
+
+.pd__ex .topbar{
+    height: auto;
+    display: none;
+}
+
+.pd__ex .MenuBar .MenuRoot{
+    padding: 0 5px;
+}
+
+.pd__ex .MenuBar .MenuRoot:hover{
+    background-color:inherit!important;
+    color:inherit!important;
+}
+
+.pd__ex .MenuBar .MenuRoot.aicon-children:after{
+    margin-left: 3px;
+}
+
+.pd__ex .DragView .UI_ListItem{
+    width: 100%;
+}
+
+.pd__ex .ECharts > div{
+    width: 100%!important;
+}
+
+.pd__ex .HBlock{
+    overflow:scroll!important;
+    -webkit-overflow-scrolling: touch; /* Lets it scroll lazy */
+    padding: 10px!important;
+    display:flex;
+}
+.pd__ex .HBlock > .HSpacer{
+    display:none;
+}
+
+.pd__ex .HBlock table,
+.pd__ex .HBlock thead,
+.pd__ex .HBlock tbody,
+.pd__ex .HBlock tfoot,
+.pd__ex .HBlock tr,
+.pd__ex .HBlock th,
+.pd__ex .HBlock td {
+    display: block;
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-collapse: inherit;
+    border-spacing: 0;
+    border-color: inherit;
+    vertical-align: inherit;
+    text-align: left;
+    font-weight: inherit;
+    -webkit-border-horizontal-spacing: 0;
+    -webkit-border-vertical-spacing: 0;
+}
+
+.pd__ex .HBlock tr{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.pd__ex .HBlock th,
+.pd__ex .HBlock td {
+    display: inline;
+    margin: 3px 0;
+}
+
+.pd__ex .HSpacer{
+    display:block;
+}
+
+.pd__ex .VSplitterEx span.LeftTriangleEx:hover,
+.pd__ex .VSplitterEx span.RightTriangleEx:hover{
+    background-color:#2881C7!important;
+}
+
+.pd__ex .TitleToolTip{
+    display: none!important;
+}
+
+.pd__ex .VSplitterEx .LeftTriangleEx,
+.pd__ex .VSplitterEx .RightTriangleEx{
+    width: 20px;
+}
+
+.pd__ex .VSplitterEx{
+    width: 20px;
+}
+
+.pd__ex .MessageBox{
+    left:0!important;
+    top:5px!important;
+}

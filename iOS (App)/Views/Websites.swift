@@ -20,105 +20,116 @@ struct Websites: View {
         }
     }
     
-    
     var body: some View {
         List{
             Section( header: Text("支持的网站")){
-                HStack {
-                    Link("百度", destination: URL(string: "https://baidu.com")!)
-                    
-                    Spacer()
+                Group{
                     HStack {
-                        Image(systemName: "puzzlepiece.extension")
-                        Image(systemName: "moon.stars.fill")
-                    }
-                }
-                
-                HStack {
-                    Link("豆瓣电影", destination: URL(string: "https://movie.douban.com")!)
-                    
-                    Spacer()
-                    HStack {
-                        Image(systemName: "desktopcomputer")
-                        Image(systemName: "moon.stars.fill")
-                    }
-                }
-                
-                HStack {
-                    Link("哔哩哔哩", destination: URL(string: "https://m.bilibili.com")!)
-                    
-                    Spacer()
-                    HStack {
-                        Image(systemName: "puzzlepiece.extension")
-                        Image(systemName: "desktopcomputer")
-                    }
-                }
-                
-                HStack {
-                    Link("新浪微博", destination: URL(string: "https://m.weibo.cn")!)
-                    
-                    Spacer()
-                    HStack {
-                        Image(systemName: "moon.stars.fill")
-                    }
-                }
-                
-                HStack {
-                    Link("网易新闻", destination: URL(string: "https://3g.163.com")!)
-                    
-                    Spacer()
-                    HStack {
+                        Link("百度", destination: URL(string: "https://baidu.com")!)
                         
-                        Image(systemName: "speedometer")
-                        Image(systemName: "puzzlepiece.extension")
-                        Image(systemName: "moon.stars.fill")
+                        Spacer()
+                        HStack {
+                            Image(systemName: "puzzlepiece.extension")
+                            Image(systemName: "moon.stars.fill")
+                        }
                     }
+                    
+                    HStack {
+                        Link("豆瓣电影", destination: URL(string: "https://movie.douban.com")!)
+                        
+                        Spacer()
+                        HStack {
+                            Image(systemName: "desktopcomputer")
+                            Image(systemName: "moon.stars.fill")
+                        }
+                    }
+                    
+                    HStack {
+                        Link("哔哩哔哩", destination: URL(string: "https://m.bilibili.com")!)
+                        
+                        Spacer()
+                        HStack {
+                            Image(systemName: "puzzlepiece.extension")
+                            Image(systemName: "desktopcomputer")
+                        }
+                    }
+                    
+                    HStack {
+                        Link("新浪微博", destination: URL(string: "https://m.weibo.cn")!)
+                        
+                        Spacer()
+                        HStack {
+                            Image(systemName: "moon.stars.fill")
+                        }
+                    }
+                    
+                    HStack {
+                        Link("网易新闻", destination: URL(string: "https://3g.163.com")!)
+                        
+                        Spacer()
+                        HStack {
+                            
+                            Image(systemName: "speedometer")
+                            Image(systemName: "puzzlepiece.extension")
+                            Image(systemName: "moon.stars.fill")
+                        }
+                    }
+                    
+                    HStack {
+                        Link("腾讯新闻", destination: URL(string: "https://xw.qq.com")!)
+                        
+                        Spacer()
+                        HStack {
+                            Image(systemName: "moon.stars.fill")
+                        }
+                    }
+                    
+                    HStack {
+                        Link("知乎", destination: URL(string: "https://www.zhihu.com")!)
+                        
+                        Spacer()
+                        HStack {
+                            Image(systemName: "puzzlepiece.extension")
+                            Image(systemName: "moon.stars.fill")
+                        }
+                    }
+                    
+                    HStack {
+                        Link("36氪", destination: URL(string: "https://m.36kr.com")!)
+                        
+                        Spacer()
+                        HStack {
+                            Image(systemName: "puzzlepiece.extension")
+                            Image(systemName: "moon.stars.fill")
+                        }
+                    }
+                    
+                    HStack {
+                        Link("爱范儿", destination: URL(string: "https://www.ifanr.com")!)
+                        
+                        Spacer()
+                        HStack {
+                            Image(systemName: "moon.stars.fill")
+                        }
+                    }
+                    
+                    HStack {
+                        Link("什么值得买", destination: URL(string: "https://smzdm.com")!)
+                        Spacer()
+                        HStack {
+                            Image(systemName: "puzzlepiece.extension")
+                        }
+                    }
+                    
                 }
                 
-                HStack {
-                    Link("腾讯新闻", destination: URL(string: "https://xw.qq.com")!)
-                    
-                    Spacer()
+                Group{
                     HStack {
-                        Image(systemName: "moon.stars.fill")
-                    }
-                }
-                
-                HStack {
-                    Link("知乎", destination: URL(string: "https://www.zhihu.com")!)
-                    
-                    Spacer()
-                    HStack {
-                        Image(systemName: "puzzlepiece.extension")
-                        Image(systemName: "moon.stars.fill")
-                    }
-                }
-                
-                HStack {
-                    Link("36氪", destination: URL(string: "https://m.36kr.com")!)
-                    
-                    Spacer()
-                    HStack {
-                        Image(systemName: "puzzlepiece.extension")
-                        Image(systemName: "moon.stars.fill")
-                    }
-                }
-                
-                HStack {
-                    Link("爱范儿", destination: URL(string: "https://www.ifanr.com")!)
-                    
-                    Spacer()
-                    HStack {
-                        Image(systemName: "moon.stars.fill")
-                    }
-                }
-                
-                HStack {
-                    Link("什么值得买", destination: URL(string: "https://smzdm.com")!)
-                    
-                    Spacer()
-                    HStack {
-                        Image(systemName: "puzzlepiece.extension")
+                        Link("管家婆", destination: URL(string: "https://passport.wsgjp.com.cn/erp/login")!)
+                        Spacer()
+                        HStack {
+                            Image(systemName: "desktopcomputer")
+                        }
                     }
                 }
             }

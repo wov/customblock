@@ -165,6 +165,18 @@
         "matches" : [
             "*://m.weibo.cn/*"
         ]
+    },{
+        "css" : [
+            "gjp.css"
+        ],
+        "matches" : [
+            "*://*.wsgjp.com.cn/*"
+        ]
+    },{
+        "js" : ["gjp.js"],
+        "matches" : [
+            "*://*.wsgjp.com.cn/*"
+        ]
     }],
 
     "browser_action": {

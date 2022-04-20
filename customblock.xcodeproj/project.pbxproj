@@ -12,6 +12,8 @@
 		833AF29F27C9F0E60011C1BC /* sina.css in Resources */ = {isa = PBXBuildFile; fileRef = 833AF29E27C9F0E60011C1BC /* sina.css */; };
 		83417EAD28072D0600BC58BA /* weibo.css in Resources */ = {isa = PBXBuildFile; fileRef = 83417EAC28072D0600BC58BA /* weibo.css */; };
 		83417EAF28072D1600BC58BA /* weibo.js in Resources */ = {isa = PBXBuildFile; fileRef = 83417EAE28072D1600BC58BA /* weibo.js */; };
+		835637CC280EDA3800F12F03 /* gjp.js in Resources */ = {isa = PBXBuildFile; fileRef = 835637CB280EDA3800F12F03 /* gjp.js */; };
+		835637CE280EDA7100F12F03 /* gjp.css in Resources */ = {isa = PBXBuildFile; fileRef = 835637CD280EDA7100F12F03 /* gjp.css */; };
 		836479AA27F1DBEA0081B72B /* bilibili_pc.css in Resources */ = {isa = PBXBuildFile; fileRef = 836479A927F1DBEA0081B72B /* bilibili_pc.css */; };
 		836479AC27F1DC090081B72B /* bilibili_pc.js in Resources */ = {isa = PBXBuildFile; fileRef = 836479AB27F1DC090081B72B /* bilibili_pc.js */; };
 		837F025927FC748D00A677BD /* 36kr.js in Resources */ = {isa = PBXBuildFile; fileRef = 837F025827FC748D00A677BD /* 36kr.js */; };
@@ -129,6 +131,8 @@
 		833AF29E27C9F0E60011C1BC /* sina.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = sina.css; sourceTree = "<group>"; };
 		83417EAC28072D0600BC58BA /* weibo.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = weibo.css; sourceTree = "<group>"; };
 		83417EAE28072D1600BC58BA /* weibo.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = weibo.js; sourceTree = "<group>"; };
+		835637CB280EDA3800F12F03 /* gjp.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = gjp.js; sourceTree = "<group>"; };
+		835637CD280EDA7100F12F03 /* gjp.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = gjp.css; sourceTree = "<group>"; };
 		836479A927F1DBEA0081B72B /* bilibili_pc.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = bilibili_pc.css; sourceTree = "<group>"; };
 		836479AB27F1DC090081B72B /* bilibili_pc.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = bilibili_pc.js; sourceTree = "<group>"; };
 		837F025827FC748D00A677BD /* 36kr.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = 36kr.js; sourceTree = "<group>"; };
@@ -364,6 +368,8 @@
 				837F026228019B0E00A677BD /* pudding_global.css */,
 				83417EAC28072D0600BC58BA /* weibo.css */,
 				83417EAE28072D1600BC58BA /* weibo.js */,
+				835637CB280EDA3800F12F03 /* gjp.js */,
+				835637CD280EDA7100F12F03 /* gjp.css */,
 			);
 			path = "iOS (Extension)";
 			sourceTree = "<group>";
@@ -541,6 +547,7 @@
 				831955E127C8E1AD00446554 /* xiaohongshu.css in Resources */,
 				83CF53C027C65E7000375E9F /* baidu.css in Resources */,
 				837F026328019B0E00A677BD /* pudding_global.css in Resources */,
+				835637CC280EDA3800F12F03 /* gjp.js in Resources */,
 				83CF53C227C915A100375E9F /* zhihu.css in Resources */,
 				83E017442675036B00A30A29 /* popup.css in Resources */,
 				837F025927FC748D00A677BD /* 36kr.js in Resources */,
@@ -549,6 +556,7 @@
 				83417EAD28072D0600BC58BA /* weibo.css in Resources */,
 				83E017422675036B00A30A29 /* popup.html in Resources */,
 				833AF29F27C9F0E60011C1BC /* sina.css in Resources */,
+				835637CE280EDA7100F12F03 /* gjp.css in Resources */,
 				839CD0E327D247D200E86463 /* bilibili.js in Resources */,
 				83E0173A2675036B00A30A29 /* images in Resources */,
 				83E0173C2675036B00A30A29 /* manifest.json in Resources */,
@@ -796,7 +804,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.23.4;
+				MARKETING_VERSION = 1.24.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.inact.customblock.Extension;
 				PRODUCT_NAME = "customblock Extension";
 				SDKROOT = iphoneos;
@@ -823,7 +831,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.23.4;
+				MARKETING_VERSION = 1.24.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.inact.customblock.Extension;
 				PRODUCT_NAME = "customblock Extension";
 				SDKROOT = iphoneos;
@@ -856,7 +864,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.23.4;
+				MARKETING_VERSION = 1.24.0;
 				OTHER_LDFLAGS = (
 					"-framework",
 					WebKit,
@@ -891,7 +899,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.23.4;
+				MARKETING_VERSION = 1.24.0;
 				OTHER_LDFLAGS = (
 					"-framework",
 					WebKit,
