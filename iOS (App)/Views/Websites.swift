@@ -59,6 +59,7 @@ struct Websites: View {
                         
                         Spacer()
                         HStack {
+                            Image(systemName: "puzzlepiece.extension")
                             Image(systemName: "moon.stars.fill")
                         }
                     }
