@@ -483,6 +483,19 @@ a[data-module=entrance]{
     .c-infinite-scroll-bottom-bar[data-a-16f4fc81]{
         background:none!important;
     }
+    
+    .short-mini-wrapper{
+        background:#121212!important;
+    }
+    
+    .item-card[data-a-1f603608]{
+        background:rgba(255,255,255,0.08)!important;
+    }
+    
+    .sfc-video-page-info-bottom-line[data-a-3b3cba84],
+    .top-line[data-a-3b3cba84]{
+        border-color:rgba(255,255,255,0.08)!important;
+    }
 }
 
 

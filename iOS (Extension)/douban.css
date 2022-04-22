@@ -818,6 +818,22 @@ html .pd__ex h1{
     .pd__ex  #footer{
         color:rgba(255,255,255,0.6);
     }
+}
+
+
+/*https://movie.douban.com/cinema/later/shanghai/*/
+
+@media (prefers-color-scheme: dark) {
+    .pd__ex .intro li{
+        color:rgba(255,255,255,0.6);
+    }
     
-  
+    .pd__ex .article p{
+        background:rgba(255,255,255,0.08);
+        color:rgba(255,255,255,0.6);
+    }
+    
+    .pd__ex .douban-movie-official-site{
+        background:rgba(255,255,255,0.08);
+    }
 }
