@@ -1,0 +1,17 @@
+
+.pd__ex .wap-shadowbox{
+    display:none!important;
+}
+
+.pd__ex #article .article_content{
+    overflow: auto!important;
+    height:unset!important
+}
+
+.pd__ex #article .readall_box{
+    display:none!important;
+}
+
+.pd__ex .feed-Sign-span{
+    display: none!important;
+}

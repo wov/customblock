@@ -1,3 +1,16 @@
+:root{
+    --puddingdark-mainfont-color: rgba(255,255,255,0.87);
+    --puddingdark-secondfont-color: rgba(255,255,255,0.6);
+
+    --puddingdark-border-color: rgba(255,255,255,0.08);
+    
+    
+    --puddingdark-main-bgcolor: #121212;
+    --puddingdark-03dp-bgcolor: rgba(255,255,255,0.08);
+
+
+}
+
 /*首页*/
 iframe{display:none!important;}
 
@@ -130,6 +143,41 @@ img[lazy=loaded]{
     .pd__ex  .topbar .topbar-reply .reply-count{
         background:#333;
     }
+    
+    .pd__ex .hotWords-header .s-tip{
+        color:var(--puddingdark-mainfont-color);
+    }
+
+    .pd__ex .hotWord-title{
+        color: var(--puddingdark-mainfont-color);
+    }
+    
+    .pd__ex  .fineBorder:after,
+    .pd__ex  .fineBorderBottom:after,
+    .pd__ex  .fineBorderTop:after{
+        border-color: var(--puddingdark-border-color);
+    }
+
+    .pd__ex .app-header{
+        background-color: var(--puddingdark-main-bgcolor);
+    }
+
+    .pd__ex  .searchBar-cancel{
+        color: var(--puddingdark-secondfont-color);
+    }
+
+    .pd__ex .searchResult .newsCard{
+        background-color: var(--puddingdark-03dp-bgcolor);
+    }
+
+    .pd__ex .card-title{
+        color: var(--puddingdark-mainfont-color);
+    }
+
+    .pd__ex .card-info{
+        color: var(--puddingdark-secondfont-color);
+    }
+
 }
 
 /*频道页面*/
@@ -244,6 +292,7 @@ main > article{
     max-height:calc(100vh - 2.5rem)!important;
     overflow:scroll!important;
     -webkit-overflow-scrolling: touch; /* Lets it scroll lazy */
+    overscroll-behavior: contain;
 }
 
 .footer,footer{display:none!important;}

@@ -129,6 +129,10 @@
 				<key>Style Sheet</key>
 				<string>gjp.css</string>
 			</dict>
+			<dict>
+				<key>Style Sheet</key>
+				<string>csdn.css</string>
+			</dict>
 		</array>
 		<key>SFSafariWebsiteAccess</key>
 		<dict>
@@ -148,6 +152,7 @@
 				<string>3g.163.com</string>
 				<string>*.bilibili.com</string>
 				<string>m.weibo.cn</string>
+				<string>blog.csdn.net</string>
 			</array>
 		</dict>
 	</dict>

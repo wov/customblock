@@ -22,7 +22,8 @@
         "js" : ["pudding_global.js"],
         "matches" : [
             "*://*.v2ex.com/*",
-            "*://*.zhihu.com/*"
+            "*://*.zhihu.com/*",
+            "*://blog.csdn.net/*"
         ]
     },{
         "css" : ["163.css"],
@@ -175,6 +176,13 @@
         "js" : ["gjp.js"],
         "matches" : [
             "*://*.wsgjp.com.cn/*"
+        ]
+    },{
+        "css" : [
+            "csdn.css"
+        ],
+        "matches" : [
+            "*://blog.csdn.net/*"
         ]
     }],
 
