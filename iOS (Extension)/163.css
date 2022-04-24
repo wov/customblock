@@ -7,9 +7,10 @@
     
     --puddingdark-main-bgcolor: #121212;
     --puddingdark-03dp-bgcolor: rgba(255,255,255,0.08);
-
-
 }
+
+
+
 
 /*首页*/
 iframe{display:none!important;}
@@ -286,6 +287,11 @@ iframe{display:none!important;}
 .hotSearch-box{display:none!important;}
 
 /*文章被折叠*/
+
+body.pd__noscroll{
+    overflow:hidden;
+}
+
 main > article{
     max-height:unset!important;
     height:100%!important;

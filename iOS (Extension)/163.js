@@ -1,8 +1,7 @@
 const BS_NAME = 'pudding_block_channel'
 
 // add a class for reset the styles easly.
-document.querySelector('body').classList.add('pd__ex')
-
+document.querySelector('body').classList.add('pd__ex');
 
 function replaceToAppText(){
     let As = document.querySelectorAll('a');
@@ -15,6 +14,10 @@ function replaceToAppText(){
 }
 
 replaceToAppText();
+
+if(window.location.href.indexOf('news/article/') !== -1){
+    document.querySelector('body').classList.add('pd__noscroll');
+}
 
 var BlockedChannelCount = 0;
 
