@@ -2,6 +2,54 @@ html, body, #app{
     min-height: -webkit-fill-available!important;
 }
 
+
+/* .pd__ex .wb-item-wrap[data-v-14449dc4].hidden */
+.pd__ex .wb-item.hidden *{
+    pointer-events: none;
+}
+
+.pd__ex .wb-item.hidden  h3,
+.pd__ex .wb-item.hidden  h4,
+.pd__ex .wb-item.hidden  .weibo-main .weibo-text,
+.pd__ex .wb-item.hidden  .weibo-main .weibo-text a,
+.pd__ex .wb-item.hidden .m-img-box{
+    background-color: #e6e6e6;
+    color: rgba(0,0,0,0)!important;
+}
+
+.pd__ex .wb-item.hidden  .weibo-main .weibo-text a{
+    background-color: unset;
+}
+
+.pd__ex .wb-item.hidden .mwb-video{
+    background-color: unset;
+}
+
+.pd__ex .wb-item.hidden .weibo-top .m-add-box,
+.pd__ex .wb-item.hidden .f-footer-ctrl,
+.pd__ex .wb-item.hidden img,
+.pd__ex .wb-item.hidden .m-icon,
+.pd__ex .wb-item.hidden .mwbv-play-button,
+.pd__ex .wb-item.hidden .mwbv-info-bar{
+    visibility: hidden;
+}
+
+@media (prefers-color-scheme: dark) {
+    .pd__ex .wb-item.hidden  h3,
+    .pd__ex .wb-item.hidden  h4,
+    .pd__ex .wb-item.hidden  .weibo-main .weibo-text,
+    .pd__ex .wb-item.hidden  .weibo-main .weibo-text a,
+    .pd__ex .wb-item.hidden .m-img-box{
+        background:rgba(255,255,255,0.08);
+        border-color:rgba(255,255,255,0.08);
+    }
+
+    .pd__ex .wb-item.hidden  .weibo-main .weibo-text a{
+        background-color: unset;
+    }
+}
+
+
 @media (prefers-color-scheme: dark) {
 
     html{

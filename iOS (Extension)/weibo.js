@@ -19,47 +19,15 @@ function addDarkMeta(){
 
 addDarkMeta();
 
-// 添加直接展开的按钮
-// function addExpendForLongText(){
-//     const texts = document.querySelectorAll('.weibo-text');
-//     const CLASSFLAG = 'pudding_expend';
-//     texts.forEach( t => {
-//         if(t.classList.contains(CLASSFLAG)){return;}
-//         t.classList.add(CLASSFLAG);
-//         const as = t.querySelectorAll('a');
-//         as.forEach( a => {
-//             if(a.textContent === '全文'){
-//                 const pudding_expend_button = document.createElement('a');
-//                 pudding_expend_button.href = "javascript:;"
-//                 pudding_expend_button.textContent = ' [直接展开 by布丁]';
-//                 pudding_expend_button.addEventListener( 'click' , e => {
-//                     // const ajaxHref = a.href.replace();
-//                     const id  =  a.href.replace(/.*\/(\w+)\/?$/, '$1');
-//                     const requestUrl = `/statuses/extend?id=${id}`;
-//                     fetch(requestUrl)
-//                     .then(response => response.json())
-//                     .then(data => {
-//                         if(data.ok && data.ok === 1 && data.data && data.data.longTextContent){
-//                             a.parentNode.innerHTML = data.data.longTextContent;
-//                         }
-//                     });
-//                 });
-//                 t.appendChild(pudding_expend_button);
-//             }
-//         })
-//     });
-// }
-
 // 添加block的功能&展开的功能
 function addButtonAndBlock(){
-    const items = document.querySelectorAll('.wb-item-wrap');
+    console.log('addButtonAndBlock');
+    const items = document.querySelectorAll('.wb-item-wrap > .wb-item');
     const CLASSFLAG = "pudding_extension";
     if(!items.length){return;}
-
     items.forEach( i => {
-        if(i.classList.contains(CLASSFLAG)){return;}
+        if(i.classList.contains(CLASSFLAG)){console.log('it already has..');return;}
         i.classList.add(CLASSFLAG);
-
         // 添加直接展开的功能
         const t = i.querySelector('.weibo-text');
         if(t){
@@ -87,35 +55,29 @@ function addButtonAndBlock(){
         }
 
         // 添加屏蔽的功能
-        const h = i.querySelector('header.weibo-top');
-        const idDom = h.querySelector('.m-text-box > a');
+        const h = i.querySelector('header.weibo-top'); 
+        const idDom = h && h.querySelector('.m-text-box > a');
         if(h && idDom){
-            const id = idDom.href.replace(/.*\/(\w+)\/?$/, '$1');
-            const name =idDom.querySelector('.m-text-cut').textContent.replaceAll(/\s/g,'');
+            let id = idDom.href.replace(/.*\/(\w+)\/?$/, '$1');
+            let name =idDom.querySelector('.m-text-cut').textContent.replaceAll(/\s/g,'');
             let blockUsers = localStorage.getItem(BS_NAME) ? JSON.parse(localStorage.getItem(BS_NAME)) : [];
             if(blockUsers.includes(id)){
-                i.remove();
+                i.classList.add('hidden');
             }
             const blockDom = document.createElement('div');
-            blockDom.classList.add('m-add-box');
-            blockDom.classList.add('m-followBtn');
             blockDom.innerHTML = '<span class="m-add-box" style="margin:0 0 0 3px;"><h4>屏蔽</h4></span>'
             h.appendChild(blockDom)
 
-            blockDom.addEventListener( 'click', e => {
-                const r = confirm(`布丁扩展🍮\n\n确定要屏蔽“${name}”吗？\n屏蔽只对本地有效`);
-                if(r){
-                    let blockUsers = localStorage.getItem(BS_NAME) ? JSON.parse(localStorage.getItem(BS_NAME)) : [];
-                    blockUsers.push(id);
-                    localStorage.setItem(BS_NAME,JSON.stringify(blockUsers));
-                    i.remove();
-                }
-            } )
+            blockDom.addEventListener('click', e => {
+                e.stopPropagation();
+                let blockUsers = localStorage.getItem(BS_NAME) ? JSON.parse(localStorage.getItem(BS_NAME)) : [];
+                blockUsers.push(id);
+                localStorage.setItem(BS_NAME,JSON.stringify(blockUsers));
+                i.classList.add('hidden');
+            })
         }
-
-    } )
+    })
 }
-
 
 function openLongPictureInNewWindow(){
     const images = document.querySelectorAll('.m-img-box');
@@ -139,7 +101,7 @@ function openLongPictureInNewWindow(){
 
 const rootChangeDom = document.querySelector('#app');
 if(rootChangeDom){
-    const config = { attributes: true, childList: true, subtree: true };
+    const config = { attributes: false, childList: true, subtree: true };
     const callback = function(mutationsList, observer) {
         addButtonAndBlock();
         openLongPictureInNewWindow();
