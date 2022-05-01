@@ -58,6 +58,10 @@
 				<key>Script</key>
 				<string>gjp.js</string>
 			</dict>
+			<dict>
+				<key>Script</key>
+				<string>myseller.js</string>
+			</dict>
 		</array>
 		<key>SFSafariStyleSheet</key>
 		<array>
@@ -133,11 +137,21 @@
 				<key>Style Sheet</key>
 				<string>csdn.css</string>
 			</dict>
+			<dict>
+				<key>Style Sheet</key>
+				<string>sohu.css</string>
+			</dict>
+			<dict>
+				<key>Style Sheet</key>
+				<string>myseller.css</string>
+			</dict>
 		</array>
 		<key>SFSafariWebsiteAccess</key>
 		<dict>
 			<key>Allowed Domains</key>
 			<array>
+				<string>*.taobao.com</string>
+				<string>*.sohu.com</string>
 				<string>*.wsgjp.com.cn</string>
 				<string>*.qq.com</string>
 				<string>*.douban.com</string>

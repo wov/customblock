@@ -25,16 +25,12 @@
 @media (prefers-color-scheme: dark) {
     .pd__ex{
         background:#121212;
-    }
-/*    */
-/*    *{*/
-/*        border-color:rgba(255,255,255,0.08)!important;*/
-/*    }*/
-    
+    }    
 }
 
 
-.searchbox-exp div[style="overflow: hidden;background: #fff;"]{
+.searchbox-exp div[style="overflow: hidden;background: #fff;"],
+.searchbox-exp div[style="overflow: hidden;background: #fff;position: relative;"]{
     display:none!important;
 }
 

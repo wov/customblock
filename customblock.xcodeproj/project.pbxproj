@@ -15,6 +15,7 @@
 		835637CC280EDA3800F12F03 /* gjp.js in Resources */ = {isa = PBXBuildFile; fileRef = 835637CB280EDA3800F12F03 /* gjp.js */; };
 		835637CE280EDA7100F12F03 /* gjp.css in Resources */ = {isa = PBXBuildFile; fileRef = 835637CD280EDA7100F12F03 /* gjp.css */; };
 		835637D028144A1700F12F03 /* csdn.css in Resources */ = {isa = PBXBuildFile; fileRef = 835637CF28144A1700F12F03 /* csdn.css */; };
+		835637D2281C0F8A00F12F03 /* sohu.css in Resources */ = {isa = PBXBuildFile; fileRef = 835637D1281C0F8A00F12F03 /* sohu.css */; };
 		836479AA27F1DBEA0081B72B /* bilibili_pc.css in Resources */ = {isa = PBXBuildFile; fileRef = 836479A927F1DBEA0081B72B /* bilibili_pc.css */; };
 		836479AC27F1DC090081B72B /* bilibili_pc.js in Resources */ = {isa = PBXBuildFile; fileRef = 836479AB27F1DC090081B72B /* bilibili_pc.js */; };
 		837F025927FC748D00A677BD /* 36kr.js in Resources */ = {isa = PBXBuildFile; fileRef = 837F025827FC748D00A677BD /* 36kr.js */; };
@@ -78,6 +79,8 @@
 		83E017452675036B00A30A29 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 83E016F62675036B00A30A29 /* popup.css */; };
 		83E017462675036B00A30A29 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 83E016F72675036B00A30A29 /* popup.js */; };
 		83E017472675036B00A30A29 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 83E016F72675036B00A30A29 /* popup.js */; };
+		83FC53B1281E4CF300C335C3 /* myseller.css in Resources */ = {isa = PBXBuildFile; fileRef = 83FC53B0281E4CF300C335C3 /* myseller.css */; };
+		83FC53B3281E4EB600C335C3 /* myseller.js in Resources */ = {isa = PBXBuildFile; fileRef = 83FC53B2281E4EB600C335C3 /* myseller.js */; };
 		8A9A58B528083ABB00C60926 /* CustomBlockWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9A58B428083ABB00C60926 /* CustomBlockWebView.swift */; };
 		8A9A58B628083ABB00C60926 /* CustomBlockWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9A58B428083ABB00C60926 /* CustomBlockWebView.swift */; };
 		8A9A58BB28083D5C00C60926 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9A58BA28083D5C00C60926 /* ContentView.swift */; };
@@ -135,6 +138,7 @@
 		835637CB280EDA3800F12F03 /* gjp.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = gjp.js; sourceTree = "<group>"; };
 		835637CD280EDA7100F12F03 /* gjp.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = gjp.css; sourceTree = "<group>"; };
 		835637CF28144A1700F12F03 /* csdn.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = csdn.css; sourceTree = "<group>"; };
+		835637D1281C0F8A00F12F03 /* sohu.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = sohu.css; sourceTree = "<group>"; };
 		836479A927F1DBEA0081B72B /* bilibili_pc.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = bilibili_pc.css; sourceTree = "<group>"; };
 		836479AB27F1DC090081B72B /* bilibili_pc.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = bilibili_pc.js; sourceTree = "<group>"; };
 		837F025827FC748D00A677BD /* 36kr.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = 36kr.js; sourceTree = "<group>"; };
@@ -190,6 +194,8 @@
 		83E0171F2675036B00A30A29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83E017242675036B00A30A29 /* customblock Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "customblock Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83E017292675036B00A30A29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83FC53B0281E4CF300C335C3 /* myseller.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = myseller.css; sourceTree = "<group>"; };
+		83FC53B2281E4EB600C335C3 /* myseller.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = myseller.js; sourceTree = "<group>"; };
 		8A9A58B428083ABB00C60926 /* CustomBlockWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBlockWebView.swift; sourceTree = "<group>"; };
 		8A9A58BA28083D5C00C60926 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -373,6 +379,9 @@
 				835637CB280EDA3800F12F03 /* gjp.js */,
 				835637CD280EDA7100F12F03 /* gjp.css */,
 				835637CF28144A1700F12F03 /* csdn.css */,
+				835637D1281C0F8A00F12F03 /* sohu.css */,
+				83FC53B0281E4CF300C335C3 /* myseller.css */,
+				83FC53B2281E4EB600C335C3 /* myseller.js */,
 			);
 			path = "iOS (Extension)";
 			sourceTree = "<group>";
@@ -540,12 +549,14 @@
 				831955E327CB662F00446554 /* 163.js in Resources */,
 				838E87132676778200558B4F /* 163.css in Resources */,
 				83CD753727EDED8B004CE7AF /* douban.css in Resources */,
+				835637D2281C0F8A00F12F03 /* sohu.css in Resources */,
 				83CF53C427C9EACE00375E9F /* 36kr.css in Resources */,
 				83E0173E2675036B00A30A29 /* background.js in Resources */,
 				837F025D27FDC14900A677BD /* qq.js in Resources */,
 				83417EAF28072D1600BC58BA /* weibo.js in Resources */,
 				836479AC27F1DC090081B72B /* bilibili_pc.js in Resources */,
 				83B8D43E27DDFD1B00FCC661 /* ifanr.css in Resources */,
+				83FC53B3281E4EB600C335C3 /* myseller.js in Resources */,
 				839CD0D627CD077E00E86463 /* jianshu.css in Resources */,
 				831955E127C8E1AD00446554 /* xiaohongshu.css in Resources */,
 				835637D028144A1700F12F03 /* csdn.css in Resources */,
@@ -566,6 +577,7 @@
 				83E0173C2675036B00A30A29 /* manifest.json in Resources */,
 				837F026528019FA000A677BD /* zhihu.js in Resources */,
 				83B2530227F5550C00C11371 /* base.css in Resources */,
+				83FC53B1281E4CF300C335C3 /* myseller.css in Resources */,
 				83CD753127E78804004CE7AF /* v2ex.css in Resources */,
 				837F025B27FDC13C00A677BD /* qq.css in Resources */,
 				839CD0E527D24DB300E86463 /* bilibili.css in Resources */,
@@ -808,7 +820,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.24.4;
+				MARKETING_VERSION = 1.25.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.inact.customblock.Extension;
 				PRODUCT_NAME = "customblock Extension";
 				SDKROOT = iphoneos;
@@ -835,7 +847,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.24.4;
+				MARKETING_VERSION = 1.25.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.inact.customblock.Extension;
 				PRODUCT_NAME = "customblock Extension";
 				SDKROOT = iphoneos;
@@ -868,7 +880,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.24.4;
+				MARKETING_VERSION = 1.25.0;
 				OTHER_LDFLAGS = (
 					"-framework",
 					WebKit,
@@ -903,7 +915,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.24.4;
+				MARKETING_VERSION = 1.25.0;
 				OTHER_LDFLAGS = (
 					"-framework",
 					WebKit,

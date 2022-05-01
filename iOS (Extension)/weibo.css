@@ -568,5 +568,9 @@ html, body, #app{
         background: rgba(255,255,255,0.08);
     }
 
+    .pd__ex .lite-page-list .m-text-box .cmt-sub-txt span[data-v-1b0e6d11]{
+        color:rgba(255,255,255,0.87);
+    }
+
 }
 

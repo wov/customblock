@@ -184,6 +184,26 @@
         "matches" : [
             "*://blog.csdn.net/*"
         ]
+    },{
+        "css" : [
+            "sohu.css"
+        ],
+        "matches" : [
+            "*://m.sohu.com/a/*"
+        ]
+    },{
+        "js" : ["myseller.js"],
+        "matches" : [
+            "*://myseller.taobao.com/*"
+        ]
+    },{
+        "css" : [
+            "myseller.css"
+        ],
+        "matches" : [
+            "*://loginmyseller.taobao.com/*",
+            "*://myseller.taobao.com/*"
+        ]
     }],
 
     "browser_action": {

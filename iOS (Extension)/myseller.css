@@ -1,0 +1,108 @@
+/*千牛后台*/
+/*首页*/
+
+body.pd__ex{
+    height: -webkit-fill-available;
+    overflow:hidden
+}
+
+body.pd__ex *{
+    max-width: 100%!important;
+}
+
+.pd__ex .QnworkbenchHome_src_QnworkbenchHome__7TiUC{
+    padding: 5px;
+}
+
+.pd__ex .BasicLayout--container--3mhY6eF{
+    min-width: unset;
+}
+
+.pd__ex .QnworkbenchHome_src_bottomContainer__m151t{
+    flex-wrap: wrap;
+}
+
+.pd__ex .Header--container--_mH0Ilt{
+    min-width: unset;
+}
+
+/*header*/
+.pd__ex .Header--container--_mH0Ilt .Header--bg--2prYj84{
+    display:none;
+}
+
+.pd__ex .FirstClassMenu--container--2FHmuHR{
+    display:block;
+    top: unset;
+    width: 80px;
+    position:relative;
+    order: 1;
+}
+
+.pd__ex .FirstClassMenu--container--2FHmuHR *{
+    max-width:100%!important;
+    box-sizing: border-box;
+}
+
+.pd__ex .FirstClassMenu--firstClassMenu--2QqBjfl .FirstClassMenu--navItem--Izq9hLb{
+    padding-left:5px;
+}
+
+.pd__ex .FirstClassMenu--firstClassMenu--2QqBjfl .FirstClassMenu--brandWrap--1yA-w1I,
+.pd__ex .FirstClassMenu--about--3bcCkLg{
+    display: none;
+}
+
+.pd__ex .FirstClassMenu--firstClassMenu--2QqBjfl .FirstClassMenu--navContent--2-KR2BY{
+    padding: 10px 0;
+}
+
+.pd__ex .FirstClassMenu--firstClassMenu--2QqBjfl .FirstClassMenu--selectedNavItem--3kkaIdx{
+    padding-left: 5px;
+    background:#fff;
+    margin-left: 0;
+}
+
+.pd__ex .FirstClassMenu--firstClassMenu--2QqBjfl .FirstClassMenu--navList--LWMJEjL{
+    padding-right:0;
+}
+
+.pd__ex .BasicLayout--container--3mhY6eF.BasicLayout--homeContainer--2c9Ejgg{
+    padding: 0;
+    display: flex;
+    height: -webkit-fill-available;
+}
+
+
+.pd__ex .Container--container--mFB4pNB{
+    order:2;
+}
+
+.pd__ex .BasicLayout--container--3mhY6eF.BasicLayout--homeContainer--2c9Ejgg #icestarkNode{
+    min-width: unset;
+    width: 100%;
+}
+
+.pd__ex .QnworkbenchHome_src_QnworkbenchHomeWrap__EQGPE{
+    min-width: unset;
+}
+
+.pd__ex .QnworkbenchHome_src_leftSide__9OZc9{
+    margin-right:0;
+}
+
+.pd__ex .qnWorkbench-microMods-HomeProfile_TodoListRow_MerchantName__3jdAE{
+    font-size:10px;
+}
+
+.pd__ex .next-row.next-row-wrap{
+    margin: 0!important;
+    width: 100%;
+}
+
+.pd__ex .next-col-6{
+    width: 48%;
+    flex:0 0 48%;
+    padding: 0!important;
+    margin: 0 1%;
+}
