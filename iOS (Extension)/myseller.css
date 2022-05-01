@@ -16,6 +16,9 @@ body.pd__ex *{
 
 .pd__ex .BasicLayout--container--3mhY6eF{
     min-width: unset;
+    padding:0;
+    height: -webkit-fill-available;
+    flex-direction: column;
 }
 
 .pd__ex .QnworkbenchHome_src_bottomContainer__m151t{
@@ -34,18 +37,21 @@ body.pd__ex *{
 .pd__ex .FirstClassMenu--container--2FHmuHR{
     display:block;
     top: unset;
-    width: 80px;
     position:relative;
     order: 1;
+    width:100%;
 }
 
 .pd__ex .FirstClassMenu--container--2FHmuHR *{
     max-width:100%!important;
     box-sizing: border-box;
+    width: 100%;
 }
 
 .pd__ex .FirstClassMenu--firstClassMenu--2QqBjfl .FirstClassMenu--navItem--Izq9hLb{
-    padding-left:5px;
+    padding: 0 5px;
+    display:inline-block;
+    width:auto;
 }
 
 .pd__ex .FirstClassMenu--firstClassMenu--2QqBjfl .FirstClassMenu--brandWrap--1yA-w1I,
@@ -54,17 +60,37 @@ body.pd__ex *{
 }
 
 .pd__ex .FirstClassMenu--firstClassMenu--2QqBjfl .FirstClassMenu--navContent--2-KR2BY{
-    padding: 10px 0;
+    padding: 0;
+    width: 100%;
 }
 
 .pd__ex .FirstClassMenu--firstClassMenu--2QqBjfl .FirstClassMenu--selectedNavItem--3kkaIdx{
-    padding-left: 5px;
+    padding:0 5px;
     background:#fff;
     margin-left: 0;
+    display:inline-block;
+    width: auto;
 }
 
 .pd__ex .FirstClassMenu--firstClassMenu--2QqBjfl .FirstClassMenu--navList--LWMJEjL{
     padding-right:0;
+    width: 100%;
+}
+
+.pd__ex .FirstClassMenu--firstClassMenu--2QqBjfl .FirstClassMenu--navListWrap--4Ka30jR{
+/*    flex-direction : row;*/
+/*    flex-wrap: nowrap;*/
+    overflow:scroll!important;
+    -webkit-overflow-scrolling: touch; /* Lets it scroll lazy */
+    width: 100%;
+    display: block;
+    white-space:nowrap;
+    vertical-align: top;
+    font-size:0;
+}
+
+.pd__ex .FirstClassMenu--firstClassMenu--2QqBjfl .FirstClassMenu--menuLine--1KdSXrf{
+    display:none;
 }
 
 .pd__ex .BasicLayout--container--3mhY6eF.BasicLayout--homeContainer--2c9Ejgg{
@@ -73,9 +99,8 @@ body.pd__ex *{
     height: -webkit-fill-available;
 }
 
-
 .pd__ex .Container--container--mFB4pNB{
-    order:2;
+    order:3;
 }
 
 .pd__ex .BasicLayout--container--3mhY6eF.BasicLayout--homeContainer--2c9Ejgg #icestarkNode{
@@ -105,4 +130,20 @@ body.pd__ex *{
     flex:0 0 48%;
     padding: 0!important;
     margin: 0 1%;
+}
+
+.pd__ex .QnworkbenchHome_src_moduleWrap__m8LAJ{
+    margin-bottom: 15px;
+}
+
+
+/*交易页面*/
+
+.pd__ex .SecondClassMenu--container--12py7e_{
+    position:relative;
+    order:2;
+    top:0;
+    left:0;
+    
+    display:none; /**temp**/
 }
