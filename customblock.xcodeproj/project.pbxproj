@@ -30,6 +30,8 @@
 		839CD0E527D24DB300E86463 /* bilibili.css in Resources */ = {isa = PBXBuildFile; fileRef = 839CD0E427D24DB300E86463 /* bilibili.css */; };
 		83B2530227F5550C00C11371 /* base.css in Resources */ = {isa = PBXBuildFile; fileRef = 83B2530127F5550C00C11371 /* base.css */; };
 		83B8D43E27DDFD1B00FCC661 /* ifanr.css in Resources */ = {isa = PBXBuildFile; fileRef = 83B8D43D27DDFD1B00FCC661 /* ifanr.css */; };
+		83C88297281FCA240048AAED /* autohome.css in Resources */ = {isa = PBXBuildFile; fileRef = 83C88296281FCA240048AAED /* autohome.css */; };
+		83C88299281FCA340048AAED /* autohome.js in Resources */ = {isa = PBXBuildFile; fileRef = 83C88298281FCA340048AAED /* autohome.js */; };
 		83CCA08728087E97002340ED /* Tutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CCA08628087E97002340ED /* Tutorial.swift */; };
 		83CCA08A2808FEB2002340ED /* ReviewHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CCA0892808FEB2002340ED /* ReviewHandler.swift */; };
 		83CCA08C2809028E002340ED /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CCA08B2809028E002340ED /* Home.swift */; };
@@ -153,6 +155,8 @@
 		839CD0E427D24DB300E86463 /* bilibili.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = bilibili.css; sourceTree = "<group>"; };
 		83B2530127F5550C00C11371 /* base.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = base.css; sourceTree = "<group>"; };
 		83B8D43D27DDFD1B00FCC661 /* ifanr.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = ifanr.css; sourceTree = "<group>"; };
+		83C88296281FCA240048AAED /* autohome.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = autohome.css; sourceTree = "<group>"; };
+		83C88298281FCA340048AAED /* autohome.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = autohome.js; sourceTree = "<group>"; };
 		83CCA08628087E97002340ED /* Tutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutorial.swift; sourceTree = "<group>"; };
 		83CCA0892808FEB2002340ED /* ReviewHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewHandler.swift; sourceTree = "<group>"; };
 		83CCA08B2809028E002340ED /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
@@ -382,6 +386,8 @@
 				835637D1281C0F8A00F12F03 /* sohu.css */,
 				83FC53B0281E4CF300C335C3 /* myseller.css */,
 				83FC53B2281E4EB600C335C3 /* myseller.js */,
+				83C88296281FCA240048AAED /* autohome.css */,
+				83C88298281FCA340048AAED /* autohome.js */,
 			);
 			path = "iOS (Extension)";
 			sourceTree = "<group>";
@@ -570,12 +576,14 @@
 				83CD753527EDED74004CE7AF /* douban.js in Resources */,
 				83417EAD28072D0600BC58BA /* weibo.css in Resources */,
 				83E017422675036B00A30A29 /* popup.html in Resources */,
+				83C88297281FCA240048AAED /* autohome.css in Resources */,
 				833AF29F27C9F0E60011C1BC /* sina.css in Resources */,
 				835637CE280EDA7100F12F03 /* gjp.css in Resources */,
 				839CD0E327D247D200E86463 /* bilibili.js in Resources */,
 				83E0173A2675036B00A30A29 /* images in Resources */,
 				83E0173C2675036B00A30A29 /* manifest.json in Resources */,
 				837F026528019FA000A677BD /* zhihu.js in Resources */,
+				83C88299281FCA340048AAED /* autohome.js in Resources */,
 				83B2530227F5550C00C11371 /* base.css in Resources */,
 				83FC53B1281E4CF300C335C3 /* myseller.css in Resources */,
 				83CD753127E78804004CE7AF /* v2ex.css in Resources */,
@@ -820,7 +828,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.25.0;
+				MARKETING_VERSION = 1.25.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.inact.customblock.Extension;
 				PRODUCT_NAME = "customblock Extension";
 				SDKROOT = iphoneos;
@@ -847,7 +855,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.25.0;
+				MARKETING_VERSION = 1.25.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.inact.customblock.Extension;
 				PRODUCT_NAME = "customblock Extension";
 				SDKROOT = iphoneos;
@@ -880,7 +888,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.25.0;
+				MARKETING_VERSION = 1.25.3;
 				OTHER_LDFLAGS = (
 					"-framework",
 					WebKit,
@@ -915,7 +923,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.25.0;
+				MARKETING_VERSION = 1.25.3;
 				OTHER_LDFLAGS = (
 					"-framework",
 					WebKit,

@@ -52,7 +52,6 @@ if(video){
     video.addEventListener('play', (event) => {
         video.muted= false;
     });
-    
 }
 
 

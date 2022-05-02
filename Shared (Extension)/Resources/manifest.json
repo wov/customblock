@@ -204,6 +204,16 @@
             "*://loginmyseller.taobao.com/*",
             "*://myseller.taobao.com/*"
         ]
+    },{
+        "js" : ["autohome.js"],
+        "matches" : [
+            "*://*.m.autohome.com.cn/*"
+        ]
+    },{
+        "css" : ["autohome.css"],
+        "matches" : [
+            "*://*.m.autohome.com.cn/*"
+        ]
     }],
 
     "browser_action": {

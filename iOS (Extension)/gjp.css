@@ -225,10 +225,23 @@ body.pd__ex > .FormOverlay{
 }
 
 .pd__ex .LayoutGroupBlock{
-    width:100vw!important;
+    /*width:100vw!important;*/
     overflow:scroll!important;
     -webkit-overflow-scrolling: touch; /* Lets it scroll lazy */
+    width: unset!important;
+    min-width: 50vw;
 }
+
+.pd__ex div[id="$94cce6f3$flexBlock2"],
+.pd__ex div[id="$4f87816c$flexBlock2"]{
+    width: 30px!important;
+    display: none;
+}
+
+.pd__ex textarea[id="$da92e67c$info"]{
+    width: 100%!important;
+}
+
 
 /*.pd__ex .LayoutGroupBlock table,*/
 /*.pd__ex .LayoutGroupBlock thead,*/

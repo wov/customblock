@@ -136,6 +136,15 @@ body.pd__ex *{
     margin-bottom: 15px;
 }
 
+.pd__ex .QnworkbenchHome_src_rightSide__yOVE1,
+.pd__ex .seller-level_Hello_container__zp4nM{
+    width: 100%;
+}
+
+.pd__ex .qnWorkbench-microMods-SubscribedApplication_SubscribedApplication_SubscribedApplicationContainer__-xLi1{
+    display: none;
+}
+
 
 /*交易页面*/
 
@@ -144,6 +153,55 @@ body.pd__ex *{
     order:2;
     top:0;
     left:0;
-    
-    display:none; /**temp**/
+    width: 100%;
+}
+
+.pd__ex .SecondClassMenu--title--3jI2t7s{
+    display: none;
+}
+
+.pd__ex .SecondClassMenu--wrap--1r2q_p5{
+    width: 100%;
+}
+
+
+.pd__ex .SecondClassMenu--container--12py7e_ *[role="option"],
+.pd__ex .SecondClassMenu--container--12py7e_ *[role="listbox"],
+.pd__ex .SecondClassMenu--container--12py7e_ *[role="listitem"]{
+    white-space: nowrap;
+    display: inline-block;
+    width: auto;
+}
+
+.pd__ex .SecondClassMenu--subNav--tqVkaDK .next-nav-item{
+    min-width: unset;
+}
+
+.pd__ex .trade-platform_sold_sold-container__vcEBi{
+    padding: 0;
+}
+
+.pd__ex .BasicLayout--container--3mhY6eF #icestarkNode{
+    width: 100%;
+    min-width: unset;
+}
+
+.pd__ex .next-table th .next-table-cell-wrapper{
+    padding: 0;
+    font-size: 8px;
+}
+
+.pd__ex .next-table-body{
+    font-size: 8px;
+}
+
+.pd__ex .trade-platform_sold_sold-container__vcEBi .trade-platform_sold_product-item-box__jvmt\+ .trade-platform_sold_product-title__ttBBs,
+.pd__ex .trade-platform_sold_sold-container__vcEBi .trade-platform_sold_sku-desc__9Mz1\+,
+.pd__ex .trade-platform_sold_sold-container__vcEBi .trade-platform_sold_extra-desc__mBj1Q{
+    font-size: 8px;
+    line-height: 1.2;
+}
+
+.pd__ex .next-table td .next-table-cell-wrapper{
+    padding: 0;
 }

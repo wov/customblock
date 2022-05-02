@@ -23,6 +23,7 @@ struct Websites: View {
         case dark
         case pc
         case speed
+        case needfix
         
         var icon: Image {
             switch self {
@@ -34,6 +35,8 @@ struct Websites: View {
                 return  Image(systemName: "desktopcomputer")
             case .speed:
                 return Image(systemName: "speedometer")
+            case .needfix:
+                return Image(systemName: "bandage")
             }
         }
         
@@ -47,6 +50,8 @@ struct Websites: View {
                 return "优化了PC样式的显示"
             case .speed:
                 return "性能优化"
+            case .needfix:
+                return "基本可用状态"
             }
         }
         
@@ -60,6 +65,8 @@ struct Websites: View {
                 return "点击\"大小\">请求桌面网站"
             case .speed:
                 return "解决浏览器可能会崩溃的问题"
+            case .needfix:
+                return "还有更多工作需要处理"
             }
         }
         
@@ -86,7 +93,8 @@ struct Websites: View {
             WebSite(name:"爱范儿",url: "https://www.ifanr.com",types: [.dark]),
             WebSite(name:"什么值得买",url: "https://smzdm.com",types: [.additional]),
             WebSite(name:"管家婆",url: "https://passport.wsgjp.com.cn/erp/login",types: [.pc]),
-            WebSite(name:"千牛后台",url: "https://myseller.taobao.com/",types: [.pc])
+            WebSite(name:"千牛后台",url: "https://myseller.taobao.com/",types: [.pc]),
+            WebSite(name:"汽车之家",url: "https://m.autohome.com.cn",types: [.additional])
         ]
         
         

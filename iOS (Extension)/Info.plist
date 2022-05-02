@@ -62,6 +62,10 @@
 				<key>Script</key>
 				<string>myseller.js</string>
 			</dict>
+			<dict>
+				<key>Script</key>
+				<string>autohome.js</string>
+			</dict>
 		</array>
 		<key>SFSafariStyleSheet</key>
 		<array>
@@ -145,11 +149,16 @@
 				<key>Style Sheet</key>
 				<string>myseller.css</string>
 			</dict>
+			<dict>
+				<key>Style Sheet</key>
+				<string>autohome.css</string>
+			</dict>
 		</array>
 		<key>SFSafariWebsiteAccess</key>
 		<dict>
 			<key>Allowed Domains</key>
 			<array>
+				<string>*.autohome.com.cn</string>
 				<string>*.taobao.com</string>
 				<string>*.sohu.com</string>
 				<string>*.wsgjp.com.cn</string>

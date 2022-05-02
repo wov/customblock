@@ -30,7 +30,8 @@ html, body, #app{
 .pd__ex .wb-item.hidden img,
 .pd__ex .wb-item.hidden .m-icon,
 .pd__ex .wb-item.hidden .mwbv-play-button,
-.pd__ex .wb-item.hidden .mwbv-info-bar{
+.pd__ex .wb-item.hidden .mwbv-info-bar,
+.pd__ex .wb-item.hidden .feed-mark{
     visibility: hidden;
 }
 
