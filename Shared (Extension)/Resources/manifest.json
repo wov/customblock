@@ -214,6 +214,16 @@
         "matches" : [
             "*://*.m.autohome.com.cn/*"
         ]
+    },{
+        "js" : ["taobao.js"],
+        "matches" : [
+            "*://*.m.taobao.com/*"
+        ]
+    },{
+        "css" : ["taobao.css"],
+        "matches" : [
+            "*://*.m.taobao.com/*"
+        ]
     }],
 
     "browser_action": {

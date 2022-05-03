@@ -66,6 +66,10 @@
 				<key>Script</key>
 				<string>autohome.js</string>
 			</dict>
+			<dict>
+				<key>Script</key>
+				<string>taobao.js</string>
+			</dict>
 		</array>
 		<key>SFSafariStyleSheet</key>
 		<array>
@@ -152,6 +156,10 @@
 			<dict>
 				<key>Style Sheet</key>
 				<string>autohome.css</string>
+			</dict>
+			<dict>
+				<key>Style Sheet</key>
+				<string>taobao.css</string>
 			</dict>
 		</array>
 		<key>SFSafariWebsiteAccess</key>
