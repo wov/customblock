@@ -19,8 +19,21 @@ function replaceLinks(){
     });
 }
 
+// 移除target，手机端真的不需要新窗口打开了，啊喂～
+function removeAllTarget(){
+    let As = document.querySelectorAll('a');
+    As.forEach(function(_a) {
+        _a.removeAttribute('target');
+    });
+}
+
+removeAllTarget();
+
 replaceLinks();
 
 document.addEventListener('scroll', _ => {
     replaceLinks();
+    removeAllTarget();
 })
+
+

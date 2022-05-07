@@ -33,7 +33,7 @@
 		83C88297281FCA240048AAED /* autohome.css in Resources */ = {isa = PBXBuildFile; fileRef = 83C88296281FCA240048AAED /* autohome.css */; };
 		83C88299281FCA340048AAED /* autohome.js in Resources */ = {isa = PBXBuildFile; fileRef = 83C88298281FCA340048AAED /* autohome.js */; };
 		83C8829F2820CB9A0048AAED /* taobao.js in Resources */ = {isa = PBXBuildFile; fileRef = 83C8829E2820CB9A0048AAED /* taobao.js */; };
-		83C882A12820CBA80048AAED /* taobap.css in Resources */ = {isa = PBXBuildFile; fileRef = 83C882A02820CBA80048AAED /* taobap.css */; };
+		83C882A12820CBA80048AAED /* taobao.css in Resources */ = {isa = PBXBuildFile; fileRef = 83C882A02820CBA80048AAED /* taobao.css */; };
 		83CCA08728087E97002340ED /* Tutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CCA08628087E97002340ED /* Tutorial.swift */; };
 		83CCA08A2808FEB2002340ED /* ReviewHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CCA0892808FEB2002340ED /* ReviewHandler.swift */; };
 		83CCA08C2809028E002340ED /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CCA08B2809028E002340ED /* Home.swift */; };
@@ -160,7 +160,7 @@
 		83C88296281FCA240048AAED /* autohome.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = autohome.css; sourceTree = "<group>"; };
 		83C88298281FCA340048AAED /* autohome.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = autohome.js; sourceTree = "<group>"; };
 		83C8829E2820CB9A0048AAED /* taobao.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = taobao.js; sourceTree = "<group>"; };
-		83C882A02820CBA80048AAED /* taobap.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = taobap.css; path = "../../../Library/Mobile Documents/com~apple~CloudDocs/taobap.css"; sourceTree = "<group>"; };
+		83C882A02820CBA80048AAED /* taobao.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = taobao.css; path = "../../../Library/Mobile Documents/com~apple~CloudDocs/taobao.css"; sourceTree = "<group>"; };
 		83CCA08628087E97002340ED /* Tutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutorial.swift; sourceTree = "<group>"; };
 		83CCA0892808FEB2002340ED /* ReviewHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewHandler.swift; sourceTree = "<group>"; };
 		83CCA08B2809028E002340ED /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
@@ -393,7 +393,7 @@
 				83C88296281FCA240048AAED /* autohome.css */,
 				83C88298281FCA340048AAED /* autohome.js */,
 				83C8829E2820CB9A0048AAED /* taobao.js */,
-				83C882A02820CBA80048AAED /* taobap.css */,
+				83C882A02820CBA80048AAED /* taobao.css */,
 			);
 			path = "iOS (Extension)";
 			sourceTree = "<group>";
@@ -591,7 +591,7 @@
 				83E0173C2675036B00A30A29 /* manifest.json in Resources */,
 				837F026528019FA000A677BD /* zhihu.js in Resources */,
 				83C88299281FCA340048AAED /* autohome.js in Resources */,
-				83C882A12820CBA80048AAED /* taobap.css in Resources */,
+				83C882A12820CBA80048AAED /* taobao.css in Resources */,
 				83B2530227F5550C00C11371 /* base.css in Resources */,
 				83FC53B1281E4CF300C335C3 /* myseller.css in Resources */,
 				83CD753127E78804004CE7AF /* v2ex.css in Resources */,
@@ -836,7 +836,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.26.1;
+				MARKETING_VERSION = 1.26.5;
 				PRODUCT_BUNDLE_IDENTIFIER = com.inact.customblock.Extension;
 				PRODUCT_NAME = "customblock Extension";
 				SDKROOT = iphoneos;
@@ -863,7 +863,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.26.1;
+				MARKETING_VERSION = 1.26.5;
 				PRODUCT_BUNDLE_IDENTIFIER = com.inact.customblock.Extension;
 				PRODUCT_NAME = "customblock Extension";
 				SDKROOT = iphoneos;
@@ -881,6 +881,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7EDV5GHJYS;
@@ -896,7 +897,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.26.1;
+				MARKETING_VERSION = 1.26.5;
 				OTHER_LDFLAGS = (
 					"-framework",
 					WebKit,
@@ -916,6 +917,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7EDV5GHJYS;
@@ -931,7 +933,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.26.1;
+				MARKETING_VERSION = 1.26.5;
 				OTHER_LDFLAGS = (
 					"-framework",
 					WebKit,

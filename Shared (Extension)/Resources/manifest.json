@@ -217,12 +217,14 @@
     },{
         "js" : ["taobao.js"],
         "matches" : [
-            "*://*.m.taobao.com/*"
+            "*://*.m.taobao.com/*",
+            "*://*.m.tmall.com/*"
         ]
     },{
         "css" : ["taobao.css"],
         "matches" : [
-            "*://*.m.taobao.com/*"
+            "*://*.m.taobao.com/*",
+            "*://*.m.tmall.com/*"
         ]
     }],
 

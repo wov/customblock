@@ -23,7 +23,7 @@ struct Websites: View {
         case dark
         case pc
         case speed
-        case needfix
+        case video
         
         var icon: Image {
             switch self {
@@ -35,8 +35,8 @@ struct Websites: View {
                 return  Image(systemName: "desktopcomputer")
             case .speed:
                 return Image(systemName: "speedometer")
-            case .needfix:
-                return Image(systemName: "bandage")
+            case .video:
+                return Image(systemName: "play.circle")
             }
         }
         
@@ -50,8 +50,8 @@ struct Websites: View {
                 return "优化了PC样式的显示"
             case .speed:
                 return "性能优化"
-            case .needfix:
-                return "基本可用状态"
+            case .video:
+                return "原生播放控件"
             }
         }
         
@@ -65,11 +65,10 @@ struct Websites: View {
                 return "点击\"大小\">请求桌面网站"
             case .speed:
                 return "解决浏览器可能会崩溃的问题"
-            case .needfix:
-                return "还有更多工作需要处理"
+            case .video:
+                return "可开启全屏、画中画、投屏等"
             }
         }
-        
     }
     
     struct WebSite{
@@ -80,12 +79,11 @@ struct Websites: View {
     }
     
     var body: some View {
-        
         let websites:[WebSite] = [
             WebSite(name:"百度",url: "https://baidu.com",types: [.additional,.dark]),
             WebSite(name:"豆瓣电影",url: "https://movie.douban.com",types: [.pc,.dark]),
             WebSite(name:"哔哩哔哩",url: "https://m.bilibili.com",types: [.additional,.pc]),
-            WebSite(name:"新浪微博",url: "https://m.weibo.cn",types: [.additional,.dark]),
+            WebSite(name:"新浪微博",url: "https://m.weibo.cn",types: [.additional,.video,.dark]),
             WebSite(name:"网易新闻",url: "https://3g.163.com",types: [.speed,.additional,.dark]),
             WebSite(name:"腾讯新闻",url: "https://xw.qq.com",types: [.dark]),
             WebSite(name:"知乎",url: "https://www.zhihu.com",types: [.additional,.dark]),
@@ -94,12 +92,12 @@ struct Websites: View {
             WebSite(name:"什么值得买",url: "https://smzdm.com",types: [.additional]),
             WebSite(name:"管家婆",url: "https://passport.wsgjp.com.cn/erp/login",types: [.pc]),
             WebSite(name:"千牛后台",url: "https://myseller.taobao.com/",types: [.pc]),
-            WebSite(name:"汽车之家",url: "https://m.autohome.com.cn",types: [.additional])
+            WebSite(name:"汽车之家",url: "https://m.autohome.com.cn",types: [.additional,.video]),
+            WebSite(name:"淘宝网",url: "https://taobao.com",types: [.additional])
         ]
         
-        
         List{
-            Section( header: Text("支持的网站")){
+            Section( header: Text("支持的网站(没有适配iPad)")){
                 Group{
                     ForEach(websites, id: \.id ) { site in
                         HStack {

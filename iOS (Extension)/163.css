@@ -290,6 +290,7 @@ iframe{display:none!important;}
 
 body.pd__noscroll{
     overflow:hidden;
+    min-height:unset;
 }
 
 main > article{
@@ -344,6 +345,18 @@ main > article{
     
     footer .u_topmenu .u_c_more{
         background:#121212!important;
+    }
+    
+    .pd__ex article .vote .nosubmit li{
+        color: rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex article .vote .nosubmit li:active{
+        background:unset;
+    }
+    
+    .pd__ex article .vote .nosubmit li i{
+        border-color: rgba(255,255,255,0.6)!important;
     }
 
 }

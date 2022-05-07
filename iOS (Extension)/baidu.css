@@ -1495,3 +1495,76 @@ a[data-type="native_ad"]{
     }
     
 }
+
+/*baidu健康*/
+
+.pd__ex .content-wrapper__PZLEP{
+    height:unset!important;
+}
+
+.pd__ex .health-spread-box-transparent[data-a-db25933a]{
+    display:none;
+}
+
+@media (prefers-color-scheme: dark) {
+    .pd__ex  .rt-view{
+        background:#121212;
+    }
+    
+    .pd__ex .rt-head .rt-feedback[data-a-3277dd57]{
+        filter: brightness(0) invert(1);
+    }
+    
+    .pd__ex .health-detail-title[data-a-1095b0d4]{
+        border-color:rgba(255,255,255,0.08)!important;
+    }
+    
+    .pd__ex .health-app-background,
+    .pd__ex .preferred-swapper-container[data-a-3ca23a0a],
+    .pd__ex .health-article-content-small,
+    .pd__ex  .health-article-bottom-bar,
+    .pd__ex .health-detail-body-ask[data-a-bc9d08fc],
+    .pd__ex .health-answer[data-a-1545f482]{
+        background:none;
+    }
+    
+    .pd__ex .health-risk-background-adjust[data-a-81037a54],
+    .pd__ex  .health-risk-adjustMsgStyle[data-a-81037a54],
+    .pd__ex .swan-ad-fc-rcmd-item[data-a-d105110e]{
+        background-color:rgba(255,255,255,0.08);
+        color:rgba(255,255,255,0.6);
+    }
+    
+    .pd__ex .health-risk-adjustMsgStyle-text[data-a-81037a54]{
+        color:rgba(255,255,255,0.6);
+    }
+    
+    .pd__ex .health-title[data-a-259a0656],
+    .pd__ex .health-doctor-info-doc .health-doctor-name[data-a-0d3facce],
+    .pd__ex  .health-article-content-small,
+    .pd__ex .swan-ad-fc-wz__more__info__name[data-a-10fdf4bc],
+    .pd__ex  .health-detail-question-title[data-a-bc9d08fc],
+    .pd__ex .health-detail-body-wenda[data-a-bc9d08fc],
+    .pd__ex .swan-ad-fc-rcmd-line .swan-ad-fc-rcmd-item-title[data-a-d105110e]{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex  .health-barea[data-a-49854473]  div{
+        background: unset!important;
+        color:rgba(255,255,255,0.87)!important
+    }
+    
+    .pd__ex .health-detail-body-ask.no-bottom-gap[data-a-bc9d08fc]:after{
+        background-color:rgba(255,255,255,0.08);
+    }
+    
+    .pd__ex .c-line-bottom{
+        border-color:rgba(255,255,255,0.08);
+    }
+    
+    .pd__ex  .health-barea[data-a-49854473]  .swan-ad-fc-recommend[data-a-243652df],
+    .pd__ex  .health-barea[data-a-49854473]   .swan-ad-fc-wz[data-a-10fdf4bc]{
+        background-color:rgba(255,255,255,0.08)!important;
+    }
+    
+}

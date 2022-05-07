@@ -237,6 +237,7 @@ body.pd__ex > .FormOverlay{
     min-width: 50vw;
 }
 
+
 /*日期组建里面的..*/
 .pd__ex td[valign="top"] > .LayoutGroupBlock{
     width: unset!important;
@@ -244,14 +245,23 @@ body.pd__ex > .FormOverlay{
     overflow: hidden!important;
 }
 
+/*订单审核...*/
+.pd__ex div[id="$80d499b2$mdi"] td[valign="top"] > .LayoutGroupBlock{
+    overflow: scroll!important;
+    max-width: 100vw!important;
+}
+
+
 .pd__ex div[id="$94cce6f3$flexBlock2"],
 .pd__ex div[id="$4f87816c$flexBlock2"]{
     width: 30px!important;
     display: none;
 }
 
+.pd__ex textarea,
 .pd__ex textarea[id="$da92e67c$info"],
 .pd__ex textarea[id="$c943346a$info"],
+.pd__ex textarea[id="$8de4a60d$info"],
 .pd__ex input[id="$297dab39$eshopPname"]{
     width: 100%!important;
 }
@@ -265,6 +275,13 @@ body.pd__ex > .FormOverlay{
     -webkit-overflow-scrolling: touch; /* Lets it scroll lazy */
     display: flex;
 }
+
+.pd__ex div[id="$23554eaa$flowPanel1"]{
+    overflow: scroll!important;
+    -webkit-overflow-scrolling: touch; /* Lets it scroll lazy */
+}
+
+
 
 .pd__ex div.InnerBlock[id="$dea0a8b3$pagerBlock"] > table{
     max-width: unset!important;

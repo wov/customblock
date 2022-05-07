@@ -28,3 +28,5 @@ initVideo();
 setTimeout( _ => {
     initVideo();
 }, 2000 )
+
+//Object.freeze(location)

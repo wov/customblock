@@ -65,9 +65,9 @@ function addCloseAndHideResult(){
     });
 }
 
-let hideTipTimer;
 
 // 显示可以重置屏蔽的按钮
+let hideTipTimer;
 function showBlockButton(){
     const pudding_blocked_tip = document.querySelector(".pudding_blocked_tip");
     if(!BlockedChannelCount){return;}
@@ -193,6 +193,8 @@ function showBlockButton(){
         
     }
 }
+////
+
 
 let sectionChannels = document.querySelectorAll('.section-channel');
 if(sectionChannels.length){
