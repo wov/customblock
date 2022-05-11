@@ -70,6 +70,10 @@
 				<key>Script</key>
 				<string>taobao.js</string>
 			</dict>
+			<dict>
+				<key>Script</key>
+				<string>jd.js</string>
+			</dict>
 		</array>
 		<key>SFSafariStyleSheet</key>
 		<array>
@@ -161,6 +165,10 @@
 				<key>Style Sheet</key>
 				<string>taobao.css</string>
 			</dict>
+			<dict>
+				<key>Style Sheet</key>
+				<string>jd.css</string>
+			</dict>
 		</array>
 		<key>SFSafariWebsiteAccess</key>
 		<dict>
@@ -184,6 +192,7 @@
 				<string>*.bilibili.com</string>
 				<string>m.weibo.cn</string>
 				<string>blog.csdn.net</string>
+				<string>m.jd.com</string>
 			</array>
 		</dict>
 	</dict>

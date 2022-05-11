@@ -82,8 +82,8 @@ struct Websites: View {
         let websites:[WebSite] = [
             WebSite(name:"百度",url: "https://baidu.com",types: [.additional,.dark]),
             WebSite(name:"豆瓣电影",url: "https://movie.douban.com",types: [.pc,.dark]),
-            WebSite(name:"哔哩哔哩",url: "https://m.bilibili.com",types: [.additional,.pc]),
-            WebSite(name:"新浪微博",url: "https://m.weibo.cn",types: [.additional,.video,.dark]),
+            WebSite(name:"哔哩哔哩",url: "https://m.bilibili.com",types: [.additional,.video,.pc]),
+            WebSite(name:"新浪微博",url: "https://m.weibo.cn",types: [.additional,.dark]),
             WebSite(name:"网易新闻",url: "https://3g.163.com",types: [.speed,.additional,.dark]),
             WebSite(name:"腾讯新闻",url: "https://xw.qq.com",types: [.dark]),
             WebSite(name:"知乎",url: "https://www.zhihu.com",types: [.additional,.dark]),

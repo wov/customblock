@@ -24,6 +24,8 @@
 		837F02612801768C00A677BD /* pudding_global.js in Resources */ = {isa = PBXBuildFile; fileRef = 837F02602801768C00A677BD /* pudding_global.js */; };
 		837F026328019B0E00A677BD /* pudding_global.css in Resources */ = {isa = PBXBuildFile; fileRef = 837F026228019B0E00A677BD /* pudding_global.css */; };
 		837F026528019FA000A677BD /* zhihu.js in Resources */ = {isa = PBXBuildFile; fileRef = 837F026428019FA000A677BD /* zhihu.js */; };
+		838499BA2826CC9E001F053B /* jd.css in Resources */ = {isa = PBXBuildFile; fileRef = 838499B92826CC9E001F053B /* jd.css */; };
+		838499BC2826CCAD001F053B /* jd.js in Resources */ = {isa = PBXBuildFile; fileRef = 838499BB2826CCAD001F053B /* jd.js */; };
 		838E87132676778200558B4F /* 163.css in Resources */ = {isa = PBXBuildFile; fileRef = 838E87122676778200558B4F /* 163.css */; };
 		839CD0D627CD077E00E86463 /* jianshu.css in Resources */ = {isa = PBXBuildFile; fileRef = 839CD0D527CD077E00E86463 /* jianshu.css */; };
 		839CD0E327D247D200E86463 /* bilibili.js in Resources */ = {isa = PBXBuildFile; fileRef = 839CD0E227D247D200E86463 /* bilibili.js */; };
@@ -151,6 +153,8 @@
 		837F02602801768C00A677BD /* pudding_global.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = pudding_global.js; sourceTree = "<group>"; };
 		837F026228019B0E00A677BD /* pudding_global.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = pudding_global.css; sourceTree = "<group>"; };
 		837F026428019FA000A677BD /* zhihu.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = zhihu.js; sourceTree = "<group>"; };
+		838499B92826CC9E001F053B /* jd.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = jd.css; sourceTree = "<group>"; };
+		838499BB2826CCAD001F053B /* jd.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = jd.js; sourceTree = "<group>"; };
 		838E87122676778200558B4F /* 163.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = 163.css; sourceTree = "<group>"; };
 		839CD0D527CD077E00E86463 /* jianshu.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = jianshu.css; sourceTree = "<group>"; };
 		839CD0E227D247D200E86463 /* bilibili.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = bilibili.js; sourceTree = "<group>"; };
@@ -394,6 +398,8 @@
 				83C88298281FCA340048AAED /* autohome.js */,
 				83C8829E2820CB9A0048AAED /* taobao.js */,
 				83C882A02820CBA80048AAED /* taobao.css */,
+				838499B92826CC9E001F053B /* jd.css */,
+				838499BB2826CCAD001F053B /* jd.js */,
 			);
 			path = "iOS (Extension)";
 			sourceTree = "<group>";
@@ -568,6 +574,7 @@
 				83417EAF28072D1600BC58BA /* weibo.js in Resources */,
 				836479AC27F1DC090081B72B /* bilibili_pc.js in Resources */,
 				83B8D43E27DDFD1B00FCC661 /* ifanr.css in Resources */,
+				838499BA2826CC9E001F053B /* jd.css in Resources */,
 				83FC53B3281E4EB600C335C3 /* myseller.js in Resources */,
 				839CD0D627CD077E00E86463 /* jianshu.css in Resources */,
 				831955E127C8E1AD00446554 /* xiaohongshu.css in Resources */,
@@ -584,6 +591,7 @@
 				83417EAD28072D0600BC58BA /* weibo.css in Resources */,
 				83E017422675036B00A30A29 /* popup.html in Resources */,
 				83C88297281FCA240048AAED /* autohome.css in Resources */,
+				838499BC2826CCAD001F053B /* jd.js in Resources */,
 				833AF29F27C9F0E60011C1BC /* sina.css in Resources */,
 				835637CE280EDA7100F12F03 /* gjp.css in Resources */,
 				839CD0E327D247D200E86463 /* bilibili.js in Resources */,
@@ -836,7 +844,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.26.5;
+				MARKETING_VERSION = 1.26.6;
 				PRODUCT_BUNDLE_IDENTIFIER = com.inact.customblock.Extension;
 				PRODUCT_NAME = "customblock Extension";
 				SDKROOT = iphoneos;
@@ -863,7 +871,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.26.5;
+				MARKETING_VERSION = 1.26.6;
 				PRODUCT_BUNDLE_IDENTIFIER = com.inact.customblock.Extension;
 				PRODUCT_NAME = "customblock Extension";
 				SDKROOT = iphoneos;
@@ -897,7 +905,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.26.5;
+				MARKETING_VERSION = 1.26.6;
 				OTHER_LDFLAGS = (
 					"-framework",
 					WebKit,
@@ -933,7 +941,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.26.5;
+				MARKETING_VERSION = 1.26.6;
 				OTHER_LDFLAGS = (
 					"-framework",
 					WebKit,

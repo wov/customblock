@@ -22,7 +22,7 @@ addDarkMeta();
 // 添加block的功能&展开的功能
 function addButtonAndBlock(){
     console.log('addButtonAndBlock');
-    const items = document.querySelectorAll('.wb-item-wrap > .wb-item');
+    const items = document.querySelectorAll('article.weibo-main');
     const CLASSFLAG = "pudding_extension";
     if(!items.length){return;}
     items.forEach( i => {

@@ -293,6 +293,10 @@ body.pd__noscroll{
     min-height:unset;
 }
 
+body.pd__ex{
+    min-height: -webkit-fill-available!important;
+}
+
 main > article{
     max-height:unset!important;
     height:100%!important;

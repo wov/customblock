@@ -226,6 +226,16 @@
             "*://*.m.taobao.com/*",
             "*://*.m.tmall.com/*"
         ]
+    },{
+        "js" : ["jd.js"],
+        "matches" : [
+            "*://m.jd.com/*"
+        ]
+    },{
+        "css" : ["jd.css"],
+        "matches" : [
+            "*://m.jd.com/*"
+        ]
     }],
 
     "browser_action": {
