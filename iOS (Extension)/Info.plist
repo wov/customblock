@@ -74,6 +74,10 @@
 				<key>Script</key>
 				<string>jd.js</string>
 			</dict>
+			<dict>
+				<key>Script</key>
+				<string>tieba.js</string>
+			</dict>
 		</array>
 		<key>SFSafariStyleSheet</key>
 		<array>
@@ -168,6 +172,10 @@
 			<dict>
 				<key>Style Sheet</key>
 				<string>jd.css</string>
+			</dict>
+			<dict>
+				<key>Style Sheet</key>
+				<string>tieba.css</string>
 			</dict>
 		</array>
 		<key>SFSafariWebsiteAccess</key>

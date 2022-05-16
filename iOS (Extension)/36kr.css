@@ -157,8 +157,27 @@ body{
         color: rgba(255,255,255,0.87);
     }
     
-    .pd__ex #article-detail-right-qifu .qifu-follow-box .qifu-txt{
+    .pd__ex #article-detail-right-qifu .qifu-follow-box .qifu-txt,
+    .pd__ex .project-relevent-wrapper .project-relevent-card .title,
+    .pd__ex .project-relevent-wrapper .project-relevent-card .card-list .card-item div{
         color: rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex  .article-comment .comment-wrapper .regular-comment .comment-detail .second-comment-wrapper{
+        background:rgba(255,255,255,0.08);
+    }
+    
+    .pd__ex .article-comment .comment-wrapper .regular-comment .comment-detail .user-info span.publish-time{
+        color: rgba(255,255,255,0.6);
+    }
+    
+    .pd__ex  .project-relevent-wrapper .project-relevent-card .line{
+        background:rgba(255,255,255,0.11);
+    }
+    
+    .pd__ex .project-relevent-wrapper .project-relevent-card,
+    .pd__ex .project-relevent-wrapper .project-relevent-card .card-list .card-item{
+        background:rgba(255,255,255,0.08);
     }
 }
 

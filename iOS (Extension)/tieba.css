@@ -1,0 +1,13 @@
+
+.pd__ex .recommend-list  .list-content .recommend-item *{
+    pointer-events:none;
+}
+
+.pd__ex .recommend-list .list-content .recommend-item .interaction-bar .app-notice{
+    text-decoration-line: line-through;
+}
+
+.pd__ex .nav-bar-v2 .nav-bar-bottom{
+    display:none!important;
+}
+

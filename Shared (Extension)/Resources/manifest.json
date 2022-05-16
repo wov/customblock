@@ -49,6 +49,16 @@
             "*://gamecenter.baidu.com/static/game/*"
         ]
     },{
+        "css" : ["tieba.css"],
+        "matches" : [
+            "*://tieba.baidu.com/p/*"
+        ]
+    },{
+        "js" : ["tieba.js"],
+        "matches" : [
+            "*://tieba.baidu.com/p/*"
+        ]
+    },{
         "css" : ["xiaohongshu.css"],
         "matches" : ["*://*.xiaohongshu.com/*"]
     },{
