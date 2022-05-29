@@ -34,14 +34,13 @@ https://testflight.apple.com/join/bQyq38by
    - 去掉打开app的弹窗
 - bilibili
    - 增加随系统的dark mode
-   - 在列表中添加针对up主的不感兴趣功能（准备换成PC站点的功能）
    - 增加对PC站点的支持 
       -  首页
       -  video页
       -  热门页
       -  频道页
       -  首页屏蔽频道（暂未开发）
-      -  屏蔽up主（暂未上线）
+      -  屏蔽up主
 - 36kr
    - 增加随系统的dark mode
    - 去掉在app中打开的干扰
