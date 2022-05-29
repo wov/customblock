@@ -197,8 +197,9 @@ setTimeout( _ => {
 function addDarkMeta(){
     if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
         // remove origin theme color...
-        document.querySelector("[name='theme-color']").remove();
-
+        if(document.querySelector("[name='theme-color']")){
+            document.querySelector("[name='theme-color']").remove();
+        }
         //add a dark meta..
         var meta = document.createElement('meta');
         meta.name = "theme-color";

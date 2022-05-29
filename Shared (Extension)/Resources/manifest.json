@@ -102,7 +102,9 @@
             "*://www.bilibili.com/video/*",
             "*://www.bilibili.com/v/popular/*",
             "*://www.bilibili.com/v/tech/*",
-            "*://t.bilibili.com/*"
+            "*://t.bilibili.com/*",
+            "*://message.bilibili.com/*",
+            "*://passport.bilibili.com/login"
         ]
     },{
         "js" : ["bilibili_pc.js"],
@@ -111,7 +113,9 @@
             "*://www.bilibili.com/video/*",
             "*://www.bilibili.com/v/popular/*",
             "*://www.bilibili.com/v/tech/*",
-            "*://t.bilibili.com/*"
+            "*://t.bilibili.com/*",
+            "*://message.bilibili.com/*",
+            "*://passport.bilibili.com/login"
         ]
     },{
         "css" : ["ifanr.css"],

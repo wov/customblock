@@ -296,6 +296,10 @@ body.pd__ex > .FormOverlay{
     min-width: 40px;
 }
 
+.DropItem > *{
+    pointer-events: none;
+}
+
 
 
 /*.pd__ex .LayoutGroupBlock table,*/
