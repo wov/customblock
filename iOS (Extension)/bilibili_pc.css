@@ -1196,3 +1196,8 @@ body #app #bilibili-player.mini-player{
 .pd__ex .nav-link .nav-link-ul .nav-link-item{
     margin-right:3px;
 }
+
+/**/
+.pd__ex .bili-header .loc-moveclip{
+    display:none;
+}
