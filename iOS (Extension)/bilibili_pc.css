@@ -1195,9 +1195,37 @@ body #app #bilibili-player.mini-player{
 
 .pd__ex .nav-link .nav-link-ul .nav-link-item{
     margin-right:3px;
+    display: inline-block;
 }
 
-/**/
+.pd__ex .nav-link .nav-link-ul{
+    height: auto;
+    flex-wrap: wrap;
+}
+
+.pd__ex .bili-header-m .nav-search-box, .international-header .nav-search-box{
+    max-width:100%!important;
+    margin:0;
+}
+
+.pd__ex .download-client-trigger{
+    display:none!important;
+}
+
+.pd__ex .nav-user-center .user-con{
+    flex-wrap:wrap;
+}
+
+.pd__ex p[data-v-2bdcddf1]{
+    width:100%;
+}
+
+.pd__ex .nav-user-center{
+    margin-top:5px;
+}
+
+/*登陆*/
 .pd__ex .bili-header .loc-moveclip{
     display:none;
 }
+
