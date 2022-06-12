@@ -18,6 +18,7 @@
 		835637D2281C0F8A00F12F03 /* sohu.css in Resources */ = {isa = PBXBuildFile; fileRef = 835637D1281C0F8A00F12F03 /* sohu.css */; };
 		836479AA27F1DBEA0081B72B /* bilibili_pc.css in Resources */ = {isa = PBXBuildFile; fileRef = 836479A927F1DBEA0081B72B /* bilibili_pc.css */; };
 		836479AC27F1DC090081B72B /* bilibili_pc.js in Resources */ = {isa = PBXBuildFile; fileRef = 836479AB27F1DC090081B72B /* bilibili_pc.js */; };
+		837467E42853A59900909A43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83E016EC2675036B00A30A29 /* Assets.xcassets */; };
 		837F025927FC748D00A677BD /* 36kr.js in Resources */ = {isa = PBXBuildFile; fileRef = 837F025827FC748D00A677BD /* 36kr.js */; };
 		837F025B27FDC13C00A677BD /* qq.css in Resources */ = {isa = PBXBuildFile; fileRef = 837F025A27FDC13C00A677BD /* qq.css */; };
 		837F025D27FDC14900A677BD /* qq.js in Resources */ = {isa = PBXBuildFile; fileRef = 837F025C27FDC14900A677BD /* qq.js */; };
@@ -68,7 +69,6 @@
 		83E017322675036B00A30A29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E016EB2675036A00A30A29 /* ViewController.swift */; };
 		83E017332675036B00A30A29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E016EB2675036A00A30A29 /* ViewController.swift */; };
 		83E017342675036B00A30A29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83E016EC2675036B00A30A29 /* Assets.xcassets */; };
-		83E017352675036B00A30A29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83E016EC2675036B00A30A29 /* Assets.xcassets */; };
 		83E017362675036B00A30A29 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E016EE2675036B00A30A29 /* SafariWebExtensionHandler.swift */; };
 		83E017372675036B00A30A29 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E016EE2675036B00A30A29 /* SafariWebExtensionHandler.swift */; };
 		83E017382675036B00A30A29 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 83E016F02675036B00A30A29 /* _locales */; };
@@ -558,8 +558,8 @@
 				83E0172F2675036B00A30A29 /* Style.css in Resources */,
 				83E017142675036B00A30A29 /* Main.storyboard in Resources */,
 				83E017312675036B00A30A29 /* Script.js in Resources */,
-				83E017352675036B00A30A29 /* Assets.xcassets in Resources */,
 				83E0172B2675036B00A30A29 /* Main.html in Resources */,
+				837467E42853A59900909A43 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -852,7 +852,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.26.15;
+				MARKETING_VERSION = 1.26.17;
 				PRODUCT_BUNDLE_IDENTIFIER = com.inact.customblock.Extension;
 				PRODUCT_NAME = "customblock Extension";
 				SDKROOT = iphoneos;
@@ -879,7 +879,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.26.15;
+				MARKETING_VERSION = 1.26.17;
 				PRODUCT_BUNDLE_IDENTIFIER = com.inact.customblock.Extension;
 				PRODUCT_NAME = "customblock Extension";
 				SDKROOT = iphoneos;
@@ -913,7 +913,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.26.15;
+				MARKETING_VERSION = 1.26.17;
 				OTHER_LDFLAGS = (
 					"-framework",
 					WebKit,
@@ -949,7 +949,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.26.15;
+				MARKETING_VERSION = 1.26.17;
 				OTHER_LDFLAGS = (
 					"-framework",
 					WebKit,
