@@ -20,6 +20,7 @@ https://testflight.apple.com/join/bQyq38by
    - 屏蔽域名的一键重置
    - 增加随系统的dark mode
    - 百度百科自动展开
+   - 百度贴吧去掉推荐列表强制打开app
 - 3g.163.com
    - 首页新闻列表去掉了跳转app的方式
    - 去掉了部分广告
@@ -33,14 +34,13 @@ https://testflight.apple.com/join/bQyq38by
    - 去掉打开app的弹窗
 - bilibili
    - 增加随系统的dark mode
-   - 在列表中添加针对up主的不感兴趣功能（准备换成PC站点的功能）
    - 增加对PC站点的支持 
       -  首页
       -  video页
       -  热门页
       -  频道页
       -  首页屏蔽频道（暂未开发）
-      -  屏蔽up主（暂未开发）
+      -  屏蔽up主
 - 36kr
    - 增加随系统的dark mode
    - 去掉在app中打开的干扰
@@ -62,5 +62,8 @@ https://testflight.apple.com/join/bQyq38by
    - 跟随系统的暗黑模式
    - 长图在新窗口中打开
    - 添加默认在流中展开全文的按钮，终于不用反复横跳了... 
-   - 屏蔽用户的功能（暂未上架）
+   - 屏蔽用户的功能
+- 汽车之家
+   - 默认展开文章
+   - 优化视频打开方式
 

@@ -49,6 +49,16 @@
             "*://gamecenter.baidu.com/static/game/*"
         ]
     },{
+        "css" : ["tieba.css"],
+        "matches" : [
+            "*://tieba.baidu.com/p/*"
+        ]
+    },{
+        "js" : ["tieba.js"],
+        "matches" : [
+            "*://tieba.baidu.com/p/*"
+        ]
+    },{
         "css" : ["xiaohongshu.css"],
         "matches" : ["*://*.xiaohongshu.com/*"]
     },{
@@ -203,6 +213,38 @@
         "matches" : [
             "*://loginmyseller.taobao.com/*",
             "*://myseller.taobao.com/*"
+        ]
+    },{
+        "js" : ["autohome.js"],
+        "matches" : [
+            "*://*.m.autohome.com.cn/*"
+        ]
+    },{
+        "css" : ["autohome.css"],
+        "matches" : [
+            "*://*.m.autohome.com.cn/*"
+        ]
+    },{
+        "js" : ["taobao.js"],
+        "matches" : [
+            "*://*.m.taobao.com/*",
+            "*://*.m.tmall.com/*"
+        ]
+    },{
+        "css" : ["taobao.css"],
+        "matches" : [
+            "*://*.m.taobao.com/*",
+            "*://*.m.tmall.com/*"
+        ]
+    },{
+        "js" : ["jd.js"],
+        "matches" : [
+            "*://m.jd.com/*"
+        ]
+    },{
+        "css" : ["jd.css"],
+        "matches" : [
+            "*://m.jd.com/*"
         ]
     }],
 

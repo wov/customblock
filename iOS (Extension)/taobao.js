@@ -1,81 +1,30 @@
-const BS_NAME = 'pudding_block_channel'
-
-// add a class for reset the styles easly.
+// 添加一个全局的class 用来方便修改样式
 document.querySelector('body').classList.add('pd__ex');
 
-function replaceToAppText(){
-    let As = document.querySelectorAll('a');
-    As.forEach(function(_a) {
-        const _to_app = _a.querySelector('.to-app');
-        if(_to_app && _to_app.textContent.indexOf('打开APP') !== -1){
-            _to_app.textContent = '布丁优化'
-        }
-    });
+function preventAutoOpenApp(e){
+    if(e.target.href.indexOf('tbopen'!== -1)){
+        const originHref = e.target.href;
+        e.target.href = "javascript:;"
+        showBlockButton(originHref);
+        removePreventAutoOpenAppEvent();
+    }
 }
 
-replaceToAppText();
+//去掉淘宝烦人的自动打开app...
+document.addEventListener('click',preventAutoOpenApp)
 
-if(window.location.href.indexOf('news/article/') !== -1){
-    document.querySelector('body').classList.add('pd__noscroll');
+function removePreventAutoOpenAppEvent(){
+    document.removeEventListener('click',preventAutoOpenApp);
 }
-
-var BlockedChannelCount = 0;
-
-// 添加关闭按钮
-function addCloseAndHideResult(){
-    
-    BlockedChannelCount = 0;
-    
-    // 关闭频道
-    let results = document.querySelectorAll('.section-channel');
-    results.forEach(function(_r) {
-        if(_r.querySelector('.__pudding_close')){return;}
-        
-        // 判断classname
-        const cn = _r.className.replace(/(wap-section|section-channel|section-|\s)/g,'');
-        let blockChannels = localStorage.getItem(BS_NAME) ? JSON.parse(localStorage.getItem(BS_NAME)) : [];
-        
-        // 假设包含了这个结果，则在dom中删除
-        if(blockChannels.includes(cn)){
-            _r.remove();
-            BlockedChannelCount++;
-        }
-        
-        const _close = document.createElement('div');
-        _close.className = "__pudding_close";
-        _close.addEventListener('click',function(e){
-            
-            e.stopPropagation();
-
-            const name = _r.querySelector('.sec-name') ? _r.querySelector('.sec-name').textContent : '';
-            const c = confirm(`【布丁扩展】\n\n不再显示 ${name} 频道？`);
-            let blockChannels = localStorage.getItem(BS_NAME) ? JSON.parse(localStorage.getItem(BS_NAME)) : [];
-            
-            if(c){
-                blockChannels.push(cn);
-                localStorage.setItem(BS_NAME,JSON.stringify(blockChannels));
-                _r.remove();
-                BlockedChannelCount++;
-                showBlockButton();
-            }else{
-                // nothing will happen
-            }
-        })
-        _r.appendChild(_close);
-    });
-}
-
 
 // 显示可以重置屏蔽的按钮
 let hideTipTimer;
-function showBlockButton(){
+function showBlockButton(href){
     const pudding_blocked_tip = document.querySelector(".pudding_blocked_tip");
-    if(!BlockedChannelCount){return;}
     
     if(pudding_blocked_tip){
         //如果已经有了，就显示出来
         pudding_blocked_tip.classList.remove('hide');
-        pudding_blocked_tip.querySelector('.countText').textContent = `已为您屏蔽了${BlockedChannelCount}个频道`;
         
         if(hideTipTimer){
             clearTimeout(hideTipTimer);
@@ -96,7 +45,7 @@ function showBlockButton(){
                 position: fixed;
                 padding: 8px;
                 margin: 0 auto;
-                bottom: 5px;
+                bottom: 50px;
                 background-color: rgba(255,255,255);
                 left: 30%;
                 box-sizing:border-box;
@@ -105,6 +54,7 @@ function showBlockButton(){
                 transition-duration: 1s;
                 font-size: 12px;
                 box-shadow: 0 0 3px rgba(33,33,33,0.3);
+                z-index: 1000;
             }
         
             .pudding_blocked_tip.hide{
@@ -129,12 +79,6 @@ function showBlockButton(){
             .pudding_blocked_tip .tip_button{
                color: rgb(10, 132, 255);
             }
-            
-            @media (prefers-color-scheme: dark) {
-                .pudding_blocked_tip{
-                    background-color: #222;
-                }
-            }
         `
         
         var styleSheet = document.createElement("style")
@@ -156,29 +100,23 @@ function showBlockButton(){
         name.className = 'pudding_tip_name';
         name.textContent = '布丁扩展';
         
-        const content = document.createElement('P');
-        content.className = 'pudding_tip_content countText';
-        content.textContent = `已为您屏蔽了${BlockedChannelCount}个频道`
-        
-        const content2 = document.createElement('P');
-        content2.className = 'pudding_tip_content tip_button';
-        content2.textContent = `点击重置`
-        
         title.appendChild(avatar)
         title.appendChild(name)
-
+        
+        const content = document.createElement('P');
+        content.className = 'pudding_tip_content countText';
+        content.textContent = `阻止了强制打开App`
+        
+        const content2 = document.createElement('a');
+        content2.className = 'pudding_tip_content tip_button';
+        content2.textContent = `手动访问`
+        content2.href = href;
+        
+        
+        
         tip_wrap.appendChild(title)
         tip_wrap.appendChild(content)
         tip_wrap.appendChild(content2)
-        
-        tip_wrap.addEventListener( 'click', _ =>{
-            const r = confirm('确定要取消屏蔽所有频道吗？')
-            if(r){
-                localStorage.removeItem(BS_NAME);
-                tip_wrap.classList.add('hide');
-                window.location.reload();
-            }
-        })
         
         document.body.appendChild(tip_wrap);
         
@@ -193,53 +131,11 @@ function showBlockButton(){
         
     }
 }
-////
 
-
-let sectionChannels = document.querySelectorAll('.section-channel');
-if(sectionChannels.length){
-    document.addEventListener('scroll', _ => {
-        // 只要用户滚动就隐藏这个。。
-        const pudding_tip = document.querySelector('.pudding_blocked_tip');
-        if(pudding_tip){
-            pudding_tip.classList.add('hide');
-        }
-    })
-}
-
-
-function addDarkMeta(){
-    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        // remove origin theme color...
-        document.querySelector("[name='theme-color']").remove();
-
-        //add a dark meta..
-        var meta = document.createElement('meta');
-        meta.name = "theme-color";
-        meta.content = "#121212";
-        meta.media = "(prefers-color-scheme: dark)";
-        document.getElementsByTagName('head')[0].appendChild(meta);
+document.addEventListener('scroll', _ => {
+    // 只要用户滚动就隐藏这个。。
+    const pudding_tip = document.querySelector('.pudding_blocked_tip');
+    if(pudding_tip){
+        pudding_tip.classList.add('hide');
     }
-}
-
-addDarkMeta();
-
-
-const pageDom = document.querySelector('.wap-content-wrap');
-
-if(pageDom){
-    const config = { attributes: true, childList: true, subtree: true };
-
-    const callback = function(mutationsList, observer) {
-        addCloseAndHideResult();
-        replaceToAppText();
-        showBlockButton();
-    };
-
-    const observer = new MutationObserver(callback);
-    observer.observe(pageDom, config);
-}
-
-
-
-//
+})

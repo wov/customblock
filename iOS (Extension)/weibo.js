@@ -22,7 +22,7 @@ addDarkMeta();
 // 添加block的功能&展开的功能
 function addButtonAndBlock(){
     console.log('addButtonAndBlock');
-    const items = document.querySelectorAll('.wb-item-wrap > .wb-item');
+    const items = document.querySelectorAll('.wb-item-wrap > .wb-item,.card-wrap > .card-main');
     const CLASSFLAG = "pudding_extension";
     if(!items.length){return;}
     items.forEach( i => {
@@ -59,9 +59,10 @@ function addButtonAndBlock(){
         const idDom = h && h.querySelector('.m-text-box > a');
         if(h && idDom){
             let id = idDom.href.replace(/.*\/(\w+)\/?$/, '$1');
+            if(!id){return;}
             let name =idDom.querySelector('.m-text-cut').textContent.replaceAll(/\s/g,'');
             let blockUsers = localStorage.getItem(BS_NAME) ? JSON.parse(localStorage.getItem(BS_NAME)) : [];
-            if(blockUsers.includes(id)){
+            if(id && blockUsers.includes(id)){
                 i.classList.add('hidden');
             }
             const blockDom = document.createElement('div');

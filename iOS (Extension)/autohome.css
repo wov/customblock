@@ -1,0 +1,69 @@
+
+.pd__ex .pgc-details div.fn-hide,
+.pd__ex .bbs-post-main div.fn-hide{
+    display:block!important;
+}
+
+.pd__ex .pgc-details  .unfold_warp{
+    display: none;
+}
+
+.pd__ex  .longopenApp_btn,
+.pd__ex .bbs-post-main .switch,
+.pd__ex .bbs-post-main .showall-backflow-button{
+    display:none;
+}
+
+.pd__ex .wrapper section:has(> ol img[src*="//www3.autoimg.cn/newsdfs/g24/M06/CD/D7/autohomecar"] ),
+.pd__ex .wrapper section:has(> ol img[src*="//app2.autoimg.cn/appdfs/g13/M00/48/23/"] ){
+    display:none;
+}
+
+.pd__ex .bbs-post-main .section-switch{
+    max-height:unset;
+    overflow:auto;
+}
+
+.pd__ex > div[style*="fixed"]{
+    position:relative!important;
+}
+
+.pd__ex .wrapper{
+    overflow:unset;
+}
+
+.pd__ex .pgc-details{
+    overflow:unset;
+}
+
+.pd__ex .pgc-details>.video{
+    position: sticky!important;
+    top:0;
+    z-index: 1000;
+}
+
+.pd__ex .ahmp-player-container video{
+    display:block!important;
+}
+
+.pd__ex .ahmp-player-startbtn,
+.pd__ex .ahmp-player-poster,
+.pd__ex .ahvp__video__footageview,
+.pd__ex .video-details .player-box .player-openapp,
+.pd__ex .video_mask,
+.pd__ex #ahmp-player-controls,
+.pd__ex .bbs-post-video .bbs-video-backflow,
+.pd__ex .bbs-video-bottom,
+.pd__ex .ahmp-player-togglepause,
+.pd__ex .ahmp-player-loading{
+    display:none!important;
+}
+
+.pd__ex .openApp_btn,
+.pd__ex .details-openapp-box{
+    display:none;
+}
+
+.pd__ex .pgc-details>.video #youkuplayer+div{
+    display:none;
+}

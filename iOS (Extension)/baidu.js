@@ -290,7 +290,6 @@ if(_search_results_doms.length){
     });
 }
 
-
 const pageDom = document.querySelector('#page');
 
 if(pageDom){
@@ -315,7 +314,6 @@ if(baikeLoadmore){
         baikeLoadmore.dispatchEvent(_tap);
     }
 }
-
 
 function addDarkMeta(){
     if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {

@@ -163,6 +163,11 @@ body.pd__ex > .FormOverlay{
     display:none;
 }
 
+.pd__ex div[id="$dea0a8b3$flowPanel1"] + .HBlock,
+.pd__ex div[id="$297dab39$tabPage1"] .HBlock{
+    overflow: hidden!important;
+}
+
 .pd__ex .HBlock table,
 .pd__ex .HBlock thead,
 .pd__ex .HBlock tbody,
@@ -219,7 +224,7 @@ body.pd__ex > .FormOverlay{
     width: 20px;
 }
 
-.pd__ex .MessageBox{
+.pd__ex .MessageBox.FormBorder{
     left:0!important;
     top:5px!important;
 }
@@ -228,7 +233,70 @@ body.pd__ex > .FormOverlay{
     width:100vw!important;
     overflow:scroll!important;
     -webkit-overflow-scrolling: touch; /* Lets it scroll lazy */
+    /*width: unset!important;*/
+    min-width: 50vw;
 }
+
+
+/*日期组建里面的..*/
+.pd__ex td[valign="top"] > .LayoutGroupBlock{
+    width: unset!important;
+    min-width: 50vw;
+    overflow: hidden!important;
+}
+
+/*订单审核...*/
+.pd__ex div[id="$80d499b2$mdi"] td[valign="top"] > .LayoutGroupBlock{
+    overflow: scroll!important;
+    max-width: 100vw!important;
+}
+
+
+.pd__ex div[id="$94cce6f3$flexBlock2"],
+.pd__ex div[id="$4f87816c$flexBlock2"]{
+    width: 30px!important;
+    display: none;
+}
+
+.pd__ex textarea,
+.pd__ex textarea[id="$da92e67c$info"],
+.pd__ex textarea[id="$c943346a$info"],
+.pd__ex textarea[id="$8de4a60d$info"],
+.pd__ex input[id="$297dab39$eshopPname"]{
+    width: 100%!important;
+}
+
+.pd__ex div[id="$94cce6f3$flowPanel1"],
+.pd__ex div[id="$dea0a8b3$flowPanel1"]{
+    height: 50px;
+    white-space: nowrap;
+    width: 100vw;
+    overflow:scroll!important;
+    -webkit-overflow-scrolling: touch; /* Lets it scroll lazy */
+    display: flex;
+}
+
+.pd__ex div[id="$23554eaa$flowPanel1"]{
+    overflow: scroll!important;
+    -webkit-overflow-scrolling: touch; /* Lets it scroll lazy */
+}
+
+
+
+.pd__ex div.InnerBlock[id="$dea0a8b3$pagerBlock"] > table{
+    max-width: unset!important;
+}
+
+.pd__ex .Pager{
+    height: unset;
+    flex-wrap: wrap;
+}
+
+.pd__ex .FlowPanel .Label{
+    min-width: 40px;
+}
+
+
 
 /*.pd__ex .LayoutGroupBlock table,*/
 /*.pd__ex .LayoutGroupBlock thead,*/

@@ -24,12 +24,18 @@
 		837F02612801768C00A677BD /* pudding_global.js in Resources */ = {isa = PBXBuildFile; fileRef = 837F02602801768C00A677BD /* pudding_global.js */; };
 		837F026328019B0E00A677BD /* pudding_global.css in Resources */ = {isa = PBXBuildFile; fileRef = 837F026228019B0E00A677BD /* pudding_global.css */; };
 		837F026528019FA000A677BD /* zhihu.js in Resources */ = {isa = PBXBuildFile; fileRef = 837F026428019FA000A677BD /* zhihu.js */; };
+		838499BA2826CC9E001F053B /* jd.css in Resources */ = {isa = PBXBuildFile; fileRef = 838499B92826CC9E001F053B /* jd.css */; };
+		838499BC2826CCAD001F053B /* jd.js in Resources */ = {isa = PBXBuildFile; fileRef = 838499BB2826CCAD001F053B /* jd.js */; };
 		838E87132676778200558B4F /* 163.css in Resources */ = {isa = PBXBuildFile; fileRef = 838E87122676778200558B4F /* 163.css */; };
 		839CD0D627CD077E00E86463 /* jianshu.css in Resources */ = {isa = PBXBuildFile; fileRef = 839CD0D527CD077E00E86463 /* jianshu.css */; };
 		839CD0E327D247D200E86463 /* bilibili.js in Resources */ = {isa = PBXBuildFile; fileRef = 839CD0E227D247D200E86463 /* bilibili.js */; };
 		839CD0E527D24DB300E86463 /* bilibili.css in Resources */ = {isa = PBXBuildFile; fileRef = 839CD0E427D24DB300E86463 /* bilibili.css */; };
 		83B2530227F5550C00C11371 /* base.css in Resources */ = {isa = PBXBuildFile; fileRef = 83B2530127F5550C00C11371 /* base.css */; };
 		83B8D43E27DDFD1B00FCC661 /* ifanr.css in Resources */ = {isa = PBXBuildFile; fileRef = 83B8D43D27DDFD1B00FCC661 /* ifanr.css */; };
+		83C88297281FCA240048AAED /* autohome.css in Resources */ = {isa = PBXBuildFile; fileRef = 83C88296281FCA240048AAED /* autohome.css */; };
+		83C88299281FCA340048AAED /* autohome.js in Resources */ = {isa = PBXBuildFile; fileRef = 83C88298281FCA340048AAED /* autohome.js */; };
+		83C8829F2820CB9A0048AAED /* taobao.js in Resources */ = {isa = PBXBuildFile; fileRef = 83C8829E2820CB9A0048AAED /* taobao.js */; };
+		83C882A12820CBA80048AAED /* taobao.css in Resources */ = {isa = PBXBuildFile; fileRef = 83C882A02820CBA80048AAED /* taobao.css */; };
 		83CCA08728087E97002340ED /* Tutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CCA08628087E97002340ED /* Tutorial.swift */; };
 		83CCA08A2808FEB2002340ED /* ReviewHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CCA0892808FEB2002340ED /* ReviewHandler.swift */; };
 		83CCA08C2809028E002340ED /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CCA08B2809028E002340ED /* Home.swift */; };
@@ -44,6 +50,8 @@
 		83CF53C027C65E7000375E9F /* baidu.css in Resources */ = {isa = PBXBuildFile; fileRef = 83CF53BF27C65E7000375E9F /* baidu.css */; };
 		83CF53C227C915A100375E9F /* zhihu.css in Resources */ = {isa = PBXBuildFile; fileRef = 83CF53C127C915A100375E9F /* zhihu.css */; };
 		83CF53C427C9EACE00375E9F /* 36kr.css in Resources */ = {isa = PBXBuildFile; fileRef = 83CF53C327C9EACE00375E9F /* 36kr.css */; };
+		83D4CCC2283249C20053D349 /* tieba.css in Resources */ = {isa = PBXBuildFile; fileRef = 83D4CCC1283249C20053D349 /* tieba.css */; };
+		83D4CCC4283249D30053D349 /* tieba.js in Resources */ = {isa = PBXBuildFile; fileRef = 83D4CCC3283249D30053D349 /* tieba.js */; };
 		83E017002675036B00A30A29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E016FF2675036B00A30A29 /* AppDelegate.swift */; };
 		83E017022675036B00A30A29 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E017012675036B00A30A29 /* SceneDelegate.swift */; };
 		83E017052675036B00A30A29 /* LaunchScreen.storyboardbak in Resources */ = {isa = PBXBuildFile; fileRef = 83E017032675036B00A30A29 /* LaunchScreen.storyboardbak */; };
@@ -147,12 +155,18 @@
 		837F02602801768C00A677BD /* pudding_global.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = pudding_global.js; sourceTree = "<group>"; };
 		837F026228019B0E00A677BD /* pudding_global.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = pudding_global.css; sourceTree = "<group>"; };
 		837F026428019FA000A677BD /* zhihu.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = zhihu.js; sourceTree = "<group>"; };
+		838499B92826CC9E001F053B /* jd.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = jd.css; sourceTree = "<group>"; };
+		838499BB2826CCAD001F053B /* jd.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = jd.js; sourceTree = "<group>"; };
 		838E87122676778200558B4F /* 163.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = 163.css; sourceTree = "<group>"; };
 		839CD0D527CD077E00E86463 /* jianshu.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = jianshu.css; sourceTree = "<group>"; };
 		839CD0E227D247D200E86463 /* bilibili.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = bilibili.js; sourceTree = "<group>"; };
 		839CD0E427D24DB300E86463 /* bilibili.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = bilibili.css; sourceTree = "<group>"; };
 		83B2530127F5550C00C11371 /* base.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = base.css; sourceTree = "<group>"; };
 		83B8D43D27DDFD1B00FCC661 /* ifanr.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = ifanr.css; sourceTree = "<group>"; };
+		83C88296281FCA240048AAED /* autohome.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = autohome.css; sourceTree = "<group>"; };
+		83C88298281FCA340048AAED /* autohome.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = autohome.js; sourceTree = "<group>"; };
+		83C8829E2820CB9A0048AAED /* taobao.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = taobao.js; sourceTree = "<group>"; };
+		83C882A02820CBA80048AAED /* taobao.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = taobao.css; path = "../../../Library/Mobile Documents/com~apple~CloudDocs/taobao.css"; sourceTree = "<group>"; };
 		83CCA08628087E97002340ED /* Tutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutorial.swift; sourceTree = "<group>"; };
 		83CCA0892808FEB2002340ED /* ReviewHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewHandler.swift; sourceTree = "<group>"; };
 		83CCA08B2809028E002340ED /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
@@ -167,6 +181,8 @@
 		83CF53BF27C65E7000375E9F /* baidu.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = baidu.css; sourceTree = "<group>"; };
 		83CF53C127C915A100375E9F /* zhihu.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = zhihu.css; sourceTree = "<group>"; };
 		83CF53C327C9EACE00375E9F /* 36kr.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = 36kr.css; sourceTree = "<group>"; };
+		83D4CCC1283249C20053D349 /* tieba.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = tieba.css; sourceTree = "<group>"; };
+		83D4CCC3283249D30053D349 /* tieba.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = tieba.js; sourceTree = "<group>"; };
 		83E016E72675036A00A30A29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
 		83E016E92675036A00A30A29 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
 		83E016EA2675036A00A30A29 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
@@ -382,6 +398,14 @@
 				835637D1281C0F8A00F12F03 /* sohu.css */,
 				83FC53B0281E4CF300C335C3 /* myseller.css */,
 				83FC53B2281E4EB600C335C3 /* myseller.js */,
+				83C88296281FCA240048AAED /* autohome.css */,
+				83C88298281FCA340048AAED /* autohome.js */,
+				83C8829E2820CB9A0048AAED /* taobao.js */,
+				83C882A02820CBA80048AAED /* taobao.css */,
+				838499B92826CC9E001F053B /* jd.css */,
+				838499BB2826CCAD001F053B /* jd.js */,
+				83D4CCC1283249C20053D349 /* tieba.css */,
+				83D4CCC3283249D30053D349 /* tieba.js */,
 			);
 			path = "iOS (Extension)";
 			sourceTree = "<group>";
@@ -556,26 +580,34 @@
 				83417EAF28072D1600BC58BA /* weibo.js in Resources */,
 				836479AC27F1DC090081B72B /* bilibili_pc.js in Resources */,
 				83B8D43E27DDFD1B00FCC661 /* ifanr.css in Resources */,
+				838499BA2826CC9E001F053B /* jd.css in Resources */,
 				83FC53B3281E4EB600C335C3 /* myseller.js in Resources */,
 				839CD0D627CD077E00E86463 /* jianshu.css in Resources */,
 				831955E127C8E1AD00446554 /* xiaohongshu.css in Resources */,
 				835637D028144A1700F12F03 /* csdn.css in Resources */,
+				83C8829F2820CB9A0048AAED /* taobao.js in Resources */,
 				83CF53C027C65E7000375E9F /* baidu.css in Resources */,
 				837F026328019B0E00A677BD /* pudding_global.css in Resources */,
 				835637CC280EDA3800F12F03 /* gjp.js in Resources */,
+				83D4CCC4283249D30053D349 /* tieba.js in Resources */,
 				83CF53C227C915A100375E9F /* zhihu.css in Resources */,
 				83E017442675036B00A30A29 /* popup.css in Resources */,
 				837F025927FC748D00A677BD /* 36kr.js in Resources */,
+				83D4CCC2283249C20053D349 /* tieba.css in Resources */,
 				83CD752727E4D486004CE7AF /* smzdm.css in Resources */,
 				83CD753527EDED74004CE7AF /* douban.js in Resources */,
 				83417EAD28072D0600BC58BA /* weibo.css in Resources */,
 				83E017422675036B00A30A29 /* popup.html in Resources */,
+				83C88297281FCA240048AAED /* autohome.css in Resources */,
+				838499BC2826CCAD001F053B /* jd.js in Resources */,
 				833AF29F27C9F0E60011C1BC /* sina.css in Resources */,
 				835637CE280EDA7100F12F03 /* gjp.css in Resources */,
 				839CD0E327D247D200E86463 /* bilibili.js in Resources */,
 				83E0173A2675036B00A30A29 /* images in Resources */,
 				83E0173C2675036B00A30A29 /* manifest.json in Resources */,
 				837F026528019FA000A677BD /* zhihu.js in Resources */,
+				83C88299281FCA340048AAED /* autohome.js in Resources */,
+				83C882A12820CBA80048AAED /* taobao.css in Resources */,
 				83B2530227F5550C00C11371 /* base.css in Resources */,
 				83FC53B1281E4CF300C335C3 /* myseller.css in Resources */,
 				83CD753127E78804004CE7AF /* v2ex.css in Resources */,
@@ -820,7 +852,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.25.0;
+				MARKETING_VERSION = 1.26.9;
 				PRODUCT_BUNDLE_IDENTIFIER = com.inact.customblock.Extension;
 				PRODUCT_NAME = "customblock Extension";
 				SDKROOT = iphoneos;
@@ -847,7 +879,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.25.0;
+				MARKETING_VERSION = 1.26.9;
 				PRODUCT_BUNDLE_IDENTIFIER = com.inact.customblock.Extension;
 				PRODUCT_NAME = "customblock Extension";
 				SDKROOT = iphoneos;
@@ -865,6 +897,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7EDV5GHJYS;
@@ -880,7 +913,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.25.0;
+				MARKETING_VERSION = 1.26.9;
 				OTHER_LDFLAGS = (
 					"-framework",
 					WebKit,
@@ -900,6 +933,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7EDV5GHJYS;
@@ -915,7 +949,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.25.0;
+				MARKETING_VERSION = 1.26.9;
 				OTHER_LDFLAGS = (
 					"-framework",
 					WebKit,
