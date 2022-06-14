@@ -548,7 +548,16 @@ html .pd__ex h1{
         color:rgba(255,255,255,0.6);
     }
     
+    
+    .pd__ex  #interest_sectl .rating_num{
+        color:rgba(255,255,255,0.87)!important;
+    }
 
+    
+    .pd__ex #comments-section .comment-item h3,
+    .pd__ex #comments-section .comment-item .comment-vote .vote-count{
+        color:rgba(255,255,255,0.6);
+    }
 }
 
 
@@ -829,7 +838,6 @@ html .pd__ex h1{
     }
     
     .pd__ex .article p{
-        background:rgba(255,255,255,0.08);
         color:rgba(255,255,255,0.6);
     }
     

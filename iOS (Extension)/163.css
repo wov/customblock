@@ -1,15 +1,10 @@
 :root{
     --puddingdark-mainfont-color: rgba(255,255,255,0.87);
     --puddingdark-secondfont-color: rgba(255,255,255,0.6);
-
     --puddingdark-border-color: rgba(255,255,255,0.08);
-    
-    
     --puddingdark-main-bgcolor: #121212;
     --puddingdark-03dp-bgcolor: rgba(255,255,255,0.08);
 }
-
-
 
 
 /*首页*/
@@ -64,6 +59,10 @@ img[lazy=loaded]{
     min-width: .5rem;
     margin: 0 .2rem 0 0;
     transform: scale(1);
+}
+
+.pd__ex > div[style*="2147483647"]{
+    display:none!important;
 }
 
 /*暗黑模式*/
