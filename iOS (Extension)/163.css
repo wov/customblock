@@ -334,7 +334,9 @@ main > article{
     .topbar{
         background:#121212!important;
     }
-    .title{
+    .title,
+    .pd__ex .main .article-title,
+    .pd__ex .main .article-body{
         color: rgba(255,255,255,0.87)!important;
     }
     .back_home,.channel_logo{
@@ -361,7 +363,25 @@ main > article{
     .pd__ex article .vote .nosubmit li i{
         border-color: rgba(255,255,255,0.6)!important;
     }
+    
+    .pd__ex .main .article-info .s-comment{
+        background:rgba(255,255,255,0.08);
+    }
 
+    .pd__ex .main{
+        padding: 0 5px;
+    }
+    
+    .main .article-info .s-comment a:before{
+        filter: brightness(0) invert(1);
+
+    }
+    
+    .pd__ex .topNav .s-comment .s-count{
+        background:rgba(255,255,255,0.08);
+/*        color:#333!important;*/
+    }
+    
 }
 
 /***评论页面***/
