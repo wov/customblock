@@ -40,6 +40,7 @@ body.pd__ex *{
     position:relative;
     order: 1;
     width:100%;
+    overflow:hidden;
 }
 
 .pd__ex .FirstClassMenu--container--2FHmuHR *{
@@ -80,7 +81,8 @@ body.pd__ex *{
 .pd__ex .FirstClassMenu--firstClassMenu--2QqBjfl .FirstClassMenu--navListWrap--4Ka30jR{
 /*    flex-direction : row;*/
 /*    flex-wrap: nowrap;*/
-    overflow:scroll!important;
+    overflow-y:hidden;
+    overflow-x:scroll;
     -webkit-overflow-scrolling: touch; /* Lets it scroll lazy */
     width: 100%;
     display: block;
@@ -146,24 +148,41 @@ body.pd__ex *{
 }
 
 
-/*交易页面*/
 
+.pd__ex .QnworkbenchHome_src_rightSide__yOVE1,
+.pd__ex .seller-level_Hello_container__zp4nM{
+    width: 100%;
+}
+
+.pd__ex .qnWorkbench-microMods-SubscribedApplication_SubscribedApplication_SubscribedApplicationContainer__-xLi1{
+    display: none;
+}
+
+/*交易页面*/
 .pd__ex .SecondClassMenu--container--12py7e_{
     position:relative;
     order:2;
     top:0;
     left:0;
     width: 100%;
+<<<<<<< HEAD
+    height: 48px;
+=======
 }
 
 .pd__ex .SecondClassMenu--title--3jI2t7s{
     display: none;
+>>>>>>> 6c630011eef5ee4c2fbf64fc6634be475308807d
 }
 
 .pd__ex .SecondClassMenu--wrap--1r2q_p5{
     width: 100%;
 }
 
+<<<<<<< HEAD
+.pd__ex .SecondClassMenu--title--3jI2t7s{
+    display:none;
+=======
 
 .pd__ex .SecondClassMenu--container--12py7e_ *[role="option"],
 .pd__ex .SecondClassMenu--container--12py7e_ *[role="listbox"],
@@ -204,4 +223,5 @@ body.pd__ex *{
 
 .pd__ex .next-table td .next-table-cell-wrapper{
     padding: 0;
+>>>>>>> 6c630011eef5ee4c2fbf64fc6634be475308807d
 }
