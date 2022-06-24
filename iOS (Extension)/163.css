@@ -65,6 +65,10 @@ img[lazy=loaded]{
     display:none!important;
 }
 
+.pd__ex .js-open-app{
+    display:none;
+}
+
 /*暗黑模式*/
 @media (prefers-color-scheme: dark) {
     body{
@@ -299,7 +303,7 @@ body.pd__ex{
 main > article{
     max-height:unset!important;
     height:100%!important;
-    max-height:calc(100vh - 2.5rem)!important;
+    max-height:calc(100vh - 3.5rem)!important;
     overflow:scroll!important;
     -webkit-overflow-scrolling: touch; /* Lets it scroll lazy */
     overscroll-behavior: contain;
@@ -307,6 +311,13 @@ main > article{
 
 .footer,footer{display:none!important;}
 
+.pd__ex .main{
+    padding: 0 10px;
+}
+
+.pd__ex main.main .comment{
+    display:none;
+}
 
 /*详情页暗黑模式*/
 @media (prefers-color-scheme: dark) {
@@ -367,10 +378,6 @@ main > article{
     .pd__ex .main .article-info .s-comment{
         background:rgba(255,255,255,0.08);
     }
-
-    .pd__ex .main{
-        padding: 0 5px;
-    }
     
     .main .article-info .s-comment a:before{
         filter: brightness(0) invert(1);
@@ -379,7 +386,7 @@ main > article{
     
     .pd__ex .topNav .s-comment .s-count{
         background:rgba(255,255,255,0.08);
-/*        color:#333!important;*/
+        margin-left: 0.6rem;
     }
     
 }
