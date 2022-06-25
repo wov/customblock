@@ -1,0 +1,9 @@
+/*隐藏一些悬浮的弹窗*/
+.pd__ex .kem__DownloadAppFixedTopBanner,
+.pd__ex .download_fixed_container,
+.pd__ex .conch-ui-app-download,
+.pd__ex .wrapper #mini-modal{
+    display:none;
+}
+
+

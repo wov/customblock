@@ -78,6 +78,10 @@
 				<key>Script</key>
 				<string>tieba.js</string>
 			</dict>
+			<dict>
+				<key>Script</key>
+				<string>ke.js</string>
+			</dict>
 		</array>
 		<key>SFSafariStyleSheet</key>
 		<array>
@@ -177,11 +181,16 @@
 				<key>Style Sheet</key>
 				<string>tieba.css</string>
 			</dict>
+			<dict>
+				<key>Style Sheet</key>
+				<string>ke.css</string>
+			</dict>
 		</array>
 		<key>SFSafariWebsiteAccess</key>
 		<dict>
 			<key>Allowed Domains</key>
 			<array>
+				<string>*.ke.com</string>
 				<string>*.autohome.com.cn</string>
 				<string>*.taobao.com</string>
 				<string>*.sohu.com</string>

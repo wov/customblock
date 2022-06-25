@@ -285,6 +285,10 @@ iframe{display:none!important;}
     pointer-events:none!important;
 }
 
+.pd__ex .m-photo img{
+    object-fit:cover;
+}
+
 
 /*热门搜索*/
 .hotSearch-box{display:none!important;}
@@ -303,7 +307,7 @@ body.pd__ex{
 main > article{
     max-height:unset!important;
     height:100%!important;
-    max-height:calc(100vh - 3.5rem)!important;
+    max-height:calc(100vh - 2.5rem)!important;
     overflow:scroll!important;
     -webkit-overflow-scrolling: touch; /* Lets it scroll lazy */
     overscroll-behavior: contain;
