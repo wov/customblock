@@ -65,6 +65,10 @@ img[lazy=loaded]{
     display:none!important;
 }
 
+.pd__ex .js-open-app{
+    display:none;
+}
+
 /*暗黑模式*/
 @media (prefers-color-scheme: dark) {
     body{
@@ -281,6 +285,10 @@ iframe{display:none!important;}
     pointer-events:none!important;
 }
 
+.pd__ex .m-photo img{
+    object-fit:cover;
+}
+
 
 /*热门搜索*/
 .hotSearch-box{display:none!important;}
@@ -307,6 +315,13 @@ main > article{
 
 .footer,footer{display:none!important;}
 
+.pd__ex .main{
+    padding: 0 10px;
+}
+
+.pd__ex main.main .comment{
+    display:none;
+}
 
 /*详情页暗黑模式*/
 @media (prefers-color-scheme: dark) {
@@ -367,10 +382,6 @@ main > article{
     .pd__ex .main .article-info .s-comment{
         background:rgba(255,255,255,0.08);
     }
-
-    .pd__ex .main{
-        padding: 0 5px;
-    }
     
     .main .article-info .s-comment a:before{
         filter: brightness(0) invert(1);
@@ -379,7 +390,7 @@ main > article{
     
     .pd__ex .topNav .s-comment .s-count{
         background:rgba(255,255,255,0.08);
-/*        color:#333!important;*/
+        margin-left: 0.6rem;
     }
     
 }

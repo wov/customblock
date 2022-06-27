@@ -250,6 +250,16 @@
         "matches" : [
             "*://m.jd.com/*"
         ]
+    },{
+        "js" : ["ke.js"],
+        "matches" : [
+            "*://*.ke.com/*"
+        ]
+    },{
+        "css" : ["ke.css"],
+        "matches" : [
+            "*://*.ke.com/*"
+        ]
     }],
 
     "browser_action": {

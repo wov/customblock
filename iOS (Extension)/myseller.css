@@ -165,24 +165,16 @@ body.pd__ex *{
     top:0;
     left:0;
     width: 100%;
-<<<<<<< HEAD
     height: 48px;
-=======
 }
 
 .pd__ex .SecondClassMenu--title--3jI2t7s{
     display: none;
->>>>>>> 6c630011eef5ee4c2fbf64fc6634be475308807d
 }
 
 .pd__ex .SecondClassMenu--wrap--1r2q_p5{
     width: 100%;
 }
-
-<<<<<<< HEAD
-.pd__ex .SecondClassMenu--title--3jI2t7s{
-    display:none;
-=======
 
 .pd__ex .SecondClassMenu--container--12py7e_ *[role="option"],
 .pd__ex .SecondClassMenu--container--12py7e_ *[role="listbox"],
@@ -223,5 +215,4 @@ body.pd__ex *{
 
 .pd__ex .next-table td .next-table-cell-wrapper{
     padding: 0;
->>>>>>> 6c630011eef5ee4c2fbf64fc6634be475308807d
 }

@@ -1,0 +1,20 @@
+/*隐藏一些悬浮的弹窗*/
+.pd__ex .kem__DownloadAppFixedTopBanner,
+.pd__ex .download_fixed_container,
+.pd__ex .conch-ui-app-download,
+.pd__ex .wrapper #mini-modal,
+.pd__ex #mini-banner,
+.pd__ex .download_card,
+.pd__ex section.list .brokerBooth,
+.pd__ex .notice-pop,
+.pd__ex .contact_hint_box.up,
+.pd__ex .contact_hint_box,
+.pd__ex .download_app_box,
+.pd__ex .shell-download-app-card-type-b{
+    display:none;
+}
+
+.pd__ex .fixed-bottom-btn-box{
+    position:relative;
+}
+
