@@ -82,6 +82,10 @@
 				<key>Script</key>
 				<string>ke.js</string>
 			</dict>
+			<dict>
+				<key>Script</key>
+				<string>mi.js</string>
+			</dict>
 		</array>
 		<key>SFSafariStyleSheet</key>
 		<array>
@@ -185,6 +189,10 @@
 				<key>Style Sheet</key>
 				<string>ke.css</string>
 			</dict>
+			<dict>
+				<key>Style Sheet</key>
+				<string>mi.css</string>
+			</dict>
 		</array>
 		<key>SFSafariWebsiteAccess</key>
 		<dict>
@@ -210,6 +218,7 @@
 				<string>m.weibo.cn</string>
 				<string>blog.csdn.net</string>
 				<string>m.jd.com</string>
+				<string>m.mi.com</string>
 			</array>
 		</dict>
 	</dict>

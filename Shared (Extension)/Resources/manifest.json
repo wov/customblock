@@ -260,6 +260,16 @@
         "matches" : [
             "*://*.ke.com/*"
         ]
+    },{
+        "js" : ["mi.js"],
+        "matches" : [
+            "*://*.m.mi.com/*"
+        ]
+    },{
+        "css" : ["mi.css"],
+        "matches" : [
+            "*://*.m.mi.com/*"
+        ]
     }],
 
     "browser_action": {
