@@ -342,8 +342,8 @@ main > article{
         color: rgba(255,255,255,0.87)!important;
     }
     
-    main .m_separate, section{
-        background:#121212!important;
+    .pd__ex main .m_separate, section{
+        background:#121212;
     }
     
     .topbar{
@@ -391,6 +391,13 @@ main > article{
     .pd__ex .topNav .s-comment .s-count{
         background:rgba(255,255,255,0.08);
         margin-left: 0.6rem;
+    }
+    
+    .pd__ex .main .article-info address{
+        color: rgba(255,255,255,0.87);
+    }
+    .pd__ex .main .article-body .preset-original-title{
+        color: rgba(255,255,255,0.6);
     }
     
 }
@@ -441,6 +448,27 @@ main > article{
     
     .pd__ex .third_login .title{
         background:#121212;
+    }
+    
+    .pd__ex .original-title{
+        color: rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .comment .comment-header .s-nick{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .comment .floor{
+        background:rgba(255,255,255,0.08);
+    }
+    
+    .pd__ex .comment-header,
+    .pd__ex .comment .content{
+        background:none;
+    }
+    
+    .pd__ex  .comment .content{
+        color:rgba(255,255,255,0.87);
     }
     
 }
