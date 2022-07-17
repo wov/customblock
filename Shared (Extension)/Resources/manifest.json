@@ -270,6 +270,16 @@
         "matches" : [
             "*://*.m.mi.com/*"
         ]
+    },{
+        "js" : ["dianping.js"],
+        "matches" : [
+            "*://m.dianping.com/*"
+        ]
+    },{
+        "css" : ["dianping.css"],
+        "matches" : [
+            "*://m.dianping.com/*"
+        ]
     }],
 
     "browser_action": {

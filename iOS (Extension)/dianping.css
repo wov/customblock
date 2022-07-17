@@ -1,0 +1,48 @@
+
+/*去掉一些打开app的按钮。。*/
+.pd__ex #header-attract,
+.pd__ex #bottom-fix,
+.pd__ex #bottom,
+.pd__ex .header-download,
+.pd__ex .downloadLayer,
+.pd__ex .header-download-newstyle,
+.pd__ex .C_header_new,
+.pd__ex .guide-wrapper,
+.pd__ex #sidebar-temp,
+.pd__ex .side-activity,
+.pd__ex .sidebar,
+.pd__ex .J_download-guide{
+    display:none;
+}
+
+.pd__ex #header,
+.pd__ex #header-ph{
+    height: auto!important;
+}
+
+.pd__ex #header{
+    position: sticky!important;
+}
+
+/*这里可能会影响其他弹窗的显示*/
+.pd__ex > .modalWrap{
+    display:none;
+}
+
+/*直接用一个空div设置margin也是没谁了...*/
+.pd__ex #cocktail-root .header-download + div{
+    margin:0!important;
+}
+
+.pd__ex .feed-content-info{
+    -webkit-line-clamp:unset;
+}
+
+/*去掉app打开的套路*/
+.pd__ex .feed-content-wrapper .gradual-wrapper,
+.pd__ex .feed-content-wrapper .gradual-wrapper-readstyle,
+.pd__ex .gradual-btn-wrapper,
+.pd__ex div[data-launch-name="moreContent"]{
+    display:none;
+}
+

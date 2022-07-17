@@ -16,6 +16,8 @@
 		83417EAF28072D1600BC58BA /* weibo.js in Resources */ = {isa = PBXBuildFile; fileRef = 83417EAE28072D1600BC58BA /* weibo.js */; };
 		8343695D287C638D00540ED2 /* mi.css in Resources */ = {isa = PBXBuildFile; fileRef = 8343695C287C638D00540ED2 /* mi.css */; };
 		8343695F287C63A100540ED2 /* mi.js in Resources */ = {isa = PBXBuildFile; fileRef = 8343695E287C63A100540ED2 /* mi.js */; };
+		834369612883FCB800540ED2 /* dianping.css in Resources */ = {isa = PBXBuildFile; fileRef = 834369602883FCB800540ED2 /* dianping.css */; };
+		834369632883FCC300540ED2 /* dianping.js in Resources */ = {isa = PBXBuildFile; fileRef = 834369622883FCC300540ED2 /* dianping.js */; };
 		835637CC280EDA3800F12F03 /* gjp.js in Resources */ = {isa = PBXBuildFile; fileRef = 835637CB280EDA3800F12F03 /* gjp.js */; };
 		835637CE280EDA7100F12F03 /* gjp.css in Resources */ = {isa = PBXBuildFile; fileRef = 835637CD280EDA7100F12F03 /* gjp.css */; };
 		835637D028144A1700F12F03 /* csdn.css in Resources */ = {isa = PBXBuildFile; fileRef = 835637CF28144A1700F12F03 /* csdn.css */; };
@@ -151,6 +153,8 @@
 		83417EAE28072D1600BC58BA /* weibo.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = weibo.js; sourceTree = "<group>"; };
 		8343695C287C638D00540ED2 /* mi.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = mi.css; sourceTree = "<group>"; };
 		8343695E287C63A100540ED2 /* mi.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = mi.js; sourceTree = "<group>"; };
+		834369602883FCB800540ED2 /* dianping.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = dianping.css; sourceTree = "<group>"; };
+		834369622883FCC300540ED2 /* dianping.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = dianping.js; sourceTree = "<group>"; };
 		835637CB280EDA3800F12F03 /* gjp.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = gjp.js; sourceTree = "<group>"; };
 		835637CD280EDA7100F12F03 /* gjp.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = gjp.css; sourceTree = "<group>"; };
 		835637CF28144A1700F12F03 /* csdn.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = csdn.css; sourceTree = "<group>"; };
@@ -418,6 +422,8 @@
 				830816DF28672F0D0076A2ED /* ke.js */,
 				8343695C287C638D00540ED2 /* mi.css */,
 				8343695E287C63A100540ED2 /* mi.js */,
+				834369602883FCB800540ED2 /* dianping.css */,
+				834369622883FCC300540ED2 /* dianping.js */,
 			);
 			path = "iOS (Extension)";
 			sourceTree = "<group>";
@@ -595,6 +601,7 @@
 				83B8D43E27DDFD1B00FCC661 /* ifanr.css in Resources */,
 				838499BA2826CC9E001F053B /* jd.css in Resources */,
 				83FC53B3281E4EB600C335C3 /* myseller.js in Resources */,
+				834369632883FCC300540ED2 /* dianping.js in Resources */,
 				839CD0D627CD077E00E86463 /* jianshu.css in Resources */,
 				831955E127C8E1AD00446554 /* xiaohongshu.css in Resources */,
 				835637D028144A1700F12F03 /* csdn.css in Resources */,
@@ -632,6 +639,7 @@
 				83E017382675036B00A30A29 /* _locales in Resources */,
 				83E017402675036B00A30A29 /* content.js in Resources */,
 				83E017462675036B00A30A29 /* popup.js in Resources */,
+				834369612883FCB800540ED2 /* dianping.css in Resources */,
 				837F02612801768C00A677BD /* pudding_global.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -86,6 +86,10 @@
 				<key>Script</key>
 				<string>mi.js</string>
 			</dict>
+			<dict>
+				<key>Script</key>
+				<string>dianping.js</string>
+			</dict>
 		</array>
 		<key>SFSafariStyleSheet</key>
 		<array>
@@ -193,6 +197,10 @@
 				<key>Style Sheet</key>
 				<string>mi.css</string>
 			</dict>
+			<dict>
+				<key>Style Sheet</key>
+				<string>dianping.css</string>
+			</dict>
 		</array>
 		<key>SFSafariWebsiteAccess</key>
 		<dict>
@@ -219,6 +227,7 @@
 				<string>blog.csdn.net</string>
 				<string>m.jd.com</string>
 				<string>m.mi.com</string>
+				<string>m.dianping.com</string>
 			</array>
 		</dict>
 	</dict>
