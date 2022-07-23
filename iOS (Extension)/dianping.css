@@ -11,7 +11,8 @@
 .pd__ex #sidebar-temp,
 .pd__ex .side-activity,
 .pd__ex .sidebar,
-.pd__ex .J_download-guide{
+.pd__ex .J_download-guide,
+.pd__ex #hot-pots.carousel-list-container{
     display:none;
 }
 
@@ -30,9 +31,11 @@
 }
 
 /*直接用一个空div设置margin也是没谁了...*/
-.pd__ex #cocktail-root .header-download + div{
+.pd__ex #cocktail-root .header-download + div,
+.wx-view[style="margin-top: 88px;"]{
     margin:0!important;
 }
+
 
 .pd__ex .feed-content-info{
     -webkit-line-clamp:unset;
@@ -46,3 +49,16 @@
     display:none;
 }
 
+/*配合一些强制跳转的dom，添加a之后禁止里面的事件点击*/
+/*这个也可以改在baidu上，不让他反复横跳*/
+.pd__ex .pd__create_link{
+    text-decoration:none;
+}
+
+.pd__ex .pd__create_link *{
+    pointer-events:none;
+}
+
+.pd__ex .component-shop-review .reviewTruncate{
+    -webkit-line-clamp: unset;
+}

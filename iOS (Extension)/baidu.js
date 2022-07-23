@@ -305,6 +305,8 @@ if(pageDom){
 
 
 // baidu baike
+// baidu百科自动点击加载更多。
+// 这里只要出现这个按钮自动触发这个按钮的事件。。
 const baikeLoadmore = document.querySelector('.yx-load-more-inner.J-yx-load-moreContent');
 if(baikeLoadmore){
     const observer = new IntersectionObserver(callback);
