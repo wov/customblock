@@ -144,7 +144,17 @@ body{
     display:block!important;
 }
 
-.bili-video-card{
+.recommended-swipe{
+    display:none;
+}
+
+.pd__ex .roll-btn-wrap{
+    top : -80px;
+}
+
+.recommend-container__2-line > .bili-video-card ,
+.information-body > .bili-video-card,
+.eva-extension-body > .bili-video-card{
     display: inline-block!important;
     width: 49%!important;
     margin: 5px 0.5%;
@@ -167,7 +177,8 @@ body > .lt-row{
     display:none;
 }
 
-.pd__ex .bili-watch-later{
+.pd__ex .bili-watch-later,
+.pd__ex .eva-banner{
     display:none;
 }
 
@@ -176,13 +187,19 @@ body > .lt-row{
     display:block!important;
 }
 
-.bili-live-card{
+.live-card-body > div{
     display: inline-block!important;
     width: 49%!important;
     margin: 5px 0.5%;
     vertical-align: top;
 }
 
+.live-card-body > div > .bili-live-card {
+/*    display: inline-block!important;*/
+/*    width: 49%!important;*/
+/*    margin: 5px 0.5%;*/
+/*    vertical-align: top;*/
+}
 
 .bili-grid .live-card-body>*:nth-of-type(1n + 7){
     display: inline-block!important;
@@ -251,6 +268,32 @@ body > .lt-row{
     display:block!important;
 }
 
+.battle-body > .bili-live-card{
+    display: inline-block!important;
+    width: 49%!important;
+    margin: 5px 0.5%;
+    vertical-align: top;
+}
+
+/*动画*/
+
+.video-card-body > div{
+    display: inline-block!important;
+    width: 49%!important;
+    margin: 5px 0.5%;
+    vertical-align: top;
+}
+
+
+.video-card-body > div > .bili-video-card{
+    display: block!important;
+    width: 100%!important;
+}
+
+
+
+
+
 /*番剧*/
 .area-header .title{
     font-size:18px!important;
@@ -275,7 +318,7 @@ body > .lt-row{
     display:none!important;
 }
 
-.bili-bangumi-card{
+.bangumi-card-body > div{
     display: inline-block!important;
     width: 49%!important;
     margin: 5px 0.5%;
@@ -290,11 +333,21 @@ body > .lt-row{
     display:block!important;
 }
 
-.bili-movie-card{
+.variety-body > div,
+.cheese-card-body > div,
+.information-body > div,
+.movie-card-body > div{
     display: inline-block!important;
     width: 49%!important;
     margin: 5px 0.5%;
 }
+
+.bangumi-activity-body > .bili-movie-card{
+    display: inline-block!important;
+    width: 49%!important;
+    margin: 5px 0.5%;
+}
+
 
 .bili-grid .bangumi-activity-area .bangumi-activity-body>*:nth-of-type(1n + 9){
     display: inline-block!important;
@@ -350,7 +403,7 @@ body > .lt-row{
 }
 
 
-.bili-cheese-card{
+.cheese-card-body > .bili-cheese-card{
     display: inline-block!important;
     width: 49%!important;
     margin: 5px 0.5%;
@@ -369,10 +422,9 @@ body > .lt-row{
     padding: 5px 0!important;
 }
 
-
-.bili-grid .battle-area .battle-body>*:nth-of-type(1n + 5){
-        display:inline-block!important;
-}
+/*.bili-grid .battle-area .battle-body>*:nth-of-type(1n + 5){*/
+/*        display:inline-block!important;*/
+/*}*/
 
 
 .bangumi-card-data{
@@ -538,6 +590,20 @@ body.header-v3 #biliMainHeader .mini-header{
 .pd__ex #app #bilibili-player.mini-player:hover .mini-player-drag-mask{
     display:none!important;
 }
+
+.pd__ex .bpx-player-container[data-screen=mini],
+.pd__ex .bpx-player-container[data-revision="1"][data-screen=mini]{
+    position: unset!important;
+    width: 100%;
+    height: auto;
+    border-radius: unset;
+    overflow: unset;
+}
+
+.pd__ex .bpx-player-mini-warp{
+    display:none;
+}
+
 
 .pd__ex .video-toolbar .ops > span{
     width: auto;
@@ -958,7 +1024,7 @@ body #app #bilibili-player.mini-player{
 
 .pd__ex .bili-video-card .bili-video-card__info--tit{
     padding-right: 0;
-    overflow: auto;
+    overflow: hidden;
     font-size: 12px;
 }
 
