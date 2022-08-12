@@ -39,7 +39,7 @@ struct Home: View {
                     }
                 }
                 
-                Section(header: Text("帮助我们一起成长")){
+                Section(header: Text("给我们一些更新的动力")){
                     Button(action: sendMail){
                         HStack {
                             Image(systemName: "envelope")

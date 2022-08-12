@@ -140,16 +140,22 @@ body{
     margin-bottom: 15px!important;
 }
 
+.bili-feed4-layout, .bili-feed4 .bili-header .bili-header__channel{
+    width:unset!important;
+}
+
+.pd__ex .header-channel-fixed{
+    display:none;
+}
+
 .recommend-container__2-line{
     display:block!important;
 }
 
-.recommended-swipe{
-    display:none;
-}
-
-.pd__ex .roll-btn-wrap{
+.pd__ex .roll-btn-wrap,
+.pd__ex .recommended-container .feed-roll-btn[data-v-2e69d16c]{
     top : -80px;
+    transform:unset;
 }
 
 .recommend-container__2-line > .bili-video-card ,
@@ -168,7 +174,6 @@ body{
     display:block!important;
 }
 
-
 .bili-grid .eva-extension-area .eva-extension-body>*:nth-of-type(1n + 5){
     display: inline-block!important;
 }
@@ -181,6 +186,36 @@ body > .lt-row{
 .pd__ex .eva-banner{
     display:none;
 }
+
+.pd__ex .recommended-container .first-paint[data-v-2e69d16c]{
+    display:block;
+    padding: 0 10px;
+}
+
+
+.pd__ex .recommended-container .first-paint[data-v-2e69d16c] > div{
+    display: inline-block;
+    width: 49%!important;
+    margin: 5px 0.5%;
+    vertical-align: top;
+}
+
+
+.pd__ex .recommended-container .first-paint[data-v-2e69d16c] > .recommended-swipe{
+    display:none;
+}
+
+.pd__ex .feed-floor .bili-grid,
+.pd__ex .feed-floor .live-card-body,
+.pd__ex .feed-floor .video-card-body,
+.pd__ex .feed-floor .bangumi-card-body,
+.pd__ex .feed-floor .bangumi-card-shim,
+.pd__ex .feed-floor .variety-body,
+.pd__ex .feed-floor .information-body,
+.pd__ex .feed-floor .movie-card-body{
+    grid-gap: unset!important;
+}
+
 
 /*直播*/
 .live-card-body{
@@ -291,9 +326,6 @@ body > .lt-row{
 }
 
 
-
-
-
 /*番剧*/
 .area-header .title{
     font-size:18px!important;
@@ -310,27 +342,47 @@ body > .lt-row{
     padding: 3px!important;
 }
 
-.bangumi-card-body, .bangumi-card-shim{
-    display: block!important;
-}
-
 .bangumi-card-shim{
     display:none!important;
 }
 
+.pd__ex .bangumi-card-body{
+    display:flex!important;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    padding: 0 10px;
+    grid-gap: unset;
+}
+
+
 .bangumi-card-body > div{
     display: inline-block!important;
     width: 49%!important;
-    margin: 5px 0.5%;
+    margin: 5px 0;
 }
 
 .bili-grid .bangumi-card-body.is-loading>*:nth-of-type(1n + 7){
     display: inline-block!important;
 }
 
-
 .bangumi-activity-area .bangumi-activity-body{
     display:block!important;
+}
+
+.pd__ex .feed-floor .feed-floor-list,
+.pd__ex .feed-floor .feed-floor-loading{
+    display:flex!important;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    padding: 0 10px;
+    grid-gap: unset;
+}
+
+.pd__ex .feed-floor .feed-floor-list > div,
+.pd__ex .feed-floor .feed-floor-loading > div{
+    display: block;
+    width: 49%!important;
+    margin: 5px 0;
 }
 
 .variety-body > div,
@@ -369,8 +421,12 @@ body > .lt-row{
     min-height: unset!important;
 }
 
-.cheese-card-list .cheese-card-body{
-    display:block!important;
+.pd__ex .cheese-card-list .cheese-card-body{
+    display:flex!important;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    padding: 0 10px;
+    grid-gap: unset;
 }
 
 .bili-grid .cheese-card-list .cheese-card-body>*:nth-of-type(1n + 7){
@@ -386,8 +442,13 @@ body > .lt-row{
     flex-direction: column;
 }
 
-.movie-card-body{
-    display:block!important;
+.pd__ex .movie-card-body{
+/*    display:block!important;*/
+    display:flex!important;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    padding: 0 10px;
+    grid-gap: unset;
 }
 
 .bili-grid .movie-card-body>*:nth-of-type(1n + 7){
@@ -421,6 +482,51 @@ body > .lt-row{
     z-index: 1000!important;
     padding: 5px 0!important;
 }
+
+.pd__ex .feed-floor .channel-floor.bili-grid.no-margin,
+.pd__ex .feed-floor .bili-grid{
+    margin-bottom: 5px!important;
+}
+
+.pd__ex .feed-floor .channel-floor{
+    padding: 5px 0 !important;
+}
+
+.pd__ex .feeds-bottom[data-v-bde4b280],
+.pd__ex .feeds-bottom-loading[data-v-bde4b280]{
+    display:flex!important;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    padding: 0 10px;
+    grid-gap: unset;
+}
+
+
+.pd__ex .feeds-bottom[data-v-bde4b280] > div,
+.pd__ex .feeds-bottom-loading[data-v-bde4b280] > div{
+    display: block;
+    width: 49%!important;
+    margin: 5px 0.5%;
+}
+
+.pd__ex .feed-floor .manga-card-list .manga-card-body,
+.pd__ex .manga-card-list .manga-card-body{
+    display:flex!important;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    padding: 0 10px;
+    grid-gap: unset;
+}
+
+.pd__ex .manga-card-list .manga-card-body > div{
+    display: block;
+    width: 49%!important;
+    margin: 5px 0.5%;
+}
+
+
+
+
 
 /*.bili-grid .battle-area .battle-body>*:nth-of-type(1n + 5){*/
 /*        display:inline-block!important;*/
@@ -509,6 +615,10 @@ body.header-v3 #biliMainHeader .mini-header{
 
 .pd__ex .bilibili-player .bilibili-player-area{
     max-height: 50vh;
+}
+
+.pd__ex .bpx-player-sending-bar, .bpx-player-sending-bar .bpx-player-video-info{
+    flex-wrap:wrap;
 }
 
 /*.bilibili-player.mode-miniscreen.bilibili-player .bilibili-player-area .bilibili-player-video-state,*/

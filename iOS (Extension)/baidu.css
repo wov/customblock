@@ -175,6 +175,10 @@ a[data-module=entrance]{
         color:rgba(255,255,255,0.87)!important;
     }
     
+    .ec-comp_d20_download_image_button_download-app-name{
+        color:rgba(255,255,255,0.87)!important;
+    }
+    
 }
 /***搜索结果页去广告***/
 
@@ -423,6 +427,15 @@ a[data-module=entrance]{
     
     .c-slink-auto, .defaultmode .c-slink-new-strong{
         background:rgba(255,255,255,0.07)!important;
+    }
+    
+    
+    .ps-style-upgrade .y6cf36h:after{
+        background:rgba(255,255,255,0.07)!important;
+    }
+    
+    .y6cf36h:after{
+        border:none!important;
     }
 }
 

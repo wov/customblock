@@ -400,6 +400,12 @@ main > article{
         color: rgba(255,255,255,0.6);
     }
     
+    /*有可能会显示出来的推荐列表*/
+    .pd__ex .recommend h3,
+    .pd__ex .card-recommend-oneImg article h4,
+    .pd__ex .card-recommend-threeImg article h4{
+        color: rgba(255,255,255,0.87);
+    }
 }
 
 /***评论页面***/

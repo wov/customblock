@@ -1,3 +1,11 @@
+:root{
+    --puddingdark-mainfont-color: rgba(255,255,255,0.87);
+    --puddingdark-secondfont-color: rgba(255,255,255,0.6);
+    --puddingdark-border-color: rgba(255,255,255,0.08);
+    --puddingdark-main-bgcolor: #121212;
+    --puddingdark-03dp-bgcolor: rgba(255,255,255,0.08);
+}
+
 
 .pd__ex .recommend-list  .list-content .recommend-item *{
     pointer-events:none;
@@ -11,3 +19,89 @@
     display:none!important;
 }
 
+
+@media (prefers-color-scheme: dark) {
+    html,
+    .pd__ex .tb-index-navbar .navbar-box .navbar-item a[data-v-97483f64],
+    .pd__ex .tb-media--xs .tb-media__title,
+    .pd__ex .forum-line-wrap .forum-info .forum-name[data-v-a7175abc],
+    .pd__ex  .user-card-nav-wrap .user-info .user-name[data-v-122b106f],
+    .pd__ex  .log-out-wrap[data-v-521688be],
+    .pd__ex .tb-button-group__item,
+    .pd__ex .user-line .user-info .username[data-v-188c0e84],
+    .pd__ex .thread-text[data-v-64a6bae0],
+    .pd__ex .feed-warp .recommend-title[data-v-138c2daf],
+    .pd__ex .recommend-list .list-content .recommend-item .forum-line .forum-info .forum-name[data-v-2b1ef218],
+    .pd__ex .reply-switch .all-reply[data-v-9b026d20],
+    .pd__ex .pb-page-wrapper .thread-title[data-v-4dce9f0b]{
+        color: var(--puddingdark-mainfont-color);
+    }
+    
+    .pd__ex .tb-line-title__p,
+    .pd__ex .tb-richtext__text,
+    .pd__ex .pull-info span[data-v-0af163f2],
+    .pd__ex .module-title-wrap .module-title-right[data-v-664629fe],
+    .pd__ex .nav-title-wrap[data-v-5b06c658],
+    .pd__ex .tb-link__title,
+    .pd__ex .interaction-bar .text[data-v-664f2f36],
+    .pd__ex .post-item .user-line-post .good-test .good-num[data-v-4d5e0eb4],
+    .pd__ex .tb-media--xs .tb-media__subtitle,
+    .pd__ex .my-thread .right-text[data-v-59fa6c75]{
+        color: var(--puddingdark-secondfont-color);
+    }
+    
+    body.pd__ex,
+    .pd__ex .nav-bar-v2 .nav-bar-bottom[data-v-d737a016], .nav-bar-v2[data-v-d737a016],
+    .pd__ex  .tb-index-navbar .navbar-box[data-v-97483f64],
+    .pd__ex .tb-index-navbar .navbar-transition-slide[data-v-97483f64],
+    .pd__ex .nav-bar-v2,
+    .pd__ex .pb-page-wrapper[data-v-4dce9f0b],
+    .pd__ex .comment-box[data-v-dcf91f24],
+    .pd__ex .gray-background[data-v-138c2daf],
+    .pd__ex .post-page[data-v-37acba79],
+    .pd__ex .lzl-page[data-v-4adb02a8],
+    .pd__ex .tb-mobile-viewport,
+    .pd__ex .tb-button-group__fixed,
+    .pd__ex .tb-forum{
+        background-color : var(--puddingdark-main-bgcolor)!important;
+        background-image: none!important;
+    }
+    
+    .pd__ex  .tb-panel{
+        background-color : #181818!important;
+    }
+    
+    .pd__ex .follow-forum-wrap .follow-forum-ul[data-v-b9d79c1e],
+    .pd__ex .user-center-wrap[data-v-ec3c6622],
+    .pd__ex  .log-out-wrap[data-v-521688be],
+    .pd__ex .pb-page-wrapper .split-line[data-v-4dce9f0b],
+    .pd__ex .post-item .content .post-split-line[data-v-4d5e0eb4],
+    .pd__ex  .post-cut-guide .post-page-entry .post-page-entry-btn[data-v-131aca44],
+    .pd__ex .recommend-list .list-content .recommend-item[data-v-2b1ef218],
+    .pd__ex .lzl-post[data-v-2665f324],
+    .pd__ex .collection-item[data-v-282db808],
+    .pd__ex .my-thread[data-v-59fa6c75]{
+        background-color : var(--puddingdark-03dp-bgcolor)!important;
+    }
+    
+    img{
+        filter: brightness(0.8);
+    }
+    
+    .pd__ex .tb-link__icon svg,
+    .pd__ex .interaction-bar .interaction-item[data-v-664f2f36] svg,
+    .pd__ex .post-item .user-line-post .good-test[data-v-4d5e0eb4] svg{
+        filter: brightness(0) invert(0.8);
+    }
+    
+    
+    .pd__ex .lzl-page .current-post[data-v-4adb02a8]{
+        border-color : var(--puddingdark-03dp-bgcolor);
+
+    }
+    
+    
+    
+    
+
+}

@@ -179,5 +179,13 @@ body{
     .pd__ex .project-relevent-wrapper .project-relevent-card .card-list .card-item{
         background:rgba(255,255,255,0.08);
     }
+    
+    .pd__ex .body-content-wrapper #body-content blockquote:after{
+        display:none;
+    }
+    
+    .pd__ex .article-body .body-bar .time{
+        color: rgba(255,255,255,0.6);
+    }
 }
 

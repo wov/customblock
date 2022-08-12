@@ -51,12 +51,12 @@
     },{
         "css" : ["tieba.css"],
         "matches" : [
-            "*://tieba.baidu.com/p/*"
+            "*://tieba.baidu.com/*"
         ]
     },{
         "js" : ["tieba.js"],
         "matches" : [
-            "*://tieba.baidu.com/p/*"
+            "*://tieba.baidu.com/*"
         ]
     },{
         "css" : ["xiaohongshu.css"],
