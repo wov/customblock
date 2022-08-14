@@ -58,7 +58,7 @@ setTimeout( _ => {
 
 function addButtonAndBlock(){
     console.log('addButtonAndBlock');
-    const items = document.querySelectorAll('.video-card,.rank-item,.bili-video-card');
+    const items = document.querySelectorAll('.video-card,.rank-item,.bili-video-card,.bili-live-card');
     const CLASSFLAG = "pudding_extension";
     if(!items.length){return;}
     
@@ -69,8 +69,10 @@ function addButtonAndBlock(){
 //        const t = i.querySelector('.video-card__content');
 
         // 添加屏蔽的功能
-        const h = i.querySelector('.video-card__content,.img,.bili-video-card__image--wrap');
-        const upDom = i.querySelector('.up-name,.bili-video-card__info--author');
+        // 用来放关闭按钮的容器
+        const h = i.querySelector('.video-card__content,.img,.bili-video-card__image--wrap,.bili-live-card__image');
+        // up主的名字..
+        const upDom = i.querySelector('.up-name,.bili-video-card__info--author,.bili-live-card__info--uname');
                 
         if(h && upDom){
             let up = upDom.textContent.replaceAll(/\s+/g, '');
@@ -105,7 +107,7 @@ setTimeout(_ => {
 },1000)
 
 
-const rootChangeDom = document.querySelector('#app,main.bili-layout');
+const rootChangeDom = document.querySelector('#app,main.bili-layout,#i_cecream');
 if(rootChangeDom){
     const config = { attributes: false, childList: true, subtree: true };
     const callback = function(mutationsList, observer) {

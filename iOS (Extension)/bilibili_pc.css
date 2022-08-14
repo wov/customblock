@@ -299,9 +299,19 @@ body > .lt-row{
 }
 
 /*赛事*/
-.battle-area .battle-body{
+.pd__ex .battle-area .battle-body,
+.pd__ex .battle-feed-area .battle-feed-body{
     display:block!important;
+    padding: 0 10px;
 }
+
+.pd__ex .battle-feed-area .battle-feed-body > div{
+    display: inline-block!important;
+    width: 49%!important;
+    margin: 5px 0.5%;
+    vertical-align: top;
+}
+
 
 .battle-body > .bili-live-card{
     display: inline-block!important;
@@ -1265,7 +1275,9 @@ body #app #bilibili-player.mini-player{
 /*屏蔽功能*/
 .pd__ex .rank-list .rank-item .content .img .__pudding_block,
 .pd__ex .video-card__content .__pudding_block,
-.pd__ex .bili-video-card .bili-video-card__image--wrap .__pudding_block{
+.pd__ex .bili-video-card .bili-video-card__image--wrap .__pudding_block,
+.pd__ex .bili-video-card__image .__pudding_block,
+.pd__ex .bili-live-card__image .__pudding_block{
     position:absolute;
     right: 0;
     top: 0px;
