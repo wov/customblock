@@ -90,6 +90,9 @@ function addButtonAndBlock(){
             blockDom.addEventListener('click', e => {
                 e.stopPropagation();
                 e.preventDefault();
+                
+                //TODO: 这里改成弹出可添加关键字的弹窗。
+                
                 const c = confirm(`【布丁扩展】\n\n是否在列表中屏蔽“${up}”？\n屏蔽仅在本地有效`);
                 if(c){
                     let blockUsers = localStorage.getItem(BS_NAME) ? JSON.parse(localStorage.getItem(BS_NAME)) : [];
@@ -100,6 +103,14 @@ function addButtonAndBlock(){
             })
         }
     })
+}
+
+
+function pd_showBlockModal(){
+    
+    
+    
+    
 }
 
 setTimeout(_ => {

@@ -28,6 +28,10 @@ body{
     min-width: unset!important;
 }
 
+/*.pd__ex div:empty{*/
+/*    display:none!important;*/
+/*}*/
+
 .bili-header .bili-header__banner{
     min-width: unset!important;
 }
@@ -312,6 +316,10 @@ body > .lt-row{
     vertical-align: top;
 }
 
+.pd__ex .battle-feed-area .battle-feed-body > div:empty{
+    width: 0!important;
+    margin: 0;
+}
 
 .battle-body > .bili-live-card{
     display: inline-block!important;
@@ -535,8 +543,16 @@ body > .lt-row{
 }
 
 
+/*去掉一些空窗*/
+
+/*.pd__ex .first-paint > div:empty{*/
+/*    display:none!important;*/
+/*}*/
 
 
+.pd__ex .recommended-container .first-paint[data-v-2e69d16c] > div:empty{
+    width:0!important;
+}
 
 /*.bili-grid .battle-area .battle-body>*:nth-of-type(1n + 5){*/
 /*        display:inline-block!important;*/
