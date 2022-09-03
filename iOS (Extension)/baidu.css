@@ -25,7 +25,39 @@
 @media (prefers-color-scheme: dark) {
     .pd__ex{
         background:#121212;
-    }    
+    }
+    
+    .pd__ex .searchbox-exp #index-form,
+    .pd__ex .his-wrap-new #index-form .index-fix,
+    .pd__ex .se-form,
+    .pd__ex .his-wrap-new .index-fix{
+        background: #121212;
+    }
+    
+    .pd__ex ._YOEeN{
+        background-color:rgba(255,255,255,0.08);
+    }
+    
+    .pd__ex .searchbox-exp .baiduapp-icon:after,
+    .pd__ex .searchbox-exp .call:after,
+    .pd__ex .baiduapp-icon:after,
+    .pd__ex .call:after,
+    .pd__ex .baiduapp-icon:before{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex input::placeholder ,
+    .pd__ex .se-encode,
+    .pd__ex .se-input,
+    .pd__ex #index-card .se-form .se-input{
+        color:rgba(255,255,255,0.87);
+    }
+    
+
+    .pd__ex #index-card .his-wrap-new .history-clear-p{
+        color:rgba(255,255,255,0.6);
+    }
+    
 }
 
 
@@ -436,6 +468,10 @@ a[data-module=entrance]{
     
     .y6cf36h:after{
         border:none!important;
+    }
+    
+    .pd__ex .ms-weather-daliy-icon__17srr{
+        filter: brightness(0) invert(0.8);
     }
 }
 
@@ -1363,6 +1399,20 @@ a[data-type="native_ad"]{
     
     .wgt-rel-exp-feed .rel-exp-feed .rel-exp-feed-item .rel-exp-feed-item-img-wrap .rel-exp-feed-item-img{
         filter: brightness(0.8);
+    }
+    
+    
+    .wgt-exp-tool header h3,
+    .wgt-notice header h3{
+        color:rgba(255,255,255,0.87)!important;
+    }
+    
+    .wgt-exp-tool .wp span{
+        color:rgba(255,255,255,0.6)!important;
+    }
+    
+    .a-pd-lr-12{
+        display:none!important;
     }
     
 }

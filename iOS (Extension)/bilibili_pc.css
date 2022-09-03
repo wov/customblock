@@ -32,6 +32,11 @@ body{
 /*    display:none!important;*/
 /*}*/
 
+
+.pd__ex .trial-feed-wrap{
+    display:none;
+}
+
 .bili-header .bili-header__banner{
     min-width: unset!important;
 }
@@ -156,8 +161,10 @@ body{
     display:block!important;
 }
 
+/*换一换按钮*/
 .pd__ex .roll-btn-wrap,
-.pd__ex .recommended-container .feed-roll-btn[data-v-2e69d16c]{
+.pd__ex .recommended-container .feed-roll-btn[data-v-2e69d16c],
+.pd__ex .recommended-container .feed-roll-btn.smallest[data-v-d758ffb0]{
     top : -80px;
     transform:unset;
 }
@@ -193,18 +200,29 @@ body > .lt-row{
 
 .pd__ex .recommended-container .first-paint[data-v-2e69d16c]{
     display:block;
-    padding: 0 10px;
+/*    padding: 0 10px;*/
 }
 
 
-.pd__ex .recommended-container .first-paint[data-v-2e69d16c] > div{
+
+.pd__ex .recommended-container .container[data-v-d758ffb0]{
+    display:block!important;
+    padding: 0 10px;
+}
+
+.pd__ex .recommended-container .first-paint[data-v-2e69d16c] > div,
+.pd__ex .recommended-card,
+.pd__ex .business-card{
     display: inline-block;
     width: 49%!important;
-    margin: 5px 0.5%;
+    margin: 5px 0.5%!important;
     vertical-align: top;
 }
 
 
+
+
+.pd__ex .recommended-swipe,
 .pd__ex .recommended-container .first-paint[data-v-2e69d16c] > .recommended-swipe{
     display:none;
 }
@@ -216,7 +234,8 @@ body > .lt-row{
 .pd__ex .feed-floor .bangumi-card-shim,
 .pd__ex .feed-floor .variety-body,
 .pd__ex .feed-floor .information-body,
-.pd__ex .feed-floor .movie-card-body{
+.pd__ex .feed-floor .movie-card-body,
+.pd__ex .recommended-container .container[data-v-d758ffb0]{
     grid-gap: unset!important;
 }
 
@@ -364,12 +383,14 @@ body > .lt-row{
     display:none!important;
 }
 
+
+
 .pd__ex .bangumi-card-body{
     display:flex!important;
     flex-wrap:wrap;
     justify-content: space-between;
     padding: 0 10px;
-    grid-gap: unset;
+    grid-gap: unset!important;
 }
 
 
@@ -444,7 +465,7 @@ body > .lt-row{
     flex-wrap:wrap;
     justify-content: space-between;
     padding: 0 10px;
-    grid-gap: unset;
+    grid-gap: unset!important;
 }
 
 .bili-grid .cheese-card-list .cheese-card-body>*:nth-of-type(1n + 7){
@@ -531,16 +552,33 @@ body > .lt-row{
 .pd__ex .manga-card-list .manga-card-body{
     display:flex!important;
     flex-wrap:wrap;
-    justify-content: space-between;
+/*    justify-content: space-between;*/
     padding: 0 10px;
     grid-gap: unset;
 }
 
 .pd__ex .manga-card-list .manga-card-body > div{
     display: block;
+    width: 31%!important;
+    margin: 5px 0.5%;
+}
+
+.pd__ex .feeds-bottom,
+.pd__ex .feeds-bottom-loading{
+    display:flex!important;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    padding: 0 10px;
+    grid-gap: unset!important;
+}
+
+.pd__ex .feeds-bottom > div,
+.pd__ex .feeds-bottom-loading > div{
+    display: block;
     width: 49%!important;
     margin: 5px 0.5%;
 }
+
 
 
 /*去掉一些空窗*/
@@ -550,9 +588,11 @@ body > .lt-row{
 /*}*/
 
 
-.pd__ex .recommended-container .first-paint[data-v-2e69d16c] > div:empty{
+.pd__ex .recommended-container .first-paint[data-v-2e69d16c] > div:empty,
+.pd__ex .business-card:empty,
+.pd__ex .recommended-card:empty{
     width: 0!important;
-    margin: 0;
+    margin: 0!important;
 }
 
 /*.bili-grid .battle-area .battle-body>*:nth-of-type(1n + 5){*/

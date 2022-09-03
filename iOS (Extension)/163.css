@@ -69,6 +69,15 @@ img[lazy=loaded]{
     display:none;
 }
 
+.pd__ex .home-channelNav{
+    max-height:unset;
+}
+
+.pd__ex .home-channelNav .nav-item{
+    margin:0;
+    height: auto;
+}
+
 /*暗黑模式*/
 @media (prefers-color-scheme: dark) {
     body{
@@ -100,10 +109,17 @@ img[lazy=loaded]{
         background:#121212!important;
     }
     
-    .wap-channel-nav .channel-nav{
+    .wap-channel-nav .channel-nav,
+    .pd__ex .home-channelNav{
         background:#121212!important;
     }
     
+
+    .pd__ex .home-channelNav .s-more{
+        background:#121212;
+        display:none;
+    }
+
     .subchannel-bar{
         background:#121212!important;
     }
@@ -403,7 +419,11 @@ main > article{
     /*有可能会显示出来的推荐列表*/
     .pd__ex .recommend h3,
     .pd__ex .card-recommend-oneImg article h4,
-    .pd__ex .card-recommend-threeImg article h4{
+    .pd__ex .card-recommend-threeImg article h4,
+    .pd__ex .cards-oneImg article h4,
+    .pd__ex .cards-threeImg article h4,
+    .pd__ex .cards-bigImg article h4,
+    .pd__ex .cards-threeImg{
         color: rgba(255,255,255,0.87);
     }
 }

@@ -199,6 +199,13 @@
             "*://blog.csdn.net/*"
         ]
     },{
+        "js" : [
+            "csdn.js"
+        ],
+        "matches" : [
+            "*://blog.csdn.net/*"
+        ]
+    },{
         "css" : [
             "sohu.css"
         ],

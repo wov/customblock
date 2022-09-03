@@ -101,7 +101,7 @@ function BlockContent(){
         // 添加屏蔽的功能
         // up主的名字..
         const upDom = i.querySelector('.up-name,.bili-video-card__info--author,.bili-live-card__info--uname');
-        const titleDom = i.querySelector('.bili-video-card__info--tit,.bili-live-card__info--tit,.bili-movie-card__info--tit');
+        const titleDom = i.querySelector('.bili-video-card__info--tit,.bili-live-card__info--tit,.bili-movie-card__info--tit,.video-name,.info .title');
                 
         if(upDom){
             let up = upDom.textContent.replaceAll(/\s+/g, '');

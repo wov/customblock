@@ -90,6 +90,10 @@
 				<key>Script</key>
 				<string>dianping.js</string>
 			</dict>
+			<dict>
+				<key>Script</key>
+				<string>csdn.js</string>
+			</dict>
 		</array>
 		<key>SFSafariStyleSheet</key>
 		<array>

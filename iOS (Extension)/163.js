@@ -23,11 +23,10 @@ var BlockedChannelCount = 0;
 
 // 添加关闭按钮
 function addCloseAndHideResult(){
-    
     BlockedChannelCount = 0;
-    
     // 关闭频道
-    let results = document.querySelectorAll('.section-channel');
+    let results = document.querySelectorAll('.section-channel,main > section.home-channelNews');
+    
     results.forEach(function(_r) {
         if(_r.querySelector('.__pudding_close')){return;}
         
