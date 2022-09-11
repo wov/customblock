@@ -55,7 +55,8 @@
 .pd__ex .bbs-post-video .bbs-video-backflow,
 .pd__ex .bbs-video-bottom,
 .pd__ex .ahmp-player-togglepause,
-.pd__ex .ahmp-player-loading{
+.pd__ex .ahmp-player-loading,
+.pd__ex #section_homtpop{
     display:none!important;
 }
 
@@ -66,4 +67,14 @@
 
 .pd__ex .pgc-details>.video #youkuplayer+div{
     display:none;
+}
+
+
+.pd__ex section.wrapper > section > ol{
+    display:none;
+}
+
+body{
+    overflow:auto!important;
+    position:relative!important;
 }

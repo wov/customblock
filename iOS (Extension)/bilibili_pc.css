@@ -205,7 +205,7 @@ body > .lt-row{
 
 
 
-.pd__ex .recommended-container .container[data-v-d758ffb0]{
+.pd__ex .recommended-container .container{
     display:block!important;
     padding: 0 10px;
 }
@@ -218,9 +218,6 @@ body > .lt-row{
     margin: 5px 0.5%!important;
     vertical-align: top;
 }
-
-
-
 
 .pd__ex .recommended-swipe,
 .pd__ex .recommended-container .first-paint[data-v-2e69d16c] > .recommended-swipe{
