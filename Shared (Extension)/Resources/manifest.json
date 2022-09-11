@@ -22,8 +22,7 @@
         "js" : ["pudding_global.js"],
         "matches" : [
             "*://*.v2ex.com/*",
-            "*://*.zhihu.com/*",
-            "*://blog.csdn.net/*"
+            "*://*.zhihu.com/*"
         ]
     },{
         "css" : ["163.css"],

@@ -94,7 +94,9 @@ struct Websites: View {
             WebSite(name:"千牛后台",url: "https://myseller.taobao.com/",types: [.pc]),
             WebSite(name:"汽车之家",url: "https://m.autohome.com.cn",types: [.additional,.video]),
             WebSite(name:"淘宝网",url: "https://taobao.com",types: [.additional]),
-            WebSite(name:"点评网",url: "https://m.dianping.com",types: [.additional])
+            WebSite(name:"点评网",url: "https://m.dianping.com",types: [.additional]),
+            WebSite(name:"csdn",url: "https://blog.csdn.net",types: [.additional])
+
         ]
         
         List{

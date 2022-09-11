@@ -15,3 +15,12 @@
 .pd__ex .feed-Sign-span{
     display: none!important;
 }
+
+
+.pd__ex pre:hover .hljs-button{
+    display:none!important;
+}
+
+.pd__ex .__pudding_copy{
+    color: #f2f2f2;
+}
