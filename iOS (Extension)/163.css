@@ -216,6 +216,18 @@ img[lazy=loaded]{
     
 }
 
+/*抗疫频道*/
+@media (prefers-color-scheme: dark) {
+    
+    
+    .pd__ex .banner-list{
+        background-color: var(--puddingdark-main-bgcolor);
+    }
+    
+    .pd__ex .ncov{
+        background-color: var(--puddingdark-main-bgcolor);
+    }
+}
 
 /*广告*/
 .m_colum_a_d{

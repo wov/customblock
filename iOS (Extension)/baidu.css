@@ -473,6 +473,36 @@ a[data-module=entrance]{
     .pd__ex .ms-weather-daliy-icon__17srr{
         filter: brightness(0) invert(0.8);
     }
+    
+    
+    /* 知道组件*/
+    
+    .pd__ex .comment-item__2mxDF{
+        background-color:#121212;
+    }
+    
+    .pd__ex .sfa-view .sfa-head{
+        background-color:#121212;
+        color:rgba(255,255,255,0.87);
+        border-color:rgba(255,255,255,0.08);
+    }
+    
+    .pd__ex .sfa-view .sfa-title{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex  .nav-wrap-color__iuCWn{
+        background-color:#121212;
+    }
+    
+    .pd__ex  .nav__2BQpN{
+        background-color:rgba(255,255,255,0.08);
+    }
+    
+    .pd__ex  .nav__2BQpN .nav-selected__2BhtL{
+        background-color:rgba(255,255,255,0.08);
+    }
+    
 }
 
 /***视频页面***/
@@ -1647,5 +1677,26 @@ a[data-type="native_ad"]{
     .pd__ex  .health-barea[data-a-49854473]   .swan-ad-fc-wz[data-a-10fdf4bc]{
         background-color:rgba(255,255,255,0.08)!important;
     }
+    
+}
+
+
+/*.sfa-view?? */
+
+
+@media (prefers-color-scheme: dark) {
+   .pd__ex .sfa-view,.pd__ex .header-wrap__1HtkN{
+       background:#121212;
+   }
+   
+   .pd__ex  .content__3B_bq{
+       background:#121212;
+   }
+   
+   .pd__ex .ad-wrapper__2W5E-,
+   .pd__ex .rec-wrapper__2z94K,
+   .pd__ex .feed-content-wrap__3dzVd{
+       background-color:rgba(255,255,255,0.08);
+   }
     
 }

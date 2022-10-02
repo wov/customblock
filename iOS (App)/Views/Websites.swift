@@ -117,19 +117,24 @@ struct Websites: View {
             }
             
             Section( header: Text("图标说明")){
-                ForEach(types.allCases, id: \.self ){ type in
-                    HStack{
-                        type.icon
-                        Spacer()
-                        VStack(alignment: .trailing){
-                            Text( type.describe )
-                                .font(.footnote)
-                            Text( type.note )
-                                .font(.footnote)
-                                .foregroundColor(Color.gray)
+                Group{
+                    ForEach(types.allCases, id: \.self ){ type in
+                        HStack{
+                            Text("")
+                            type.icon
+                            Spacer()
+                            VStack(alignment: .trailing){
+                                Text( type.describe )
+                                    .font(.footnote)
+                                Text( type.note )
+                                    .font(.footnote)
+                                    .foregroundColor(Color.gray)
+                            }
+                            
                         }
                     }
                 }
+            
             }
             
             Section( header: Text("提交需求")){
