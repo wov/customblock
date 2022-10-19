@@ -509,6 +509,17 @@ main > article{
         color:rgba(255,255,255,0.87);
     }
     
+    
+    /* 汽车  */
+    .pd__ex  .link-auto,
+    .pd__ex  .widget-subNav,
+    .pd__ex .widget-topNav{
+        background:#121212;
+    }
+    
+    /*   轻松一刻频道 */
+    
+    
 }
 
 /**选择城市页面**/

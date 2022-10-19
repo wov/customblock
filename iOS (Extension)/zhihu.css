@@ -57,130 +57,138 @@ body,body.ModalWrap-body{
 
 /*baidu跳转过来的广告*/
 
-.pd__ex .Baidu-header{
+html .Baidu-header{
     display: none;
 }
 
-.pd__ex .Baidu-ad{
+html .Baidu-ad{
     display:none;
 }
 
 
 @media (prefers-color-scheme: dark) {
     
-    .pd__ex img{
+    html img{
         filter: brightness(0.8);
     }
     
-    .pd__ex body,
-    .pd__ex .ContentItem-title,
-    .pd__ex .pd__ex .QuestionHeader-title,
-    .pd__ex .AuthorInfo-name,
-    .pd__ex .QuestionHeader-title,
-    .pd__ex .css-prp5c,
-    .pd__ex .css-vjs2sl{
+    html body,
+    html .ContentItem-title,
+    html .QuestionHeader-title,
+    html .AuthorInfo-name,
+    html .QuestionHeader-title,
+    html .css-prp5c,
+    html .css-vjs2sl,
+    html .VideoAnswerPlayer-stateBar,
+    html  .VideoAnswerPlayer-state--title{
         color: var(--puddingdark-mainfont-color);
     }
     
-    .pd__ex .ContentItem .RichContent-inner,
-    .pd__ex  .Body--Mobile .RichContent.is-collapsed .RichContent-inner,
-    .pd__ex .MobileAppHeader-searchBox{
+    html .ContentItem .RichContent-inner,
+    html  .Body--Mobile .RichContent.is-collapsed .RichContent-inner,
+    html .MobileAppHeader-searchBox,
+    html  .VideoAnswerPlayer-state--data{
         color: var(--puddingdark-secondfont-color);
     }
     
     
-    .pd__ex .Body--Mobile .RichContent-inner--collapsed .ContentItem-more,
-    .pd__ex .Body--Mobile .RichContent.is-collapsed .RichContent-inner .ContentItem-more,
-    .pd__ex .MobileAppHeader-searchBox{
+    html .Body--Mobile .RichContent-inner--collapsed .ContentItem-more,
+    html .Body--Mobile .RichContent.is-collapsed .RichContent-inner .ContentItem-more,
+    html .MobileAppHeader-searchBox{
         background: none;
     }
     
     
-    .pd__ex .Body--Mobile .RichContent-inner--collapsed .ContentItem-more:before,
-    .pd__ex .Body--Mobile .RichContent.is-collapsed .RichContent-inner .ContentItem-more:before{
+    html .Body--Mobile .RichContent-inner--collapsed .ContentItem-more:before,
+    html .Body--Mobile .RichContent.is-collapsed .RichContent-inner .ContentItem-more:before{
         display:none;
     }
     
     
-    .pd__ex .Post-content-mobile .RichContent-actions.is-fixed,
-    .pd__ex .RichContent-actions{
+    html .Post-content-mobile .RichContent-actions.is-fixed,
+    html .RichContent-actions{
         background: #222;
     }
     
     
-    .pd__ex,
-    .pd__ex .Body--Mobile,
-    .pd__ex .App,
-    .pd__ex .MobileAppHeader,
-    .pd__ex .NotLoggedInTopstoryItem,
-    .pd__ex .MobileAppHeader+.Sticky--holder,
-    .pd__ex .Card{
+    html,
+    html .Body--Mobile,
+    html .App,
+    html .MobileAppHeader,
+    html .NotLoggedInTopstoryItem,
+    html .MobileAppHeader+.Sticky--holder,
+    html .Card{
         background: var(--puddingdark-main-bgcolor);
     }
     
     
-    .pd__ex .NotLoggedInTopstoryItem .ContentItem-more,
-    .pd__ex .ContentItem-more{
+    html .VideoAnswerPlayer-stateBar{
+        background: var(--puddingdark-03dp-bgcolor);
+    }
+    
+    
+    html .NotLoggedInTopstoryItem .ContentItem-more,
+    html .ContentItem-more{
         color:var(--puddingdark-blue-color);
     }
     
-    .pd__ex .ContentItem-actions{
+    html .ContentItem-actions{
         background:none;
     }
     
-    .pd__ex .List-item+.List-item:after,
-    .pd__ex  .Input-wrapper,
-    .pd__ex  .List-header,
-    .pd__ex .css-1i5ys3k hr,
-    .pd__ex .Body--Mobile .Card-header:after,
-    .pd__ex  .BlockTitle{
+    html .List-item+.List-item:after,
+    html  .Input-wrapper,
+    html  .List-header,
+    html .css-1i5ys3k hr,
+    html .Body--Mobile .Card-header:after,
+    html  .BlockTitle{
         border-color: var(--puddingdark-03dp-bgcolor);
     }
     
-    .pd__ex .VoteButton,
-    .pd__ex .Button--link:hover,
-    .pd__ex .Button--plain:hover{
+    html .VoteButton,
+    html .Button--link:hover,
+    html .Button--plain:hover{
         background: rgba(18,18,18,0.8)!important;
     }
     
     /* 知乎专栏 */
-    .pd__ex .Post-content,
-    .pd__ex .KfeCollection-VipRecommendCard{
+    html .Post-content,
+    html .KfeCollection-VipRecommendCard{
         background: var(--puddingdark-main-bgcolor);
     }
     
-    .pd__ex .Post-Author .AuthorInfo-name,
-    .pd__ex .FeeConsultCard>div:first-of-type>div:first-child,
-    .pd__ex .css-1i5ys3k .LinkCard.new .LinkCard-title,
-    .pd__ex .CPSCommonCard-title,
-    .pd__ex .KfeCollection-VipRecommendCard-title,
-    .pd__ex .css-n51fzv,
-    .pd__ex .BlockTitle,
-    .pd__ex .Column-ColumnItem .ContentItem-title,
-    .pd__ex .MobilePostItem-Title{
+    html .Post-Author .AuthorInfo-name,
+    html .FeeConsultCard>div:first-of-type>div:first-child,
+    html .css-1i5ys3k .LinkCard.new .LinkCard-title,
+    html .CPSCommonCard-title,
+    html .KfeCollection-VipRecommendCard-title,
+    html .css-n51fzv,
+    html .BlockTitle,
+    html .Column-ColumnItem .ContentItem-title,
+    html .MobilePostItem-Title{
         color: var(--puddingdark-mainfont-color);
     }
     
-    .pd__ex .Post-Author .AuthorInfo-detail,
-    .pd__ex .AuthorInfo-badgeText,
-    .pd__ex .FeeConsultCard-times, html[data-theme=dark] .FeeConsultCard-times,
-    .pd__ex .css-1i5ys3k .LinkCard.new .LinkCard-desc,
-    .pd__ex .CPSCommonCard-subtitle-text,
-    .pd__ex .KfeCollection-VipRecommendCard-content{
+    html .Post-Author .AuthorInfo-detail,
+    html .AuthorInfo-badgeText,
+    html .FeeConsultCard-times, html[data-theme=dark] .FeeConsultCard-times,
+    html .css-1i5ys3k .LinkCard.new .LinkCard-desc,
+    html .CPSCommonCard-subtitle-text,
+    html .KfeCollection-VipRecommendCard-content{
         color: var(--puddingdark-secondfont-color);
     }
     
     
-    .pd__ex .FeeConsultCard,
-    .pd__ex .css-1i5ys3k .LinkCard.new,
-    .pd__ex  .css-1i5ys3k pre,
-    .pd__ex .GoodsRecommendCard{
+    html .FeeConsultCard,
+    html .css-1i5ys3k .LinkCard.new,
+    html  .css-1i5ys3k pre,
+    html .GoodsRecommendCard{
         background-color: var(--puddingdark-03dp-bgcolor);
     }
     
-    .pd__ex .Post-Author-Mobile,
-    .pd__ex .KfeCollection-VipRecommendCard-article,
-    .pd__ex  .MobilePostItem{
+    html .Post-Author-Mobile,
+    html .KfeCollection-VipRecommendCard-article,
+    html  .MobilePostItem{
         border-color: var(--puddingdark-03dp-bgcolor);
     }
     
@@ -188,67 +196,67 @@ body,body.ModalWrap-body{
     
     
     /*登陆界面*/
-    .pd__ex .Login,
-    .pd__ex input.Input,
-    .pd__ex .SignFlowInput-errorMask,
-    .pd__ex .Input-wrapper.is-focus,
-    .pd__ex .Input-wrapper{
+    html .Login,
+    html input.Input,
+    html .SignFlowInput-errorMask,
+    html .Input-wrapper.is-focus,
+    html .Input-wrapper{
         background: var(--puddingdark-main-bgcolor);
     }
     
-    .pd__ex input.Input,
-    .pd__ex .Login .Input-wrapper,
-    .pd__ex .Button--plain:hover,
-    .pd__ex html[data-theme=dark] .Button--plain:hover{
+    html input.Input,
+    html .Login .Input-wrapper,
+    html .Button--plain:hover,
+    html html[data-theme=dark] .Button--plain:hover{
         color: var(--puddingdark-secondfont-color);
     }
     
-    .pd__ex .Login-footer .Button,
-    .pd__ex .Login-footer a,
-    .pd__ex .Login-signinTypes .Button,
-    .pd__ex .Login-signinTypes a{
+    html .Login-footer .Button,
+    html .Login-footer a,
+    html .Login-signinTypes .Button,
+    html .Login-signinTypes a{
         color:var(--puddingdark-blue-color);
     }
     
 
     /*个人主页*/
     
-    .pd__ex .ProfileBar{
+    html .ProfileBar{
         background: var(--puddingdark-main-bgcolor);
     }
     
-    .pd__ex .Tabs-link{
+    html .Tabs-link{
         color: var(--puddingdark-mainfont-color);
     }
     
-    .pd__ex .Profile-headline{
+    html .Profile-headline{
         color: var(--puddingdark-secondfont-color);
     }
     
     /*写问答*/
     
-    .pd__ex .css-ud510h{
+    html .css-ud510h{
         background: var(--puddingdark-main-bgcolor);
     }
     
-    .pd__ex .css-b574el,
-    .pd__ex .zed-HeaderBlot,
-    .pd__ex  .css-1jg6wq6{
+    html .css-b574el,
+    html .zed-HeaderBlot,
+    html  .css-1jg6wq6{
         color: var(--puddingdark-mainfont-color);
     }
     
-    .pd__ex svg,
-    .pd__ex path{
+    html svg,
+    html path{
 /*        stroke: var(--puddingdark-secondfont-color);*/
     }
     
-    .pd__ex  .MobileModal{
+    html  .MobileModal{
         background-color: #222;
         box-shadow:none;
     }
     
     
-    .pd__ex .css-1gfesro{
+    html .css-1gfesro{
         background: #222;
     }
 

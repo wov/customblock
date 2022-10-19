@@ -153,6 +153,10 @@
         text-shadow:none!important;
     }
     
+    .pd__ex .cell_ops{
+        background:#121212;
+    }
+    
 
     
 }
