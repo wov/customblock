@@ -1,5 +1,15 @@
 /**知乎详情页**/
 /*去掉打开时的遮罩层*/
+:root{
+    --puddingdark-mainfont-color: rgba(255,255,255,0.87);
+    --puddingdark-secondfont-color: rgba(255,255,255,0.6);
+    --puddingdark-border-color: rgba(255,255,255,0.08);
+    --puddingdark-main-bgcolor: #121212;
+    --puddingdark-03dp-bgcolor: rgba(255,255,255,0.08);
+    --puddingdark-blue-color: rgb(10,132,255);
+}
+
+
 
 .ModalWrap{
     display:none!important;
@@ -38,12 +48,12 @@ body,body.ModalWrap-body{
 }
 
 /*在dark下隐藏亮色的*/
-@media (prefers-color-scheme: dark) {
-    html[data-theme="light"]{
-        display:none;
-        background:#121212;
-    }
-}
+/*@media (prefers-color-scheme: dark) {*/
+/*    html[data-theme="light"]{*/
+/*        display:none;*/
+/*        background:#121212;*/
+/*    }*/
+/*}*/
 
 /*baidu跳转过来的广告*/
 
@@ -53,4 +63,193 @@ body,body.ModalWrap-body{
 
 .pd__ex .Baidu-ad{
     display:none;
+}
+
+
+@media (prefers-color-scheme: dark) {
+    
+    .pd__ex img{
+        filter: brightness(0.8);
+    }
+    
+    .pd__ex body,
+    .pd__ex .ContentItem-title,
+    .pd__ex .pd__ex .QuestionHeader-title,
+    .pd__ex .AuthorInfo-name,
+    .pd__ex .QuestionHeader-title,
+    .pd__ex .css-prp5c,
+    .pd__ex .css-vjs2sl{
+        color: var(--puddingdark-mainfont-color);
+    }
+    
+    .pd__ex .ContentItem .RichContent-inner,
+    .pd__ex  .Body--Mobile .RichContent.is-collapsed .RichContent-inner,
+    .pd__ex .MobileAppHeader-searchBox{
+        color: var(--puddingdark-secondfont-color);
+    }
+    
+    
+    .pd__ex .Body--Mobile .RichContent-inner--collapsed .ContentItem-more,
+    .pd__ex .Body--Mobile .RichContent.is-collapsed .RichContent-inner .ContentItem-more,
+    .pd__ex .MobileAppHeader-searchBox{
+        background: none;
+    }
+    
+    
+    .pd__ex .Body--Mobile .RichContent-inner--collapsed .ContentItem-more:before,
+    .pd__ex .Body--Mobile .RichContent.is-collapsed .RichContent-inner .ContentItem-more:before{
+        display:none;
+    }
+    
+    
+    .pd__ex .Post-content-mobile .RichContent-actions.is-fixed,
+    .pd__ex .RichContent-actions{
+        background: #222;
+    }
+    
+    
+    .pd__ex,
+    .pd__ex .Body--Mobile,
+    .pd__ex .App,
+    .pd__ex .MobileAppHeader,
+    .pd__ex .NotLoggedInTopstoryItem,
+    .pd__ex .MobileAppHeader+.Sticky--holder,
+    .pd__ex .Card{
+        background: var(--puddingdark-main-bgcolor);
+    }
+    
+    
+    .pd__ex .NotLoggedInTopstoryItem .ContentItem-more,
+    .pd__ex .ContentItem-more{
+        color:var(--puddingdark-blue-color);
+    }
+    
+    .pd__ex .ContentItem-actions{
+        background:none;
+    }
+    
+    .pd__ex .List-item+.List-item:after,
+    .pd__ex  .Input-wrapper,
+    .pd__ex  .List-header,
+    .pd__ex .css-1i5ys3k hr,
+    .pd__ex .Body--Mobile .Card-header:after,
+    .pd__ex  .BlockTitle{
+        border-color: var(--puddingdark-03dp-bgcolor);
+    }
+    
+    .pd__ex .VoteButton,
+    .pd__ex .Button--link:hover,
+    .pd__ex .Button--plain:hover{
+        background: rgba(18,18,18,0.8)!important;
+    }
+    
+    /* 知乎专栏 */
+    .pd__ex .Post-content,
+    .pd__ex .KfeCollection-VipRecommendCard{
+        background: var(--puddingdark-main-bgcolor);
+    }
+    
+    .pd__ex .Post-Author .AuthorInfo-name,
+    .pd__ex .FeeConsultCard>div:first-of-type>div:first-child,
+    .pd__ex .css-1i5ys3k .LinkCard.new .LinkCard-title,
+    .pd__ex .CPSCommonCard-title,
+    .pd__ex .KfeCollection-VipRecommendCard-title,
+    .pd__ex .css-n51fzv,
+    .pd__ex .BlockTitle,
+    .pd__ex .Column-ColumnItem .ContentItem-title,
+    .pd__ex .MobilePostItem-Title{
+        color: var(--puddingdark-mainfont-color);
+    }
+    
+    .pd__ex .Post-Author .AuthorInfo-detail,
+    .pd__ex .AuthorInfo-badgeText,
+    .pd__ex .FeeConsultCard-times, html[data-theme=dark] .FeeConsultCard-times,
+    .pd__ex .css-1i5ys3k .LinkCard.new .LinkCard-desc,
+    .pd__ex .CPSCommonCard-subtitle-text,
+    .pd__ex .KfeCollection-VipRecommendCard-content{
+        color: var(--puddingdark-secondfont-color);
+    }
+    
+    
+    .pd__ex .FeeConsultCard,
+    .pd__ex .css-1i5ys3k .LinkCard.new,
+    .pd__ex  .css-1i5ys3k pre,
+    .pd__ex .GoodsRecommendCard{
+        background-color: var(--puddingdark-03dp-bgcolor);
+    }
+    
+    .pd__ex .Post-Author-Mobile,
+    .pd__ex .KfeCollection-VipRecommendCard-article,
+    .pd__ex  .MobilePostItem{
+        border-color: var(--puddingdark-03dp-bgcolor);
+    }
+    
+    
+    
+    
+    /*登陆界面*/
+    .pd__ex .Login,
+    .pd__ex input.Input,
+    .pd__ex .SignFlowInput-errorMask,
+    .pd__ex .Input-wrapper.is-focus,
+    .pd__ex .Input-wrapper{
+        background: var(--puddingdark-main-bgcolor);
+    }
+    
+    .pd__ex input.Input,
+    .pd__ex .Login .Input-wrapper,
+    .pd__ex .Button--plain:hover,
+    .pd__ex html[data-theme=dark] .Button--plain:hover{
+        color: var(--puddingdark-secondfont-color);
+    }
+    
+    .pd__ex .Login-footer .Button,
+    .pd__ex .Login-footer a,
+    .pd__ex .Login-signinTypes .Button,
+    .pd__ex .Login-signinTypes a{
+        color:var(--puddingdark-blue-color);
+    }
+    
+
+    /*个人主页*/
+    
+    .pd__ex .ProfileBar{
+        background: var(--puddingdark-main-bgcolor);
+    }
+    
+    .pd__ex .Tabs-link{
+        color: var(--puddingdark-mainfont-color);
+    }
+    
+    .pd__ex .Profile-headline{
+        color: var(--puddingdark-secondfont-color);
+    }
+    
+    /*写问答*/
+    
+    .pd__ex .css-ud510h{
+        background: var(--puddingdark-main-bgcolor);
+    }
+    
+    .pd__ex .css-b574el,
+    .pd__ex .zed-HeaderBlot,
+    .pd__ex  .css-1jg6wq6{
+        color: var(--puddingdark-mainfont-color);
+    }
+    
+    .pd__ex svg,
+    .pd__ex path{
+/*        stroke: var(--puddingdark-secondfont-color);*/
+    }
+    
+    .pd__ex  .MobileModal{
+        background-color: #222;
+        box-shadow:none;
+    }
+    
+    
+    .pd__ex .css-1gfesro{
+        background: #222;
+    }
+
 }

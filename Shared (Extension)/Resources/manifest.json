@@ -21,8 +21,7 @@
     "content_scripts": [{
         "js" : ["pudding_global.js"],
         "matches" : [
-            "*://*.v2ex.com/*",
-            "*://*.zhihu.com/*"
+            "*://*.v2ex.com/*"
         ]
     },{
         "css" : ["163.css"],
@@ -62,7 +61,6 @@
         "matches" : ["*://*.xiaohongshu.com/*"]
     },{
         "css" : [
-            "pudding_global.css",
             "zhihu.css"
         ],
         "matches" : ["*://*.zhihu.com/*"]
