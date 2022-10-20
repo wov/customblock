@@ -284,6 +284,16 @@
         "matches" : [
             "*://m.dianping.com/*"
         ]
+    },{
+        "js" : ["jandan.js"],
+        "matches" : [
+            "*://i.jandan.net/*"
+        ]
+    },{
+        "css" : ["jandan.css"],
+        "matches" : [
+            "*://i.jandan.net/*"
+        ]
     }],
 
     "browser_action": {

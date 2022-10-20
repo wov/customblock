@@ -1,0 +1,72 @@
+
+:root{
+    --puddingdark-mainfont-color: rgba(255,255,255,0.87);
+    --puddingdark-secondfont-color: rgba(255,255,255,0.6);
+    --puddingdark-border-color: rgba(255,255,255,0.08);
+    --puddingdark-main-bgcolor: #121212;
+    --puddingdark-03dp-bgcolor: rgba(255,255,255,0.08);
+    --puddingdark-blue-color: rgb(10,132,255);
+}
+
+/*dark mode*/
+@media (prefers-color-scheme: dark) {
+    .pd__ex img{
+        filter: brightness(0.8);
+    }
+    
+    body.pd__ex,
+    .pd__ex  #headerwrapper,
+    .pd__ex #maincontent{
+        background-color : var(--puddingdark-main-bgcolor);
+    }
+    
+    body.pd__ex,
+    .pd__ex #maincontent h2.thetitle,
+    .pd__ex #maincontent h2.thetitle a,
+    .pd__ex #maincontent h2.thetitlesingle,
+    .pd__ex #maincontent .postpage h2.thetitle,
+    .pd__ex #maincontent h1.thetitle a,
+    .pd__ex  #maincontent .postinfo{
+        color : var(--puddingdark-mainfont-color);
+    }
+    
+    
+    .pd__ex #maincontent div .indexs,
+    .pd__ex #maincontent .entry, #maincontent .entrytext,
+    .pd__ex input,
+    .pd__ex textarea{
+        color : var(--puddingdark-secondfont-color);
+    }
+    
+    .pd__ex #maincontent .post:after,
+    .pd__ex #maincontent hr:after,
+    .pd__ex #maincontent #respond:before,
+    .pd__ex input,
+    .pd__ex textarea,
+    .pd__ex  #maincontent blockquote,
+    .pd__ex #maincontent ol.commentlist li:after,
+    .pd__ex .hot-tabs .current-tab,
+    .pd__ex  .tucao-hot{
+        background : var(--puddingdark-03dp-bgcolor);
+    }
+    
+    .pd__ex  #maincontent hr{
+        color : var(--puddingdark-03dp-bgcolor);
+    }
+    
+    .pd__ex a{
+        color : var(--puddingdark-blue-color);
+    }
+    
+    .pd__ex .tucao-row,
+    .pd__ex .jandan-tucao,
+    .pd__ex .tucao-list,
+    .pd__ex .wp-pagenavi a,
+    .pd__ex .hot-tabs .hot-tab,
+    .pd__ex .hot-tabs,
+    .pd__ex .tucao-hot{
+        border-color:var(--puddingdark-03dp-bgcolor);
+    }
+    
+    
+}

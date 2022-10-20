@@ -1,5 +1,3 @@
-/**知乎详情页**/
-/*去掉打开时的遮罩层*/
 :root{
     --puddingdark-mainfont-color: rgba(255,255,255,0.87);
     --puddingdark-secondfont-color: rgba(255,255,255,0.6);
@@ -9,6 +7,10 @@
     --puddingdark-blue-color: rgb(10,132,255);
 }
 
+
+
+/**知乎详情页**/
+/*去掉打开时的遮罩层*/
 
 
 .ModalWrap{
