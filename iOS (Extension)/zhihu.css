@@ -82,14 +82,23 @@ html .Baidu-ad{
     html .css-prp5c,
     html .css-vjs2sl,
     html .VideoAnswerPlayer-stateBar,
-    html  .VideoAnswerPlayer-state--title{
+    html .VideoAnswerPlayer-state--title,
+    html .MobileSearch-container .Tabs-link.is-active,
+    html .HotLanding-ListTitle,
+    html .css-pmb8al{
         color: var(--puddingdark-mainfont-color);
     }
     
     html .ContentItem .RichContent-inner,
     html  .Body--Mobile .RichContent.is-collapsed .RichContent-inner,
     html .MobileAppHeader-searchBox,
-    html  .VideoAnswerPlayer-state--data{
+    html  .VideoAnswerPlayer-state--data,
+    html  .MobileSearch-container .SearchItem-type,
+    html .MobileSearch-container .SearchItem-type,
+    html .MobileSearch-container .SearchItem-meta,
+    html .SpecialItem-titleLabel,
+    html .css-2zro6g,
+    html .Column-ColumnItem .ContentItem-meta{
         color: var(--puddingdark-secondfont-color);
     }
     
@@ -118,14 +127,22 @@ html .Baidu-ad{
     html .App,
     html .MobileAppHeader,
     html .NotLoggedInTopstoryItem,
-    html .MobileAppHeader+.Sticky--holder,
-    html .Card{
+    html .MobileAppHeader+.Sticky--holder{
         background: var(--puddingdark-main-bgcolor);
     }
     
     
-    html .VideoAnswerPlayer-stateBar{
+    html .VideoAnswerPlayer-stateBar,
+    html .SearchTabs,
+    html  .MobileSearch-container .SearchItem-type,
+    html .SpecialItem-titleLabel,
+    html .css-entir{
         background: var(--puddingdark-03dp-bgcolor);
+    }
+    
+    
+    html .Card{
+        background:#141414;
     }
     
     
@@ -139,12 +156,14 @@ html .Baidu-ad{
     }
     
     html .List-item+.List-item:after,
-    html  .Input-wrapper,
-    html  .List-header,
+    html .Input-wrapper,
+    html .List-header,
     html .css-1i5ys3k hr,
     html .Body--Mobile .Card-header:after,
-    html  .BlockTitle{
-        border-color: var(--puddingdark-03dp-bgcolor);
+    html .BlockTitle,
+    html .HotLanding-content,
+    html .HotLanding-contentItem{
+        border-color: var(--puddingdark-03dp-bgcolor)!important;
     }
     
     html .VoteButton,
@@ -261,5 +280,44 @@ html .Baidu-ad{
     html .css-1gfesro{
         background: #222;
     }
+    
+    /*搜索界面*/
+    html .MobileSearch-container{
+        background: var(--puddingdark-main-bgcolor);
+    }
 
+    html .MobileSearch-container,
+    html .MobileHotSearch-title,
+    html .MobileHotSearch-itemTitle,
+    html .MobileHistorySearch-title,
+    html  .MobileSuggestSearch-itemWord{
+        color: var(--puddingdark-mainfont-color);
+    }
+    
+    html .MobileHotSearch-list{
+        border-color:var(--puddingdark-03dp-bgcolor);
+    }
+    
+    html .MobileSuggestSearch-item:after{
+        background:var(--puddingdark-03dp-bgcolor);
+    }
+    
+    /* 搜索学术结果 */
+    
+    html .css-2i2hyg,
+    html .css-15omxox,
+    html .css-1mxm7k0,
+    html .css-vvikez,
+    html .css-1sz5gzk{
+        background:#141414;
+    }
+    
+    html .css-1sz5gzk{
+        border-color:var(--puddingdark-03dp-bgcolor);
+
+    }
+    
+    
+    
+    
 }
