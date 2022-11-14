@@ -503,6 +503,21 @@ a[data-module=entrance]{
         background-color:rgba(255,255,255,0.08);
     }
     
+    /*快递组件 */
+    .pd__ex  .my-express-darkmode__fa_OU{
+        background:#121212;
+    }
+    
+    /* input */
+    .pd__ex .c-input{
+        background:#121212;
+        color:rgba(255,255,255,0.87);
+    }
+    
+    /*  select  */
+    .pd__ex .c-dropdown>select{
+        color:rgba(255,255,255,0.87);
+    }
 }
 
 /***视频页面***/
