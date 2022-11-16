@@ -98,6 +98,10 @@
 				<key>Script</key>
 				<string>jandan.js</string>
 			</dict>
+			<dict>
+				<key>Script</key>
+				<string>hupu.js</string>
+			</dict>
 		</array>
 		<key>SFSafariStyleSheet</key>
 		<array>
@@ -213,6 +217,10 @@
 				<key>Style Sheet</key>
 				<string>jandan.css</string>
 			</dict>
+			<dict>
+				<key>Style Sheet</key>
+				<string>hupu.css</string>
+			</dict>
 		</array>
 		<key>SFSafariWebsiteAccess</key>
 		<dict>
@@ -241,6 +249,7 @@
 				<string>m.mi.com</string>
 				<string>m.dianping.com</string>
 				<string>i.jandan.net</string>
+				<string>m.hupu.com</string>
 			</array>
 		</dict>
 	</dict>

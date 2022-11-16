@@ -26,7 +26,7 @@
     },{
         "css" : ["163.css"],
         "matches" : ["*://3g.163.com/*",
-                    "*://m.home.163.com/*"]
+        "*://m.home.163.com/*"]
     },{
         "css" : ["baidu.css"],
         "matches" : [
@@ -70,11 +70,11 @@
     },{
         "css" : ["36kr.css"],
         "matches" : ["*://m.36kr.com/",
-                    "*://m.36kr.com/p/*"]
+        "*://m.36kr.com/p/*"]
     },{
         "js" : ["36kr.js"],
         "matches" : ["*://m.36kr.com/",
-                    "*://m.36kr.com/p/*"]
+        "*://m.36kr.com/p/*"]
     },{
         "css" : ["sina.css"],
         "matches" : ["*://*.sina.cn/*"]
@@ -91,7 +91,7 @@
         "js" : ["bilibili.js"],
         "matches" : ["*://m.bilibili.com/",
             "*://m.bilibili.com/video/*"
-            ]
+        ]
     },{
         "css" : ["bilibili_pc.css"],
         "matches" : [
@@ -293,6 +293,16 @@
         "css" : ["jandan.css"],
         "matches" : [
             "*://i.jandan.net/*"
+        ]
+    },{
+        "js" : ["hupu.js"],
+        "matches" : [
+            "*://m.hupu.com/*"
+        ]
+    },{
+        "css" : ["hupu.css"],
+        "matches" : [
+            "*://m.hupu.com/*"
         ]
     }],
 
