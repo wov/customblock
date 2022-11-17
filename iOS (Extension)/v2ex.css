@@ -157,6 +157,10 @@
         background:#121212;
     }
     
+    .pd__ex .payload{
+        background:rgba(255,255,255,0.08);
+    }
+    
 
     
 }
