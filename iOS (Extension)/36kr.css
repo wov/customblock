@@ -42,6 +42,9 @@ body{
         filter: brightness(0.8);
     }
     
+    
+    
+    
     .kr-mobile-layout{
         background:#121212!important;
     }
@@ -56,6 +59,12 @@ body{
     .home-banner .banner-list .item-wrapper .banner-item .item-title{
         color: rgba(255,255,255,0.87)!important;
     }
+    
+    
+    .pd__ex .home-banner #home-banner-swiper .banner-item .item-title{
+        color: rgba(255,255,255,0.87);
+    }
+    
     .home-flow .flow-title{
         color: rgba(255,255,255,0.87)!important;
     }
@@ -118,6 +127,11 @@ body{
         box-shadow: none!important;
         line-height: 1.5!important;
         color: rgba(255,255,255,0.87)!important;
+    }
+    
+    .pd__ex .article-praise-image,
+    .pd__ex .des{
+        color: rgba(255,255,255,0.6);
     }
     
     .pd__ex .kr-mobile-footer{

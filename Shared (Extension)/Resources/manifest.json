@@ -150,7 +150,8 @@
             "*://xw.qq.com/cmsid/*",
             "*://xw.qq.com/m/*",
             "*://xw.qq.com/c/coral/*",
-            "*://xw.qq.com/amphtml/*"
+            "*://xw.qq.com/amphtml/*",
+            "*://view.inews.qq.com/k/*"
         ]
     },{
         "css" : ["qq.css"],
@@ -161,7 +162,8 @@
             "*://xw.qq.com/cmsid/*",
             "*://xw.qq.com/m/*",
             "*://xw.qq.com/c/coral/*",
-            "*://xw.qq.com/amphtml/*"
+            "*://xw.qq.com/amphtml/*",
+            "*://view.inews.qq.com/k/*"
         ]
     },{
         "css" : [

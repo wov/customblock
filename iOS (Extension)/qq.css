@@ -10,6 +10,20 @@
     display:none;
 }
 
+
+/*默认展开*/
+.pd__ex div[class*="show-more_wrap__"]{
+    max-height:unset!important;
+}
+
+.pd__ex div[class*="show-more_outer__"]{
+    display:none;
+}
+
+.pd__ex div[class*="show-more-article_cover__"]{
+    display:none;
+}
+
 /*腾讯网*/
 /*https://xw.qq.com/?pgv_ref=amp&ADTAG=amp*/
 
