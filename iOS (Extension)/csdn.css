@@ -1,3 +1,11 @@
+:root{
+    --puddingdark-mainfont-color: rgba(255,255,255,0.87);
+    --puddingdark-secondfont-color: rgba(255,255,255,0.6);
+    --puddingdark-border-color: rgba(255,255,255,0.08);
+    --puddingdark-main-bgcolor: #121212;
+    --puddingdark-03dp-bgcolor: rgba(255,255,255,0.08);
+    --puddingdark-blue-color: rgb(10,132,255);
+}
 
 .pd__ex .wap-shadowbox{
     display:none!important;
@@ -23,4 +31,87 @@
 
 .pd__ex .__pudding_copy{
     color: #f2f2f2;
+}
+
+
+.pd__ex main .feed-Sign-span{
+    display:none;
+}
+
+
+/*暗黑模式*/
+@media (prefers-color-scheme: dark) {
+    
+    /* low down image brightness   */
+    body.pd__ex img{
+        filter: brightness(0.8);
+    }
+    
+    /* main bg color   */
+    .pd__ex,
+    .pd__ex .csdn-toolbar,
+    .pd__ex .csdn-toolbar .csdn-toolbar-box,
+    .pd__ex #m_toolbar_left,
+    .pd__ex .search-wap,
+    .pd__ex .search-wap .search-wap-input,
+    .pd__ex .search-wap-lenovo ul li[data-v-c3cfb928]:active{
+        background-color: var(--puddingdark-main-bgcolor);
+    }
+    
+    /* 03 dp bg color    */
+    .pd__ex .search-wap-lenovo[data-v-c3cfb928],
+    .pd__ex .search-wap-lenovo,
+    .pd__ex .m_toolbar_left_unit ul li div,
+    .pd__ex #app .history .history-list li{
+        background-color: var(--puddingdark-03dp-bgcolor);
+    }
+    
+    /*  input bg color  */
+    .pd__ex .csdn-toolbar .box_content .search_input,
+    .pd__ex .csdn-toolbar .rightmenu .box_content,
+    .pd__ex .search-wap-input form .input-area[data-v-1c6a9fc0],
+    .pd__ex .search-wap-input form .input-area{
+        background-color: #222;
+    }
+    
+    /*  border color  */
+    .pd__ex .csdn-toolbar .rightmenu .box_content,
+    .pd__ex .search-wap-input form .input-area[data-v-1c6a9fc0],
+    .pd__ex .search-wap-input form .input-area,
+    .pd__ex .search-wap-input[data-v-1c6a9fc0],
+    .pd__ex .search-wap-lenovo ul li[data-v-c3cfb928]{
+        border-color: var(--puddingdark-03dp-bgcolor);
+    }
+    
+    /*  some gray images turn to white  */
+    .pd__ex .csdn-toolbar .logo,
+    .pd__ex  .csdn-toolbar .toolbarBack img,
+    .pd__ex .search-wap-input form .back i,
+    .pd__ex .m_toolbar_left_unit ul li div img,
+    .pd__ex  .csdn-toolbar .mToolbarL i{
+        filter: brightness(0) invert(1);
+    }
+    
+    /* main font color   */
+    .pd__ex,
+    .pd__ex  .csdn-toolbar .openApp,
+    .pd__ex .m_toolbar_left_unit h3,
+    .pd__ex .search-wap-input form .input-area .search-input[data-v-1c6a9fc0],
+    .pd__ex .search-wap-input form .input-area .search-input,
+    .pd__ex .history-head-title[data-v-1a30a698]{
+        color: var(--puddingdark-mainfont-color);
+    }
+    
+    .pd__ex  .m_toolbar_left_unit ul li p,
+    .pd__ex  .history .history-list li .search-text[data-v-1a30a698]{
+        color: var(--puddingdark-secondfont-color);
+    }
+    
+    
+    
+    
+    
+    
+    
+    
 }
