@@ -518,6 +518,13 @@ a[data-module=entrance]{
     .pd__ex .c-dropdown>select{
         color:rgba(255,255,255,0.87);
     }
+    
+    /*  世界杯  */
+    
+    .pd__ex .cu-container{
+        background:#121212;
+    }
+    
 }
 
 /***视频页面***/
