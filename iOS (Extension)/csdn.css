@@ -62,15 +62,23 @@
     .pd__ex .search-wap-lenovo[data-v-c3cfb928],
     .pd__ex .search-wap-lenovo,
     .pd__ex .m_toolbar_left_unit ul li div,
-    .pd__ex #app .history .history-list li{
+    .pd__ex #app .history .history-list li,
+    .pd__ex  nav,
+    .pd__ex  main .feedlist_mod li.tip_box{
         background-color: var(--puddingdark-03dp-bgcolor);
+    }
+    
+    .pd__ex nav::before,
+    .pd__ex nav::after{
+        content:none;
     }
     
     /*  input bg color  */
     .pd__ex .csdn-toolbar .box_content .search_input,
     .pd__ex .csdn-toolbar .rightmenu .box_content,
     .pd__ex .search-wap-input form .input-area[data-v-1c6a9fc0],
-    .pd__ex .search-wap-input form .input-area{
+    .pd__ex .search-wap-input form .input-area,
+    .pd__ex main .feed-fix-box{
         background-color: #222;
     }
     
@@ -79,7 +87,8 @@
     .pd__ex .search-wap-input form .input-area[data-v-1c6a9fc0],
     .pd__ex .search-wap-input form .input-area,
     .pd__ex .search-wap-input[data-v-1c6a9fc0],
-    .pd__ex .search-wap-lenovo ul li[data-v-c3cfb928]{
+    .pd__ex .search-wap-lenovo ul li[data-v-c3cfb928],
+    .pd__ex main .feedlist_mod li{
         border-color: var(--puddingdark-03dp-bgcolor);
     }
     
@@ -98,20 +107,24 @@
     .pd__ex .m_toolbar_left_unit h3,
     .pd__ex .search-wap-input form .input-area .search-input[data-v-1c6a9fc0],
     .pd__ex .search-wap-input form .input-area .search-input,
-    .pd__ex .history-head-title[data-v-1a30a698]{
+    .pd__ex .history-head-title[data-v-1a30a698],
+    .pd__ex  nav a.btn-nav.active,
+    .pd__ex main .feedlist_mod li h2 a{
         color: var(--puddingdark-mainfont-color);
     }
     
-    .pd__ex  .m_toolbar_left_unit ul li p,
-    .pd__ex  .history .history-list li .search-text[data-v-1a30a698]{
+    .pd__ex .m_toolbar_left_unit ul li p,
+    .pd__ex .history .history-list li .search-text[data-v-1a30a698],
+    .pd__ex nav a.btn-nav,
+    .pd__ex main .feed-fix-box a,
+    .pd__ex main .feedlist_mod li h2 a:visited,
+    .pd__ex main .feedlist_mod li h2 a:focus,
+    .pd__ex main .feedlist_mod li.tip_box a{
         color: var(--puddingdark-secondfont-color);
     }
     
-    
-    
-    
-    
-    
-    
+    .pd__ex main .feed_loading{
+        filter: invert(1) brightness(0.4);
+    }
     
 }
