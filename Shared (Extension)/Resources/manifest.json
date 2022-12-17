@@ -195,14 +195,16 @@
             "csdn.css"
         ],
         "matches" : [
-            "*://*.csdn.net/*"
+            "*://www.csdn.net/*",
+            "*://*.blog.csdn.net/*"
         ]
     },{
         "js" : [
             "csdn.js"
         ],
         "matches" : [
-            "*://*.csdn.net/*"
+            "*://www.csdn.net/*",
+            "*://*.blog.csdn.net/*"
         ]
     },{
         "css" : [

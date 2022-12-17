@@ -61,11 +61,21 @@ function Copy(content){
 
 function addCopyButton(){
     console.log('addCopyButton');
-    const items = document.querySelectorAll('code');
+    
+    const classNameArray = ['code.has-numbering',
+                            'code.language-Crystal',
+                            'code.language-XML',
+                            'code.language-java',
+                            'code.language-python',
+                            'code.language-cpp',
+                            'code.language-html',
+                            'code.language-js'
+                            ];
+    
+    const classNameString = classNameArray.join(',');
+    const items = document.querySelectorAll(classNameString);
     const CLASSFLAG = "pudding_extension";
     if(!items.length){return;}
-    
-    
     
 //    BlockContent();
     
@@ -85,7 +95,7 @@ function addCopyButton(){
         
         parent.appendChild(copyDom);
         
-        copyDom.textContent = '复制代码';
+        copyDom.textContent = '布丁复制代码';
         
         copyDom.addEventListener('click', e => {
             e.stopPropagation();

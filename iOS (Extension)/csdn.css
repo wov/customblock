@@ -4,7 +4,9 @@
     --puddingdark-border-color: rgba(255,255,255,0.08);
     --puddingdark-main-bgcolor: #121212;
     --puddingdark-03dp-bgcolor: rgba(255,255,255,0.08);
+    --puddingdark-06dp-bgcolor : rgba(255,255,255,0.11);
     --puddingdark-blue-color: rgb(10,132,255);
+    --color-dark-orange: rgb(255, 159, 10);
 }
 
 .pd__ex .wap-shadowbox{
@@ -24,15 +26,13 @@
     display: none!important;
 }
 
-
 .pd__ex pre:hover .hljs-button{
     display:none!important;
 }
 
 .pd__ex .__pudding_copy{
-    color: #f2f2f2;
+    color: #666;
 }
-
 
 .pd__ex main .feed-Sign-span{
     display:none;
@@ -40,6 +40,7 @@
 
 
 /*暗黑模式*/
+/*主页*/
 @media (prefers-color-scheme: dark) {
     
     /* low down image brightness   */
@@ -88,7 +89,9 @@
     .pd__ex .search-wap-input form .input-area,
     .pd__ex .search-wap-input[data-v-1c6a9fc0],
     .pd__ex .search-wap-lenovo ul li[data-v-c3cfb928],
-    .pd__ex main .feedlist_mod li{
+    .pd__ex main .feedlist_mod li,
+    .pd__ex .htmledit_views hr,
+    .pd__ex .markdown_views blockquote{
         border-color: var(--puddingdark-03dp-bgcolor);
     }
     
@@ -127,4 +130,115 @@
         filter: invert(1) brightness(0.4);
     }
     
+}
+
+
+/*详情页*/
+@media (prefers-color-scheme: dark) {
+    
+    html body{
+        background-color: var(--puddingdark-main-bgcolor)!important;
+    }
+    
+    
+    /* main bg color */
+    .pd__ex .aside-header-fixed,
+    .pd__ex  #main .search-tag-box,
+    .pd__ex  #main #operate .content-box{
+        background-color: var(--puddingdark-main-bgcolor);
+    }
+    
+    /* 03dp bg color   */
+    .pd__ex #main .search-tag-box a.search-tag,
+    .pd__ex #main #operate .operate_common span.enter_text,
+    .pd__ex .spec_space,
+    .pd__ex .htmledit_views table tr{
+        background-color: var(--puddingdark-03dp-bgcolor);
+    }
+    
+    /* turn black image to white */
+    .pd__ex .aside-header-fixed img.iconfont,
+    .pd__ex  #main #operate .operate_common img.operate_img{
+        filter: brightness(0) invert(1);
+    }
+    
+    /*  main font color  */
+    .pd__ex #article .article_title,
+    .pd__ex .skill-tree-box .skill-tree-head,
+    .pd__ex #recommend .container-fluid h4,
+    .pd__ex #first_recommend_list .container-fluid h4,
+    .pd__ex  #recommend .container-fluid h4 a,
+    .pd__ex #first_recommend_list .container-fluid h4 a{
+        color: var(--puddingdark-mainfont-color);
+    }
+    
+    /* second font color */
+    .pd__ex .aside-header-fixed span,
+    .pd__ex  #article .creat-time-box .creat-time,
+    .pd__ex  #main .top_user_mod .top_user_info dl dd p .nick_name,
+    .pd__ex #article .article_info .line-detaile,
+    .pd__ex #main #operate .operate_common .count,
+    .pd__ex #main #operate .operate_common span.enter_text,
+    .pd__ex .skill-tree-box .skill-tree-body .skill-tree-href span,
+    .pd__ex .skill-tree-box .skill-tree-body .skill-tree-href i,
+    .pd__ex #recommend .container-fluid .desc .text,
+    .pd__ex #first_recommend_list .container-fluid .desc .text,
+    .pd__ex #article .article_info .code_years,
+    .pd__ex .htmledit_views table tr td,
+    .pd__ex .htmledit_views table tr th{
+        color: var(--puddingdark-secondfont-color);
+    }
+    
+    /*  link font color  */
+    .pd__ex #main .search-tag-box a.search-tag{
+        color:var(--puddingdark-blue-color);
+    }
+    
+    /* border color   */
+    .pd__ex .aside-header-fixed .aside-right a.follow,
+    .pd__ex #article .article_info .top_user_mod,
+    .pd__ex .skill-tree-box .skill-tree-body .skill-tree-item,
+    .pd__ex .htmledit_views table tr,
+    .pd__ex .htmledit_views table tr td,
+    .pd__ex .htmledit_views table tr th{
+        border-color: var(--puddingdark-03dp-bgcolor);
+    }
+    
+    .pd__ex  .container-fluid{
+        border-color: var(--puddingdark-03dp-bgcolor)!important;
+    }
+    
+    
+    .pd__ex .htmledit_views table tr:nth-child(2n),
+    .pd__ex .markdown_views blockquote,
+    .pd__ex .htmledit_views blockquote{
+        background-color: var(--puddingdark-06dp-bgcolor);
+    }
+    
+    /*  main font color need override  */
+    .pd__ex .htmledit_views h1,
+    .pd__ex .htmledit_views h2,
+    .pd__ex .htmledit_views h3,
+    .pd__ex .htmledit_views h4,
+    .pd__ex .htmledit_views h5,
+    .pd__ex .htmledit_views h6,
+    .pd__ex .markdown_views h1,
+    .pd__ex .markdown_views h2,
+    .pd__ex .markdown_views h3,
+    .pd__ex .markdown_views h4,
+    .pd__ex .markdown_views h5,
+    .pd__ex .markdown_views h6,
+    .pd__ex .htmledit_views ul li,
+    .pd__ex .markdown_views ul li{
+        color: var(--puddingdark-mainfont-color)!important;
+    }
+    
+    .pd__ex .htmledit_views p,
+    .pd__ex .markdown_views p{
+        color: var(--puddingdark-secondfont-color)!important;
+    }
+    
+    .pd__ex  #main .search-tag-box{
+        background: var(--puddingdark-main-bgcolor);
+    }
 }
