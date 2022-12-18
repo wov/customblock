@@ -95,8 +95,9 @@ struct Websites: View {
             WebSite(name:"汽车之家",url: "https://m.autohome.com.cn",types: [.additional,.video]),
             WebSite(name:"淘宝网",url: "https://taobao.com",types: [.additional]),
             WebSite(name:"点评网",url: "https://m.dianping.com",types: [.additional]),
-            WebSite(name:"csdn",url: "https://blog.csdn.net",types: [.additional]),
-            WebSite(name:"煎蛋",url: "http://i.jandan.net",types: [.dark])
+            WebSite(name:"csdn",url: "https://blog.csdn.net",types: [.additional,.dark]),
+            WebSite(name:"煎蛋",url: "http://i.jandan.net",types: [.dark]),
+            WebSite(name:"浦东公租房",url: "https://select.pdgzf.com",types: [.additional])
         ]
         
         List{

@@ -1,0 +1,165 @@
+
+
+
+
+/*设置container 宽度*/
+.pd__ex .container{
+    width:100%;
+}
+
+
+@media screen and (max-width: 450px) {
+    
+    .pd__ex #header{
+        position:relative;
+    }
+    
+    
+    .container {
+        width:100% !important
+    }
+
+    .pd__ex .header .container{
+        display:flex;
+        flex-direction: column;
+    }
+    
+    .pd__ex  #header .header .step_tip,
+    .pd__ex  #header .header ul.index_nav{
+        display:flex;
+    }
+    
+    .pd__ex .el-menu:after,
+    .pd__ex.el-menu:before{
+        content: none;
+    }
+    
+    .pd__ex .header ul li a,
+    .pd__ex  .header ul li div{
+        font-size:12px;
+    }
+    
+    .pd__ex .el-menu--horizontal>.el-menu-item,
+    .pd__ex .el-menu--horizontal>.el-submenu .el-submenu__title{
+        height:32px;
+        line-height:32px;
+        padding: 0 8px;
+    }
+    
+    .pd__ex  .header{
+        height:auto;
+    }
+    
+    body.pd__ex  .wapper{
+        padding:0;
+    }
+    
+    .pd__ex .index-wrapper .canSelHouseLists,
+    .pd__ex .index-wrapper .fast_entry,
+    .pd__ex .index-wrapper .site-title:first-of-type,
+    .pd__ex .index-wrapper div.rel .index_search_wrap .abs .addr_btn,
+    .pd__ex .index-wrapper div.rel .index_search_wrap .abs .condition_btn{
+        display:block;
+    }
+    
+    .pd__ex  .el-dialog{
+        max-width:100%;
+    }
+    
+    .pd__ex .el-dialog__body{
+        padding:10px;
+    }
+    
+    .pd__ex  .el-dialog p{
+        font-size:14px!important;
+        line-height:unset!important;
+        word-spacing: -.4ch;/* 清除空格造成的宽度问题，他们用空格来代替padding也是人才。 */
+    }
+    
+    .pd__ex  .el-dialog p:blank {
+        font-size:0;
+    }
+    
+    
+    .pd__ex .el-dialog__body button{
+        max-width: 40%;
+        font-size:16px!important;
+        max-height: 32px;
+    }
+    
+    .pd__ex .el-button{
+        padding:0;
+    }
+    
+    .pd__ex .index-wrapper div.rel .index_search_wrap .abs{
+        display:flex;
+    }
+    
+    .pd__ex  .index-wrapper div.rel .index_search_wrap .abs .el-input{
+        width: 30%;
+    }
+    
+    .pd__ex  button i{
+        margin-right: 0px;
+    }
+    
+    .pd__ex  .index-wrapper div.rel .index_search_wrap button{
+        font-size: 12px;
+        color:#333;
+    }
+    
+    /*有点无语..*/
+    .pd__ex div[classs='getApplyForComListsWrap'],
+    .pd__ex .getApplyForComListsWrap{
+        margin: 0!important;
+    }
+    
+    .pd__ex .rollScreen_container{
+        position: relative;
+    }
+    
+    .pd__ex .fast_IDCard_entry{
+        position:relative;
+    }
+    
+    .pd__ex .index-wrapper .site-title{
+        padding: 10px!important;
+        width:100%;
+        box-sizing: border-box;
+    }
+    
+    .pd__ex .fast_entry li{
+        display: inline-block;
+        width: 49%;
+        text-align:center;
+        margin-bottom: 10px;
+    }
+    
+    .pd__ex .fast_entry li h2{
+        font-size:16px;
+    }
+    
+    .pd__ex .fast_entry li img{
+        max-width:80%;
+        height: auto;
+    }
+    
+    .pd__ex img{
+        max-width:100%;
+        height: auto;
+    }
+    
+    .pd__ex .index-wrapper .index_news_lists{
+        display:none;
+    }
+    
+    
+    .pd__ex .container .collect_btn,
+    .pd__ex  .container .modelPhonebtnWrap,
+    .pd__ex  .container .operation_btn{
+        display:block!important;
+        height:32px;
+    }
+}
+
+

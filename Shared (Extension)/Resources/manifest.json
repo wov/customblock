@@ -308,6 +308,16 @@
         "matches" : [
             "*://m.hupu.com/*"
         ]
+    },{
+        "js" : ["pdgzf.js"],
+        "matches" : [
+            "*://*.pdgzf.com/*"
+        ]
+    },{
+        "css" : ["pdgzf.css"],
+        "matches" : [
+            "*://*.pdgzf.com/*"
+        ]
     }],
 
     "browser_action": {

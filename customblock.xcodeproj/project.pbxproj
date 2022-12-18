@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		830816DE28672EFF0076A2ED /* ke.css in Resources */ = {isa = PBXBuildFile; fileRef = 830816DD28672EFF0076A2ED /* ke.css */; };
 		830816E028672F0D0076A2ED /* ke.js in Resources */ = {isa = PBXBuildFile; fileRef = 830816DF28672F0D0076A2ED /* ke.js */; };
+		83174B2A294ED40D0041DE4F /* pdgzf.js in Resources */ = {isa = PBXBuildFile; fileRef = 83174B29294ED40D0041DE4F /* pdgzf.js */; };
+		83174B2C294ED4210041DE4F /* pdgzf.css in Resources */ = {isa = PBXBuildFile; fileRef = 83174B2B294ED4210041DE4F /* pdgzf.css */; };
 		831955E127C8E1AD00446554 /* xiaohongshu.css in Resources */ = {isa = PBXBuildFile; fileRef = 831955E027C8E1AD00446554 /* xiaohongshu.css */; };
 		831955E327CB662F00446554 /* 163.js in Resources */ = {isa = PBXBuildFile; fileRef = 831955E227CB662F00446554 /* 163.js */; };
 		833AF29F27C9F0E60011C1BC /* sina.css in Resources */ = {isa = PBXBuildFile; fileRef = 833AF29E27C9F0E60011C1BC /* sina.css */; };
@@ -151,6 +153,8 @@
 /* Begin PBXFileReference section */
 		830816DD28672EFF0076A2ED /* ke.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = ke.css; sourceTree = "<group>"; };
 		830816DF28672F0D0076A2ED /* ke.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = ke.js; sourceTree = "<group>"; };
+		83174B29294ED40D0041DE4F /* pdgzf.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = pdgzf.js; sourceTree = "<group>"; };
+		83174B2B294ED4210041DE4F /* pdgzf.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = pdgzf.css; sourceTree = "<group>"; };
 		831955E027C8E1AD00446554 /* xiaohongshu.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = xiaohongshu.css; sourceTree = "<group>"; };
 		831955E227CB662F00446554 /* 163.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = 163.js; sourceTree = "<group>"; };
 		833AF29E27C9F0E60011C1BC /* sina.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = sina.css; sourceTree = "<group>"; };
@@ -439,6 +443,8 @@
 				83EBB687290176C500C9DAF2 /* jandan.js */,
 				83528D7B29252C79003019A7 /* hupu.js */,
 				83528D7D29252C8B003019A7 /* hupu.css */,
+				83174B29294ED40D0041DE4F /* pdgzf.js */,
+				83174B2B294ED4210041DE4F /* pdgzf.css */,
 			);
 			path = "iOS (Extension)";
 			sourceTree = "<group>";
@@ -534,7 +540,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
-				LastUpgradeCheck = 1400;
+				LastUpgradeCheck = 1420;
 				TargetAttributes = {
 					83E016FB2675036B00A30A29 = {
 						CreatedOnToolsVersion = 13.0;
@@ -636,6 +642,7 @@
 				837F025927FC748D00A677BD /* 36kr.js in Resources */,
 				83D4CCC2283249C20053D349 /* tieba.css in Resources */,
 				83CD752727E4D486004CE7AF /* smzdm.css in Resources */,
+				83174B2A294ED40D0041DE4F /* pdgzf.js in Resources */,
 				83CD753527EDED74004CE7AF /* douban.js in Resources */,
 				83528D7C29252C79003019A7 /* hupu.js in Resources */,
 				83417EAD28072D0600BC58BA /* weibo.css in Resources */,
@@ -658,6 +665,7 @@
 				839CD0E527D24DB300E86463 /* bilibili.css in Resources */,
 				83E017382675036B00A30A29 /* _locales in Resources */,
 				83E017402675036B00A30A29 /* content.js in Resources */,
+				83174B2C294ED4210041DE4F /* pdgzf.css in Resources */,
 				83E017462675036B00A30A29 /* popup.js in Resources */,
 				834369612883FCB800540ED2 /* dianping.css in Resources */,
 				837F02612801768C00A677BD /* pudding_global.js in Resources */,
@@ -898,7 +906,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.27.3;
+				MARKETING_VERSION = 1.27.4;
 				PRODUCT_BUNDLE_IDENTIFIER = com.inact.customblock.Extension;
 				PRODUCT_NAME = "customblock Extension";
 				SDKROOT = iphoneos;
@@ -925,7 +933,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.27.3;
+				MARKETING_VERSION = 1.27.4;
 				PRODUCT_BUNDLE_IDENTIFIER = com.inact.customblock.Extension;
 				PRODUCT_NAME = "customblock Extension";
 				SDKROOT = iphoneos;
@@ -959,7 +967,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.27.3;
+				MARKETING_VERSION = 1.27.4;
 				OTHER_LDFLAGS = (
 					"-framework",
 					WebKit,
@@ -995,7 +1003,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.27.3;
+				MARKETING_VERSION = 1.27.4;
 				OTHER_LDFLAGS = (
 					"-framework",
 					WebKit,
@@ -1030,7 +1038,7 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				MARKETING_VERSION = 1.19;
 				PRODUCT_BUNDLE_IDENTIFIER = com.inact.customblock.Extension;
 				PRODUCT_NAME = "customblock Extension";
@@ -1061,7 +1069,7 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				MARKETING_VERSION = 1.19;
 				PRODUCT_BUNDLE_IDENTIFIER = com.inact.customblock.Extension;
 				PRODUCT_NAME = "customblock Extension";
@@ -1095,7 +1103,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				MARKETING_VERSION = 1.19;
 				OTHER_LDFLAGS = (
 					"-framework",
@@ -1133,7 +1141,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				MARKETING_VERSION = 1.19;
 				OTHER_LDFLAGS = (
 					"-framework",
