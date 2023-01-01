@@ -14,3 +14,10 @@ main.content{
     display:none!important;
 }
 
+.bottom-bar{
+    position:relative!important;
+    transform: none!important;
+    left:unset!important;
+    bottom:unset!important;
+    margin: 0 auto;
+}

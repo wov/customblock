@@ -44,7 +44,8 @@
             "*://www.baidu.com/*",
             "*://m.baidu.com/*",
             "*://baike.baidu.com/item/*",
-            "*://gamecenter.baidu.com/static/game/*"
+            "*://gamecenter.baidu.com/static/game/*",
+            "*://zhidao.baidu.com/question/*"
         ]
     },{
         "css" : ["tieba.css"],

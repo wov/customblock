@@ -703,3 +703,12 @@ main > article{
     }
 }
 
+
+/*财经*/
+@media (prefers-color-scheme: dark) {
+    .pd__ex .money-stock li .s-title{
+        color: rgba(255,255,255,0.6);
+    }
+}
+
+

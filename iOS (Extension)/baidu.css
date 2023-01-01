@@ -16,6 +16,18 @@
  disable-text-color : color:rgba(255,255,255,0.38)!important;
  */
 
+:root{
+    --puddingdark-mainfont-color: rgba(255,255,255,0.87);
+    --puddingdark-secondfont-color: rgba(255,255,255,0.6);
+    --puddingdark-border-color: rgba(255,255,255,0.08);
+    --puddingdark-main-bgcolor: #121212;
+    --puddingdark-03dp-bgcolor: rgba(255,255,255,0.08);
+    --puddingdark-06dp-bgcolor : rgba(255,255,255,0.11);
+    --puddingdark-blue-color: rgb(10,132,255);
+    --color-dark-orange: rgb(255, 159, 10);
+}
+
+
 /****百度首页****/
 .pd__ex{
     background:#fff;
@@ -980,7 +992,7 @@ div[class^="wgt-"][class$="-asp"]{
     }
     
     .iknow-root-dom-element .wgt-question{
-        background:#121212!important;
+        background:#222!important;
     }
     
     .iknow-root-dom-element .wgt-question .wgt-question-title h2{
@@ -1076,8 +1088,7 @@ div[class^="wgt-"][class$="-asp"]{
         background:rgba(255,255,255,0.08)!important;
     }
     
-    .iknow-root-dom-element #iknow-common-header .iknow-msg-list,
-    .iknow-root-dom-element #iknow-common-header .appendix{
+    .iknow-root-dom-element #iknow-common-header .iknow-msg-list{
         background:#121212!important;
         opacity:0.95;
     }
@@ -1144,6 +1155,137 @@ div[class^="wgt-"][class$="-asp"]{
     .iknow-root-dom-element .edpvp625e9b h2.dec{
         color:rgba(255,255,255,0.87)!important;
     }
+    
+    .iknow-root-dom-element .wgt-question-container{
+        background:#222!important;
+    }
+    
+    
+    .qb-light-theme .iknow-root-dom-element .replies-container{
+        background:#222!important;
+    }
+    
+    .qb-light-theme .iknow-root-dom-element .question-line-light-theme{
+        display:none!important;
+    }
+    
+    .qb-light-theme .iknow-root-dom-element .replies-container::after{
+        content: none!important;
+    }
+    
+    .iknow-root-dom-element .contextual-earches .contextual-title,
+    .iknow-root-dom-element .single-meta-container .single-meta-top .single-meta-thumb-wp .question-meta-unsupport-num,
+    .iknow-root-dom-element .single-meta-container .single-meta-top .single-meta-thumb-wp .question-meta-support-num{
+        color:rgba(255,255,255,0.6)!important;
+    }
+    
+    .iknow-root-dom-element .single-meta-container .single-meta-top .single-meta-thumb-wp .split{
+        background-color:rgba(255,255,255,0.6)!important;
+    }
+    
+    .iknow-root-dom-element .single-meta-container .single-meta-top .meta-comment-wp .meta-comment-ico,
+    .iknow-root-dom-element .single-meta-container .single-meta-top .meta-transmit-btn,
+    .iknow-root-dom-element .kojyq63b0f9 .w-question-list a .question-list-info .ico-zan{
+        filter: brightness(0) invert(1);
+    }
+    
+    .iknow-root-dom-element .single-up-ads-wrapper.light-theme{
+        display:none;
+    }
+    
+    .iknow-root-dom-element .contextual-earches{
+        background-color:#222!important;
+    }
+    
+    .iknow-root-dom-element .contextual-earches .contextual-list .contextual-item{
+        color:rgba(255,255,255,0.6)!important;
+        background-color:rgba(255,255,255,0.6)!important;
+    }
+    
+    
+    .iknow-root-dom-element .kojyq63b0f9.light-theme{
+        background:#121212;
+    }
+    
+    
+    .iknow-root-dom-element .contextual-earches .contextual-list .contextual-item{
+        background:var(--puddingdark-03dp-bgcolor)!important;
+    }
+    
+    .iknow-root-dom-element .kojyq63b0f9 .w-question-list a .question-list-intro,
+    .iknow-root-dom-element .kojyq63b0f9 .w-question-list a .question-list-info{
+/*        background-color:rgba(255,255,255,0.6)!important;*/
+    }
+    
+    
+    .pd__ex .iknow-root-dom-element .light-theme,
+    .pd__ex .iknow-root-dom-element .feed-recommend.light-theme .feed-recommend-list{
+        background:#222!important;
+    }
+    
+    .pd__ex  .iknow-root-dom-element .light-theme .w-question-list .content-area .title,
+    .pd__ex .iknow-root-dom-element .feed-recommend.light-theme .feed-recommend-item-exp .content-area .title,
+    .pd__ex .iknow-root-dom-element .feed-recommend .feed-recommend-list .feed-recommend-item .item-invite-title{
+        color:var(--puddingdark-mainfont-color)!important;
+    }
+    
+    .pd__ex .iknow-root-dom-element  .w-question-list a .question-list-intro,
+    .pd__ex .iknow-root-dom-element  .w-question-list a .question-list-info,
+    .pd__ex  .iknow-root-dom-element .light-theme .w-question-list .content-area .desc,
+    .pd__ex .iknow-root-dom-element .feed-recommend.light-theme .feed-recommend-item-exp .content-area .desc,
+    .pd__ex .iknow-root-dom-element .feed-recommend.light-theme .feed-recommend-item-exp .other-info,
+    .pd__ex  .iknow-root-dom-element .feed-recommend-title,
+    .pd__ex .iknow-root-dom-element .feed-recommend.light-theme .feed-recommend-item-exp .content-area .video-desc,
+    .pd__ex .iknow-root-dom-element #knowledge-answer-list.knowledge-answer-list-index .w-knowledge-reply-text{
+        color: var(--puddingdark-secondfont-color)!important;
+    }
+    
+    .pd__ex  .iknow-root-dom-element .mm-content-box{
+        background:none!important;
+    }
+    
+    .pd__ex .feed-recommend-item-with-adhere iframe,
+    .pd__ex .mm-content-box iframe,
+    .pd__ex .ui-line[_v-7448dce6],
+    .pd__ex .iknow-root-dom-element  .mm-content-box:after,
+    .pd__ex .iknow-root-dom-element .light-theme::after{
+        display:none!important;
+    }
+    
+    
+    .pd__ex  .iknow-root-dom-element .feed-recommend .feed-recommend-list .feed-recommend-item:before,
+    .pd__ex  .iknow-root-dom-element .light-theme .w-question-list:before,
+    .pd__ex .iknow-root-dom-element .question-answer-container .question-answer-layer:before,
+    .pd__ex  .iknow-root-dom-element .wgt-toggle-header:after,
+    .pd__ex .iknow-root-dom-element .feed-recommend.light-theme .feed-recommend-item-exp .content-area .video-desc,
+    .pd__ex .iknow-root-dom-element #knowledge-answer-list .knowledge-answer-container:before,
+    .pd__ex .iknow-root-dom-element #knowledge-answer-list .wgt-recommend-answer-container:before{
+        background: var(--puddingdark-03dp-bgcolor)!important;
+    }
+    
+    
+    .pd__ex .iknow-root-dom-element #iknow-common-header:before,
+    .pd__ex .iknow-root-dom-element #knowledge-answer-list .knowledge-answer-container .knowledge-answer-buttons .item-btn,
+    .pd__ex .iknow-root-dom-element #knowledge-answer-list .wgt-recommend-answer-container .knowledge-answer-buttons .item-btn{
+        background: var(--puddingdark-03dp-bgcolor);
+    }
+    
+    .pd__ex  .feed-recommend-item-with-adhere *{
+        border-color: var(--puddingdark-03dp-bgcolor)!important;
+    }
+    
+    .pd__ex .iknow-root-dom-element #knowledge-answer-list .knowledge-answer-container .w-knowledge-reply-text .unfold,
+    .pd__ex .iknow-root-dom-element #knowledge-answer-list .wgt-recommend-answer-container .w-knowledge-reply-text .unfold{
+        background: #222;
+    }
+    
+    .pd__ex  .iknow-root-dom-element #knowledge-answer-list .knowledge-answer-container .w-knowledge-reply-text .unfold:before,
+    .pd__ex .iknow-root-dom-element #knowledge-answer-list .wgt-recommend-answer-container .w-knowledge-reply-text .unfold:before{
+        background: linear-gradient(90deg, rgba(34,34,34,0.2) 0%, rgba(34,34,34,1) 100%);
+    }
+     
+     
+
     
 }
 
