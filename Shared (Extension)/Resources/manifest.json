@@ -33,6 +33,7 @@
             "*://www.baidu.com/*",
             "*://m.baidu.com/*",
             "*://baike.baidu.com/item/*",
+            "*://baike.baidu.com/",
             "*://zhidao.baidu.com/question/*",
             "*://baijiahao.baidu.com/s*",
             "*://jingyan.baidu.com/article/*",
@@ -44,6 +45,7 @@
             "*://www.baidu.com/*",
             "*://m.baidu.com/*",
             "*://baike.baidu.com/item/*",
+            "*://baike.baidu.com/",
             "*://gamecenter.baidu.com/static/game/*",
             "*://zhidao.baidu.com/question/*"
         ]

@@ -921,6 +921,72 @@ body.scrollHide{
         border-color:rgba(255,255,255,0.08)!important;
     }
     
+    
+    /* 03dp-bgcolor   */
+    .pd__ex .baike-app-view .declare{
+        background: var(--puddingdark-03dp-bgcolor);
+    }
+    
+    /* second font color  */
+    .pd__ex  .baike-app-view .declare,
+    .pd__ex .baike-app-view .lemma-pinyin .pinyin-text{
+        color: var(--puddingdark-secondfont-color);
+    }
+    
+    .pd__ex  .baike-app-view .authority-list .wapBrand .wapBrand-content .wapBrand-logo-name,
+    .pd__ex .baike-app-view .authority-list .wapBrand .wapBrand-content .provide-user{
+        color: var(--puddingdark-mainfont-color);
+    }
+    
+    /* low down the border color.   */
+    .pd__ex .baike-app-view .extra-info-n .extra-list-item.extra-polysemant .more-means,
+    .pd__ex .baike-app-view .topbar{
+        border-color:  var(--puddingdark-03dp-bgcolor)!important;
+    }
+    
+    /* 百科首页.. */
+    /*  main bg color */
+    .pd__ex .rt-view .rt-head,
+    .pd__ex .baike-app-view .content-wrapper,
+    .pd__ex .baike-app-view .topbar,
+    .pd__ex .baike-app-view .home-audio-control-container{
+        background: var(--puddingdark-main-bgcolor);
+    }
+    
+    .pd__ex .baike-app-view .radio-station{
+        background: var(--puddingdark-03dp-bgcolor);
+    }
+    
+    /*  main color  */
+    .pd__ex .baike-app-view .content-wrapper .title,
+    .pd__ex .baike-app-view .v-baike .knowledge-item .knowledge-right .knowledge-title,
+    .pd__ex .baike-app-view .topbar,
+    body.pd__ex .baike-app-view em,
+    .pd__ex .baike-app-view .topbar .user-icon .layout-icons_new-login,
+    .pd__ex .baike-app-view .home-audio-control-container .audio-control .audio-title h3{
+        color: var(--puddingdark-mainfont-color);
+    }
+    
+    /* second font color */
+    .pd__ex  .baike-app-view .home-audio-control-container .audio-control .audio-name,
+    .pd__ex .baike-app-view .museum .title .title-right-style,
+    .pd__ex .baike-app-view .v-baike .knowledge-item .knowledge-right .knowledge-content,
+    .pd__ex .baike-app-view .v-baike .knowledge-item .knowledge-right .knowledge-icon{
+        color: var(--puddingdark-secondfont-color);
+    }
+    
+    .pd__ex  .baike-app-view footer .bottom-menu a{
+        background: var(--puddingdark-03dp-bgcolor);
+    }
+    
+    .pd__ex .baike-app-view .home-audio-control-container,
+    .pd__ex  .baike-app-view .v-baike .knowledge-item:last-child,
+    .pd__ex .baike-app-view .v-baike .tujie-baike,
+    .pd__ex  .baike-app-view footer,
+    .pd__ex  .baike-app-view footer .bottom-menu a{
+        border-color:  var(--puddingdark-03dp-bgcolor)!important;
+    }
+    
 }
 
 /***baidu 知道****/

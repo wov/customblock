@@ -165,6 +165,14 @@
         background:rgba(255,255,255,0.08);
     }
     
+    .pd__ex .sidebar_compliance{
+        background:rgba(255,255,255,0.08);
+    }
+    
+    .pd__ex  #search-container,
+    .pd__ex .box > div{
+        border-color:rgba(255,255,255,0.11)!important;
+    }
 
     
 }

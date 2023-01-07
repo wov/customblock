@@ -97,13 +97,13 @@ html, body, #app{
     /*input*/
     .pd__ex .m-search,
     .pd__ex .m-search div[data-v-7882a0dd],
-    .pd__ex .nt-sbox[data-v-bf3ded56]{
+    .pd__ex .nt-sbox{
         background:rgba(255,255,255,0.08)!important;
-        color:rgba(255,255,255,0.6);
+        color:rgba(255,255,255,0.6)!important;
     }
     
-    .pd__ex .nt-search input[data-v-bf3ded56]{
-        color:rgba(255,255,255,0.6);
+    .pd__ex .nt-search input{
+        color:rgba(255,255,255,0.6)!important;
     }
     
     /*icons*/
@@ -119,11 +119,9 @@ html, body, #app{
         display:none;
     }
     
-    
-    .pd__ex .ntop-nav[data-v-bf3ded56]{
-        background:#121212;
+    .pd__ex .ntop-nav{
+        background:#121212!important;
     }
-    
     
     .pd__ex .m-panel{
         background:#121212;
@@ -243,7 +241,6 @@ html, body, #app{
         background:rgba(255,255,255,0.08);
         color:rgba(255,255,255,0.6);
     }
-    
     
     .pd__ex .m-wpbtn-lbox,
     .pd__ex .m-wpbtn-list{
@@ -599,6 +596,16 @@ html, body, #app{
     .pd__ex .lite-page-list .m-text-box .cmt-sub-txt span[data-v-1b0e6d11]{
         color:rgba(255,255,255,0.87);
     }
+    
+    
+    .pd__ex .comment-content{
+        background:#121212!important;
+    }
+    
+    .pd__ex div.empty{
+        color:rgba(255,255,255,0.6)!important;
+    }
+    
 
 }
 
