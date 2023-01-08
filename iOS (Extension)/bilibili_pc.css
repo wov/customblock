@@ -164,9 +164,10 @@ body{
 /*换一换按钮*/
 .pd__ex .roll-btn-wrap,
 .pd__ex .recommended-container .feed-roll-btn,
-.pd__ex .recommended-container .feed-roll-btn.smallest{
-    top : -80px;
-    transform:unset;
+.pd__ex .recommended-container .feed-roll-btn.smallest,
+.pd__ex .feed-roll-btn{
+    top : -80px!important;
+    transform:unset!important;
 }
 
 .recommend-container__2-line > .bili-video-card ,
@@ -1541,5 +1542,13 @@ body #app #bilibili-player.mini-player{
     margin-bottom: 15px;
 }
 
+
+/*01-08改版*/
+.pd__ex .recommended-container_floor-aside .container{
+    grid-column : span 2;
+    grid-template-columns : repeat(2,1fr);
+    grid-gap: 10px;
+    padding:0 10px;
+}
 
 
