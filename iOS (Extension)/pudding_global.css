@@ -1,5 +1,46 @@
 /*https://developer.apple.com/design/human-interface-guidelines/foundations/color*/
 
+
+/*https://www.ios-resolution.com/*/
+
+/*types        viewport_width    viewport_height*/
+/*iPad Air 5       1180               820*/
+/*iPad 10          1080               810*/
+/*iPad Pro 12.9    1366               1024*/
+/*iPad Pro 11      1194               834*/
+/*iPad 9           1080               810*/
+/*iPad Air 4       1112               834*/
+/*iPad mini 6      1024               768*/
+
+/*types              viewport_width    viewport_height*/
+/*iPhone 14 Plus          428                926*/
+/*iPhone 14 Pro Max       430                932*/
+/*iPhone 14 Pro           393                852*/
+/*iPhone 14               390                844*/
+/*iPhone SE 3             375                667*/
+/*iPhone 13 mini          375                812*/
+/*iPhone 11 Pro Max       414                896*/
+/*iPhone 8 Plus           414                736*/
+/*iPhone SE 1             320                568*/
+
+/*@2023年iPhone&iPad css media queries*/
+/* 横屏>=1024 || 竖屏 >= 768 则为iPad*/
+/* 竖屏 <= 440 || 横屏 <= 940 则为iPhone */
+/*https://css-tricks.com/a-complete-guide-to-css-media-queries/*/
+
+/*TODO: 需要考虑iPad打开Stage Manage的情况...*/
+
+@media  (max-width: 440px) and (orientation: portrait),
+(max-width: 940px) and (orientation: landscape){
+    /* iPhone rules here... */
+}
+
+@media screen (min-width: 768px) and (orientation: portrait),
+(min-width: 1024px) and (orientation: landscape){
+    /* iPad rules here... */
+}
+
+
 @media (prefers-color-scheme: dark) {
     body.pd__ex{
         background: #121212;

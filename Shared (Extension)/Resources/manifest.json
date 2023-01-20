@@ -47,7 +47,8 @@
             "*://baike.baidu.com/item/*",
             "*://baike.baidu.com/",
             "*://gamecenter.baidu.com/static/game/*",
-            "*://zhidao.baidu.com/question/*"
+            "*://zhidao.baidu.com/question/*",
+            "*://baijiahao.baidu.com/s*"
         ]
     },{
         "css" : ["tieba.css"],
@@ -89,7 +90,9 @@
         "matches" : ["*://*.jianshu.com/*"]
     },{
         "css" : ["bilibili.css"],
-        "matches" : ["*://m.bilibili.com/*"]
+        "matches" : ["*://m.bilibili.com/",
+            "*://m.bilibili.com/video/*"
+        ]
     },{
         "js" : ["bilibili.js"],
         "matches" : ["*://m.bilibili.com/",

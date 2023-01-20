@@ -28,7 +28,3 @@ function saveRuleToStorage(){
     
     window.close()
 }
-
-document.addEventListener("DOMContentLoaded", function() {
-    document.getElementById("add").addEventListener("click", saveRuleToStorage);
-});

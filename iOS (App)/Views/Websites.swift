@@ -24,6 +24,7 @@ struct Websites: View {
         case pc
         case speed
         case video
+        case scale
         
         var icon: Image {
             switch self {
@@ -37,6 +38,8 @@ struct Websites: View {
                 return Image(systemName: "speedometer")
             case .video:
                 return Image(systemName: "play.circle")
+            case .scale:
+                return Image(systemName: "arrow.up.left.and.down.right.magnifyingglass")
             }
         }
         
@@ -52,6 +55,8 @@ struct Websites: View {
                 return "性能优化"
             case .video:
                 return "原生播放控件"
+            case .scale:
+                return "响应式缩放"
             }
         }
         
@@ -67,6 +72,8 @@ struct Websites: View {
                 return "解决浏览器可能会崩溃的问题"
             case .video:
                 return "可开启全屏、画中画、投屏等"
+            case .scale:
+                return "iPad中开启Stage Manager后任意缩放尺寸"
             }
         }
     }
@@ -100,10 +107,33 @@ struct Websites: View {
             WebSite(name:"浦东公租房",url: "https://select.pdgzf.com",types: [.additional])
         ]
         
+        let ipadwebsites: [WebSite] = [
+            WebSite(name:"百度",url: "https://baidu.com",types: [.additional,.dark]),
+            WebSite(name:"豆瓣电影",url: "https://movie.douban.com",types: [.dark,.scale]),
+            WebSite(name:"哔哩哔哩",url: "https://www.bilibili.com",types: [.additional,.video,.scale])
+        ]
+        
+        
         List{
-            Section( header: Text("支持的网站(没有适配iPad)")){
+            Section( header: Text("支持的网站(iPhone)")){
                 Group{
                     ForEach(websites, id: \.id ) { site in
+                        HStack {
+                            Link(site.name, destination: URL(string: site.url)!)
+                            Spacer()
+                            HStack {
+                                ForEach( site.types, id: \.self ){ type in
+                                    type.icon
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            
+            Section( header: Text("支持的网站(iPad)")){
+                Group{
+                    ForEach(ipadwebsites, id: \.id ) { site in
                         HStack {
                             Link(site.name, destination: URL(string: site.url)!)
                             Spacer()

@@ -27,6 +27,12 @@ struct Home: View {
                     }
                     
                     NavigationLink {
+                        TutorialPC()
+                    } label: {
+                        Text("如何访问B站等PC版")
+                    }
+                    
+                    NavigationLink {
                         Websites()
                     } label: {
                         Text("支持的网站")
@@ -47,6 +53,7 @@ struct Home: View {
                         }
                     }
                     
+                    
                     Button(action: {
                         ReviewHandler.requestReviewManually()
                     }) {
@@ -58,6 +65,11 @@ struct Home: View {
                     .onAppear(perform: {
                         ReviewHandler.requestReview()
                     })
+                    
+                    HStack {
+                        Link("微博互动", destination: URL(string: "https://weibo.com/u/1681934680")!)
+                    }
+                    
                 }
             }
             .listStyle(GroupedListStyle())

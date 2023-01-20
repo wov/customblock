@@ -47,6 +47,7 @@
 		83C88299281FCA340048AAED /* autohome.js in Resources */ = {isa = PBXBuildFile; fileRef = 83C88298281FCA340048AAED /* autohome.js */; };
 		83C8829F2820CB9A0048AAED /* taobao.js in Resources */ = {isa = PBXBuildFile; fileRef = 83C8829E2820CB9A0048AAED /* taobao.js */; };
 		83C882A12820CBA80048AAED /* taobao.css in Resources */ = {isa = PBXBuildFile; fileRef = 83C882A02820CBA80048AAED /* taobao.css */; };
+		83CA6296296DD3B6006897AC /* TutorialPC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CA6295296DD3B6006897AC /* TutorialPC.swift */; };
 		83CCA08728087E97002340ED /* Tutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CCA08628087E97002340ED /* Tutorial.swift */; };
 		83CCA08A2808FEB2002340ED /* ReviewHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CCA0892808FEB2002340ED /* ReviewHandler.swift */; };
 		83CCA08C2809028E002340ED /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CCA08B2809028E002340ED /* Home.swift */; };
@@ -190,6 +191,7 @@
 		83C88298281FCA340048AAED /* autohome.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = autohome.js; sourceTree = "<group>"; };
 		83C8829E2820CB9A0048AAED /* taobao.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = taobao.js; sourceTree = "<group>"; };
 		83C882A02820CBA80048AAED /* taobao.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = taobao.css; path = "../../../Library/Mobile Documents/com~apple~CloudDocs/taobao.css"; sourceTree = "<group>"; };
+		83CA6295296DD3B6006897AC /* TutorialPC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialPC.swift; sourceTree = "<group>"; };
 		83CCA08628087E97002340ED /* Tutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutorial.swift; sourceTree = "<group>"; };
 		83CCA0892808FEB2002340ED /* ReviewHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewHandler.swift; sourceTree = "<group>"; };
 		83CCA08B2809028E002340ED /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
@@ -281,6 +283,7 @@
 				83CCA08B2809028E002340ED /* Home.swift */,
 				83CCA08D280925C4002340ED /* Websites.swift */,
 				83CCA08F2809AF13002340ED /* Privacy.swift */,
+				83CA6295296DD3B6006897AC /* TutorialPC.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -704,6 +707,7 @@
 				8A9A58B528083ABB00C60926 /* CustomBlockWebView.swift in Sources */,
 				83CCA08C2809028E002340ED /* Home.swift in Sources */,
 				83E017022675036B00A30A29 /* SceneDelegate.swift in Sources */,
+				83CA6296296DD3B6006897AC /* TutorialPC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -906,7 +910,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.27.6;
+				MARKETING_VERSION = 2.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.inact.customblock.Extension;
 				PRODUCT_NAME = "customblock Extension";
 				SDKROOT = iphoneos;
@@ -933,7 +937,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.27.6;
+				MARKETING_VERSION = 2.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.inact.customblock.Extension;
 				PRODUCT_NAME = "customblock Extension";
 				SDKROOT = iphoneos;
@@ -967,7 +971,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.27.6;
+				MARKETING_VERSION = 2.0.0;
 				OTHER_LDFLAGS = (
 					"-framework",
 					WebKit,
@@ -975,9 +979,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.inact.customblock;
 				PRODUCT_NAME = customblock;
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -1003,7 +1010,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.27.6;
+				MARKETING_VERSION = 2.0.0;
 				OTHER_LDFLAGS = (
 					"-framework",
 					WebKit,
@@ -1011,9 +1018,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.inact.customblock;
 				PRODUCT_NAME = customblock;
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;

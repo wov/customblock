@@ -28,13 +28,101 @@
 }
 
 
+/*iPad 版本 首页 START*/
+
+.pd__ex #wrapper,
+.pd__ex #s_top_wrap{
+    min-width: unset;
+}
+
+.pd__ex #head_wrapper .s_form{
+    max-width: 90%;
+}
+
+.pd__ex #head_wrapper .quickdelete-wrap{
+    max-width: calc(100% - 108px);
+}
+
+.pd__ex #head_wrapper .soutu-env-mac .has-voice #kw{
+    width: 100%;
+    box-sizing:border-box;
+    height:44px;
+}
+
+.pd__ex .s-hotsearch-wrapper{
+    max-width: 100%;
+}
+
+.pd__ex .open-content-info .tip-hover-panel{
+    max-width: 90vw;
+}
+
+/*684 按照它的模型算出来的*/
+@media (max-width : 684px){
+    .pd__ex .s-hotsearch-wrapper .s-hotsearch-content{
+        display:flex;
+        flex-direction : column;
+        width:100%;
+    }
+    .pd__ex .s-hotsearch-wrapper .s-hotsearch-content .hotsearch-item{
+        /*  attr not support yet _-  */
+        order: attr(data-index);
+        margin: 0 !important;
+    }
+    
+    .pd__ex .s-hotsearch-wrapper .s-hotsearch-content .hotsearch-item[data-index = "0"]{order:0;}
+    .pd__ex .s-hotsearch-wrapper .s-hotsearch-content .hotsearch-item[data-index = "1"]{order:1;}
+    .pd__ex .s-hotsearch-wrapper .s-hotsearch-content .hotsearch-item[data-index = "2"]{order:2;}
+    .pd__ex .s-hotsearch-wrapper .s-hotsearch-content .hotsearch-item[data-index = "3"]{order:3;}
+    .pd__ex .s-hotsearch-wrapper .s-hotsearch-content .hotsearch-item[data-index = "4"]{order:4;}
+    .pd__ex .s-hotsearch-wrapper .s-hotsearch-content .hotsearch-item[data-index = "5"]{order:5;}
+    .pd__ex .s-hotsearch-wrapper .s-hotsearch-content .hotsearch-item[data-index = "6"]{order:6;}
+    
+    .pd__ex .s-top-left-new .mnav{
+        margin-right:8px;
+        margin-top: 5px;
+    }
+    
+    .pd__ex  .s-top-right,
+    .pd__ex .s-top-left-new{
+        position:relative;
+    }
+    
+    .pd__ex  .s-top-left-new{
+        padding: 0;
+        height: auto;
+    }
+    
+    .pd__ex  .s-top-right .s-top-right-new{
+        margin-left: 8px;
+        margin-top: 5px;
+    }
+    
+    .pd__ex .s-top-right .s-top-login-btn{
+        margin-top: 6px;
+    }
+    
+    .pd__ex  .s-top-right{
+        height:auto;
+    }
+    
+    .pd__ex #head_wrapper .s-p-top{
+        height:auto;
+        min-height:100px;
+    }
+}
+
+/*iPad 版本 首页 END*/
+
+
 /****百度首页****/
 .pd__ex{
     background:#fff;
     min-height: -webkit-fill-available;
 }
 
-@media (prefers-color-scheme: dark) {
+
+@media (prefers-color-scheme: dark)  {
     .pd__ex{
         background:#121212;
     }
@@ -69,6 +157,33 @@
     .pd__ex #index-card .his-wrap-new .history-clear-p{
         color:rgba(255,255,255,0.6);
     }
+    
+    /*  main bg color  */
+    .pd__ex .s-top-wrap,
+    .pd__ex #bottom_layer{
+        background:var(--puddingdark-main-bgcolor);
+    }
+    
+    .pd__ex .c-floating-box{
+        background:#222;
+    }
+    
+    /* main font color */
+    .pd__ex .c-color-t{
+        color: var(--puddingdark-mainfont-color);
+    }
+    
+    .pd__ex .s-hotsearch-wrapper .s-hotsearch-title .hot-refresh .hot-refresh-text,
+    .pd__ex #bottom_layer .open-content-info .text-color{
+        color: var(--puddingdark-secondfont-color);
+    }
+    
+    /*    */
+    .pd__ex  .open-content-info .tip-hover-panel .rest_info_tip,
+    .pd__ex .s-top-left-new .s-top-more{
+        background:#222;
+    }
+    
     
 }
 
@@ -208,9 +323,9 @@ a[data-module=entrance]{
         color:rgba(255,255,255,0.87)!important;
     }
     
-    .c-touchable-feedback-content > div{
-        background:rgba(255,255,255,0.08)!important;
-    }
+/*    .c-touchable-feedback-content > div{*/
+/*        background:rgba(255,255,255,0.08)!important;*/
+/*    }*/
     
     .c-source-new .middle .icon-wrapper{
         background:rgba(255,255,255,0.08)!important;
@@ -223,6 +338,7 @@ a[data-module=entrance]{
         color:rgba(255,255,255,0.87)!important;
     }
     
+
 }
 /***搜索结果页去广告***/
 
@@ -312,10 +428,15 @@ a[data-module=entrance]{
     .se-head-tabcover{display:none!important;}
     
     
-    .c-container{
-        background:rgba(0,0,0,0.95)!important;
-        color:rgba(255,255,255,0.87)!important;
+    
+    @media  (max-width: 440px) and (orientation: portrait),
+    (max-width: 940px) and (orientation: landscape){
+        .c-container{
+            background:rgba(0,0,0,0.95)!important;
+            color:rgba(255,255,255,0.87)!important;
+        }
     }
+    
     
     .c-title, .c-title-noclick{
         color:rgba(255,255,255,0.87)!important;
@@ -482,13 +603,12 @@ a[data-module=entrance]{
         border:none!important;
     }
     
-    .pd__ex .ms-weather-daliy-icon__17srr{
+    .pd__ex .ms-weather-daliy-icon__17srr,
+    .pd__ex .c-icon{
         filter: brightness(0) invert(0.8);
     }
     
-    
     /* 知道组件*/
-    
     .pd__ex .comment-item__2mxDF{
         background-color:#121212;
     }
@@ -536,6 +656,79 @@ a[data-module=entrance]{
     .pd__ex .cu-container{
         background:#121212;
     }
+    
+    /*  搜索结果页，iPad  */
+    .pd__ex .c-popup-bg{
+        background:#121212;
+    }
+    
+    .pd__ex .buton-box{
+        color:var(--pudding-dark-secondfont)!important;
+    }
+    
+    /*** PC端暗黑模式 ***/
+    .pd__ex #head,
+    .pd__ex div[class*="foot-container_"]{
+        background: var(--puddingdark-main-bgcolor);
+    }
+    
+    /*  main color..  */
+    .pd__ex  .wrapper_new #s_tab .cur-tab{
+        color:var(--puddingdark-mainfont-color);
+    }
+    
+    /* second font color   */
+    .pd__ex .new-pmd .c-color-text,
+    .pd__ex .render-item_GS8wb .group-content_3jCZd .group-sub-abs_N-I8P,
+    .pd__ex .render-item_GS8wb .group-content_3jCZd .group-sub-abs_N-I8P em,
+    .pd__ex .new-pmd .c-color-t,
+    .pd__ex  .cr-content,
+    .pd__ex .wrap_f1met,
+    .pd__ex div[class*="button_"],
+    .pd__ex #content_left .search-source-wrap .search-source-title,
+    .pd__ex .new-pmd.c-container,
+    .pd__ex  #container.sam_newgrid .result .c-tools .c-icon,
+    .pd__ex  #container.sam_newgrid .result-op .c-tools .c-icon{
+        color:var(--puddingdark-secondfont-color);
+    }
+    
+    
+    .pd__ex  a[class*="tag-item_"],
+    .pd__ex  .item_3WKCf,
+    .pd__ex  a[class*="rs-link_"],
+    .pd__ex .page_2muyV strong,
+    .pd__ex .page_2muyV a,
+    .pd__ex .c-abstract div[class*="wrap__"],
+    .pd__ex ._tabs-nav-wrapper_1qero_4,
+    .pd__ex .single-card-more_2npN-:hover,
+    .pd__ex .c-btn,
+    .pd__ex .wrap_f1met,
+    .pd__ex div[class*="button_"],
+    .pd__ex div[class*="single-card-more-line_"],
+    .pd__ex div[class*="split-line_"],
+    .pd__ex  .new-pmd .c-border{
+        background: var(--puddingdark-03dp-bgcolor);
+    }
+    
+    .pd__ex .danmaku_XMaBo .mask_AW7gR{
+        background: none;
+    }
+    
+    .pd__ex  .single-card-more-link_1WlRS{
+        color:var(--puddingdark-secondfont-color)!important;
+    }
+    
+    
+    .pd__ex  .c-tip-con,
+    .pd__ex .c-tip-con a{
+        background:#222!important;
+    }
+    
+    .pd__ex .new-pmd .c-tools-tip-con .c-tip-arrow em,
+    .pd__ex .c-tip-arrow ins{
+        display:none;
+    }
+    
 }
 
 /***视频页面***/
@@ -626,6 +819,7 @@ a[data-module=entrance]{
 
 
 /***百家号***/
+/*https://baijiahao.baidu.com/s?id=1755354374675213249&wfr=spider&for=pc*/
 /*遮照层*/
 .layer-wrap{display:none!important;}
 .mainContent{height:auto!important;}
@@ -686,6 +880,24 @@ body.scrollHide{
     .mainContent p,
     .mainContent p span{
         color:rgba(255,255,255,0.87)!important;
+    }
+    
+    /*main bg color*/
+    .pd__ex ._2jN0Z .q1J1i,
+    .pd__ex ._2jN0Z .q1J1i .EaCvy,
+    .pd__ex ._2jN0Z .q1J1i ._2v051{
+        background:var(--puddingdark-main-bgcolor);
+    }
+    
+    /*second font color*/
+    .pd__ex  ._2Zphx ._3ygOc.lg-fl,
+    .pd__ex ._2Zphx ._3ygOc.lg-fl p{
+        color:var(--puddingdark-secondfont-color);
+    }
+    
+    /*main font color*/
+    .pd__ex ._13m7C .YcICc a:visited ._1t2-a{
+        color:var(--puddingdark-mainfont-color);
     }
     
 }

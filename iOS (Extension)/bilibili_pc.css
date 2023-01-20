@@ -1,1332 +1,17 @@
 /*PC 版的样式*/
 
-.pd__ex *{
-/*    float: none!important;*/
-    min-width: unset!important;
-/*    max-width:100%!important;*/
-    box-sizing: border-box;
-    -webkit-text-size-adjust: none;
-}
 
-
-/**/
-/*.pd__ex *:hover{*/
-/*    all: unset!important;*/
-/*}*/
-
-/*.pd__ex img{*/
-/*    width:100%!important;*/
-/*    height:auto!important;*/
-/*}*/
-
-
-html,body{
-    height:unset!important;
-}
-
-body{
-    min-width: unset!important;
-}
-
-/*.pd__ex div:empty{*/
-/*    display:none!important;*/
-/*}*/
-
-
-.pd__ex .trial-feed-wrap{
-    display:none;
-}
-
-.bili-header .bili-header__banner{
-    min-width: unset!important;
-}
-
-.bili-header .left-entry .entry-title, .bili-header .left-entry .download-entry, .bili-header .left-entry .default-entry, .bili-header .left-entry .loc-entry{
-    color:var(--text1)!important;
-}
-
-.bili-header .right-entry__outside .right-entry-icon{
-    color:var(--text1)!important;
-}
-
-.bili-header .bili-header__bar{
-    padding: 0 10px!important;
-    position: sticky!important;
-    display: block!important;
-    height: auto!important;
-    background:var(--bg1_float);
-}
-
-.bili-header .left-entry__title .mini-header__title .arrow-up,
-.v-popover.is-bottom-start{
-    display:none!important;
-}
-
+/*hide some popups*/
 .v-popover.is-top, .v-popover.is-bottom{
     display:none!important;
-}
-
-.bili-header .bili-header__banner{
-    display:none!important;
-}
-
-.bili-header .left-entry__title .mini-header__logo{
-    display:none!important;
-}
-
-.bili-header .slide-down{
-    animation: none!important;
-}
-
-
-.bili-header .slide-down .center-search-container{
-    margin:0!important;
-}
-
-
-.bili-header .left-entry .entry-title, .bili-header .left-entry .download-entry, .bili-header .left-entry .default-entry, .bili-header .left-entry .loc-entry,
-.bili-header .left-entry__title{
-    height: 32px!important;
-    line-height:32px!important;
-}
-
-.bili-header .left-entry .entry-title .zhuzhan-icon{
-    color:var(--text1)!important;
-}
-
-.bili-header .right-entry{
-    margin:0!important;
-    padding: 5px 0!important;
-}
-
-
-.bili-header .bili-header__channel{
-    padding: 0 10px!important;
-    height: unset!important;
-}
-
-.bili-header .bili-header__channel{
-    display:block!important;
-}
-
-.bili-header .bili-header__channel .right-channel-container{
-    display:block!important;
-}
-
-.bili-header .bili-header__channel .channel-items__right{
-    width: 100%!important;
-}
-
-.bili-header .bili-header__channel .channel-items__left{
-    display:block!important;
-    padding: 0!important;
-    border: none!important;
-}
-
-.bili-header .bili-header__channel .channel-entry-more__link, .bili-header .bili-header__channel .channel-link{
-    width:auto!important;
-    padding: 0 5px;
-    margin: 3px 5px;
-}
-
-.bili-header .bili-header__channel .channel-items__right{
-    display: block!important;
-}
-
-.bili-header .bili-header__channel .channel-link__right{
-    display:inline-block!important;
-    width:auto!important;
-    padding: 0 5px;
-    margin: 3px 5px;
-}
-
-.bili-layout{
-    padding: 0 10px!important;
-}
-
-.bili-grid{
-    display: block!important;
-    margin-bottom: 15px!important;
-}
-
-.bili-feed4-layout, .bili-feed4 .bili-header .bili-header__channel{
-    width:unset!important;
-}
-
-.pd__ex .header-channel-fixed{
-    display:none;
-}
-
-.recommend-container__2-line{
-    display:block!important;
-}
-
-/*换一换按钮*/
-.pd__ex .roll-btn-wrap,
-.pd__ex .recommended-container .feed-roll-btn,
-.pd__ex .recommended-container .feed-roll-btn.smallest,
-.pd__ex .feed-roll-btn{
-    top : -80px!important;
-    transform:unset!important;
-}
-
-.recommend-container__2-line > .bili-video-card ,
-.information-body > .bili-video-card,
-.eva-extension-body > .bili-video-card{
-    display: inline-block!important;
-    width: 49%!important;
-    margin: 5px 0.5%;
-}
-
-.bili-grid .recommend-container__2-line>*:nth-of-type(1n + 6){
-    display: inline-block!important;
-}
-
-.eva-extension-area .eva-extension-body{
-    display:block!important;
-}
-
-.bili-grid .eva-extension-area .eva-extension-body>*:nth-of-type(1n + 5){
-    display: inline-block!important;
 }
 
 body > .lt-row{
     display:none;
 }
 
-.pd__ex .bili-watch-later,
-.pd__ex .eva-banner{
-    display:none;
-}
 
-.pd__ex .recommended-container .first-paint[data-v-2e69d16c]{
-    display:block;
-/*    padding: 0 10px;*/
-}
-
-
-
-.pd__ex .recommended-container .container{
-    display:block!important;
-    padding: 0 10px;
-}
-
-.pd__ex .recommended-container .first-paint[data-v-2e69d16c] > div,
-.pd__ex .recommended-card,
-.pd__ex .business-card{
-    display: inline-block;
-    width: 49%!important;
-    margin: 5px 0.5%!important;
-    vertical-align: top;
-}
-
-.pd__ex .recommended-swipe,
-.pd__ex .recommended-container .first-paint[data-v-2e69d16c] > .recommended-swipe{
-    display:none;
-}
-
-.pd__ex .feed-floor .bili-grid,
-.pd__ex .feed-floor .live-card-body,
-.pd__ex .feed-floor .video-card-body,
-.pd__ex .feed-floor .bangumi-card-body,
-.pd__ex .feed-floor .bangumi-card-shim,
-.pd__ex .feed-floor .variety-body,
-.pd__ex .feed-floor .information-body,
-.pd__ex .feed-floor .movie-card-body,
-.pd__ex .recommended-container .container[data-v-d758ffb0]{
-    grid-gap: unset!important;
-}
-
-
-/*直播*/
-.live-card-body{
-    display:block!important;
-}
-
-.live-card-body > div{
-    display: inline-block!important;
-    width: 49%!important;
-    margin: 5px 0.5%;
-    vertical-align: top;
-}
-
-.live-card-body > div > .bili-live-card {
-/*    display: inline-block!important;*/
-/*    width: 49%!important;*/
-/*    margin: 5px 0.5%;*/
-/*    vertical-align: top;*/
-}
-
-.bili-grid .live-card-body>*:nth-of-type(1n + 7){
-    display: inline-block!important;
-}
-
-
-.aside-wrap{
-    position:relative!important;
-    margin-bottom: 30px;
-}
-
-
-.aside-core{
-    position:relative!important;
-}
-
-.aside-body .aside-core .carousel-slide .list-state-error{
-    padding: 30px 0!important;
-}
-
-
-.video-card-list.is-main .video-card-body, .video-card-list.is-full .video-card-body{
-    display: block!important;
-}
-
-.bili-grid .video-card-list.is-main .video-card-body>*:nth-of-type(1n + 7){
-    display:inline-block!important;
-}
-
-
-.bili-layout aside{
-    margin-top: 15px;
-    margin-bottom:30px;
-}
-
-
-.bili-footer,
-.bili-footer .b-footer-wrap{
-    min-width:unset!important;
-}
-
-.bili-footer .link-box{
-    display:block!important;
-}
-
-.bili-footer .b-footer-wrap .link-box{
-    margin: 0!important;
-}
-
-.bili-footer .link-box .link-item__center{
-    width:100%!important;
-}
-
-.bili-footer .other-link .text-con{
-    width:100%!important;
-}
-
-
-.roll-btn-wrap{
-    left:unset!important;
-    right:0!important;
-}
-
-/*赛事*/
-.pd__ex .battle-area .battle-body,
-.pd__ex .battle-feed-area .battle-feed-body{
-    display:block!important;
-    padding: 0 10px;
-}
-
-.pd__ex .battle-feed-area .battle-feed-body > div{
-    display: inline-block!important;
-    width: 49%!important;
-    margin: 5px 0.5%;
-    vertical-align: top;
-}
-
-.pd__ex .battle-feed-area .battle-feed-body > div:empty{
-    width: 0!important;
-    margin: 0;
-}
-
-.battle-body > .bili-live-card{
-    display: inline-block!important;
-    width: 49%!important;
-    margin: 5px 0.5%;
-    vertical-align: top;
-}
-
-/*动画*/
-
-.video-card-body > div{
-    display: inline-block!important;
-    width: 49%!important;
-    margin: 5px 0.5%;
-    vertical-align: top;
-}
-
-
-.video-card-body > div > .bili-video-card{
-    display: block!important;
-    width: 100%!important;
-}
-
-
-/*番剧*/
-.area-header .title{
-    font-size:18px!important;
-}
-
-
-.area-header{
-    display:block!important;
-    height:auto!important;
-}
-
-.bangumi-card-list .track-switch button{
-    font-size:12px!important;
-    padding: 3px!important;
-}
-
-.bangumi-card-shim{
-    display:none!important;
-}
-
-
-
-.pd__ex .bangumi-card-body{
-    display:flex!important;
-    flex-wrap:wrap;
-    justify-content: space-between;
-    padding: 0 10px;
-    grid-gap: unset!important;
-}
-
-
-.bangumi-card-body > div{
-    display: inline-block!important;
-    width: 49%!important;
-    margin: 5px 0;
-}
-
-.bili-grid .bangumi-card-body.is-loading>*:nth-of-type(1n + 7){
-    display: inline-block!important;
-}
-
-.bangumi-activity-area .bangumi-activity-body{
-    display:block!important;
-}
-
-.pd__ex .feed-floor .feed-floor-list,
-.pd__ex .feed-floor .feed-floor-loading{
-    display:flex!important;
-    flex-wrap:wrap;
-    justify-content: space-between;
-    padding: 0 10px;
-    grid-gap: unset;
-}
-
-.pd__ex .feed-floor .feed-floor-list > div,
-.pd__ex .feed-floor .feed-floor-loading > div{
-    display: block;
-    width: 49%!important;
-    margin: 5px 0;
-}
-
-.variety-body > div,
-.cheese-card-body > div,
-.information-body > div,
-.movie-card-body > div{
-    display: inline-block!important;
-    width: 49%!important;
-    margin: 5px 0.5%;
-}
-
-.bangumi-activity-body > .bili-movie-card{
-    display: inline-block!important;
-    width: 49%!important;
-    margin: 5px 0.5%;
-}
-
-
-.bili-grid .bangumi-activity-area .bangumi-activity-body>*:nth-of-type(1n + 9){
-    display: inline-block!important;
-}
-
-.variety-area .variety-body{
-    display:block!important;
-}
-
-.bili-grid .variety-area .variety-body>*:nth-of-type(1n + 9){
-    display: inline-block!important;
-}
-
-.information-area .information-body{
-    display:block!important;
-}
-
-.manga-card-list{
-    min-height: unset!important;
-}
-
-.pd__ex .cheese-card-list .cheese-card-body{
-    display:flex!important;
-    flex-wrap:wrap;
-    justify-content: space-between;
-    padding: 0 10px;
-    grid-gap: unset!important;
-}
-
-.bili-grid .cheese-card-list .cheese-card-body>*:nth-of-type(1n + 7){
-    display: inline-block!important;
-}
-
-.bili-grid .information-area .information-body>*:nth-of-type(1n + 9){
-    display: inline-block!important;
-}
-
-
-.bili-article-card .bili-article-card__wrap{
-    flex-direction: column;
-}
-
-.pd__ex .movie-card-body{
-/*    display:block!important;*/
-    display:flex!important;
-    flex-wrap:wrap;
-    justify-content: space-between;
-    padding: 0 10px;
-    grid-gap: unset;
-}
-
-.bili-grid .movie-card-body>*:nth-of-type(1n + 7){
-    display: inline-block!important;
-}
-
-.movie-card-body{
-    display:block!important;
-}
-
-.bili-grid .movie-card-body>*:nth-of-type(1n + 7){
-    display: inline-block!important;
-}
-
-
-.cheese-card-body > .bili-cheese-card{
-    display: inline-block!important;
-    width: 49%!important;
-    margin: 5px 0.5%;
-}
-
-.bili-footer .footer-icons{
-    width:100%!important;
-}
-
-
-.area-header{
-    position: sticky!important;
-    top:0;
-    background:#fff;
-    z-index: 1000!important;
-    padding: 5px 0!important;
-}
-
-.pd__ex .feed-floor .channel-floor.bili-grid.no-margin,
-.pd__ex .feed-floor .bili-grid{
-    margin-bottom: 5px!important;
-}
-
-.pd__ex .feed-floor .channel-floor{
-    padding: 5px 0 !important;
-}
-
-.pd__ex .feeds-bottom[data-v-bde4b280],
-.pd__ex .feeds-bottom-loading[data-v-bde4b280]{
-    display:flex!important;
-    flex-wrap:wrap;
-    justify-content: space-between;
-    padding: 0 10px;
-    grid-gap: unset;
-}
-
-
-.pd__ex .feeds-bottom[data-v-bde4b280] > div,
-.pd__ex .feeds-bottom-loading[data-v-bde4b280] > div{
-    display: block;
-    width: 49%!important;
-    margin: 5px 0.5%;
-}
-
-.pd__ex .feed-floor .manga-card-list .manga-card-body,
-.pd__ex .manga-card-list .manga-card-body{
-    display:flex!important;
-    flex-wrap:wrap;
-/*    justify-content: space-between;*/
-    padding: 0 10px;
-    grid-gap: unset;
-}
-
-.pd__ex .manga-card-list .manga-card-body > div{
-    display: block;
-    width: 31%!important;
-    margin: 5px 0.5%;
-}
-
-.pd__ex .feeds-bottom,
-.pd__ex .feeds-bottom-loading{
-    display:flex!important;
-    flex-wrap:wrap;
-    justify-content: space-between;
-    padding: 0 10px;
-    grid-gap: unset!important;
-}
-
-.pd__ex .feeds-bottom > div,
-.pd__ex .feeds-bottom-loading > div{
-    display: block;
-    width: 49%!important;
-    margin: 5px 0.5%;
-}
-
-
-
-/*去掉一些空窗*/
-
-/*.pd__ex .first-paint > div:empty{*/
-/*    display:none!important;*/
-/*}*/
-
-
-.pd__ex .recommended-container .first-paint[data-v-2e69d16c] > div:empty,
-.pd__ex .business-card:empty,
-.pd__ex .recommended-card:empty{
-    width: 0!important;
-    margin: 0!important;
-}
-
-/*.bili-grid .battle-area .battle-body>*:nth-of-type(1n + 5){*/
-/*        display:inline-block!important;*/
-/*}*/
-
-
-.bangumi-card-data{
-    position:relative!important;
-}
-
-.palette-button-outer{
-    display:none!important;
-}
-
-
-/* 旧版 video*/
-.unlogin-popover{
-    display:none!important;
-}
-
-/*先处理页面撑开的问题*/
-#app{
-    width:100%!important;
-}
-
-.bili-header{
-    min-width:unset!important;
-}
-
-.v-wrap{
-    min-width:unset!important;
-    width:100%!important;
-    padding: 0 5px!important;
-    display:block!important;
-    box-sizing:border-box;
-}
-
-
-.l-con{
-    width:100%!important;
-}
-
-.v-wrap .r-con{
-    width:100%!important;
-    margin: 0!important;
-    padding: 0 5px!important;
-    box-sizing: border-box;
-}
-/**/
-/*#bilibili-player{*/
-/*    width:100%!important;*/
-/*}*/
-
-#bilibili-player{
-    width:100%!important;
-    height: 300px!important;
-}
-
-.video-desc .desc-info{
-    width:100%!important;
-}
-
-body.header-v3 #biliMainHeader,
-body.header-v3 #biliMainHeader .mini-header{
-    height: auto!important;
-    min-height:unset!important;
-}
-
-.video-toolbar{
-    height:auto!important;
-}
-
-.video-toolbar .ops,
-.video-toolbar .more,
-.video-toolbar .rigth-btn{
-    float:none!important;
-}
-
-.pd__ex .bilibili-player-video-sendbar{
-    display:flex!important;
-}
-
-.pd__ex .bilibili-player-context-menu-container{
-    display:none!important;
-}
-
-.pd__ex .bilibili-player .bilibili-player-area{
-    max-height: 50vh;
-}
-
-.pd__ex .bpx-player-sending-bar, .bpx-player-sending-bar .bpx-player-video-info{
-    flex-wrap:wrap;
-}
-
-/*.bilibili-player.mode-miniscreen.bilibili-player .bilibili-player-area .bilibili-player-video-state,*/
-/*.bilibili-player.mode-miniscreen[class*=mode-] .bilibili-player-area .bilibili-player-video-state{*/
-/*    display: block!important;*/
-/*    opacity: 0.2!important;*/
-/*    bottom: 5px!important;*/
-/*    right: 5px!important;*/
-/*}*/
-/**/
-/*.bilibili-player.mode-miniscreen.bilibili-player .bilibili-player-area.video-state-pause .bilibili-player-video-state,*/
-/*.bilibili-player.mode-miniscreen[class*=mode-] .bilibili-player-area.video-state-pause .bilibili-player-video-state{*/
-/*    display: block!important;*/
-/*    bottom: 5px!important;*/
-/*    right: 5px!important;*/
-/*    opacity: 0.8!important;*/
-/*}*/
-
-/*不要点中弹幕了*/
-.pd__ex .b-danmaku{
-    pointer-events: none;
-}
-
-.bb-comment .comment-list .list-item .user-face, .comment-bilibili-fold .comment-list .list-item .user-face{
-    width:48px!important;
-}
-
-.bb-comment .comment-list .list-item .con, .comment-bilibili-fold .comment-list .list-item .con{
-    margin-left: 60px!important;
-}
-
-
-.up-info .u-face.has-pendant{
-    left:0!important;
-}
-
-.player-auxiliary-area{
-    width:100%!important;
-}
-
-.bb-comment .comment-send.comment-send-lite, .comment-bilibili-fold .comment-send.comment-send-lite, .bb-comment .comment-send-lite.comment-send-lite, .comment-bilibili-fold .comment-send-lite.comment-send-lite,.comment-send-lite-mask{
-    display:none!important;
-}
-/* 旧版 video 结束*/
-
-/* 新版video */
-/*解决撑开的问题开始*/
-.pd__ex #playerWrap{
-    height:auto;
-    position: sticky;
-    top:0;
-    z-index: 1000;
-}
-
-.pd__ex #app #bilibili-player{
-    height:auto!important;
-}
-
-.pd__ex #app #bilibili-player.mini-player{
-    width: 100%!important;
-    height:auto!important;
-    right: unset!important;
-    bottom: unset!important;
-    left: 0!important;
-    top: 0!important;
-}
-
-.pd__ex #app #bilibili-player.mini-player .player{
-    width: 100%!important;
-    height:auto!important;
-}
-
-.pd__ex #bilibili-player.mini-player:hover .bilibili-player-drag-mask-close,
-.pd__ex #bilibili-player.mini-player:hover .bilibili-player-drag-mask-state,
-.pd__ex .bilibili-player.mode-miniscreen .bilibili-player-area .bilibili-player-drag-mask-progress{
-    display: none;
-}
-
-.pd__ex #app #bilibili-player.mini-player:hover .mini-player-drag-mask{
-    display:none!important;
-}
-
-.pd__ex .bpx-player-container[data-screen=mini],
-.pd__ex .bpx-player-container[data-revision="1"][data-screen=mini]{
-    position: unset!important;
-    width: 100%;
-    height: auto;
-    border-radius: unset;
-    overflow: unset;
-}
-
-.pd__ex .bpx-player-mini-warp{
-    display:none;
-}
-
-
-.pd__ex .video-toolbar .ops > span{
-    width: auto;
-}
-
-.pd__ex .bilibili-player-video-sendbar .bilibili-player-video-inputbar{
-    width: auto;
-}
-
-/*设置弹幕的，先隐藏了吧*/
-.pd__ex .bilibili-player-video-sendbar .bilibili-player-video-danmaku-root .bilibili-player-video-danmaku-setting{
-    display:none;
-}
-
-.video-container-v1{
-    min-width:unset!important;
-    flex-direction:column;
-}
-
-.left-container{
-    width:100%!important;
-}
-
-.video-container-v1 .right-container{
-    width:100%!important;
-}
-
-.video-container-v1 .right-container{
-    margin:0!important;
-}
-
-.video-toolbar-v1{
-    height:auto!important;
-}
-
-.video-toolbar-v1 .toolbar-left{
-    float:none!important;
-}
-
-.video-toolbar-v1 .toolbar-right{
-    float:none!important;
-}
-
-/*解决撑开的问题结束*/
-
-body #app #bilibili-player.mini-player{
-    position:relative!important;
-}
-
-
-/* 新版video 结束 */
-
-
-.video-info .video-data{
-    display:block!important;
-    white-space: unset!important;
-    padding: 5px 0!important;
-}
-
-
-/*登陆框*/
-
-.bili-mini{
-    width:90%!important;
-    display:block!important;
-    padding:15px!important;
-    box-sizing:border-box;
-}
-
-.bili-mini-scan{
-    display: none!important;
-}
-
-.bili-mini-content .bili-mini-line{
-    display: none!important;
-}
-
-.bili-mini-login-wrapper{
-    width:100%!important;
-}
-
-.bili-mini-account,
-.bili-mini-password{
-    padding:0 5px!important;
-}
-
-.bili-mini-password input{
-    width:unset!important;
-}
-
-.third-party-login-wrapper .sns .btn{
-    margin-right: 15px!important;
-}
-
-.bili-mini-tel,
-.bili-mini-code{
-    padding: 0 5px!important;
-}
-
-.bili-mini-tel .bili-mini-tel_left{
-    display:flex;
-}
-
-.bili-mini-tel .bili-mini-tel_right .line{
-    margin-right: 5px!important;
-}
-
-.bili-mini-tel .bili-mini-tel_left .tel-input{
-    width: unset!important;
-}
-
-.bili-mini-tel .bili-mini-tel_right .text{
-    font-size: 12px!important;
-}
-
-.pd__ex .bili-header .mini-avatar--large .header-entry-avatar{
-    animation:none;
-}
-
-.pd__ex .bili-header .mini-avatar--large .header-entry-mini{
-    animation:none;
-}
-
-.bili-header .header-avatar-wrap .header-avatar-wrap--container .bili-avatar{
-    width: 100%!important;
-    height: 100%!important;
-    transform:none!important;
-}
-
-
-.pd__ex .video-info-v1 .video-data{
-    flex-wrap : wrap;
-    height: auto;
-}
-
-.pd__ex .video-info-v1{
-    height: auto;
-    padding-top:10px;
-}
-
-.pd__ex .video-info-v1 .video-title{
-    font-size: 18px;
-}
-/**/
-/**/
-/* 排名开始 www.bilibili.com/v/popular/rank/*/
-
-
-.pd__ex #app{
-    padding: 0 10px;
-}
-.pd__ex #app.app-v1{
-    padding:0;
-}
-
-.pd__ex .rank-list .rank-item .content .img:hover .w-later{
-    display:none;
-}
-
-.pd__ex .rank-list .rank-item .content .info:hover .title{
-    color:unset!important;
-}
-
-.pd__ex .rank-list .rank-item .content .info .title{
-    font-weight:normal!important;
-    font-size: 12px;
-    color: #666;
-    line-height: 1.4;
-    height: auto;
-    margin-top: 5px;
-}
-
-.pd__ex .rank-list .rank-item .content .info .detail .up-name:hover{
-    color: unset!important;
-}
-
-.pd__ex .video-card__info:hover .video-name[data-v-0c3f5fbc]{
-    color: unset;
-}
-
-.pd__ex .video-card__info .video-name[data-v-0c3f5fbc]{
-    font-weight:normal!important;
-    font-size: 12px;
-    color: #666;
-    line-height: 1.4;
-    height: auto;
-}
-
-
-.pd__ex .nav-tabs,
-.pd__ex .nav-tabs__item{
-    flex-wrap: wrap;
-    height: auto;
-}
-
-.pd__ex .nav-tabs__item{
-    margin-right: 5px;
-}
-
-.pd__ex .nav-tabs__item>div>img{
-    width:16px;
-    height:16px;
-    margin-right: 5px;
-}
-
-.pd__ex .rank-tab-wrap{
-    padding: 5px 0;
-    margin:0;
-}
-
-.pd__ex .rank-tab-wrap .rank-tab{
-    height: auto;
-}
-
-.pd__ex .popular-list[data-v-85e600c4]{
-    padding-top:10px;
-}
-
-.pd__ex .popular-list .popular-tips[data-v-85e600c4]{
-    margin-bottom:10px;
-}
-
-.pd__ex .video-card[data-v-0c3f5fbc],
-.pd__ex .video-card__content[data-v-0c3f5fbc]{
-    height: auto;
-    margin-bottom:10px;
-    max-width: 100%;
-}
-
-.pd__ex .video-card[data-v-0c3f5fbc]{
-    flex-direction: column;
-}
-
-.pd__ex .video-card__info[data-v-0c3f5fbc]{
-    padding: 0;
-}
-
-
-.pd__ex .rank-list .rank-item .content{
-    flex-direction: column;
-    padding: 0 0 10px;
-}
-
-.pd__ex .rank-list .rank-item .content .info{
-    height:auto;
-    margin-left:0;
-    padding-right:0;
-}
-
-
-.pd__ex .rank-list .rank-item .content .info .detail{
-    margin-top: 0;
-}
-
-.pd__ex .more-data{
-    position:relative;
-    right:unset;
-    bottom: unset;
-}
-
-
-.pd__ex .international-footer{
-    padding:10px;
-    max-width: 100%;
-}
-
-
-.pd__ex .international-footer *{
-    max-width: 100%!important;
-}
-
-
-.pd__ex .international-footer .link-box{
-/*    flex-wrap: wrap;*/
-    display:block;
-}
-
-.pd__ex .international-footer .link-box .footer_left{
-    display:block;
-    width: 100%;
-}
-
-.pd__ex .international-footer .link-box .link-item{
-    margin:10px 0 0 ;
-    padding:0;
-    border:none;
-    width: 100%;
-
-}
-
-.pd__ex .international-footer .link-box .footer_right{
-    margin-top: 10px;
-}
-
-.pd__ex  .international-footer .link-box .link-item.link-c p{
-    margin:0;
-}
-
-.pd__ex .international-footer .partner{
-    display:block;
-}
-
-.pd__ex .international-footer .partner .pic-box{
-    width: 100%;
-    margin:0;
-}
-
-.pd__ex .international-footer .partner .text-con{
-    width: 100%;
-}
-
-.pd__ex .popular-container{
-    padding: 0;
-    width: 100%;
-}
-
-.pd__ex .s_tag-v1 .tag-wrap .tag-area > li{
-    display:inline-block;
-}
-
-.pd__ex .activity-m-v1 .inside-wrp .left{
-    padding: 0;
-    margin: 0;
-    height: auto;
-    text-align: center;
-}
-
-.pd__ex .activity-m-v1 .inside-wrp .right .inside-bg{
-    width: 100%;
-}
-
-.pd__ex .rank-list .rank-item .content .img{
-    width:auto;
-    height:auto;
-}
-
-.pd__ex .rank-list .rank-item .content .img img{
-    width:100%;
-    height:100%;
-    object-fit: cover;
-}
-
-
-/*排名结束*/
-/**/
-/**/
-
-/* 科技频道  start*/
-.pd__ex .go-back-btn,
-.pd__ex .channel-layout,
-.pd__ex .channel-outer-nav{
-    padding: 0 10px;
-}
-
-.pd__ex .channel-nav{
-    display: block;
-    z-index: 100;
-}
-
-
-.pd__ex .channel-swiper{
-    height:auto;
-    margin-bottom: 0;
-}
-
-.pd__ex .channel-swiper .carousel .carousel-container .carousel-transform{
-    display:block;
-    overflow:scroll!important;
-    -webkit-overflow-scrolling: touch;
-    white-space: nowrap;
-}
-
-.pd__ex .channel-swiper-client .carousel .carousel-container .carousel-transform .carousel-slide{
-    transition: none;
-    transform: none!important;
-    position:relative;
-    display:inline-block;
-    width: 90%!important;
-    height: auto;
-    margin: 0 2%;
-}
-
-.pd__ex .fixed-wrapper{
-    position:relative;
-}
-
-
-.pd__ex .channel-swiper .channel-carousel-buttons{
-    display:none;
-}
-
-.pd__ex .channel-swiper .channel-carousel-tool{
-    display:none;
-}
-
-.pd__ex .channel-swiper .carousel .carousel-container .carousel-transform .carousel-slide .channel-img{
-    opacity:1;
-    display:inline-block!important;
-}
-
-.pd__ex .channel-swiper .carousel .carousel-container .carousel-transform .carousel-slide .channel-img .channel-img__mask .channel-img__mask--text{
-    font-size:12px;
-}
-
-
-.pd__ex .bili-grid,
-.pd__ex .video-card-list .video-card-body{
-    display:block;
-}
-
-.pd__ex .video-card-list .video-card-body>*:nth-of-type(1n + 7){
-    display:inline-block!important;
-}
-
-.pd__ex .bili-rank-list-video .rank-video-card__info--tit{
-    overflow:auto;
-}
-
-.pd__ex .bili-video-card .bili-video-card__info--tit{
-    padding-right: 0;
-    overflow: hidden;
-    font-size: 12px;
-}
-
-/*.pd__ex .aside-core > div{*/
-/*    display: inline-block;*/
-/*    width: 49%;*/
-/*    margin: 5px 0.5%;*/
-/*}*/
-
-/*.pd__ex .aside-core .bili-rank-list-video{*/
-/*    width: 100%;*/
-/*    margin: 0;*/
-/*}*/
-
-/* 科技频道 OVER*/
-
-
-/*频道页https://t.bilibili.com/?spm_id_from=333.1007.0.0*/
-.pd__ex .bili-dyn-home--member{
-    flex-wrap:wrap;
-}
-
-.pd__ex  main{
-    width:100%;
-}
-
-.pd__ex aside.left{
-    width: 100%;
-    margin-top: 10px;
-}
-
-.pd__ex .bili-dyn-up-list__window{
-    overflow: auto;
-    -webkit-overflow-scrolling: touch;
-}
-
-.pd__ex .bili-dyn-up-list__next,
-.pd__ex .bili-dyn-up-list__prev{
-    display:none;
-}
-
-.pd__ex .bili-dyn-publishing__control{
-    flex-wrap: wrap;
-}
-
-.pd__ex .bili-dyn-publishing__headquarters{
-    width: 100%;
-    justify-content: end;
-    margin-top: 5px;
-}
-
-.pd__ex .bili-dyn-item__main{
-    padding: 0 10px;
-}
-
-.pd__ex .bili-dyn-item__avatar{
-    top: 10px;
-}
-
-.pd__ex .bili-dyn-item__header{
-    padding: 10px 0 0 80px;
-}
-
-.pd__ex .bili-dyn-content{
-    width: 100%;
-}
-
-.pd__ex .bili-dyn-content__orig__major{
-    width: 100%;
-}
-
-.pd__ex .bili-dyn-card-pgc{
-    height: auto;
-}
-
-.pd__ex .bili-dyn-card-pgc__header{
-    width: 100px;
-    height:auto;
-}
-
-.pd__ex .bili-dyn-content__orig.reference{
-    margin: 0;
-}
-
-
-.pd__ex .bili-dyn-card-video__header{
-    width: 100px;
-    height: auto;
-    background: #fff;
-}
-.pd__ex .bili-dyn-card-video{
-    height:auto;
-}
-
-.pd__ex .bili-dyn-card-video__cover{
-    aspect-ratio: 4/3;
-    height: auto;
-}
-
-.pd__ex .bili-dyn-content__orig__additional{
-    width: 100%;
-}
-
-.pd__ex .dyn-reserve__action{
-    width: 80px;
-}
-
-.pd__ex .dyn-reserve__action button{
-    padding: 0 5px;
-}
-
-.pd__ex .bili-dyn-card-video__desc{
-    height: auto;
-}
-
-.pd__ex .bili-dyn-card-video__body{
-    padding: 5px;
-}
-
-.pd__ex .content{
-    width: 100%;
-}
-
-.pd__ex .bili-dyn-list-tabs__highlight{
-    display:none;
-}
-
+/*pudding_block_modal*/
 /*屏蔽功能*/
 .pd__ex .rank-list .rank-item .content .img .__pudding_block,
 .pd__ex .video-card__content .__pudding_block,
@@ -1346,135 +31,6 @@ body #app #bilibili-player.mini-player{
     z-index:2;
     background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gU3ZnIFZlY3RvciBJY29ucyA6IGh0dHA6Ly93d3cub25saW5ld2ViZm9udHMuY29tL2ljb24gLS0+DQo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMTAwMCAxMDAwIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAxMDAwIDEwMDAiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPG1ldGFkYXRhPiBTdmcgVmVjdG9yIEljb25zIDogaHR0cDovL3d3dy5vbmxpbmV3ZWJmb250cy5jb20vaWNvbiA8L21ldGFkYXRhPg0KPGc+PHBhdGggZD0iTTUwMCw5OTBDMjI5LjgsOTkwLDEwLDc3MC4yLDEwLDUwMFMyMjkuOCwxMCw1MDAsMTBzNDkwLDIxOS44LDQ5MCw0OTBTNzcwLjIsOTkwLDUwMCw5OTB6IE01MDAsODAuM0MyNjguNiw4MC4zLDgwLjMsMjY4LjYsODAuMyw1MDBjMCwyMzEuNCwxODguMyw0MTkuNyw0MTkuNyw0MTkuN2MyMzEuNCwwLDQxOS43LTE4OC4zLDQxOS43LTQxOS43QzkxOS43LDI2OC42LDczMS40LDgwLjMsNTAwLDgwLjN6IE01NDkuMyw1MDEuNWwxNTEuMy0xNDkuN2MxMy44LTEzLjYsMTMuOS0zNS43LDAuMy00OS41Yy0xMy42LTEzLjgtMzUuOC0xMy45LTQ5LjUtMC4zTDQ5OS45LDQ1MS45TDM1MC42LDMwMi4yYy0xMy43LTEzLjctMzUuOC0xMy44LTQ5LjUtMC4xYy0xMy43LDEzLjYtMTMuNywzNS44LTAuMSw0OS41bDE0OSwxNDkuNUwyOTkuOCw2NDkuOGMtMTMuOCwxMy42LTEzLjksMzUuNy0wLjMsNDkuNWM2LjksNi45LDE1LjksMTAuNCwyNC45LDEwLjRjOC45LDAsMTcuOC0zLjQsMjQuNi0xMC4xbDE1MC41LTE0OC44bDE1MS43LDE1Mi4yYzYuOCw2LjksMTUuOCwxMC4zLDI0LjgsMTAuM2M5LDAsMTcuOS0zLjQsMjQuNy0xMC4yYzEzLjctMTMuNywxMy43LTM1LjgsMC4xLTQ5LjVMNTQ5LjMsNTAxLjV6Ii8+PC9nPg0KPC9zdmc+");
 }
-
-/*登陆页面*/
-
-.pd__ex .mini-header{
-    height:auto;
-}
-
-.pd__ex .mini-header__content{
-    display:block;
-    line-height:unset;
-}
-
-.pd__ex .login-box .login-left{
-    display:none;
-}
-
-.pd__ex .top-banner{
-    height:auto;
-}
-
-.pd__ex .top-banner img{
-    max-width:100%;
-}
-
-.pd__ex .title-line{
-    width: 100%;
-}
-.pd__ex .login-box{
-    width:100%;
-}
-
-.pd__ex .login-box .login-right{
-    padding: 0 5vw;
-    max-width: 100vw;
-}
-
-.pd__ex .form-login .input-box{
-    max-width:100%;
-}
-
-.pd__ex p[data-v-2c844fd9]{
-    width:100%;
-}
-
-.pd__ex .form-login .input-box .remember{
-    width: 100%;
-}
-
-/*https://message.bilibili.com/#/reply*/
-
-.pd__ex .container,
-.pd__ex .container[data-v-1c9150a9],
-.pd__ex .space-left[data-v-1c9150a9]{
-    width:100%;
-}
-
-.pd__ex .container[data-v-1c9150a9]{
-    flex-direction:column;
-}
-
-.pd__ex .title[data-v-09801ae7]{
-    height:auto;
-    padding: 10px 0;
-}
-
-.pd__ex .list[data-v-09801ae7]{
-    padding: 0 10px;
-}
-
-.pd__ex .item[data-v-09801ae7]{
-    display:inline-block;
-    height:auto;
-}
-
-.pd__ex .item[data-v-09801ae7]::before{
-    display:none;
-}
-
-.pd__ex .item a[data-v-09801ae7]{
-    padding: 0 8px 0 0;
-}
-
-.pd__ex .channel-menu-mini{
-    display:none;
-}
-
-.pd__ex .nav-link .nav-link-ul .nav-link-item svg{
-    display:none;
-}
-
-.pd__ex .nav-link .nav-link-ul .nav-link-item{
-    margin-right:3px;
-    display: inline-block;
-}
-
-.pd__ex .nav-link .nav-link-ul{
-    height: auto;
-    flex-wrap: wrap;
-}
-
-.pd__ex .bili-header-m .nav-search-box, .international-header .nav-search-box{
-    max-width:100%!important;
-    margin:0;
-}
-
-.pd__ex .download-client-trigger{
-    display:none!important;
-}
-
-.pd__ex .nav-user-center .user-con{
-    flex-wrap:wrap;
-}
-
-.pd__ex p[data-v-2bdcddf1]{
-    width:100%;
-}
-
-.pd__ex .nav-user-center{
-    margin-top:5px;
-}
-
-/*登陆*/
-.pd__ex .bili-header .loc-moveclip{
-    display:none;
-}
-
-
-
-/*pudding_block_modal*/
 
 .pudding_block_Modal{
     position:fixed;
@@ -1542,25 +98,1476 @@ body #app #bilibili-player.mini-player{
     margin-bottom: 15px;
 }
 
-
-/*01-08改版*/
-.pd__ex .recommended-container_floor-aside .container{
-    grid-column : span 2;
-    grid-template-columns : repeat(2,1fr);
-/*    grid-gap: 10px;*/
-    grid-column-gap: 10px;
-    grid-row-gap: 15px;
-    padding:0 10px;
-}
-
-
+/*空窗*/
 .pd__ex .recommended-container_floor-aside .container .feed-card:empty{
     display:none!important;
 }
 
-.pd__ex .recommended-container_floor-aside .container>*:nth-of-type(n + 6),
-.pd__ex .recommended-container_floor-aside .container.is-version8>*:nth-of-type(n + 13){
-    margin-top: 0;
+
+/*为iPhone PC站设置样式*/
+@media (max-width: 440px) and (orientation: portrait),
+(max-width: 940px) and (orientation: landscape){
+    
+    .pd__ex *{
+    /*    float: none!important;*/
+        min-width: unset!important;
+    /*    max-width:100%!important;*/
+        box-sizing: border-box;
+        -webkit-text-size-adjust: none;
+    }
+
+
+    html,body{
+        height:unset!important;
+    }
+
+    body{
+        min-width: unset!important;
+    }
+
+    /*.pd__ex div:empty{*/
+    /*    display:none!important;*/
+    /*}*/
+
+
+    .pd__ex .trial-feed-wrap{
+        display:none;
+    }
+
+    .bili-header .bili-header__banner{
+        min-width: unset!important;
+    }
+
+    .bili-header .left-entry .entry-title, .bili-header .left-entry .download-entry, .bili-header .left-entry .default-entry, .bili-header .left-entry .loc-entry{
+        color:var(--text1)!important;
+    }
+
+    .bili-header .right-entry__outside .right-entry-icon{
+        color:var(--text1)!important;
+    }
+
+    .bili-header .bili-header__bar{
+        padding: 0 10px!important;
+        position: sticky!important;
+        display: block!important;
+        height: auto!important;
+        background:var(--bg1_float);
+    }
+
+    .bili-header .left-entry__title .mini-header__title .arrow-up,
+    .v-popover.is-bottom-start{
+        display:none!important;
+    }
+
+
+
+    .bili-header .bili-header__banner{
+        display:none!important;
+    }
+
+    .bili-header .left-entry__title .mini-header__logo{
+        display:none!important;
+    }
+
+    .bili-header .slide-down{
+        animation: none!important;
+    }
+
+
+    .bili-header .slide-down .center-search-container{
+        margin:0!important;
+    }
+
+
+    .bili-header .left-entry .entry-title, .bili-header .left-entry .download-entry, .bili-header .left-entry .default-entry, .bili-header .left-entry .loc-entry,
+    .bili-header .left-entry__title{
+        height: 32px!important;
+        line-height:32px!important;
+    }
+
+    .bili-header .left-entry .entry-title .zhuzhan-icon{
+        color:var(--text1)!important;
+    }
+
+    .bili-header .right-entry{
+        margin:0!important;
+        padding: 5px 0!important;
+    }
+
+
+    .bili-header .bili-header__channel{
+        padding: 0 10px!important;
+        height: unset!important;
+    }
+
+    .bili-header .bili-header__channel{
+        display:block!important;
+    }
+
+    .bili-header .bili-header__channel .right-channel-container{
+        display:block!important;
+    }
+
+    .bili-header .bili-header__channel .channel-items__right{
+        width: 100%!important;
+    }
+
+    .bili-header .bili-header__channel .channel-items__left{
+        display:block!important;
+        padding: 0!important;
+        border: none!important;
+    }
+
+    .bili-header .bili-header__channel .channel-entry-more__link, .bili-header .bili-header__channel .channel-link{
+        width:auto!important;
+        padding: 0 5px;
+        margin: 3px 5px;
+    }
+
+    .bili-header .bili-header__channel .channel-items__right{
+        display: block!important;
+    }
+
+    .bili-header .bili-header__channel .channel-link__right{
+        display:inline-block!important;
+        width:auto!important;
+        padding: 0 5px;
+        margin: 3px 5px;
+    }
+
+    .bili-layout{
+        padding: 0 10px!important;
+    }
+
+    .bili-grid{
+        display: block!important;
+        margin-bottom: 15px!important;
+    }
+
+    .bili-feed4-layout, .bili-feed4 .bili-header .bili-header__channel{
+        width:unset!important;
+    }
+
+    .pd__ex .header-channel-fixed{
+        display:none;
+    }
+
+    .recommend-container__2-line{
+        display:block!important;
+    }
+
+    /*换一换按钮*/
+    .pd__ex .roll-btn-wrap,
+    .pd__ex .recommended-container .feed-roll-btn,
+    .pd__ex .recommended-container .feed-roll-btn.smallest,
+    .pd__ex .feed-roll-btn{
+        top : -80px!important;
+        transform:unset!important;
+    }
+
+    .recommend-container__2-line > .bili-video-card ,
+    .information-body > .bili-video-card,
+    .eva-extension-body > .bili-video-card{
+        display: inline-block!important;
+        width: 49%!important;
+        margin: 5px 0.5%;
+    }
+
+    .bili-grid .recommend-container__2-line>*:nth-of-type(1n + 6){
+        display: inline-block!important;
+    }
+
+    .eva-extension-area .eva-extension-body{
+        display:block!important;
+    }
+
+    .bili-grid .eva-extension-area .eva-extension-body>*:nth-of-type(1n + 5){
+        display: inline-block!important;
+    }
+
+
+    .pd__ex .bili-watch-later,
+    .pd__ex .eva-banner{
+        display:none;
+    }
+
+    .pd__ex .recommended-container .first-paint[data-v-2e69d16c]{
+        display:block;
+    /*    padding: 0 10px;*/
+    }
+
+
+
+    .pd__ex .recommended-container .container{
+        display:block!important;
+        padding: 0 10px;
+    }
+
+    .pd__ex .recommended-container .first-paint[data-v-2e69d16c] > div,
+    .pd__ex .recommended-card,
+    .pd__ex .business-card{
+        display: inline-block;
+        width: 49%!important;
+        margin: 5px 0.5%!important;
+        vertical-align: top;
+    }
+
+    .pd__ex .recommended-swipe,
+    .pd__ex .recommended-container .first-paint[data-v-2e69d16c] > .recommended-swipe{
+        display:none;
+    }
+
+    .pd__ex .feed-floor .bili-grid,
+    .pd__ex .feed-floor .live-card-body,
+    .pd__ex .feed-floor .video-card-body,
+    .pd__ex .feed-floor .bangumi-card-body,
+    .pd__ex .feed-floor .bangumi-card-shim,
+    .pd__ex .feed-floor .variety-body,
+    .pd__ex .feed-floor .information-body,
+    .pd__ex .feed-floor .movie-card-body,
+    .pd__ex .recommended-container .container[data-v-d758ffb0]{
+        grid-gap: unset!important;
+    }
+
+
+    /*直播*/
+    .live-card-body{
+        display:block!important;
+    }
+
+    .live-card-body > div{
+        display: inline-block!important;
+        width: 49%!important;
+        margin: 5px 0.5%;
+        vertical-align: top;
+    }
+
+    .live-card-body > div > .bili-live-card {
+    /*    display: inline-block!important;*/
+    /*    width: 49%!important;*/
+    /*    margin: 5px 0.5%;*/
+    /*    vertical-align: top;*/
+    }
+
+    .bili-grid .live-card-body>*:nth-of-type(1n + 7){
+        display: inline-block!important;
+    }
+
+
+    .aside-wrap{
+        position:relative!important;
+        margin-bottom: 30px;
+    }
+
+
+    .aside-core{
+        position:relative!important;
+    }
+
+    .aside-body .aside-core .carousel-slide .list-state-error{
+        padding: 30px 0!important;
+    }
+
+
+    .video-card-list.is-main .video-card-body, .video-card-list.is-full .video-card-body{
+        display: block!important;
+    }
+
+    .bili-grid .video-card-list.is-main .video-card-body>*:nth-of-type(1n + 7){
+        display:inline-block!important;
+    }
+
+
+    .bili-layout aside{
+        margin-top: 15px;
+        margin-bottom:30px;
+    }
+
+
+    .bili-footer,
+    .bili-footer .b-footer-wrap{
+        min-width:unset!important;
+    }
+
+    .bili-footer .link-box{
+        display:block!important;
+    }
+
+    .bili-footer .b-footer-wrap .link-box{
+        margin: 0!important;
+    }
+
+    .bili-footer .link-box .link-item__center{
+        width:100%!important;
+    }
+
+    .bili-footer .other-link .text-con{
+        width:100%!important;
+    }
+
+
+    .roll-btn-wrap{
+        left:unset!important;
+        right:0!important;
+    }
+
+    /*赛事*/
+    .pd__ex .battle-area .battle-body,
+    .pd__ex .battle-feed-area .battle-feed-body{
+        display:block!important;
+        padding: 0 10px;
+    }
+
+    .pd__ex .battle-feed-area .battle-feed-body > div{
+        display: inline-block!important;
+        width: 49%!important;
+        margin: 5px 0.5%;
+        vertical-align: top;
+    }
+
+    .pd__ex .battle-feed-area .battle-feed-body > div:empty{
+        width: 0!important;
+        margin: 0;
+    }
+
+    .battle-body > .bili-live-card{
+        display: inline-block!important;
+        width: 49%!important;
+        margin: 5px 0.5%;
+        vertical-align: top;
+    }
+
+    /*动画*/
+
+    .video-card-body > div{
+        display: inline-block!important;
+        width: 49%!important;
+        margin: 5px 0.5%;
+        vertical-align: top;
+    }
+
+
+    .video-card-body > div > .bili-video-card{
+        display: block!important;
+        width: 100%!important;
+    }
+
+
+    /*番剧*/
+    .area-header .title{
+        font-size:18px!important;
+    }
+
+
+    .area-header{
+        display:block!important;
+        height:auto!important;
+    }
+
+    .bangumi-card-list .track-switch button{
+        font-size:12px!important;
+        padding: 3px!important;
+    }
+
+    .bangumi-card-shim{
+        display:none!important;
+    }
+
+
+
+    .pd__ex .bangumi-card-body{
+        display:flex!important;
+        flex-wrap:wrap;
+        justify-content: space-between;
+        padding: 0 10px;
+        grid-gap: unset!important;
+    }
+
+
+    .bangumi-card-body > div{
+        display: inline-block!important;
+        width: 49%!important;
+        margin: 5px 0;
+    }
+
+    .bili-grid .bangumi-card-body.is-loading>*:nth-of-type(1n + 7){
+        display: inline-block!important;
+    }
+
+    .bangumi-activity-area .bangumi-activity-body{
+        display:block!important;
+    }
+
+    .pd__ex .feed-floor .feed-floor-list,
+    .pd__ex .feed-floor .feed-floor-loading{
+        display:flex!important;
+        flex-wrap:wrap;
+        justify-content: space-between;
+        padding: 0 10px;
+        grid-gap: unset;
+    }
+
+    .pd__ex .feed-floor .feed-floor-list > div,
+    .pd__ex .feed-floor .feed-floor-loading > div{
+        display: block;
+        width: 49%!important;
+        margin: 5px 0;
+    }
+
+    .variety-body > div,
+    .cheese-card-body > div,
+    .information-body > div,
+    .movie-card-body > div{
+        display: inline-block!important;
+        width: 49%!important;
+        margin: 5px 0.5%;
+    }
+
+    .bangumi-activity-body > .bili-movie-card{
+        display: inline-block!important;
+        width: 49%!important;
+        margin: 5px 0.5%;
+    }
+
+
+    .bili-grid .bangumi-activity-area .bangumi-activity-body>*:nth-of-type(1n + 9){
+        display: inline-block!important;
+    }
+
+    .variety-area .variety-body{
+        display:block!important;
+    }
+
+    .bili-grid .variety-area .variety-body>*:nth-of-type(1n + 9){
+        display: inline-block!important;
+    }
+
+    .information-area .information-body{
+        display:block!important;
+    }
+
+    .manga-card-list{
+        min-height: unset!important;
+    }
+
+    .pd__ex .cheese-card-list .cheese-card-body{
+        display:flex!important;
+        flex-wrap:wrap;
+        justify-content: space-between;
+        padding: 0 10px;
+        grid-gap: unset!important;
+    }
+
+    .bili-grid .cheese-card-list .cheese-card-body>*:nth-of-type(1n + 7){
+        display: inline-block!important;
+    }
+
+    .bili-grid .information-area .information-body>*:nth-of-type(1n + 9){
+        display: inline-block!important;
+    }
+
+
+    .bili-article-card .bili-article-card__wrap{
+        flex-direction: column;
+    }
+
+    .pd__ex .movie-card-body{
+    /*    display:block!important;*/
+        display:flex!important;
+        flex-wrap:wrap;
+        justify-content: space-between;
+        padding: 0 10px;
+        grid-gap: unset;
+    }
+
+    .bili-grid .movie-card-body>*:nth-of-type(1n + 7){
+        display: inline-block!important;
+    }
+
+    .movie-card-body{
+        display:block!important;
+    }
+
+    .bili-grid .movie-card-body>*:nth-of-type(1n + 7){
+        display: inline-block!important;
+    }
+
+
+    .cheese-card-body > .bili-cheese-card{
+        display: inline-block!important;
+        width: 49%!important;
+        margin: 5px 0.5%;
+    }
+
+    .bili-footer .footer-icons{
+        width:100%!important;
+    }
+
+
+    .area-header{
+        position: sticky!important;
+        top:0;
+        background:#fff;
+        z-index: 1000!important;
+        padding: 5px 0!important;
+    }
+
+    .pd__ex .feed-floor .channel-floor.bili-grid.no-margin,
+    .pd__ex .feed-floor .bili-grid{
+        margin-bottom: 5px!important;
+    }
+
+    .pd__ex .feed-floor .channel-floor{
+        padding: 5px 0 !important;
+    }
+
+    .pd__ex .feeds-bottom[data-v-bde4b280],
+    .pd__ex .feeds-bottom-loading[data-v-bde4b280]{
+        display:flex!important;
+        flex-wrap:wrap;
+        justify-content: space-between;
+        padding: 0 10px;
+        grid-gap: unset;
+    }
+
+
+    .pd__ex .feeds-bottom[data-v-bde4b280] > div,
+    .pd__ex .feeds-bottom-loading[data-v-bde4b280] > div{
+        display: block;
+        width: 49%!important;
+        margin: 5px 0.5%;
+    }
+
+    .pd__ex .feed-floor .manga-card-list .manga-card-body,
+    .pd__ex .manga-card-list .manga-card-body{
+        display:flex!important;
+        flex-wrap:wrap;
+    /*    justify-content: space-between;*/
+        padding: 0 10px;
+        grid-gap: unset;
+    }
+
+    .pd__ex .manga-card-list .manga-card-body > div{
+        display: block;
+        width: 31%!important;
+        margin: 5px 0.5%;
+    }
+
+    .pd__ex .feeds-bottom,
+    .pd__ex .feeds-bottom-loading{
+        display:flex!important;
+        flex-wrap:wrap;
+        justify-content: space-between;
+        padding: 0 10px;
+        grid-gap: unset!important;
+    }
+
+    .pd__ex .feeds-bottom > div,
+    .pd__ex .feeds-bottom-loading > div{
+        display: block;
+        width: 49%!important;
+        margin: 5px 0.5%;
+    }
+
+
+
+    /*去掉一些空窗*/
+
+    /*.pd__ex .first-paint > div:empty{*/
+    /*    display:none!important;*/
+    /*}*/
+
+
+    .pd__ex .recommended-container .first-paint[data-v-2e69d16c] > div:empty,
+    .pd__ex .business-card:empty,
+    .pd__ex .recommended-card:empty{
+        width: 0!important;
+        margin: 0!important;
+    }
+
+    /*.bili-grid .battle-area .battle-body>*:nth-of-type(1n + 5){*/
+    /*        display:inline-block!important;*/
+    /*}*/
+
+
+    .bangumi-card-data{
+        position:relative!important;
+    }
+
+    .palette-button-outer{
+        display:none!important;
+    }
+
+
+    /* 旧版 video*/
+    .unlogin-popover{
+        display:none!important;
+    }
+
+    /*先处理页面撑开的问题*/
+    #app{
+        width:100%!important;
+    }
+
+    .bili-header{
+        min-width:unset!important;
+    }
+
+    .v-wrap{
+        min-width:unset!important;
+        width:100%!important;
+        padding: 0 5px!important;
+        display:block!important;
+        box-sizing:border-box;
+    }
+
+
+    .l-con{
+        width:100%!important;
+    }
+
+    .v-wrap .r-con{
+        width:100%!important;
+        margin: 0!important;
+        padding: 0 5px!important;
+        box-sizing: border-box;
+    }
+    /**/
+    /*#bilibili-player{*/
+    /*    width:100%!important;*/
+    /*}*/
+
+    #bilibili-player{
+        width:100%!important;
+        height: 300px!important;
+    }
+
+    .video-desc .desc-info{
+        width:100%!important;
+    }
+
+    body.header-v3 #biliMainHeader,
+    body.header-v3 #biliMainHeader .mini-header{
+        height: auto!important;
+        min-height:unset!important;
+    }
+
+    .video-toolbar{
+        height:auto!important;
+    }
+
+    .video-toolbar .ops,
+    .video-toolbar .more,
+    .video-toolbar .rigth-btn{
+        float:none!important;
+    }
+
+    .pd__ex .bilibili-player-video-sendbar{
+        display:flex!important;
+    }
+
+    .pd__ex .bilibili-player-context-menu-container{
+        display:none!important;
+    }
+
+    .pd__ex .bilibili-player .bilibili-player-area{
+        max-height: 50vh;
+    }
+
+    .pd__ex .bpx-player-sending-bar, .bpx-player-sending-bar .bpx-player-video-info{
+        flex-wrap:wrap;
+    }
+
+    /*.bilibili-player.mode-miniscreen.bilibili-player .bilibili-player-area .bilibili-player-video-state,*/
+    /*.bilibili-player.mode-miniscreen[class*=mode-] .bilibili-player-area .bilibili-player-video-state{*/
+    /*    display: block!important;*/
+    /*    opacity: 0.2!important;*/
+    /*    bottom: 5px!important;*/
+    /*    right: 5px!important;*/
+    /*}*/
+    /**/
+    /*.bilibili-player.mode-miniscreen.bilibili-player .bilibili-player-area.video-state-pause .bilibili-player-video-state,*/
+    /*.bilibili-player.mode-miniscreen[class*=mode-] .bilibili-player-area.video-state-pause .bilibili-player-video-state{*/
+    /*    display: block!important;*/
+    /*    bottom: 5px!important;*/
+    /*    right: 5px!important;*/
+    /*    opacity: 0.8!important;*/
+    /*}*/
+
+    /*不要点中弹幕了*/
+    .pd__ex .b-danmaku{
+        pointer-events: none;
+    }
+
+    .bb-comment .comment-list .list-item .user-face, .comment-bilibili-fold .comment-list .list-item .user-face{
+        width:48px!important;
+    }
+
+    .bb-comment .comment-list .list-item .con, .comment-bilibili-fold .comment-list .list-item .con{
+        margin-left: 60px!important;
+    }
+
+
+    .up-info .u-face.has-pendant{
+        left:0!important;
+    }
+
+    .player-auxiliary-area{
+        width:100%!important;
+    }
+
+    .bb-comment .comment-send.comment-send-lite, .comment-bilibili-fold .comment-send.comment-send-lite, .bb-comment .comment-send-lite.comment-send-lite, .comment-bilibili-fold .comment-send-lite.comment-send-lite,.comment-send-lite-mask{
+        display:none!important;
+    }
+    /* 旧版 video 结束*/
+
+    /* 新版video */
+    /*解决撑开的问题开始*/
+    .pd__ex #playerWrap{
+        height:auto;
+        position: sticky;
+        top:0;
+        z-index: 1000;
+    }
+
+    .pd__ex #app #bilibili-player{
+        height:auto!important;
+    }
+
+    .pd__ex #app #bilibili-player.mini-player{
+        width: 100%!important;
+        height:auto!important;
+        right: unset!important;
+        bottom: unset!important;
+        left: 0!important;
+        top: 0!important;
+    }
+
+    .pd__ex #app #bilibili-player.mini-player .player{
+        width: 100%!important;
+        height:auto!important;
+    }
+
+    .pd__ex #bilibili-player.mini-player:hover .bilibili-player-drag-mask-close,
+    .pd__ex #bilibili-player.mini-player:hover .bilibili-player-drag-mask-state,
+    .pd__ex .bilibili-player.mode-miniscreen .bilibili-player-area .bilibili-player-drag-mask-progress{
+        display: none;
+    }
+
+    .pd__ex #app #bilibili-player.mini-player:hover .mini-player-drag-mask{
+        display:none!important;
+    }
+
+    .pd__ex .bpx-player-container[data-screen=mini],
+    .pd__ex .bpx-player-container[data-revision="1"][data-screen=mini]{
+        position: unset!important;
+        width: 100%;
+        height: auto;
+        border-radius: unset;
+        overflow: unset;
+    }
+
+    .pd__ex .bpx-player-mini-warp{
+        display:none;
+    }
+
+
+    .pd__ex .video-toolbar .ops > span{
+        width: auto;
+    }
+
+    .pd__ex .bilibili-player-video-sendbar .bilibili-player-video-inputbar{
+        width: auto;
+    }
+
+    /*设置弹幕的，先隐藏了吧*/
+    .pd__ex .bilibili-player-video-sendbar .bilibili-player-video-danmaku-root .bilibili-player-video-danmaku-setting{
+        display:none;
+    }
+
+    .video-container-v1{
+        min-width:unset!important;
+        flex-direction:column;
+    }
+
+    .left-container{
+        width:100%!important;
+    }
+
+    .video-container-v1 .right-container{
+        width:100%!important;
+    }
+
+    .video-container-v1 .right-container{
+        margin:0!important;
+    }
+
+    .video-toolbar-v1{
+        height:auto!important;
+    }
+
+    .video-toolbar-v1 .toolbar-left{
+        float:none!important;
+    }
+
+    .video-toolbar-v1 .toolbar-right{
+        float:none!important;
+    }
+
+    /*解决撑开的问题结束*/
+
+    body #app #bilibili-player.mini-player{
+        position:relative!important;
+    }
+
+
+    /* 新版video 结束 */
+
+
+    .video-info .video-data{
+        display:block!important;
+        white-space: unset!important;
+        padding: 5px 0!important;
+    }
+
+
+    /*登陆框*/
+
+    .bili-mini{
+        width:90%!important;
+        display:block!important;
+        padding:15px!important;
+        box-sizing:border-box;
+    }
+
+    .bili-mini-scan{
+        display: none!important;
+    }
+
+    .bili-mini-content .bili-mini-line{
+        display: none!important;
+    }
+
+    .bili-mini-login-wrapper{
+        width:100%!important;
+    }
+
+    .bili-mini-account,
+    .bili-mini-password{
+        padding:0 5px!important;
+    }
+
+    .bili-mini-password input{
+        width:unset!important;
+    }
+
+    .third-party-login-wrapper .sns .btn{
+        margin-right: 15px!important;
+    }
+
+    .bili-mini-tel,
+    .bili-mini-code{
+        padding: 0 5px!important;
+    }
+
+    .bili-mini-tel .bili-mini-tel_left{
+        display:flex;
+    }
+
+    .bili-mini-tel .bili-mini-tel_right .line{
+        margin-right: 5px!important;
+    }
+
+    .bili-mini-tel .bili-mini-tel_left .tel-input{
+        width: unset!important;
+    }
+
+    .bili-mini-tel .bili-mini-tel_right .text{
+        font-size: 12px!important;
+    }
+
+    .pd__ex .bili-header .mini-avatar--large .header-entry-avatar{
+        animation:none;
+    }
+
+    .pd__ex .bili-header .mini-avatar--large .header-entry-mini{
+        animation:none;
+    }
+
+    .bili-header .header-avatar-wrap .header-avatar-wrap--container .bili-avatar{
+        width: 100%!important;
+        height: 100%!important;
+        transform:none!important;
+    }
+
+
+    .pd__ex .video-info-v1 .video-data{
+        flex-wrap : wrap;
+        height: auto;
+    }
+
+    .pd__ex .video-info-v1{
+        height: auto;
+        padding-top:10px;
+    }
+
+    .pd__ex .video-info-v1 .video-title{
+        font-size: 18px;
+    }
+    /**/
+    /**/
+    /* 排名开始 www.bilibili.com/v/popular/rank/*/
+
+
+    .pd__ex #app{
+        padding: 0 10px;
+    }
+    .pd__ex #app.app-v1{
+        padding:0;
+    }
+
+    .pd__ex .rank-list .rank-item .content .img:hover .w-later{
+        display:none;
+    }
+
+    .pd__ex .rank-list .rank-item .content .info:hover .title{
+        color:unset!important;
+    }
+
+    .pd__ex .rank-list .rank-item .content .info .title{
+        font-weight:normal!important;
+        font-size: 12px;
+        color: #666;
+        line-height: 1.4;
+        height: auto;
+        margin-top: 5px;
+    }
+
+    .pd__ex .rank-list .rank-item .content .info .detail .up-name:hover{
+        color: unset!important;
+    }
+
+    .pd__ex .video-card__info:hover .video-name[data-v-0c3f5fbc]{
+        color: unset;
+    }
+
+    .pd__ex .video-card__info .video-name[data-v-0c3f5fbc]{
+        font-weight:normal!important;
+        font-size: 12px;
+        color: #666;
+        line-height: 1.4;
+        height: auto;
+    }
+
+
+    .pd__ex .nav-tabs,
+    .pd__ex .nav-tabs__item{
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .pd__ex .nav-tabs__item{
+        margin-right: 5px;
+    }
+
+    .pd__ex .nav-tabs__item>div>img{
+        width:16px;
+        height:16px;
+        margin-right: 5px;
+    }
+
+    .pd__ex .rank-tab-wrap{
+        padding: 5px 0;
+        margin:0;
+    }
+
+    .pd__ex .rank-tab-wrap .rank-tab{
+        height: auto;
+    }
+
+    .pd__ex .popular-list[data-v-85e600c4]{
+        padding-top:10px;
+    }
+
+    .pd__ex .popular-list .popular-tips[data-v-85e600c4]{
+        margin-bottom:10px;
+    }
+
+    .pd__ex .video-card[data-v-0c3f5fbc],
+    .pd__ex .video-card__content[data-v-0c3f5fbc]{
+        height: auto;
+        margin-bottom:10px;
+        max-width: 100%;
+    }
+
+    .pd__ex .video-card[data-v-0c3f5fbc]{
+        flex-direction: column;
+    }
+
+    .pd__ex .video-card__info[data-v-0c3f5fbc]{
+        padding: 0;
+    }
+
+
+    .pd__ex .rank-list .rank-item .content{
+        flex-direction: column;
+        padding: 0 0 10px;
+    }
+
+    .pd__ex .rank-list .rank-item .content .info{
+        height:auto;
+        margin-left:0;
+        padding-right:0;
+    }
+
+
+    .pd__ex .rank-list .rank-item .content .info .detail{
+        margin-top: 0;
+    }
+
+    .pd__ex .more-data{
+        position:relative;
+        right:unset;
+        bottom: unset;
+    }
+
+
+    .pd__ex .international-footer{
+        padding:10px;
+        max-width: 100%;
+    }
+
+
+    .pd__ex .international-footer *{
+        max-width: 100%!important;
+    }
+
+
+    .pd__ex .international-footer .link-box{
+    /*    flex-wrap: wrap;*/
+        display:block;
+    }
+
+    .pd__ex .international-footer .link-box .footer_left{
+        display:block;
+        width: 100%;
+    }
+
+    .pd__ex .international-footer .link-box .link-item{
+        margin:10px 0 0 ;
+        padding:0;
+        border:none;
+        width: 100%;
+
+    }
+
+    .pd__ex .international-footer .link-box .footer_right{
+        margin-top: 10px;
+    }
+
+    .pd__ex  .international-footer .link-box .link-item.link-c p{
+        margin:0;
+    }
+
+    .pd__ex .international-footer .partner{
+        display:block;
+    }
+
+    .pd__ex .international-footer .partner .pic-box{
+        width: 100%;
+        margin:0;
+    }
+
+    .pd__ex .international-footer .partner .text-con{
+        width: 100%;
+    }
+
+    .pd__ex .popular-container{
+        padding: 0;
+        width: 100%;
+    }
+
+    .pd__ex .s_tag-v1 .tag-wrap .tag-area > li{
+        display:inline-block;
+    }
+
+    .pd__ex .activity-m-v1 .inside-wrp .left{
+        padding: 0;
+        margin: 0;
+        height: auto;
+        text-align: center;
+    }
+
+    .pd__ex .activity-m-v1 .inside-wrp .right .inside-bg{
+        width: 100%;
+    }
+
+    .pd__ex .rank-list .rank-item .content .img{
+        width:auto;
+        height:auto;
+    }
+
+    .pd__ex .rank-list .rank-item .content .img img{
+        width:100%;
+        height:100%;
+        object-fit: cover;
+    }
+
+
+    /*排名结束*/
+    /**/
+    /**/
+
+    /* 科技频道  start*/
+    .pd__ex .go-back-btn,
+    .pd__ex .channel-layout,
+    .pd__ex .channel-outer-nav{
+        padding: 0 10px;
+    }
+
+    .pd__ex .channel-nav{
+        display: block;
+        z-index: 100;
+    }
+
+
+    .pd__ex .channel-swiper{
+        height:auto;
+        margin-bottom: 0;
+    }
+
+    .pd__ex .channel-swiper .carousel .carousel-container .carousel-transform{
+        display:block;
+        overflow:scroll!important;
+        -webkit-overflow-scrolling: touch;
+        white-space: nowrap;
+    }
+
+    .pd__ex .channel-swiper-client .carousel .carousel-container .carousel-transform .carousel-slide{
+        transition: none;
+        transform: none!important;
+        position:relative;
+        display:inline-block;
+        width: 90%!important;
+        height: auto;
+        margin: 0 2%;
+    }
+
+    .pd__ex .fixed-wrapper{
+        position:relative;
+    }
+
+
+    .pd__ex .channel-swiper .channel-carousel-buttons{
+        display:none;
+    }
+
+    .pd__ex .channel-swiper .channel-carousel-tool{
+        display:none;
+    }
+
+    .pd__ex .channel-swiper .carousel .carousel-container .carousel-transform .carousel-slide .channel-img{
+        opacity:1;
+        display:inline-block!important;
+    }
+
+    .pd__ex .channel-swiper .carousel .carousel-container .carousel-transform .carousel-slide .channel-img .channel-img__mask .channel-img__mask--text{
+        font-size:12px;
+    }
+
+
+    .pd__ex .bili-grid,
+    .pd__ex .video-card-list .video-card-body{
+        display:block;
+    }
+
+    .pd__ex .video-card-list .video-card-body>*:nth-of-type(1n + 7){
+        display:inline-block!important;
+    }
+
+    .pd__ex .bili-rank-list-video .rank-video-card__info--tit{
+        overflow:auto;
+    }
+
+    .pd__ex .bili-video-card .bili-video-card__info--tit{
+        padding-right: 0;
+        overflow: hidden;
+        font-size: 12px;
+    }
+
+    /*.pd__ex .aside-core > div{*/
+    /*    display: inline-block;*/
+    /*    width: 49%;*/
+    /*    margin: 5px 0.5%;*/
+    /*}*/
+
+    /*.pd__ex .aside-core .bili-rank-list-video{*/
+    /*    width: 100%;*/
+    /*    margin: 0;*/
+    /*}*/
+
+    /* 科技频道 OVER*/
+
+
+    /*频道页https://t.bilibili.com/?spm_id_from=333.1007.0.0*/
+    .pd__ex .bili-dyn-home--member{
+        flex-wrap:wrap;
+    }
+
+    .pd__ex  main{
+        width:100%;
+    }
+
+    .pd__ex aside.left{
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .pd__ex .bili-dyn-up-list__window{
+        overflow: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .pd__ex .bili-dyn-up-list__next,
+    .pd__ex .bili-dyn-up-list__prev{
+        display:none;
+    }
+
+    .pd__ex .bili-dyn-publishing__control{
+        flex-wrap: wrap;
+    }
+
+    .pd__ex .bili-dyn-publishing__headquarters{
+        width: 100%;
+        justify-content: end;
+        margin-top: 5px;
+    }
+
+    .pd__ex .bili-dyn-item__main{
+        padding: 0 10px;
+    }
+
+    .pd__ex .bili-dyn-item__avatar{
+        top: 10px;
+    }
+
+    .pd__ex .bili-dyn-item__header{
+        padding: 10px 0 0 80px;
+    }
+
+    .pd__ex .bili-dyn-content{
+        width: 100%;
+    }
+
+    .pd__ex .bili-dyn-content__orig__major{
+        width: 100%;
+    }
+
+    .pd__ex .bili-dyn-card-pgc{
+        height: auto;
+    }
+
+    .pd__ex .bili-dyn-card-pgc__header{
+        width: 100px;
+        height:auto;
+    }
+
+    .pd__ex .bili-dyn-content__orig.reference{
+        margin: 0;
+    }
+
+
+    .pd__ex .bili-dyn-card-video__header{
+        width: 100px;
+        height: auto;
+        background: #fff;
+    }
+    .pd__ex .bili-dyn-card-video{
+        height:auto;
+    }
+
+    .pd__ex .bili-dyn-card-video__cover{
+        aspect-ratio: 4/3;
+        height: auto;
+    }
+
+    .pd__ex .bili-dyn-content__orig__additional{
+        width: 100%;
+    }
+
+    .pd__ex .dyn-reserve__action{
+        width: 80px;
+    }
+
+    .pd__ex .dyn-reserve__action button{
+        padding: 0 5px;
+    }
+
+    .pd__ex .bili-dyn-card-video__desc{
+        height: auto;
+    }
+
+    .pd__ex .bili-dyn-card-video__body{
+        padding: 5px;
+    }
+
+    .pd__ex .content{
+        width: 100%;
+    }
+
+    .pd__ex .bili-dyn-list-tabs__highlight{
+        display:none;
+    }
+
+
+    /*登陆页面*/
+
+    .pd__ex .mini-header{
+        height:auto;
+    }
+
+    .pd__ex .mini-header__content{
+        display:block;
+        line-height:unset;
+    }
+
+    .pd__ex .login-box .login-left{
+        display:none;
+    }
+
+    .pd__ex .top-banner{
+        height:auto;
+    }
+
+    .pd__ex .top-banner img{
+        max-width:100%;
+    }
+
+    .pd__ex .title-line{
+        width: 100%;
+    }
+    .pd__ex .login-box{
+        width:100%;
+    }
+
+    .pd__ex .login-box .login-right{
+        padding: 0 5vw;
+        max-width: 100vw;
+    }
+
+    .pd__ex .form-login .input-box{
+        max-width:100%;
+    }
+
+    .pd__ex p[data-v-2c844fd9]{
+        width:100%;
+    }
+
+    .pd__ex .form-login .input-box .remember{
+        width: 100%;
+    }
+
+    /*https://message.bilibili.com/#/reply*/
+
+    .pd__ex .container,
+    .pd__ex .container[data-v-1c9150a9],
+    .pd__ex .space-left[data-v-1c9150a9]{
+        width:100%;
+    }
+
+    .pd__ex .container[data-v-1c9150a9]{
+        flex-direction:column;
+    }
+
+    .pd__ex .title[data-v-09801ae7]{
+        height:auto;
+        padding: 10px 0;
+    }
+
+    .pd__ex .list[data-v-09801ae7]{
+        padding: 0 10px;
+    }
+
+    .pd__ex .item[data-v-09801ae7]{
+        display:inline-block;
+        height:auto;
+    }
+
+    .pd__ex .item[data-v-09801ae7]::before{
+        display:none;
+    }
+
+    .pd__ex .item a[data-v-09801ae7]{
+        padding: 0 8px 0 0;
+    }
+
+    .pd__ex .channel-menu-mini{
+        display:none;
+    }
+
+    .pd__ex .nav-link .nav-link-ul .nav-link-item svg{
+        display:none;
+    }
+
+    .pd__ex .nav-link .nav-link-ul .nav-link-item{
+        margin-right:3px;
+        display: inline-block;
+    }
+
+    .pd__ex .nav-link .nav-link-ul{
+        height: auto;
+        flex-wrap: wrap;
+    }
+
+    .pd__ex .bili-header-m .nav-search-box, .international-header .nav-search-box{
+        max-width:100%!important;
+        margin:0;
+    }
+
+    .pd__ex .download-client-trigger{
+        display:none!important;
+    }
+
+    .pd__ex .nav-user-center .user-con{
+        flex-wrap:wrap;
+    }
+
+    .pd__ex p[data-v-2bdcddf1]{
+        width:100%;
+    }
+
+    .pd__ex .nav-user-center{
+        margin-top:5px;
+    }
+
+    /*登陆*/
+    .pd__ex .bili-header .loc-moveclip{
+        display:none;
+    }
+
+
+
+
+
+    /*01-08改版*/
+    .pd__ex .recommended-container_floor-aside .container{
+        grid-column : span 2;
+        grid-template-columns : repeat(2,1fr);
+    /*    grid-gap: 10px;*/
+        grid-column-gap: 10px;
+        grid-row-gap: 15px;
+        padding:0 10px;
+    }
+
+
+    .pd__ex .recommended-container_floor-aside .container>*:nth-of-type(n + 6),
+    .pd__ex .recommended-container_floor-aside .container.is-version8>*:nth-of-type(n + 13){
+        margin-top: 0;
+    }
+
+
+
+    
+    
+    
 }
-
-
