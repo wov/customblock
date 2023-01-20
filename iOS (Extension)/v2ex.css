@@ -1,3 +1,41 @@
+:root{
+    --puddingdark-mainfont-color: rgba(255,255,255,0.87);
+    --puddingdark-secondfont-color: rgba(255,255,255,0.6);
+    --puddingdark-border-color: rgba(255,255,255,0.08);
+    --puddingdark-main-bgcolor: #121212;
+    --puddingdark-03dp-bgcolor: rgba(255,255,255,0.08);
+    --puddingdark-06dp-bgcolor : rgba(255,255,255,0.11);
+    --puddingdark-blue-color: rgb(10,132,255);
+    --color-dark-orange: rgb(255, 159, 10);
+}
+
+/*pc站*/
+/*小于820的时候*/
+@media (max-width: 820px){
+    body.pd__ex{
+        min-width:unset;
+        width: 100%;
+    }
+    
+    .pd__ex .content{
+        min-width:unset;
+        width:100%;
+    }
+    
+    body #Main{
+        margin: 10px;
+    }
+    body #Rightbar{
+        display:none;
+    }
+    
+    ins > div,
+    ins > div > iframe{
+        max-width:100%;
+    }
+}
+
+
 /*添加暗黑模式*/
 @media (prefers-color-scheme: dark) {
     html,body{
@@ -9,7 +47,8 @@
         background:#121212!important;
     }
     
-    #LogoMobile{
+    #LogoMobile,
+    .site-nav #Logo{
         filter: brightness(0) invert(1);
     }
     
@@ -169,10 +208,24 @@
         background:rgba(255,255,255,0.08);
     }
     
-    .pd__ex  #search-container,
-    .pd__ex .box > div{
+    body  #search-container,
+    body .box > div{
         border-color:rgba(255,255,255,0.11)!important;
     }
 
+    /*  main bg color  */
+    body #Top,
+    body #Tabs{
+        background:var(--puddingdark-main-bgcolor);
+    }
+    
+    /* 03dp color   */
+    body #SecondaryTabs{
+        background:#151515;
+    }
+    
+    
+    
+    
     
 }
