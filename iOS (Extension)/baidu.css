@@ -667,8 +667,15 @@ a[data-module=entrance]{
     }
     
     /*** PC端暗黑模式 ***/
-    .pd__ex #head,
-    .pd__ex div[class*="foot-container_"]{
+    .pd__ex  .wrapper_new #foot #help{
+        background:none;
+    }
+    
+    
+    body #head,
+    .pd__ex div[class*="foot-container_"],
+    .pd__ex .wrapper_new #foot,
+    .pd__ex .foot-inner{
         background: var(--puddingdark-main-bgcolor);
     }
     
@@ -711,10 +718,17 @@ a[data-module=entrance]{
     .pd__ex div[class*="button_"],
     .pd__ex div[class*="single-card-more-line_"],
     .pd__ex div[class*="split-line_"],
-    .pd__ex .new-pmd .c-border,
+    body .new-pmd .c-border,
     .pd__ex #wrapper.wrapper_new .bdpfmenu,
-    .pd__ex #wrapper.wrapper_new .usermenu{
+    .pd__ex #wrapper.wrapper_new .usermenu,
+    .pd__ex .wrapper_new #page a,
+    .pd__ex .new-pmd .c-recommend .recommend-line-one .recommend-item-a{
         background: var(--puddingdark-03dp-bgcolor);
+    }
+    
+    
+    .pd__ex .new-pmd .recommend-none-border{
+        border-color: var(--puddingdark-03dp-bgcolor);
     }
     
     
@@ -729,7 +743,7 @@ a[data-module=entrance]{
         background: none;
     }
     
-    .pd__ex  .single-card-more-link_1WlRS{
+    .pd__ex .single-card-more-link_1WlRS{
         color:var(--puddingdark-secondfont-color)!important;
     }
     
@@ -742,6 +756,10 @@ a[data-module=entrance]{
     .pd__ex .new-pmd .c-tools-tip-con .c-tip-arrow em,
     .pd__ex .c-tip-arrow ins{
         display:none;
+    }
+    
+    .pd__ex .page_2muyV strong{
+        background:var(--puddingdark-06dp-bgcolor);
     }
     
 }
@@ -1264,6 +1282,212 @@ body.scrollHide{
         border-color:  var(--puddingdark-03dp-bgcolor)!important;
     }
     
+    /*  百科iPad版首页 https://baike.baidu.com  */
+    
+    /*border color*/
+    .pd__ex  .pc-header-new .topbar,
+    .pd__ex .pc-header-new .topbar .separator,
+    .pd__ex #eventsOnHistory .content,
+    .pd__ex #eventsOnHistory .content .content_dpk,
+    .pd__ex  #userFeeds .operations,
+    .pd__ex  #userFeeds .operations .operations_btn a,
+    .pd__ex  .featureArea-wrapper .fancyCategories-container,
+    .pd__ex .cmn-btn-hover-blue{
+        border-color:  var(--puddingdark-03dp-bgcolor);
+    }
+    
+    .pd__ex .wiki-common-headTabBar{
+        border-color: rgba(0,0,0,0);
+    }
+    
+    .pd__ex #hotLemmas .title .title_tit,
+    .pd__ex h1,.pd__ex h2,.pd__ex h3,.pd__ex h4,.pd__ex h5,.pd__ex h6,
+    .pd__ex  #eventsOnHistory .content .content_evt dd .event .event_tit,
+    .pd__ex  .lemma-starmap .starmap-multi-item-info-title{
+        color: var(--puddingdark-mainfont-color);
+    }
+    
+    .pd__ex #eventsOnHistory .content .content_evt dd .event .event_cnt,
+    .pd__ex #character .content dd .article_cnt,
+    .pd__ex  #userFeeds #viewport .feeds dd .content,
+    .pd__ex  #userFeeds .operations .operations_abs,
+    .pd__ex  #cooperation .abstract .abstract_cnt,
+    .pd__ex .wiki-common-headTabBar .baike,
+    .pd__ex  .lemma-count,
+    .pd__ex .lemma-starmap .starmap-multi-item-info-desc{
+        color: var(--puddingdark-secondfont-color);
+    }
+    
+    /* main bg color */
+    .pd__ex  #eventsOnHistory .content .content_dpk{
+        background: var(--puddingdark-main-bgcolor);
+    }
+    
+    /* 03dp bg color   */
+    .pd__ex .cmn-btn-hover-blue,
+    .pd__ex .cmn-btn-hover-blue:hover,
+    .pd__ex  #userFeeds .operations .operations_btn a{
+        background: var(--puddingdark-03dp-bgcolor);
+    }
+    
+    .pd__ex  .userArea-wrapper,
+    .pd__ex .wgt-footer-main,
+    .pd__ex #userFeeds #viewport .feeds dd .time{
+        background:#222;
+    }
+    
+
+    /*  ipad 百科详情页 https://baike.baidu.com/item/盲人足球/4136186  */
+    
+    body.pd__ex {
+        background: var(--puddingdark-main-bgcolor)!important;
+    }
+
+    /*   main bg color */
+    .pd__ex .header-wrapper,
+    .pd__ex  .lemmaWgt-searchHeader,
+    .pd__ex .body-wrapper .content-wrapper .content,
+    .pd__ex .lemmaWgt-lemmaCatalog .lemma-catalog,
+    .pd__ex .tashuo-right,
+    .pd__ex  .side-box,
+    .pd__ex .fc-guess-like{
+        background: var(--puddingdark-main-bgcolor);
+    }
+    
+    /*  03dp bgcolor  */
+    .pd__ex  .second-container-normal .cmn-btn-hover-blue,
+    .pd__ex .new-bdsharebuttonbox.new-side-share,
+    .pd__ex #hotspotmining_s .hotspotminingNavbar,
+    .pd__ex  .lemmaWgt-lemmaCatalog .lemma-catalog .catalog-list,
+    .pd__ex  .relation-table-banner,
+    .pd__ex .lemma-reference .toggle,
+    .pd__ex .lemma-paper .toggle{
+        background: var(--puddingdark-03dp-bgcolor);
+    }
+    
+    /* #222 */
+    .pd__ex  .second-container.second-container-normal,
+    .pd__ex  .bksharebuttonbox.top-share .new-top-share,
+    .pd__ex #hotspotmining_s .hotspotminingContent{
+        background:#222;
+    }
+    
+    /* clear bg   */
+    .pd__ex .bksharebuttonbox.top-share .new-top-share .top-share-list .top-share-item:hover,
+    .pd__ex .basic-info,
+    .pd__ex .lemmaWgt-lemmaCatalog .lemma-catalog .catalog-list ol li.level1 .text,
+    .pd__ex .para-title.level-2 .title-text,
+    .pd__ex .para-title.level-2,
+    .pd__ex .para-title.level-2 .audio-play,
+    .pd__ex .para-title.level-2 .edit-icon,
+    .pd__ex  .lemma-starmap-container .swiper-nav-next-bg,
+    .pd__ex  .lemma-starmap-container .swiper-nav-prev-bg{
+        background:none;
+    }
+    
+    /* border-color   */
+    .pd__ex  .body-wrapper .content-wrapper .content,
+    .pd__ex .bksharebuttonbox.top-share .new-top-share .top-share-list,
+    .pd__ex .lemmaWgt-searchHeader,
+    .pd__ex  .top-tool .add-sub-icon,.pd__ex .top-tool .split-icon,.pd__ex .top-tool .top-collect,.pd__ex .top-tool .top-vote,.pd__ex .top-tool .top-share,
+    .pd__ex .lemmaWgt-lemmaCatalog .lemma-catalog .catalog-list,
+    .pd__ex  .lemmaWgt-lemmaCatalog .lemma-catalog,
+    .pd__ex .lemmaWgt-lemmaCatalog .lemma-catalog .catalog-list ol,
+    .pd__ex.wiki-lemma .summary-pic,
+    .pd__ex .tashuo-right,
+    .pd__ex .side-box,
+    .pd__ex .lemma-picture,
+    .pd__ex .lemma-picture .description,
+    .pd__ex  .side-catalog .side-bar,
+    .pd__ex  .lemma-album .album-wrap,
+    .pd__ex .lemma-album .description,
+    .pd__ex .lemma-album .albumBg::before,
+    .pd__ex .lemma-album .albumBg::after,
+    .pd__ex .album-list .footer,
+    .pd__ex  .tashuo-bottom-pager,
+    .pd__ex   .lemma-reference dt.reference-title,
+    .pd__ex  .fc-guess-like,
+    .pd__ex  .lemma-starmap .starmap-multi,
+    .pd__ex .relation-table-banner,
+    .pd__ex .relation-unit,
+    .pd__ex  .relation-table-main,
+    .pd__ex .lemma-paper dt.paper-title{
+        border-color: var(--puddingdark-03dp-bgcolor);
+    }
+    
+    .pd__ex  .basic-info .basicInfo-block .basicInfo-item{
+        border-bottom:1px dotted var(--puddingdark-03dp-bgcolor);
+    }
+    
+    /*main font color */
+    .pd__ex .polysemant-list-lemma-title,
+    .pd__ex .polysemant-button__text,
+    .pd__ex.wiki-lemma .lemmaWgt-lemmaTitle .lemmaWgt-lemmaTitle-title h1,
+    .pd__ex .polysemant-list .polysemantList-wrapper .item .selected,
+    .pd__ex .body-wrapper .para,
+    .pd__ex .basic-info .basicInfo-block .basicInfo-item.value,
+    .pd__ex .para-title.level-2 .title-text,
+    .pd__ex  .side-catalog .catalog-scroller .catalog-list .catalog-title.level1 .text{
+        color: var(--puddingdark-mainfont-color);
+    }
+    
+    .pd__ex textarea,.pd__ex input,
+    .pd__ex .polysemant-list .polysemantList-header,
+    .pd__ex.wiki-lemma .lemmaWgt-lemmaTitle .lemma-desc,
+    .pd__ex .top-vote .vote-count,
+    .pd__ex .top-vote .vote-tip,
+    .pd__ex  .top-vote .voted-tip,
+    .pd__ex .top-collect,
+    .pd__ex  .top-collect .collect-tip,
+    .pd__ex .bksharebuttonbox.top-share .share-count,
+    .pd__ex #hotspotmining_s .hotspotminingContent .hotspotminingContent_cnt .hotspotminingContent_cnt_cnt,
+    .pd__ex  #hotspotmining_s .hotspotminingContent .hotspotminingContent_web,
+    .pd__ex .basic-info .basicInfo-block .basicInfo-item.name,
+    .pd__ex  .lemma-picture .description,
+    .pd__ex.wiki-lemma .summary-pic div,
+    .pd__ex  .tashuo-right .tashuo-right-title-essence .tashuo-more .title-text,
+    .pd__ex .tashuo-right .tashuo-right-title-essence .tashuo-more .title-item,
+    .pd__ex  .side-box,
+    .pd__ex  .side-catalog .catalog-scroller .catalog-list .catalog-title.level2 .text,
+    .pd__ex  .album-list .header .more-link .more,
+    .pd__ex .lemma-album .description,
+    .pd__ex .tashuo-bottom .tashuo-bottom-title-essence .tashuo-more .title-text,
+    .pd__ex .tashuo-bottom .tashuo-bottom-title-essence .tashuo-more .title-item,
+    .pd__ex  .lemma-reference .reference-list-wrap .reference-list .reference-item,
+    .pd__ex .relation-table-main,
+    .pd__ex .lemma-reference .toggle,
+    .pd__ex .lemma-paper .toggle{
+        color: var(--puddingdark-secondfont-color);
+    }
+    
+    .pd__ex .second-container-normal .cmn-btn-hover-blue{
+        box-shadow:none;
+        border-color:var(--puddingdark-03dp-bgcolor)!important;
+    }
+        
+    .pd__ex.wiki-lemma .summary-pic,
+    .pd__ex .lemmaWgt-searchHeader,
+    .pd__ex .video-list-container .image-type .marquee-btn{
+        box-shadow:none;
+    }
+    
+    .pd__ex .lemma-starmap-container .swiper-nav{
+        opacity:1!important;
+        transform : translateY(-50%) scale(1.5)!important;
+    }
+    
+    .pd__ex .main-content table.transparentBorder td,.pd__ex .main-content table.transparentBorder th,.pd__ex .main-content table.transparentBorder caption{
+        border-color:var(--puddingdark-03dp-bgcolor)!important;
+    }
+    
+    
+    /*  广告强制暗黑  */
+/*    .after-content .bottom-recommend-wrapper *{*/
+/*        color: var(--puddingdark-mainfont-color)!important;*/
+/*        background-color: var(--puddingdark-main-bgcolor)!important;*/
+/*        border-color: var(--puddingdark-03dp-bgcolor)!important;*/
+/*    }*/
+/*    */
 }
 
 /***baidu 知道****/
