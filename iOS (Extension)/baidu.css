@@ -1338,6 +1338,7 @@ body.scrollHide{
     
 
     /*  ipad 百科详情页 https://baike.baidu.com/item/盲人足球/4136186  */
+    /*  https://baike.baidu.com/item/狂飙/57027307  */
     
     body.pd__ex {
         background: var(--puddingdark-main-bgcolor)!important;
@@ -1350,7 +1351,8 @@ body.scrollHide{
     .pd__ex .lemmaWgt-lemmaCatalog .lemma-catalog,
     .pd__ex .tashuo-right,
     .pd__ex  .side-box,
-    .pd__ex .fc-guess-like{
+    .pd__ex .fc-guess-like,
+    .pd__ex .drama-staff .more{
         background: var(--puddingdark-main-bgcolor);
     }
     
@@ -1368,7 +1370,9 @@ body.scrollHide{
     /* #222 */
     .pd__ex  .second-container.second-container-normal,
     .pd__ex  .bksharebuttonbox.top-share .new-top-share,
-    .pd__ex #hotspotmining_s .hotspotminingContent{
+    .pd__ex #hotspotmining_s .hotspotminingContent,
+    .pd__ex  .drama-staff .staff-list tr:nth-child(even),
+    .pd__ex .main-content table th{
         background:#222;
     }
     
@@ -1411,7 +1415,15 @@ body.scrollHide{
     .pd__ex .relation-table-banner,
     .pd__ex .relation-unit,
     .pd__ex  .relation-table-main,
-    .pd__ex .lemma-paper dt.paper-title{
+    .pd__ex .lemma-paper dt.paper-title,
+    .pd__ex .dramaSeries .pageBar .pagers a,
+    .pd__ex .drama-actor .viewport .scrollBox .pages .actorList,
+    .pd__ex .drama-actor .viewport,
+    .pd__ex .drama-actor .viewport .scrollBox .pages .actorList:last-child,
+    .pd__ex .module-pager .pTag,
+    .pd__ex .drama-staff .staff-list,
+    .pd__ex .lemmaWgt-roleIntroduction ul .roleIntroduction-item,
+    .pd__ex .main-content table th,.pd__ex .main-content table td{
         border-color: var(--puddingdark-03dp-bgcolor);
     }
     
@@ -1427,7 +1439,13 @@ body.scrollHide{
     .pd__ex .body-wrapper .para,
     .pd__ex .basic-info .basicInfo-block .basicInfo-item.value,
     .pd__ex .para-title.level-2 .title-text,
-    .pd__ex  .side-catalog .catalog-scroller .catalog-list .catalog-title.level1 .text{
+    .pd__ex .side-catalog .catalog-scroller .catalog-list .catalog-title.level1 .text,
+    .pd__ex .dramaSeries .dramaSerialList dl,
+    .pd__ex .drama-actor .viewport .scrollBox .pages .actorList .listItem .info dt,
+    .pd__ex .module-pager .index,
+    .pd__ex .lemma-statistics dt.title,
+    .pd__ex  .lemmaWgt-roleIntroduction ul .roleIntroduction-item .roleIntrodcution-descritpion .role-description,
+    .pd__ex .lemmaWgt-roleIntroduction ul .roleIntroduction-item .roleIntrodcution-descritpion .item-value{
         color: var(--puddingdark-mainfont-color);
     }
     
@@ -1456,7 +1474,11 @@ body.scrollHide{
     .pd__ex  .lemma-reference .reference-list-wrap .reference-list .reference-item,
     .pd__ex .relation-table-main,
     .pd__ex .lemma-reference .toggle,
-    .pd__ex .lemma-paper .toggle{
+    .pd__ex .lemma-paper .toggle,
+    .pd__ex .drama-actor .viewport .scrollBox .pages .actorList .listItem .info dd,
+    .pd__ex .module-pager span,
+    .pd__ex .drama-staff .staff-list tr td:first-child,
+    .pd__ex .lemmaWgt-roleIntroduction ul .roleIntroduction-item .roleIntrodcution-descritpion .item-key{
         color: var(--puddingdark-secondfont-color);
     }
     
@@ -1480,6 +1502,13 @@ body.scrollHide{
         border-color:var(--puddingdark-03dp-bgcolor)!important;
     }
     
+    
+    .pd__ex .drama-staff .more{
+        text-align:center;
+    }
+    .pd__ex .drama-staff .more:after{
+        content: ">";
+    }
     
     /*  广告强制暗黑  */
 /*    .after-content .bottom-recommend-wrapper *{*/
