@@ -685,7 +685,11 @@ a[data-module=entrance]{
     
     /*  main color..  */
     .pd__ex  .wrapper_new #s_tab .cur-tab,
-    .pd__ex .new-pmd .cr-title{
+    .pd__ex .new-pmd .cr-title,
+    .pd__ex .wrapper_new #form .bdsug-new ul li b,
+    .pd__ex .wenda-abstract-single_1BMV8 em,
+    .pd__ex .tabs-container_2lLWT .c-tabs-nav .tab-selected_3LAkk,
+    .pd__ex .tabs-container_2lLWT .c-tabs-nav li{
         color:var(--puddingdark-mainfont-color);
     }
     
@@ -700,7 +704,9 @@ a[data-module=entrance]{
     .pd__ex #content_left .search-source-wrap .search-source-title,
     .pd__ex .new-pmd.c-container,
     .pd__ex  #container.sam_newgrid .result .c-tools .c-icon,
-    .pd__ex  #container.sam_newgrid .result-op .c-tools .c-icon{
+    .pd__ex  #container.sam_newgrid .result-op .c-tools .c-icon,
+    .pd__ex  .wrapper_new #form .bdsug-new ul li,
+    .pd__ex .input-color_2sNvQ input{
         color:var(--puddingdark-secondfont-color);
     }
     
@@ -722,20 +728,33 @@ a[data-module=entrance]{
     .pd__ex #wrapper.wrapper_new .bdpfmenu,
     .pd__ex #wrapper.wrapper_new .usermenu,
     .pd__ex .wrapper_new #page a,
-    .pd__ex .new-pmd .c-recommend .recommend-line-one .recommend-item-a{
+    .pd__ex .new-pmd .c-recommend .recommend-line-one .recommend-item-a,
+    .pd__ex .s_ipt_wr,
+    .pd__ex .tabs-container_2lLWT .c-tabs-nav .tab-selected_3LAkk{
         background: var(--puddingdark-03dp-bgcolor);
     }
     
+    .pd__ex .bdsug{
+        background: #222;
+    }
     
-    .pd__ex .new-pmd .recommend-none-border{
+    .pd__ex .wrapper_new #form .bdsug-new .bdsug-s{
+        background:var(--puddingdark-03dp-bgcolor)!important;
+    }
+    
+    .pd__ex .new-pmd .recommend-none-border,
+    .pd__ex .wrapper_new #form .bdsug-new ul{
         border-color: var(--puddingdark-03dp-bgcolor);
     }
+    
+
     
     
     .pd__ex .wrapper_new #u .bdpfmenu a,
     .pd__ex .wrapper_new #u .usermenu a,
     .pd__ex .wrapper_new #u .bdpfmenu a:hover,
-    .pd__ex .wrapper_new #u .usermenu a:hover{
+    .pd__ex .wrapper_new #u .usermenu a:hover,
+    .pd__ex .input-color_2sNvQ input{
         background:none;
     }
     
@@ -1339,6 +1358,7 @@ body.scrollHide{
 
     /*  ipad 百科详情页 https://baike.baidu.com/item/盲人足球/4136186  */
     /*  https://baike.baidu.com/item/狂飙/57027307  */
+    /*  https://baike.baidu.com/item/中国义乌国际商贸城/736195?fromtitle=义乌国际商贸城&fromid=3108878&fr=aladdin*/
     
     body.pd__ex {
         background: var(--puddingdark-main-bgcolor)!important;
@@ -1423,7 +1443,9 @@ body.scrollHide{
     .pd__ex .module-pager .pTag,
     .pd__ex .drama-staff .staff-list,
     .pd__ex .lemmaWgt-roleIntroduction ul .roleIntroduction-item,
-    .pd__ex .main-content table th,.pd__ex .main-content table td{
+    .pd__ex .main-content table th,.pd__ex .main-content table td,
+    .pd__ex .lemma-starmap .starmap-unique,
+    .pd__ex .lemma-map{
         border-color: var(--puddingdark-03dp-bgcolor);
     }
     
@@ -1445,7 +1467,9 @@ body.scrollHide{
     .pd__ex .module-pager .index,
     .pd__ex .lemma-statistics dt.title,
     .pd__ex  .lemmaWgt-roleIntroduction ul .roleIntroduction-item .roleIntrodcution-descritpion .role-description,
-    .pd__ex .lemmaWgt-roleIntroduction ul .roleIntroduction-item .roleIntrodcution-descritpion .item-value{
+    .pd__ex .lemmaWgt-roleIntroduction ul .roleIntroduction-item .roleIntrodcution-descritpion .item-value,
+    .pd__ex .lemma-starmap .starmap-title .name,
+    .pd__ex  .lemma-starmap .starmap-unique-item-info-title{
         color: var(--puddingdark-mainfont-color);
     }
     
@@ -1478,7 +1502,9 @@ body.scrollHide{
     .pd__ex .drama-actor .viewport .scrollBox .pages .actorList .listItem .info dd,
     .pd__ex .module-pager span,
     .pd__ex .drama-staff .staff-list tr td:first-child,
-    .pd__ex .lemmaWgt-roleIntroduction ul .roleIntroduction-item .roleIntrodcution-descritpion .item-key{
+    .pd__ex .lemmaWgt-roleIntroduction ul .roleIntroduction-item .roleIntrodcution-descritpion .item-key,
+    .pd__ex .lemma-starmap .starmap-unique-item-info-desc,
+    .pd__ex .tashuo-bottom .tashuo-bottom-title-essence span{
         color: var(--puddingdark-secondfont-color);
     }
     
