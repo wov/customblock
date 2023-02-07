@@ -34,7 +34,6 @@
             "*://m.baidu.com/*",
             "*://baike.baidu.com/item/*",
             "*://baike.baidu.com/",
-            "*://zhidao.baidu.com/question/*",
             "*://baijiahao.baidu.com/s*",
             "*://jingyan.baidu.com/article/*",
             "*://gamecenter.baidu.com/static/game/*"
@@ -47,8 +46,17 @@
             "*://baike.baidu.com/item/*",
             "*://baike.baidu.com/",
             "*://gamecenter.baidu.com/static/game/*",
-            "*://zhidao.baidu.com/question/*",
             "*://baijiahao.baidu.com/s*"
+        ]
+    },{
+        "css" : ["baiduzhidao.css"],
+        "matches" : [
+            "*://zhidao.baidu.com/question/*"
+        ]
+    },{
+        "js" : ["baiduzhidao.js"],
+        "matches" : [
+            "*://zhidao.baidu.com/question/*"
         ]
     },{
         "css" : ["tieba.css"],

@@ -106,6 +106,10 @@
 				<key>Script</key>
 				<string>pdgzf.js</string>
 			</dict>
+			<dict>
+				<key>Script</key>
+				<string>baiduzhidao.js</string>
+			</dict>
 		</array>
 		<key>SFSafariStyleSheet</key>
 		<array>
@@ -228,6 +232,10 @@
 			<dict>
 				<key>Style Sheet</key>
 				<string>pdgzf.css</string>
+			</dict>
+			<dict>
+				<key>Style Sheet</key>
+				<string>baiduzhidao.css</string>
 			</dict>
 		</array>
 		<key>SFSafariWebsiteAccess</key>

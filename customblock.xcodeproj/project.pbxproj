@@ -101,6 +101,8 @@
 		83E7268828BFABE300B043BA /* csdn.js in Resources */ = {isa = PBXBuildFile; fileRef = 83E7268728BFABE300B043BA /* csdn.js */; };
 		83EBB686290176B500C9DAF2 /* jandan.css in Resources */ = {isa = PBXBuildFile; fileRef = 83EBB685290176B500C9DAF2 /* jandan.css */; };
 		83EBB688290176C500C9DAF2 /* jandan.js in Resources */ = {isa = PBXBuildFile; fileRef = 83EBB687290176C500C9DAF2 /* jandan.js */; };
+		83F2DCDF29850F1700885DB3 /* baiduzhidao.css in Resources */ = {isa = PBXBuildFile; fileRef = 83F2DCDE29850F1700885DB3 /* baiduzhidao.css */; };
+		83F2DCE129850F3800885DB3 /* baiduzhidao.js in Resources */ = {isa = PBXBuildFile; fileRef = 83F2DCE029850F3800885DB3 /* baiduzhidao.js */; };
 		83FC53B1281E4CF300C335C3 /* myseller.css in Resources */ = {isa = PBXBuildFile; fileRef = 83FC53B0281E4CF300C335C3 /* myseller.css */; };
 		83FC53B3281E4EB600C335C3 /* myseller.js in Resources */ = {isa = PBXBuildFile; fileRef = 83FC53B2281E4EB600C335C3 /* myseller.js */; };
 		8A9A58B528083ABB00C60926 /* CustomBlockWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9A58B428083ABB00C60926 /* CustomBlockWebView.swift */; };
@@ -238,6 +240,8 @@
 		83E7268728BFABE300B043BA /* csdn.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = csdn.js; sourceTree = "<group>"; };
 		83EBB685290176B500C9DAF2 /* jandan.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = jandan.css; sourceTree = "<group>"; };
 		83EBB687290176C500C9DAF2 /* jandan.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = jandan.js; sourceTree = "<group>"; };
+		83F2DCDE29850F1700885DB3 /* baiduzhidao.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = baiduzhidao.css; sourceTree = "<group>"; };
+		83F2DCE029850F3800885DB3 /* baiduzhidao.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = baiduzhidao.js; sourceTree = "<group>"; };
 		83FC53B0281E4CF300C335C3 /* myseller.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = myseller.css; sourceTree = "<group>"; };
 		83FC53B2281E4EB600C335C3 /* myseller.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = myseller.js; sourceTree = "<group>"; };
 		8A9A58B428083ABB00C60926 /* CustomBlockWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBlockWebView.swift; sourceTree = "<group>"; };
@@ -448,6 +452,8 @@
 				83528D7D29252C8B003019A7 /* hupu.css */,
 				83174B29294ED40D0041DE4F /* pdgzf.js */,
 				83174B2B294ED4210041DE4F /* pdgzf.css */,
+				83F2DCDE29850F1700885DB3 /* baiduzhidao.css */,
+				83F2DCE029850F3800885DB3 /* baiduzhidao.js */,
 			);
 			path = "iOS (Extension)";
 			sourceTree = "<group>";
@@ -619,6 +625,7 @@
 				835637D2281C0F8A00F12F03 /* sohu.css in Resources */,
 				83CF53C427C9EACE00375E9F /* 36kr.css in Resources */,
 				83E0173E2675036B00A30A29 /* background.js in Resources */,
+				83F2DCDF29850F1700885DB3 /* baiduzhidao.css in Resources */,
 				837F025D27FDC14900A677BD /* qq.js in Resources */,
 				83417EAF28072D1600BC58BA /* weibo.js in Resources */,
 				836479AC27F1DC090081B72B /* bilibili_pc.js in Resources */,
@@ -641,6 +648,7 @@
 				835637CC280EDA3800F12F03 /* gjp.js in Resources */,
 				83D4CCC4283249D30053D349 /* tieba.js in Resources */,
 				83CF53C227C915A100375E9F /* zhihu.css in Resources */,
+				83F2DCE129850F3800885DB3 /* baiduzhidao.js in Resources */,
 				83E017442675036B00A30A29 /* popup.css in Resources */,
 				837F025927FC748D00A677BD /* 36kr.js in Resources */,
 				83D4CCC2283249C20053D349 /* tieba.css in Resources */,
