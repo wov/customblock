@@ -1573,10 +1573,116 @@ body > .lt-row{
     .pd__ex .recommended-container_floor-aside .container.is-version8>*:nth-of-type(n + 13){
         margin-top: 0;
     }
+}
 
 
+:root{
+    --puddingdark-mainfont-color: rgba(255,255,255,0.87);
+    --puddingdark-secondfont-color: rgba(255,255,255,0.6);
+    --puddingdark-border-color: rgba(255,255,255,0.08);
+    --puddingdark-main-bgcolor: #121212;
+    --puddingdark-03dp-bgcolor: rgba(255,255,255,0.08);
+    --puddingdark-06dp-bgcolor : rgba(255,255,255,0.11);
+    --puddingdark-blue-color: rgb(10,132,255);
+    --color-dark-orange: rgb(255, 159, 10);
+}
 
+
+/*dark mode*/
+@media (prefers-color-scheme: dark)  {
+
+    /*  main bg color */
+    body.pd__ex,
+    .pd__ex #i_cecream,
+    .pd__ex .bili-header .bili-header__channel,
+    .pd__ex .large-header,
+    .pd__ex .bili-header .slide-down,
+    .pd__ex  .header-channel,
+    .pd__ex .single-card.floor-card div.floor-card-inner,
+    .pd__ex div.single-card.floor-card .floor-card-inner:hover{
+        background : var(--puddingdark-main-bgcolor);
+    }
     
+    /*  03dp bg color  */
+    .pd__ex .bili-header .bili-header__channel .channel-entry-more__link,
+    .pd__ex .bili-header .bili-header__channel .channel-link,
+    .pd__ex .header-channel-fixed-right-item,
+    .pd__ex .header-channel-fixed-center,
+    .pd__ex .bili-video-card .bili-video-card__image--wrap,
+    .pd__ex .primary-btn,
+    .pd__ex .bili-video-card .loading_animation .bili-video-card__skeleton--light,.pd__ex .bili-video-card .loading_animation .bili-video-card__skeleton--text,.pd__ex .bili-video-card .loading_animation .bili-video-card__skeleton--face,.pd__ex .bili-video-card .loading_animation .bili-video-card__skeleton--cover,
+    .pd__ex div.floor-card,
+    .pd__ex div.single-card.floor-card .layer,
+    .pd__ex  div.single-card.floor-card .layer.tiny,
+    .pd__ex  .skeleton div.skeleton-item{
+        background: var(--puddingdark-03dp-bgcolor);
+    }
     
+    /*  border color  */
+    .pd__ex .bili-header .bili-header__channel .channel-entry-more__link,
+    .pd__ex .bili-header .bili-header__channel .channel-link,
+    .pd__ex .header-channel-fixed-right-item,
+    .pd__ex .bili-header .bili-header__channel .channel-items__left,
+    .pd__ex .primary-btn,
+    .pd__ex div.single-card.floor-card{
+        border-color: var(--puddingdark-03dp-bgcolor);
+    }
+    
+    /*  main font color  */
+    body.pd__ex,
+    .pd__ex .bili-header .slide-down .left-entry .mini-header__title,.pd__ex .bili-header .slide-down .left-entry .entry-title,.pd__ex .bili-header .slide-down .left-entry .default-entry,.pd__ex .bili-header .slide-down .left-entry .loc-mc-box__text,.pd__ex .bili-header .slide-down .left-entry .download-entry,.pd__ex .bili-header .slide-down .left-entry .loc-entry,
+    .pd__ex  .bili-header .slide-down .right-entry .right-entry__outside .right-entry-icon,
+    body.pd__ex a:visited,
+    body.pd__ex span, body.pd__ex svg,
+    body.pd__ex .header-channel-fixed-left,
+    .pd__ex .bili-video-card .bili-video-card__info--tit,
+    .pd__ex .bili-video-card .bili-video-card__info--tit>a,
+    .pd__ex .palette-button-wrap a.feedback,
+    .pd__ex .primary-btn{
+        color: var(--puddingdark-mainfont-color);
+    }
+    
+    /*  second font color  */
+    .pd__ex .header-channel-fixed-right-item,
+    .pd__ex .bili-header .bili-header__channel .channel-entry-more__link,
+    .pd__ex .bili-header .bili-header__channel .channel-link,
+    .pd__ex  .bili-video-card .bili-video-card__info--author,
+    .pd__ex .bili-video-card .bili-video-card__info--date{
+        color: var(--puddingdark-secondfont-color);
+    }
+    
+    .pd__ex .bili-header .bili-header__channel .channel-link__right .side-icon{
+        fill: var(--puddingdark-secondfont-color);
+    }
+    
+    .pd__ex .bili-feed4 .bili-header .slide-down{
+        box-shadow:unset!important;
+        border-bottom:1px solid var(--puddingdark-03dp-bgcolor);
+    }
+    
+    /* 一些图标  */
+    .pd__ex .header-channel-fixed-left .left-fixed-channel .dynamic path,
+    .pd__ex .header-channel-fixed-left .left-fixed-channel .channel circle{
+        stroke :var(--puddingdark-mainfont-color);
+    }
+    
+    .pd__ex .header-channel-fixed-left .left-fixed-channel .popular path{
+        fill :var(--puddingdark-mainfont-color);
+    }
+    
+    .pd__ex  .bili-video-card__wrap,
+    .pd__ex .bili-live-card__wrap{
+        background: unset;
+    }
+    
+    .pd__ex .feed-roll-btn button.primary-btn{
+        background: var(--puddingdark-03dp-bgcolor)!important;
+        border-color: var(--puddingdark-03dp-bgcolor);
+    }
+    
+    .pd__ex .bili-video-card .bili-video-card__stats{
+        border-bottom-right-radius : 4px;
+        border-bottom-left-radius : 4px;
+    }
     
 }

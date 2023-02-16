@@ -45,7 +45,7 @@ struct Home: View {
                     }
                 }
                 
-                Section(header: Text("联系我们")){
+                Section(header: Text("留言反馈")){
                     Button(action: sendMail){
                         HStack {
                             Image(systemName: "envelope")
@@ -66,10 +66,10 @@ struct Home: View {
                         ReviewHandler.requestReview()
                     })
                     
-                    HStack {
-                        Link("微博互动", destination: URL(string: "https://weibo.com/u/1681934680")!)
-                    }
-                    
+//                    HStack {
+//                        Link("微博互动", destination: URL(string: "https://weibo.com/u/1681934680")!)
+//                    }
+//
                 }
             }
             .listStyle(GroupedListStyle())
