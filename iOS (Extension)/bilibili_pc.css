@@ -44,7 +44,6 @@ body > .lt-row{
     display:flex;
     justify-content : center;
     align-items: center;
-    
     font-size: 12px;
 }
 
@@ -58,7 +57,6 @@ body > .lt-row{
     
     display:flex;
     flex-direction : column;
-    
     box-shadow: 0 0 3px rgba(0,0,0,0.3);
 }
 
@@ -97,6 +95,14 @@ body > .lt-row{
 .pudding_block_inner  h3{
     margin-bottom: 15px;
 }
+
+@media (prefers-color-scheme: dark)  {
+    .pudding_block_Modal .pudding_block_inner{
+        background: var(--puddingdark-main-bgcolor);
+        border:1px solid var(--puddingdark-03dp-bgcolor);
+    }
+}
+
 
 /*空窗*/
 .pd__ex .recommended-container_floor-aside .container .feed-card:empty{
@@ -1590,7 +1596,6 @@ body > .lt-row{
 
 /*dark mode*/
 @media (prefers-color-scheme: dark)  {
-    
     img{
         filter: brightness(0.8);
     }
@@ -1604,7 +1609,9 @@ body > .lt-row{
     .pd__ex  .header-channel,
     .pd__ex .single-card.floor-card div.floor-card-inner,
     .pd__ex div.single-card.floor-card .floor-card-inner:hover,
-    .pd__ex .bili-header .bili-header__bar{
+    .pd__ex .bili-header .bili-header__bar,
+    .pd__ex  .bili-header .search-panel,
+    .pd__ex  .bili-header .center-search-container .center-search__bar #nav-searchform.is-focus{
         background : var(--puddingdark-main-bgcolor);
     }
     
@@ -1619,7 +1626,17 @@ body > .lt-row{
     .pd__ex div.floor-card,
     .pd__ex div.single-card.floor-card .layer,
     .pd__ex  div.single-card.floor-card .layer.tiny,
-    .pd__ex  .skeleton div.skeleton-item{
+    .pd__ex  .skeleton div.skeleton-item,
+    .pd__ex .bili-header .bili-header__channel .channel-entry-more__link:hover,.pd__ex .bili-header .bili-header__channel .channel-link:hover,.pd__ex .bili-header .bili-header__channel .channel-entry-more__link--active,.pd__ex .bili-header .bili-header__channel .channel-link--active,
+    .pd__ex .bili-header .center-search-container .center-search__bar #nav-searchform,
+    .pd__ex  .bili-header .slide-down .center-search-container .center-search__bar #nav-searchform,
+    .pd__ex .bili-header .slide-down .center-search-container .center-search__bar #nav-searchform.is-focus,
+    .pd__ex .bili-header .histories .history-item,
+    .pd__ex  .bili-header .center-search-container .center-search__bar #nav-searchform.is-actived .nav-search-content,.pd__ex .bili-header .center-search-container .center-search__bar #nav-searchform.is-focus .nav-search-content,
+    .pd__ex .bili-header .center-search-container .center-search__bar #nav-searchform:hover,
+    .pd__ex .bili-header .trending-item.active, .pd__ex .bili-header .trending-item:hover,.pd__ex .bili-header .trending-item:focus,
+    .pd__ex  .bili-header .center-search-container .center-search__bar .nav-search-btn:hover,
+    .pd__ex  .bili-header .slide-down .center-search-container .center-search__bar #nav-searchform:hover{
         background: var(--puddingdark-03dp-bgcolor);
     }
     
@@ -1629,7 +1646,12 @@ body > .lt-row{
     .pd__ex .header-channel-fixed-right-item,
     .pd__ex .bili-header .bili-header__channel .channel-items__left,
     .pd__ex .primary-btn,
-    .pd__ex div.single-card.floor-card{
+    .pd__ex div.single-card.floor-card,
+    .pd__ex .bili-header .center-search-container .center-search__bar #nav-searchform,
+    .pd__ex  .bili-header .search-panel,
+    .pd__ex  .bili-header .center-search-container .center-search__bar #nav-searchform.is-focus,
+    .pd__ex .bili-header .slide-down .center-search-container .center-search__bar #nav-searchform.is-focus,
+    .pd__ex .bili-header .slide-down .center-search-container .center-search__bar #nav-searchform:hover{
         border-color: var(--puddingdark-03dp-bgcolor);
     }
     
@@ -1643,7 +1665,10 @@ body > .lt-row{
     .pd__ex .bili-video-card .bili-video-card__info--tit,
     .pd__ex .bili-video-card .bili-video-card__info--tit>a,
     .pd__ex .palette-button-wrap a.feedback,
-    .pd__ex .primary-btn{
+    .pd__ex .primary-btn,
+    .pd__ex .bili-header,
+    .pd__ex .bili-header .trending-item .trendings-rank.search-rank-top,
+    .pd__ex .bili-header .center-search-container .center-search__bar .nav-search-content .nav-search-input:focus{
         color: var(--puddingdark-mainfont-color);
     }
     
@@ -1655,8 +1680,10 @@ body > .lt-row{
     .pd__ex .header-channel-fixed-right-item,
     .pd__ex .bili-header .bili-header__channel .channel-entry-more__link,
     .pd__ex .bili-header .bili-header__channel .channel-link,
-    .pd__ex  .bili-video-card .bili-video-card__info--author,
-    .pd__ex .bili-video-card .bili-video-card__info--date{
+    .pd__ex .bili-video-card .bili-video-card__info--author,
+    .pd__ex .bili-video-card .bili-video-card__info--date,
+    .pd__ex .bili-header .center-search-container .center-search__bar .nav-search-content .nav-search-input,
+    .pd__ex  input::placeholder {
         color: var(--puddingdark-secondfont-color);
     }
     
@@ -1680,7 +1707,8 @@ body > .lt-row{
     }
     
     .pd__ex  .bili-video-card__wrap,
-    .pd__ex .bili-live-card__wrap{
+    .pd__ex .bili-live-card__wrap,
+    .pd__ex  .bili-header .center-search-container .center-search__bar .nav-search-content .nav-search-input:focus{
         background: unset;
     }
     
@@ -1693,5 +1721,126 @@ body > .lt-row{
         border-bottom-right-radius : 4px;
         border-bottom-left-radius : 4px;
     }
+    
+    /*  播放页 */
+    
+
+    
+    /*  main bg color  */
+    .pd__ex  #header-v3,.pd__ex #app,
+    .pd__ex .bili-comment.browser-pc,
+    .pd__ex #bilibili-player-placeholder-bottom,
+    .pd__ex .activity-m-v1,
+    .pd__ex div.reply-box.fixed-box,
+    .pd__ex .bpx-player-auxiliary .bpx-player-collapse .bui-collapse-body,
+    .pd__ex .bpx-docker-minor:not(:empty),
+    .pd__ex .bpx-player-auxiliary .bpx-player-dm-function,
+    .pd__ex .bpx-player-auxiliary .bpx-player-dm-wrap,
+    .pd__ex .base-video-sections-v1 .border-bottom-line,
+    .pd__ex  .bpx-player-auxiliary .bpx-player-dm-wrap-child{
+        background : var(--puddingdark-main-bgcolor);
+    }
+    
+    /* 03dp bg color   */
+    .pd__ex .recommend-list-v1 div.split-line,
+    .pd__ex .bpx-player-sending-bar,
+    .pd__ex .up-info-v1 .u-face .u-face__avatar,
+    .pd__ex  .up-info-v1 .btn-panel .default-btn,
+    .pd__ex .video-card-ad-small .vcd div.cover,
+    .pd__ex  .b-img,
+    .pd__ex .video-page-card-small .card-box .pic-box,
+    .pd__ex .video-awesome-img .b-img.sleepy,
+    .pd__ex .bpx-player-sending-area:before,
+    .pd__ex .s_tag-v1 .tag-wrap .tag-area > li .tag-link,
+    .pd__ex .bpx-player-sending-bar .bpx-player-video-inputbar,
+    .pd__ex  .reply-box .box-normal .reply-box-warp textarea.reply-box-textarea,
+    .pd__ex  .reply-box .box-normal .reply-box-warp textarea.reply-box-textarea.focus, .pd__ex .reply-box .box-normal .reply-box-warp textarea.reply-box-textarea:hover,
+    .pd__ex .bui-collapse .bui-collapse-header,
+    .pd__ex  div.base-video-sections-v1,
+    .pd__ex  .base-video-sections-v1 div.border-bottom-line,
+    .pd__ex .bpx-player-auxiliary .bpx-player-dm-btn-history,
+    .pd__ex .bpx-player-auxiliary .bpx-player-dm-btn-history:hover,
+    .pd__ex  .base-video-sections-v1 .video-section-list div.video-episode-card__info-playing,
+    .pd__ex  .float-nav-exp .nav-menu .item,
+    .pd__ex .recommend-list-v1 div.rec-footer{
+        background: var(--puddingdark-03dp-bgcolor);
+    }
+    
+    /* border color   */
+    .pd__ex .video-toolbar-v1,
+    .pd__ex .s_tag-v1,
+    .pd__ex .activity-m-v1 .inside-wrp,
+    .pd__ex .reply-item div.bottom-line,
+    .pd__ex  .reply-box .box-normal .reply-box-warp textarea.reply-box-textarea,
+    .pd__ex  .reply-box .box-normal .reply-box-warp textarea.reply-box-textarea.focus,.pd__ex .reply-box .box-normal .reply-box-warp textarea.reply-box-textarea:hover,
+    .pd__ex div.reply-box.fixed-box,
+    .pd__ex  .float-nav-exp .nav-menu .item{
+        border-color: var(--puddingdark-03dp-bgcolor);
+    }
+
+    /*  main font color  */
+    .pd__ex .video-info-v1 .video-title,
+    .pd__ex .video-page-card-small .card-box .info .title,
+    .pd__ex .bpx-player-sending-bar .bpx-player-video-info,
+    .pd__ex div.video-card-ad-small,
+    .pd__ex  .video-card-ad-small .vcd .info p.title,
+    .pd__ex .s_tag-v1 .tag-wrap .tag-area > li .tag-link,
+    .pd__ex .reply-header .reply-navigation .nav-bar .nav-title span.nav-title-text,
+    .pd__ex .reply-header .reply-navigation .nav-bar .nav-sort.hot div.hot-sort,
+    .pd__ex  .activity-m-v1 .inside-wrp .left,
+    .pd__ex .reply-content-container .reply-content,
+    .pd__ex .bpx-player-auxiliary .bpx-player-dm-container .dm-info-row .dm-info-dm,
+    .pd__ex .base-video-sections-v1 .video-sections-head_first-line .first-line-left a.first-line-title,
+    .pd__ex .base-video-sections-v1 .video-section-list div.video-episode-card__info-title{
+        color: var(--puddingdark-mainfont-color);
+    }
+    
+    
+    /* second font color */
+    .pd__ex .up-info-v1 .up-info_right .name .up-info_right_message,
+    .pd__ex  .up-info-v1 .up-info_right .name .up-info_right_message i,
+    .pd__ex  .up-info-v1 .up-info_right .desc,
+    .pd__ex  .video-toolbar-v1 .toolbar-right > div,.pd__ex .video-toolbar-v1 .toolbar-right > span,
+    .pd__ex .video-desc-v1 .toggle-btn span,
+    .pd__ex .reply-header .reply-navigation .nav-bar .nav-title span.total-reply,
+    .pd__ex .reply-header .reply-navigation .nav-bar div.nav-sort,
+    .pd__ex .reply-item .root-reply-container .content-warp .root-reply div.reply-info,
+    .pd__ex .reply-item .root-reply-container .content-warp .root-reply div.reply-info span,
+    .pd__ex .sub-reply-item div.sub-reply-info,
+    .pd__ex .sub-reply-item div.sub-reply-info span,
+    .pd__ex .reply-item .root-reply-container .content-warp .user-info div.user-name,
+    .pd__ex .bpx-player-auxiliary .bpx-player-dm-function .bpx-player-dm-btn-date,.pd__ex .bpx-player-auxiliary .bpx-player-dm-function .bpx-player-dm-btn-dm,.pd__ex .bpx-player-auxiliary .bpx-player-dm-function .bpx-player-dm-btn-time,
+    .pd__ex  .base-video-sections-v1 .video-sections-head_first-line .first-line-left span.cur-page,
+    .pd__ex .bpx-player-auxiliary .bpx-player-dm-btn-history,
+    .pd__ex .bpx-player-auxiliary .bpx-player-dm-btn-history:hover,
+    .pd__ex .recommend-list-v1 div.rec-footer,
+    .pd__ex .sub-reply-item .sub-user-info div.sub-user-name{
+        color: var(--puddingdark-secondfont-color);
+    }
+    
+    .pd__ex .float-nav-exp .nav-menu .item{
+        color: var(--puddingdark-secondfont-color);
+        fill:var(--puddingdark-secondfont-color);
+    }
+    
+    .video-toolbar-v1 .toolbar-left > span .icon path,
+    .video-toolbar-v1 .toolbar-right .manuscript-report svg path, .video-toolbar-v1 .toolbar-right .note-btn svg path{
+        fill:var(--puddingdark-secondfont-color);
+    }
+    
+    /* turn icons to white color */
+    .pd__ex .video-info-v1 .video-data .video-data-list .view > img,.pd__ex .video-info-v1 .video-data .video-data-list .dm > img,
+    .pd__ex .video-info-v1 .video-data .video-data-list .pudate-ip .pudate > img,
+    .pd__ex  .bpx-common-svg-icon svg{
+        filter: brightness(0) invert(1);
+    }
+    
+    /* remove box shadow in dark mode ,add a border instead.  */
+    .pd__ex .bpx-player-container,
+    .pd__ex   #bilibili-player-placeholder{
+        box-shadow:unset;
+        border: 1px solid var(--puddingdark-03dp-bgcolor);
+    }
+    
     
 }
