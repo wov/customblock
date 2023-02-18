@@ -174,7 +174,8 @@
     }
     
     .pd__ex .s-hotsearch-wrapper .s-hotsearch-title .hot-refresh .hot-refresh-text,
-    .pd__ex #bottom_layer .open-content-info .text-color{
+    .pd__ex #bottom_layer .open-content-info .text-color,
+    .pd__ex  #head_wrapper #form .bdsug-new ul li span{
         color: var(--puddingdark-secondfont-color);
     }
     
@@ -184,7 +185,20 @@
         background:#222;
     }
     
+    .pd__ex  #head_wrapper #kw,
+    .pd__ex #s_side_wrapper{
+        background:var(--puddingdark-03dp-bgcolor);
+    }
     
+    .pd__ex  #head_wrapper #form .bdsug-new ul,
+    .pd__ex #head_wrapper #kw{
+        border-color:var(--puddingdark-03dp-bgcolor);
+    }
+    
+    .pd__ex #head_wrapper .ipt_rec,.pd__ex #head_wrapper .soutu-btn{
+        filter: invert(85%);
+    }
+
 }
 
 
