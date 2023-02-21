@@ -1596,6 +1596,12 @@ body > .lt-row{
 
 /*dark mode*/
 @media (prefers-color-scheme: dark)  {
+    
+    *[style*="color:var(--text1)"]{
+        color: var(--puddingdark-mainfont-color)!important;
+    }
+    
+    
     img{
         filter: brightness(0.8);
     }
@@ -1724,8 +1730,6 @@ body > .lt-row{
     
     /*  播放页 */
     
-
-    
     /*  main bg color  */
     .pd__ex  #header-v3,.pd__ex #app,
     .pd__ex .bili-comment.browser-pc,
@@ -1762,8 +1766,17 @@ body > .lt-row{
     .pd__ex .bpx-player-auxiliary .bpx-player-dm-btn-history:hover,
     .pd__ex  .base-video-sections-v1 .video-section-list div.video-episode-card__info-playing,
     .pd__ex  .float-nav-exp .nav-menu .item,
-    .pd__ex .recommend-list-v1 div.rec-footer{
+    .pd__ex .recommend-list-v1 div.rec-footer,
+    .pd__ex .bili-header .bili-header-channel-panel .channel-panel__column a.channel-panel__item:hover,
+    .pd__ex .up-info-v1 .btn-panel .following:hover,
+    .pd__ex .v-img,
+    .pd__ex .bili-live-card .bili-live-card__cover{
         background: var(--puddingdark-03dp-bgcolor);
+    }
+    
+    .pd__ex .bpx-player-auxiliary .bpx-player-dm-load-status,
+    .pd__ex .v-popover-content{
+        background: #333;
     }
     
     /* border color   */
@@ -1774,8 +1787,14 @@ body > .lt-row{
     .pd__ex  .reply-box .box-normal .reply-box-warp textarea.reply-box-textarea,
     .pd__ex  .reply-box .box-normal .reply-box-warp textarea.reply-box-textarea.focus,.pd__ex .reply-box .box-normal .reply-box-warp textarea.reply-box-textarea:hover,
     .pd__ex div.reply-box.fixed-box,
-    .pd__ex  .float-nav-exp .nav-menu .item{
+    .pd__ex  .float-nav-exp .nav-menu .item,
+    .pd__ex .v-popover-content,
+    .pd__ex  .bili-header .bili-header-channel-panel div.channel-panel__column{
         border-color: var(--puddingdark-03dp-bgcolor);
+    }
+    
+    .pd__ex  .bili-header .bili-header-channel-panel div.channel-panel__column:last-of-type{
+        border:none;
     }
 
     /*  main font color  */
@@ -1791,7 +1810,8 @@ body > .lt-row{
     .pd__ex .reply-content-container .reply-content,
     .pd__ex .bpx-player-auxiliary .bpx-player-dm-container .dm-info-row .dm-info-dm,
     .pd__ex .base-video-sections-v1 .video-sections-head_first-line .first-line-left a.first-line-title,
-    .pd__ex .base-video-sections-v1 .video-section-list div.video-episode-card__info-title{
+    .pd__ex .base-video-sections-v1 .video-section-list div.video-episode-card__info-title,
+    .pd__ex .bpx-player-auxiliary .bpx-player-dm-load-status{
         color: var(--puddingdark-mainfont-color);
     }
     
@@ -1839,8 +1859,74 @@ body > .lt-row{
     .pd__ex .bpx-player-container,
     .pd__ex   #bilibili-player-placeholder{
         box-shadow:unset;
-        border: 1px solid var(--puddingdark-03dp-bgcolor);
+/*        border: 1px solid var(--puddingdark-03dp-bgcolor);*/
     }
+    
+    /* 热门页面 */
+    
+    /*  main bg color  */
+    .pd__ex.header-v3 #app, .header-v3 #biliMainHeader,
+    .pd__ex .rank-tab-wrap,
+    .pd__ex  .international-footer{
+        background : var(--puddingdark-main-bgcolor);
+    }
+    
+    /* 03dp color */
+    .pd__ex  div.back-top-btn,
+    .pd__ex .rank-list .rank-item .content .img,
+    .pd__ex .other-list .other-link:hover,
+    .pd__ex  .video-card span.history-hint,
+    .pd__ex  div.video-card__content,
+    .pd__ex .video-card span.weekly-hint,
+    .pd__ex .weekly-header .panel div.select-item:not(.item-active):hover{
+        background : var(--puddingdark-03dp-bgcolor);
+    }
+    
+    .pd__ex .van-popover,
+    .pd__ex  div.weekly-header .panel{
+        background : #333;
+
+    }
+    
+    /* border color */
+    .pd__ex .nav-tabs,
+    .pd__ex  div.back-top-btn,
+    .pd__ex  div.video-card__content,
+    .pd__ex .other{
+        border-color: var(--puddingdark-03dp-bgcolor);
+    }
+    
+    /* main font color */
+    .pd__ex  .nav-tabs__item>div>span,
+    .pd__ex .video-card p.video-name,
+    .pd__ex .rank-tab-wrap .rank-tab,
+    .pd__ex .rank-list .rank-item .content .info .title,
+    .pd__ex .other-list,
+    .pd__ex  .weekly-header span.current-tiem,
+    .pd__ex  .weekly-header .panel p.item-title,
+    .pd__ex .international-footer a,
+    .pd__ex .international-footer .link-box .link-item.link-c p{
+        color: var(--puddingdark-mainfont-color);
+    }
+    
+    /* second font.   */
+    .pd__ex .popular-list p.popular-tips,
+    .pd__ex  .rank-container p.rank-tips,
+    .pd__ex .weekly-header .panel p.item-info,
+    .pd__ex .international-footer .link-box .link-item .bt,
+    .pd__ex .international-footer .partner a{
+        color: var(--puddingdark-secondfont-color);
+    }
+    
+    .video-card__info img,
+    .rank-list .rank-item .content .info .detail img,
+    .weekly-header .arrow{
+        filter: brightness(0) invert(1);
+    }
+    
+        
+    
+    
     
     
 }
