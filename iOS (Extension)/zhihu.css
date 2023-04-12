@@ -89,7 +89,7 @@ html .Baidu-ad{
         color: var(--puddingdark-mainfont-color);
     }
     
-    html .ContentItem .RichContent-inner,
+    
     html  .Body--Mobile .RichContent.is-collapsed .RichContent-inner,
     html .MobileAppHeader-searchBox,
     html  .VideoAnswerPlayer-state--data,
@@ -98,7 +98,8 @@ html .Baidu-ad{
     html .MobileSearch-container .SearchItem-meta,
     html .SpecialItem-titleLabel,
     html .css-2zro6g,
-    html .Column-ColumnItem .ContentItem-meta{
+    html .Column-ColumnItem .ContentItem-meta,
+    html .RichContent.is-collapsed .RichContent-inner:hover{
         color: var(--puddingdark-secondfont-color);
     }
     
@@ -318,6 +319,79 @@ html .Baidu-ad{
     }
     
     
+    /*  ipad 版本 详情页*/
+    
+    /* main bg color   */
+    
+    
+    html body,
+    html .Modal-inner,
+    html .EQvEDwRqICOvs_x_kUWW,
+    html .css-1x8hcdw,
+    html  .QuestionHeader,
+    html .QuestionHeader-footer{
+        background: var(--puddingdark-main-bgcolor);
+    }
+    
+    html  .css-v6yqll,
+    html .QZcfWkCJoarhIYxlM_sG.evPjxqnqXpIBzSRrcIDv{
+        background:var(--puddingdark-03dp-bgcolor);
+    }
+    
+    html .Card{
+        background:var(--puddingdark-03dp-bgcolor)!important;
+    }
+    
+    
+    html .MoreAnswers .List-headerText{
+        background:#222;
+    }
+    
+    
+    html .signQr-container,
+    html  .css-1o2gsjy,
+    html  .Login-options,
+    html input.i7cW1UcwT6ThdhTakqFm{
+        background: none;
+    }
+
+    
+    html .css-k49mnn,
+    html .css-qj3urb,
+    html .css-x9rxz4,
+    html .css-1bdtll5,
+    html .css-1iubajs,
+    html .css-186oz3i,
+    html  .SignFlow-tab--active,
+    html .EQvEDwRqICOvs_x_kUWW,
+    html  .NumberBoard-itemValue,
+    html .AppBanner-title,
+    html .AppBanner-description,
+    html  .AnswerAuthor-user-name,
+    html  .RelatedCommodities-subject{
+        color: var(--puddingdark-mainfont-color);
+    }
+    
+    html .SignFlow-tab,
+    html .Login-cannotLogin,
+    html  .Login-cannotLogin,
+    html  .NumberBoard-itemName,
+    html   a.QuestionMainAction,
+    html .MoreAnswers .List-headerText{
+        color: var(--puddingdark-secondfont-color);
+
+    }
+    
+    html .signQr-rightContainer,
+    html  .SignFlow-account,
+    html  .Login-content .SignFlow-smsInputContainer,
+    html .NumberBoard--divider .NumberBoard-item+.NumberBoard-item .NumberBoard-itemInner,
+    html .Card-header,
+    html .Card-section+.Card-section:after,
+    html  .RelatedCommodities-item:not(:first-child):before,
+    html .MoreAnswers .List-header:after{
+        border-color:var(--puddingdark-03dp-bgcolor);
+    }
     
     
 }

@@ -91,7 +91,7 @@ struct Websites: View {
             WebSite(name:"豆瓣电影",url: "https://movie.douban.com",types: [.pc,.dark]),
             WebSite(name:"哔哩哔哩",url: "https://m.bilibili.com",types: [.additional,.video,.pc]),
             WebSite(name:"新浪微博",url: "https://m.weibo.cn",types: [.additional,.dark]),
-            WebSite(name:"网易新闻",url: "https://3g.163.com",types: [.speed,.additional,.dark]),
+            WebSite(name:"网易新闻",url: "https://m.163.com",types: [.speed,.additional,.dark]),
             WebSite(name:"腾讯新闻",url: "https://xw.qq.com",types: [.dark]),
             WebSite(name:"知乎",url: "https://www.zhihu.com",types: [.additional,.dark]),
             WebSite(name:"36氪",url: "https://m.36kr.com",types: [.additional,.dark]),

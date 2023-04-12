@@ -1,0 +1,82 @@
+
+
+
+@media (max-width : 684px){
+    
+    .pd__ex .bd-login-container header.u-header{
+        height:unset!important;
+    }
+    
+    .pd__ex section.bd-login-container,
+    .pd__ex .bd-first-screen .fixed{
+        min-width: unset;
+    }
+    
+    .pd__ex .bd-introduction-item__intro{
+        width:100%;
+    }
+    
+    .pd__ex  .bd-login-header__out{
+        flex-direction:column;
+        padding:5px;
+    }
+    
+    .pd__ex .bd-right-header{
+        flex-wrap: wrap;
+    }
+    
+    .pd__ex   .bd-right-header__out-box{
+        width:unset;
+        margin: 0 5px;
+    }
+    
+    .pd__ex  .u-button{
+        padding: 5px;
+    }
+    
+    
+    .pd__ex .u-main{
+        padding: 5px;
+    }
+    
+    .pd__ex  .bd-first-screen__main .bd-login-content .bd-login-content__title{
+        font-size: 24px;
+        line-height: unset;
+    }
+    
+    .pd__ex .bd-introduction-item__intro-title{
+        font-size:32px;
+    }
+    
+    .pd__ex  .bd-introduction-item__intro{
+        margin: 10px 0;
+    }
+    
+    .pd__ex .bd-introduction-item__intro-subtitle{
+        font-size:18px;
+    }
+    
+    .pd__ex .bd-introduction-item__intro-carousel{
+        margin-top:10px;
+    }
+    
+    .pd__ex   div.bd-text-area__top--title{
+        font-size:16px;
+    }
+    
+    .pd__ex div.bd-text-area__top--subtitle{
+        font-size:14px;
+    }
+    
+    
+    .pd__ex   button.bd-text-area__bottom--link{
+        font-size: 14px;
+    }
+    
+    .pd__ex   div.bd-image-area{
+        width: 40%;
+    }
+    
+    
+}
+

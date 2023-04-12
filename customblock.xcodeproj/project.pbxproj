@@ -62,6 +62,8 @@
 		83CF53C027C65E7000375E9F /* baidu.css in Resources */ = {isa = PBXBuildFile; fileRef = 83CF53BF27C65E7000375E9F /* baidu.css */; };
 		83CF53C227C915A100375E9F /* zhihu.css in Resources */ = {isa = PBXBuildFile; fileRef = 83CF53C127C915A100375E9F /* zhihu.css */; };
 		83CF53C427C9EACE00375E9F /* 36kr.css in Resources */ = {isa = PBXBuildFile; fileRef = 83CF53C327C9EACE00375E9F /* 36kr.css */; };
+		83D1B9C329B323BA0030B701 /* baidupan.css in Resources */ = {isa = PBXBuildFile; fileRef = 83D1B9C229B323BA0030B701 /* baidupan.css */; };
+		83D1B9C729B324340030B701 /* baidupan.js in Resources */ = {isa = PBXBuildFile; fileRef = 83D1B9C629B324340030B701 /* baidupan.js */; };
 		83D4CCC2283249C20053D349 /* tieba.css in Resources */ = {isa = PBXBuildFile; fileRef = 83D4CCC1283249C20053D349 /* tieba.css */; };
 		83D4CCC4283249D30053D349 /* tieba.js in Resources */ = {isa = PBXBuildFile; fileRef = 83D4CCC3283249D30053D349 /* tieba.js */; };
 		83E017002675036B00A30A29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E016FF2675036B00A30A29 /* AppDelegate.swift */; };
@@ -208,6 +210,8 @@
 		83CF53BF27C65E7000375E9F /* baidu.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = baidu.css; sourceTree = "<group>"; };
 		83CF53C127C915A100375E9F /* zhihu.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = zhihu.css; sourceTree = "<group>"; };
 		83CF53C327C9EACE00375E9F /* 36kr.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = 36kr.css; sourceTree = "<group>"; };
+		83D1B9C229B323BA0030B701 /* baidupan.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = baidupan.css; sourceTree = "<group>"; };
+		83D1B9C629B324340030B701 /* baidupan.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = baidupan.js; sourceTree = "<group>"; };
 		83D4CCC1283249C20053D349 /* tieba.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = tieba.css; sourceTree = "<group>"; };
 		83D4CCC3283249D30053D349 /* tieba.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = tieba.js; sourceTree = "<group>"; };
 		83E016E72675036A00A30A29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
@@ -454,6 +458,8 @@
 				83174B2B294ED4210041DE4F /* pdgzf.css */,
 				83F2DCDE29850F1700885DB3 /* baiduzhidao.css */,
 				83F2DCE029850F3800885DB3 /* baiduzhidao.js */,
+				83D1B9C229B323BA0030B701 /* baidupan.css */,
+				83D1B9C629B324340030B701 /* baidupan.js */,
 			);
 			path = "iOS (Extension)";
 			sourceTree = "<group>";
@@ -663,11 +669,13 @@
 				833AF29F27C9F0E60011C1BC /* sina.css in Resources */,
 				835637CE280EDA7100F12F03 /* gjp.css in Resources */,
 				839CD0E327D247D200E86463 /* bilibili.js in Resources */,
+				83D1B9C729B324340030B701 /* baidupan.js in Resources */,
 				83E0173A2675036B00A30A29 /* images in Resources */,
 				83E0173C2675036B00A30A29 /* manifest.json in Resources */,
 				837F026528019FA000A677BD /* zhihu.js in Resources */,
 				83C88299281FCA340048AAED /* autohome.js in Resources */,
 				830816DE28672EFF0076A2ED /* ke.css in Resources */,
+				83D1B9C329B323BA0030B701 /* baidupan.css in Resources */,
 				83C882A12820CBA80048AAED /* taobao.css in Resources */,
 				83B2530227F5550C00C11371 /* base.css in Resources */,
 				83FC53B1281E4CF300C335C3 /* myseller.css in Resources */,
@@ -918,7 +926,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 2.0.1;
+				MARKETING_VERSION = 2.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.inact.customblock.Extension;
 				PRODUCT_NAME = "customblock Extension";
 				SDKROOT = iphoneos;
@@ -945,7 +953,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 2.0.1;
+				MARKETING_VERSION = 2.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.inact.customblock.Extension;
 				PRODUCT_NAME = "customblock Extension";
 				SDKROOT = iphoneos;
@@ -979,7 +987,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.0.1;
+				MARKETING_VERSION = 2.1.0;
 				OTHER_LDFLAGS = (
 					"-framework",
 					WebKit,
@@ -1018,7 +1026,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.0.1;
+				MARKETING_VERSION = 2.1.0;
 				OTHER_LDFLAGS = (
 					"-framework",
 					WebKit,

@@ -210,6 +210,8 @@ img[lazy=loaded]{
         color: var(--puddingdark-secondfont-color);
     }
     
+
+    
 }
 
 /*频道页面*/
@@ -321,7 +323,7 @@ iframe{display:none!important;}
     display:none!important;
 }
 
-.photo{
+.photo:not(body){
     pointer-events:none!important;
 }
 
@@ -344,14 +346,18 @@ body.pd__ex{
     min-height: -webkit-fill-available!important;
 }
 
-main > article{
-    max-height:unset!important;
-    height:100%!important;
-    max-height:calc(100vh - 2.5rem)!important;
-    overflow:scroll!important;
-    -webkit-overflow-scrolling: touch; /* Lets it scroll lazy */
-    overscroll-behavior: contain;
+.pd__ex .js-area-buoys{
+    display:none!important;
 }
+
+/*main > article{*/
+/*    max-height:unset!important;*/
+/*    height:100%!important;*/
+/*    max-height:calc(100vh - 2.5rem)!important;*/
+/*    overflow:scroll!important;*/
+/*    -webkit-overflow-scrolling: touch; /* Lets it scroll lazy */*/
+/*    overscroll-behavior: contain;*/
+/*}*/
 
 .footer,footer{display:none!important;}
 
@@ -449,6 +455,10 @@ main > article{
     .pd__ex .cards-bigImg article h4,
     .pd__ex .cards-threeImg{
         color: rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex  .main .article-body blockquote{
+        color: var(--puddingdark-secondfont-color);
     }
 }
 
@@ -655,6 +665,16 @@ main > article{
 /*图片频道*/
 
 @media (prefers-color-scheme: dark) {
+    
+    .pd__ex .cards-photoCard article h4{
+        color:var(--puddingdark-mainfont-color);
+    }
+    
+    .pd__ex  .cards-photoCard article{
+        box-shadow: unset;
+        border: 1px solid var(--puddingdark-border-color);
+    }
+    
     .photoset-square{
         background:rgba(255,255,255,0.07)!important;
         box-shadow:none!important;

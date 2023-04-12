@@ -1,3 +1,15 @@
+:root{
+    --puddingdark-mainfont-color: rgba(255,255,255,0.87);
+    --puddingdark-secondfont-color: rgba(255,255,255,0.6);
+    --puddingdark-border-color: rgba(255,255,255,0.08);
+    --puddingdark-main-bgcolor: #121212;
+    --puddingdark-03dp-bgcolor: rgba(255,255,255,0.08);
+    --puddingdark-06dp-bgcolor : rgba(255,255,255,0.11);
+    --puddingdark-blue-color: rgb(10,132,255);
+    --color-dark-orange: rgb(255, 159, 10);
+}
+
+
 /*首页*/
 .kr-mobile-goapp{display:none!important;}
 
@@ -41,8 +53,6 @@ body{
     img{
         filter: brightness(0.8);
     }
-    
-    
     
     
     .kr-mobile-layout{
@@ -201,5 +211,19 @@ body{
     .pd__ex .article-body .body-bar .time{
         color: rgba(255,255,255,0.6);
     }
+    
+    
+    .pd__ex  .home-fixed-area-wrap .home-fixed-area-item .home-fixed-area-item-box .home-fixed-area-item-title{
+        color:var(--puddingdark-mainfont-color);
+    }
+    
+    .pd__ex  .home-tab-bar-wrap .home-tab-bar-item{
+        color:var(--puddingdark-secondfont-color);
+    }
+    
+    .article-no-comment .article-no-comment-wrap .comment-img{
+        filter:invert(1);
+    }
 }
+
 

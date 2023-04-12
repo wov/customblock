@@ -17,7 +17,8 @@ body > .lt-row{
 .pd__ex .video-card__content .__pudding_block,
 .pd__ex .bili-video-card .bili-video-card__image--wrap .__pudding_block,
 .pd__ex .bili-video-card__image .__pudding_block,
-.pd__ex .bili-live-card__image .__pudding_block{
+.pd__ex .bili-live-card__image .__pudding_block,
+.pd__ex .floor-single-card .cover-container .__pudding_block{
     position:absolute;
     right: 0;
     top: 0px;
@@ -28,7 +29,7 @@ body > .lt-row{
     background-size:50%;
     background-color: rgba(255,255,255,0.4);
     border-bottom-left-radius: 5px;
-    z-index:2;
+    z-index:10;
     background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gU3ZnIFZlY3RvciBJY29ucyA6IGh0dHA6Ly93d3cub25saW5ld2ViZm9udHMuY29tL2ljb24gLS0+DQo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMTAwMCAxMDAwIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAxMDAwIDEwMDAiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPG1ldGFkYXRhPiBTdmcgVmVjdG9yIEljb25zIDogaHR0cDovL3d3dy5vbmxpbmV3ZWJmb250cy5jb20vaWNvbiA8L21ldGFkYXRhPg0KPGc+PHBhdGggZD0iTTUwMCw5OTBDMjI5LjgsOTkwLDEwLDc3MC4yLDEwLDUwMFMyMjkuOCwxMCw1MDAsMTBzNDkwLDIxOS44LDQ5MCw0OTBTNzcwLjIsOTkwLDUwMCw5OTB6IE01MDAsODAuM0MyNjguNiw4MC4zLDgwLjMsMjY4LjYsODAuMyw1MDBjMCwyMzEuNCwxODguMyw0MTkuNyw0MTkuNyw0MTkuN2MyMzEuNCwwLDQxOS43LTE4OC4zLDQxOS43LTQxOS43QzkxOS43LDI2OC42LDczMS40LDgwLjMsNTAwLDgwLjN6IE01NDkuMyw1MDEuNWwxNTEuMy0xNDkuN2MxMy44LTEzLjYsMTMuOS0zNS43LDAuMy00OS41Yy0xMy42LTEzLjgtMzUuOC0xMy45LTQ5LjUtMC4zTDQ5OS45LDQ1MS45TDM1MC42LDMwMi4yYy0xMy43LTEzLjctMzUuOC0xMy44LTQ5LjUtMC4xYy0xMy43LDEzLjYtMTMuNywzNS44LTAuMSw0OS41bDE0OSwxNDkuNUwyOTkuOCw2NDkuOGMtMTMuOCwxMy42LTEzLjksMzUuNy0wLjMsNDkuNWM2LjksNi45LDE1LjksMTAuNCwyNC45LDEwLjRjOC45LDAsMTcuOC0zLjQsMjQuNi0xMC4xbDE1MC41LTE0OC44bDE1MS43LDE1Mi4yYzYuOCw2LjksMTUuOCwxMC4zLDI0LjgsMTAuM2M5LDAsMTcuOS0zLjQsMjQuNy0xMC4yYzEzLjctMTMuNywxMy43LTM1LjgsMC4xLTQ5LjVMNTQ5LjMsNTAxLjV6Ii8+PC9nPg0KPC9zdmc+");
 }
 
@@ -1052,7 +1053,7 @@ body > .lt-row{
     .pd__ex .rank-list .rank-item .content .info .title{
         font-weight:normal!important;
         font-size: 12px;
-        color: #666;
+/*        color: #666;*/
         line-height: 1.4;
         height: auto;
         margin-top: 5px;
@@ -1069,7 +1070,7 @@ body > .lt-row{
     .pd__ex .video-card__info .video-name[data-v-0c3f5fbc]{
         font-weight:normal!important;
         font-size: 12px;
-        color: #666;
+/*        color: #666;*/
         line-height: 1.4;
         height: auto;
     }
@@ -1324,7 +1325,7 @@ body > .lt-row{
     /* 科技频道 OVER*/
 
 
-    /*频道页https://t.bilibili.com/?spm_id_from=333.1007.0.0*/
+    /*动态页https://t.bilibili.com/?spm_id_from=333.1007.0.0*/
     .pd__ex .bili-dyn-home--member{
         flex-wrap:wrap;
     }
@@ -1432,6 +1433,11 @@ body > .lt-row{
 
     .pd__ex .bili-dyn-list-tabs__highlight{
         display:none;
+    }
+    
+    .pd__ex  .bili-dyn-interaction,
+    .pd__ex .bili-album{
+        max-width: 100%;
     }
 
 
@@ -1678,9 +1684,12 @@ body > .lt-row{
         color: var(--puddingdark-mainfont-color);
     }
     
-    .pd__ex .bili-header .right-entry__outside .right-entry-icon{
+    .pd__ex .bili-header .right-entry__outside .right-entry-icon,
+    .pd__ex .bili-header .left-entry .entry-title .zhuzhan-icon{
         color: var(--puddingdark-mainfont-color)!important;
     }
+    
+
     
     /*  second font color  */
     .pd__ex .header-channel-fixed-right-item,
@@ -1924,9 +1933,59 @@ body > .lt-row{
         filter: brightness(0) invert(1);
     }
     
+    
+    /* 动态页面https://t.bilibili.com/?spm_id_from=333.1007.0.0*/
+    
+
+    .pd__ex .bili-dyn-publishing,
+    .pd__ex .bili-dyn-up-list,
+    .pd__ex .bili-dyn-list-tabs,
+    .pd__ex .bili-dyn-item,
+    .pd__ex .bili-dyn-banner,
+    .pd__ex .topic-panel,
+    .pd__ex .bili-dyn-content__orig.reference,
+    .pd__ex .bili-dyn-my-info,.pd__ex .bili-dyn-my-info--skeleton,
+    .pd__ex .bili-topic-search__popover,
+    .pd__ex .bili-dyn-interaction:before{
+        background : var(--puddingdark-03dp-bgcolor);
+    }
+    
+    .pd__ex  .bb-comment, .comment-bilibili-fold{
+        background: none;
+    }
         
     
+    .pd__ex .bili-topic-search__popover,
+    .pd__ex .bb-comment .comment-header, .pd__ex .comment-bilibili-fold .comment-header,
+    .pd__ex .bb-comment .comment-list .list-item .con,.pd__ex .comment-bilibili-fold .comment-list .list-item .con,
+    .pd__ex .bb-comment .bottom-page.center,
+    .pd__ex  .bb-comment-h5 .comment-list .list-item,.pd__ex .comment-bilibili-fold-h5 .comment-list .list-item,
+    .pd__ex  .bb-comment-h5 .comment-list .list-item .reply-item,.pd__ex .comment-bilibili-fold-h5 .comment-list .list-item .reply-item{
+        border-color : var(--puddingdark-03dp-bgcolor);
+    }
+    
+    .pd__ex .bili-dyn-my-info__stat__item__count,
+    .pd__ex .relevant-topic__title,
+    .pd__ex  .dyn-card-opus__title,
+    .pd__ex .bb-comment .comment-header .tabs-order li,.pd__ex .comment-bilibili-fold .comment-header .tabs-order li{
+        color: var(--puddingdark-mainfont-color);
+    }
+    
+    .pd__ex .bili-dyn-my-info__stat__item__label,
+    .pd__ex  .bili-dyn-up-list__item__name,
+    .pd__ex  .bili-dyn-list-tabs__item,
+    .pd__ex .bili-dyn-interaction__item__desc .bili-rich-text-module,
+    .pd__ex  .bb-comment .comment-list .list-item .user .name,.pd__ex .comment-bilibili-fold .comment-list .list-item .user .name{
+        color: var(--puddingdark-secondfont-color);
+    }
+    
+    .pd__ex .bili-rich-textarea__inner{
+        background:none;
+    }
     
     
-    
+/*    .floor-single-card{*/
+/*        display:none;*/
+/*    }*/
+/*    */
 }

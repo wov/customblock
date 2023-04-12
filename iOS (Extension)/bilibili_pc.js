@@ -87,7 +87,6 @@ function addButtonAndBlock(){
             blockDom.addEventListener('click', e => {
                 e.stopPropagation();
                 e.preventDefault();
-                //TODO: 这里改成弹出可添加关键字的弹窗。
                 pd_showBlockModal(up);
             })
         }
@@ -126,6 +125,61 @@ function BlockContent(){
             })
         }
     })
+}
+
+function addButtonAndBlockToChannel(){
+    console.log('addButtonAndBlockToChannel');
+    const items = document.querySelectorAll('.floor-single-card');
+    const CLASSFLAG = "pudding_extension";
+    if(!items.length){return;}
+    
+    BlockChannel();
+    
+    items.forEach( i => {
+        if(i.classList.contains(CLASSFLAG)){return;}
+        i.classList.add(CLASSFLAG);
+        // 添加直接展开的功能
+//        const t = i.querySelector('.video-card__content');
+
+        // 添加屏蔽的功能
+        // 用来放关闭按钮的容器
+        const h = i.querySelector('.cover-container');
+        // up主的名字..
+        const channelNameDom = i.querySelector('.floor-title');
+                
+        if(h && channelNameDom){
+            let name = channelNameDom.textContent.replaceAll(/\s+/g, '');
+            if(!name){return;}
+            const blockDom = document.createElement('div');
+            blockDom.className = '__pudding_block';
+            h.appendChild(blockDom)
+
+            blockDom.addEventListener('click', e => {
+                e.stopPropagation();
+                e.preventDefault();
+                pd_showBlockChannelModal(name);
+            })
+        }
+    })
+}
+
+
+function BlockChannel(){
+    const items = document.querySelectorAll('.floor-single-card');
+    items.forEach( i => {
+        // 添加屏蔽的功能
+        const channelNameDom = i.querySelector('.floor-title');
+                
+        if(channelNameDom){
+            let name = channelNameDom.textContent.replaceAll(/\s+/g, '');
+            if(!name){return;}
+            
+            let BlockChannels = localStorage.getItem(BAD_NAME) ? JSON.parse(localStorage.getItem(BAD_NAME)) : [];
+            if(BlockChannels.includes(name)){
+                i.remove();
+            }
+        }
+    });
 }
 
 
@@ -215,8 +269,56 @@ function pd_showBlockModal(up){
     
 }
 
+
+function pd_showBlockChannelModal(name){
+    
+    if(document.querySelector('.pudding_block_Modal')){return;}
+    
+    const blockModal = document.createElement('div');
+    blockModal.className = 'pudding_block_Modal';
+    
+    const inner = document.createElement('div');
+    inner.className = 'pudding_block_inner';
+    
+    const description = document.createElement('h3');
+    description.textContent = `布丁扩展:屏蔽${name}频道?。屏蔽只在本地有效。`
+    
+    const buttons = document.createElement('div');
+    buttons.className = "buttons";
+    
+    const confirm = document.createElement('button');
+    confirm.textContent = '确定';
+    
+    const cancel = document.createElement('button');
+    cancel.textContent = '取消';
+    
+    inner.appendChild(description);
+
+    buttons.appendChild(confirm);
+    buttons.appendChild(cancel);
+    inner.appendChild(buttons);
+    
+    blockModal.appendChild(inner);
+    document.body.appendChild(blockModal);
+    
+    //取消按钮
+    cancel.addEventListener('click',e => {
+        blockModal.remove();
+    });
+    
+    //确定按钮
+    confirm.addEventListener('click',e => {
+        let blockChannels = localStorage.getItem(BAD_NAME) ? JSON.parse(localStorage.getItem(BAD_NAME)) : [];
+        blockChannels.push(name);
+        localStorage.setItem(BAD_NAME,JSON.stringify(blockChannels));
+        BlockChannel();
+        blockModal.remove();
+    });
+}
+
 setTimeout(_ => {
     addButtonAndBlock();
+    addButtonAndBlockToChannel();
 },1000)
 
 
@@ -225,6 +327,7 @@ if(rootChangeDom){
     const config = { attributes: false, childList: true, subtree: true };
     const callback = function(mutationsList, observer) {
         addButtonAndBlock();
+        addButtonAndBlockToChannel();
 //        openLongPictureInNewWindow();
     };
     const observer = new MutationObserver(callback);

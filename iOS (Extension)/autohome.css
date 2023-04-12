@@ -69,12 +69,15 @@
     display:none;
 }
 
-
 .pd__ex section.wrapper > section > ol{
     display:none;
 }
 
-body{
+body[style*="hidden;"]{
     overflow:auto!important;
     position:relative!important;
+}
+
+.pd__ex .toast,.pd__ex .toast:before{
+    display:none;
 }

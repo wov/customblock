@@ -26,7 +26,9 @@
     },{
         "css" : ["163.css"],
         "matches" : ["*://3g.163.com/*",
-        "*://m.home.163.com/*"]
+            "*://m.home.163.com/*",
+            "*://m.163.com/*"
+        ]
     },{
         "css" : ["baidu.css"],
         "matches" : [
@@ -92,7 +94,8 @@
         "matches" : ["*://*.sina.cn/*"]
     },{
         "js" : ["163.js"],
-        "matches" : ["*://3g.163.com/*"]
+        "matches" : ["*://3g.163.com/*",
+        "*://m.163.com/*"]
     },{
         "css" : ["jianshu.css"],
         "matches" : ["*://*.jianshu.com/*"]

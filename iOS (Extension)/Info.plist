@@ -110,6 +110,10 @@
 				<key>Script</key>
 				<string>baiduzhidao.js</string>
 			</dict>
+			<dict>
+				<key>Script</key>
+				<string>baidupan.js</string>
+			</dict>
 		</array>
 		<key>SFSafariStyleSheet</key>
 		<array>
@@ -236,6 +240,10 @@
 			<dict>
 				<key>Style Sheet</key>
 				<string>baiduzhidao.css</string>
+			</dict>
+			<dict>
+				<key>Style Sheet</key>
+				<string>baidupan.css</string>
 			</dict>
 		</array>
 		<key>SFSafariWebsiteAccess</key>

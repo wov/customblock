@@ -195,8 +195,19 @@
         border-color:var(--puddingdark-03dp-bgcolor);
     }
     
+    
+    .pd__ex .his-wrap-new #index-form .sug-content-p button{
+        border-color:var(--puddingdark-03dp-bgcolor)!important;
+    }
+    
     .pd__ex #head_wrapper .ipt_rec,.pd__ex #head_wrapper .soutu-btn{
         filter: invert(85%);
+    }
+    
+    
+    .pd__ex .content__2k3gx,
+    .pd__ex .header-wrap__3tRSh{
+        background-color:var(--puddingdark-03dp-bgcolor);
     }
 
 }
@@ -1388,7 +1399,10 @@ body.scrollHide{
     .pd__ex .tashuo-right,
     .pd__ex  .side-box,
     .pd__ex .fc-guess-like,
-    .pd__ex .drama-staff .more{
+    .pd__ex .drama-staff .more,
+    .pd__ex .op_express_delivery_input,
+    .pd__ex .c-dropdown2,
+    .pd__ex .op_express_delivery_timeline_circle{
         background: var(--puddingdark-main-bgcolor);
     }
     
@@ -1399,7 +1413,9 @@ body.scrollHide{
     .pd__ex  .lemmaWgt-lemmaCatalog .lemma-catalog .catalog-list,
     .pd__ex  .relation-table-banner,
     .pd__ex .lemma-reference .toggle,
-    .pd__ex .lemma-paper .toggle{
+    .pd__ex .lemma-paper .toggle,
+    .pd__ex  .opui-scroll-ctrl-scroll .opui-scroll-axis,
+    .pd__ex  .opui-scroll-ctrl-scroll .opui-scroll-slider{
         background: var(--puddingdark-03dp-bgcolor);
     }
     
@@ -1461,7 +1477,14 @@ body.scrollHide{
     .pd__ex .lemmaWgt-roleIntroduction ul .roleIntroduction-item,
     .pd__ex .main-content table th,.pd__ex .main-content table td,
     .pd__ex .lemma-starmap .starmap-unique,
-    .pd__ex .lemma-map{
+    .pd__ex .lemma-map,
+    .pd__ex .c-border,
+    .pd__ex .op_express_delivery_timeline_box li,
+    .pd__ex  .opui-scroll-ctrl-scroll .opui-scroll-axis,
+    .pd__ex  .opui-scroll-ctrl-scroll .opui-scroll-slider,
+    .pd__ex .opui-scroll-ctrl-scroll,
+    .pd__ex  .op_express_delivery_bottom_content,
+    .pd__ex  .op_express_delivery_input{
         border-color: var(--puddingdark-03dp-bgcolor);
     }
     
@@ -1520,8 +1543,13 @@ body.scrollHide{
     .pd__ex .drama-staff .staff-list tr td:first-child,
     .pd__ex .lemmaWgt-roleIntroduction ul .roleIntroduction-item .roleIntrodcution-descritpion .item-key,
     .pd__ex .lemma-starmap .starmap-unique-item-info-desc,
-    .pd__ex .tashuo-bottom .tashuo-bottom-title-essence span{
+    .pd__ex .tashuo-bottom .tashuo-bottom-title-essence span,
+    .pd__ex  #container.sam_newgrid .c-showurl{
         color: var(--puddingdark-secondfont-color);
+    }
+    
+    .pd__ex  .c-btn,.pd__ex .c-btn:visited{
+        color: var(--puddingdark-secondfont-color)!important;
     }
     
     .pd__ex .second-container-normal .cmn-btn-hover-blue{

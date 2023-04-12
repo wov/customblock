@@ -26,6 +26,19 @@
 }
 
 
+.pd__ex #screening .ui-slide-content{
+    width:100%;
+    overflow:scroll!important;
+    -webkit-overflow-scrolling: touch; /* Lets it scroll lazy */
+    left:0!important;
+}
+
+.pd__ex #screening .screening-hd .ui-slide-control,
+.pd__ex #screening .screening-hd .slide-tip{
+    display:none;
+}
+
+
 @media (max-width: 440px) and (orientation: portrait),
 (max-width: 940px) and (orientation: landscape){
     
@@ -113,12 +126,7 @@
         font-size:14px!important
     }
     
-    .pd__ex #screening .ui-slide-content{
-        width:100%;
-        overflow:scroll!important;
-        -webkit-overflow-scrolling: touch; /* Lets it scroll lazy */
-        left:0!important;
-    }
+
     
     .pd__ex #gallery-frames{
         display: none;
@@ -380,7 +388,7 @@
     }
     
     /*https://movie.douban.com/cinema/later/shanghai/*/
-    /*开始使用前缀，必用用太多的important*/
+    /*开始使用前缀，减少使用important*/
     .pd__ex .tab-bd .mod{
         width: 32%;
         height: auto;
@@ -668,6 +676,14 @@
     
     .pd__ex  .review-bd .review-meta a{
         color:rgba(255,255,255,0.6);
+    }
+    
+    .pd__ex  .gallery-frame .gallery-detail{
+        background:var(--puddingdark-main-bgcolor);
+    }
+    
+    .pd__ex .gallery-hd h3{
+        color: var(--puddingdark-mainfont-color);
     }
 }
 
