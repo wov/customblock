@@ -105,6 +105,7 @@
 		83EBB688290176C500C9DAF2 /* jandan.js in Resources */ = {isa = PBXBuildFile; fileRef = 83EBB687290176C500C9DAF2 /* jandan.js */; };
 		83F2DCDF29850F1700885DB3 /* baiduzhidao.css in Resources */ = {isa = PBXBuildFile; fileRef = 83F2DCDE29850F1700885DB3 /* baiduzhidao.css */; };
 		83F2DCE129850F3800885DB3 /* baiduzhidao.js in Resources */ = {isa = PBXBuildFile; fileRef = 83F2DCE029850F3800885DB3 /* baiduzhidao.js */; };
+		83FB464B29E971F9007B1B7B /* xiaohongshu.js in Resources */ = {isa = PBXBuildFile; fileRef = 83FB464A29E971F9007B1B7B /* xiaohongshu.js */; };
 		83FC53B1281E4CF300C335C3 /* myseller.css in Resources */ = {isa = PBXBuildFile; fileRef = 83FC53B0281E4CF300C335C3 /* myseller.css */; };
 		83FC53B3281E4EB600C335C3 /* myseller.js in Resources */ = {isa = PBXBuildFile; fileRef = 83FC53B2281E4EB600C335C3 /* myseller.js */; };
 		8A9A58B528083ABB00C60926 /* CustomBlockWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9A58B428083ABB00C60926 /* CustomBlockWebView.swift */; };
@@ -246,6 +247,7 @@
 		83EBB687290176C500C9DAF2 /* jandan.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = jandan.js; sourceTree = "<group>"; };
 		83F2DCDE29850F1700885DB3 /* baiduzhidao.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = baiduzhidao.css; sourceTree = "<group>"; };
 		83F2DCE029850F3800885DB3 /* baiduzhidao.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = baiduzhidao.js; sourceTree = "<group>"; };
+		83FB464A29E971F9007B1B7B /* xiaohongshu.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = xiaohongshu.js; sourceTree = "<group>"; };
 		83FC53B0281E4CF300C335C3 /* myseller.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = myseller.css; sourceTree = "<group>"; };
 		83FC53B2281E4EB600C335C3 /* myseller.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = myseller.js; sourceTree = "<group>"; };
 		8A9A58B428083ABB00C60926 /* CustomBlockWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBlockWebView.swift; sourceTree = "<group>"; };
@@ -405,6 +407,7 @@
 				831955E227CB662F00446554 /* 163.js */,
 				83CF53BF27C65E7000375E9F /* baidu.css */,
 				83CD753227EC212A004CE7AF /* baidu.js */,
+				83FB464A29E971F9007B1B7B /* xiaohongshu.js */,
 				831955E027C8E1AD00446554 /* xiaohongshu.css */,
 				83CF53C127C915A100375E9F /* zhihu.css */,
 				837F026428019FA000A677BD /* zhihu.js */,
@@ -667,6 +670,7 @@
 				83C88297281FCA240048AAED /* autohome.css in Resources */,
 				838499BC2826CCAD001F053B /* jd.js in Resources */,
 				833AF29F27C9F0E60011C1BC /* sina.css in Resources */,
+				83FB464B29E971F9007B1B7B /* xiaohongshu.js in Resources */,
 				835637CE280EDA7100F12F03 /* gjp.css in Resources */,
 				839CD0E327D247D200E86463 /* bilibili.js in Resources */,
 				83D1B9C729B324340030B701 /* baidupan.js in Resources */,

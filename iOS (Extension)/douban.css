@@ -603,6 +603,8 @@
     }
     
     
+
+    
     
     
     
@@ -904,3 +906,20 @@
         background:rgba(255,255,255,0.08);
     }
 }
+
+/*即将上映*/
+
+@media (prefers-color-scheme: dark) {
+    .pd__ex .article #showing-soon p{
+        background:rgba(255,255,255,0.08);
+    }
+    
+    .pd__ex .article #showing-soon p a:hover{
+        background:none;
+    }
+    
+    .pd__ex .coming_list th{
+        background:rgba(255,255,255,0.08);
+    }
+}
+

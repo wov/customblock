@@ -71,6 +71,9 @@
             "*://tieba.baidu.com/*"
         ]
     },{
+        "js" : ["xiaohongshu.js"],
+        "matches" : ["*://*.xiaohongshu.com/*"]
+    },{
         "css" : ["xiaohongshu.css"],
         "matches" : ["*://*.xiaohongshu.com/*"]
     },{
@@ -318,12 +321,12 @@
     },{
         "js" : ["hupu.js"],
         "matches" : [
-            "*://m.hupu.com/*"
+            "*://*.hupu.com/*"
         ]
     },{
         "css" : ["hupu.css"],
         "matches" : [
-            "*://m.hupu.com/*"
+            "*://*.hupu.com/*"
         ]
     },{
         "js" : ["pdgzf.js"],

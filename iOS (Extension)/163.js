@@ -15,9 +15,9 @@ function replaceToAppText(){
 
 replaceToAppText();
 
-if(window.location.href.indexOf('news/article/') !== -1){
-    document.querySelector('body').classList.add('pd__noscroll');
-}
+//if(window.location.href.indexOf('news/article/') !== -1){
+//    document.querySelector('body').classList.add('pd__noscroll');
+//}
 
 var BlockedChannelCount = 0;
 

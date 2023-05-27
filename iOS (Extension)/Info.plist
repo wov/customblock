@@ -114,6 +114,10 @@
 				<key>Script</key>
 				<string>baidupan.js</string>
 			</dict>
+			<dict>
+				<key>Script</key>
+				<string>xiaohongshu.js</string>
+			</dict>
 		</array>
 		<key>SFSafariStyleSheet</key>
 		<array>

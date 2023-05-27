@@ -1498,6 +1498,7 @@ body > .lt-row{
 
     .pd__ex .container[data-v-1c9150a9]{
         flex-direction:column;
+        overflow:auto;
     }
 
     .pd__ex .title[data-v-09801ae7]{

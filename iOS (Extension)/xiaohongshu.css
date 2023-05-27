@@ -21,3 +21,32 @@ main.content{
     bottom:unset!important;
     margin: 0 auto;
 }
+
+
+/*小红书优化PC站手机样式*/
+/*他们没有维护768以下的尺寸了*/
+/*@media (max-width : 696px){*/
+/*    */
+/*    body, html{*/
+/*        min-width:unset!important;*/
+/*    }*/
+/*    */
+/*    /*  登陆框  */*/
+/*    .pd__ex div.login-container{*/
+/*        max-width: 100%;*/
+/*    }*/
+/*    */
+/*    .pd__ex div.login-container .left{*/
+/*        display:none;*/
+/*    }*/
+/*    */
+/*    .pd__ex div.layout{*/
+/*        min-width:unset!important;*/
+/*    }*/
+/*    */
+/*    .pd__ex div.feeds-page{*/
+/*        margin: 5px!important;*/
+/*    }*/
+/*    */
+/*    */
+/*}*/

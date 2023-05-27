@@ -104,13 +104,15 @@ struct Websites: View {
             WebSite(name:"点评网",url: "https://m.dianping.com",types: [.additional]),
             WebSite(name:"csdn",url: "https://blog.csdn.net",types: [.additional,.dark]),
             WebSite(name:"煎蛋",url: "http://i.jandan.net",types: [.dark]),
-            WebSite(name:"浦东公租房",url: "https://select.pdgzf.com",types: [.additional])
+            WebSite(name:"浦东公租房",url: "https://select.pdgzf.com",types: [.additional]),
+            WebSite(name:"虎扑",url: "https://www.hupu.com",types: [.pc])
         ]
         
         let ipadwebsites: [WebSite] = [
             WebSite(name:"百度",url: "https://baidu.com",types: [.additional,.dark]),
             WebSite(name:"豆瓣电影",url: "https://movie.douban.com",types: [.dark,.scale]),
-            WebSite(name:"哔哩哔哩",url: "https://www.bilibili.com",types: [.additional,.video,.scale])
+            WebSite(name:"哔哩哔哩",url: "https://www.bilibili.com",types: [.additional,.video,.scale]),
+            WebSite(name:"虎扑",url: "https://www.hupu.com",types: [.scale])
         ]
         
         

@@ -4,6 +4,419 @@
     display:none;
 }
 
-/*.pd__ex .hupu-m-nav-tabs-component-wrapper{*/
-/*    position:relative;*/
-/*}*/
+
+.pd__ex .footer-floor{
+    position:relative;
+}
+
+
+/*首页 iPad*/
+@media (max-width : 1240px){
+    .pd__ex  .bbs-index-web-bbsindexWarp{
+        min-width: unset;
+        width:100%;
+        height: 100%;
+    }
+    
+    .pd__ex .hp-pc-rc-TopMenu-top{
+        transform:unset;
+        position:relative;
+        left:0;
+        width:100%;
+        box-sizing:border-box;
+        padding: 0 10px;
+    }
+    
+    .pd__ex  .hp-pc-rc-TopMenu-banner{
+        position:relative;
+        left:0;
+        width: 100%;
+        transform: unset;
+        top:0;
+    }
+    
+    .pd__ex .slick-track{
+        transform:unset!important;
+        overflow:auto;
+        width:100%!important;
+        white-space:nowrap;
+    }
+    
+    .pd__ex .slick-initialized .slick-slide{
+        display:inline-block;
+        min-width: 150px;
+    }
+    
+    
+    .pd__ex  .bbs-index-web-cardwarp{
+        max-width: unset;
+    }
+    
+    .pd__ex .slick-arrow.slick-next{
+        display:none!important;
+    }
+    
+    .pd__ex  .slick-slide{
+        float:unset;
+        display:inline-block;
+        
+    }
+    
+    .pd__ex .slick-track:after,
+    .pd__ex .slick-track:before{
+        display:none!important;
+    }
+    
+    
+    .pd__ex  .footer-floor{
+        min-width:unset;
+    }
+    
+    
+    .pd__ex  .bbs-index-web-right{
+        min-width: unset;
+    }
+    
+    .pd__ex .bbs-index-web-right .entranceLayout{
+        width: 100%;
+    }
+    
+    .pd__ex  .hot-search .hot-search-item,
+    .pd__ex .nav_qiantao_hupu210316 .cntv_list ul li a{
+        width: calc(100% - 40px);
+    }
+    
+    .pd__ex .infinite-container{
+        overflow:unset;
+        padding: 5px;
+    }
+    
+    .pd__ex  .bbs-index-web-body{
+        padding: 10px;
+    }
+    
+    .pd__ex .nav_qiantao_hupu210316{
+        width:100%;
+    }
+}
+
+
+/*首页 iPad小尺寸、手机版*/
+@media (max-width : 768px){
+    
+    .pd__ex .hp-pc-rc-TopMenu{
+        height:auto;
+    }
+    
+    .pd__ex .hp-pc-rc-TopMenu-banner{
+        flex-wrap: wrap;
+        height: auto;
+        overflow:hidden;
+    }
+    
+    .pd__ex .hp-pc-rc-TopMenu-top-container{
+        height: auto;
+    }
+    
+    .pd__ex .hp-pc-rc-TopMenu-top{
+        flex-wrap: wrap;
+        height: auto;
+
+    }
+    
+    .pd__ex .hp-pc-rc-TopMenu-banner .banneritem{
+        min-width: 100px;
+        
+    }
+    
+    .pd__ex .bbs-index-web-right{
+        display:none;
+    }
+    
+    .pd__ex .bbs-index-web-middle{
+        margin: 0;
+    }
+    
+    .pd__ex  .test-img-list-model .list-item{
+        height:auto;
+        padding: 5px 0;
+    }
+    
+    .pd__ex .test-img-list-model .list-item .list-item-info .list-item-title .item-title-conent{
+        line-height:auto;
+        font-size:14px;
+    }
+    
+    .pd__ex .backToTop{
+        display:none;
+    }
+}
+
+
+
+/*详情页*/
+/*https://bbs.hupu.com/59400708.html*/
+
+@media (max-width : 1240px){
+    
+    .pd__ex .index_bbs-post-web__2_mmZ{
+        min-width: unset;
+        width: 100%;
+    }
+    
+    .pd__ex .hp-pc-rc-SuperMenu-sub-menu-container{
+        width: 100%;
+    }
+    
+    .pd__ex .hp-pc-rc-SuperMenu-sub-menu .rc-menu{
+        width: unset;
+        flex:1;
+    }
+    
+    .pd__ex .hp-pc-rc-SuperMenu-search{
+        width:unset;
+        min-width: 195px;
+    }
+    
+    .pd__ex  .hp-pc-rc-SuperMenu-search>input{
+        width: 100%;
+        box-sizing:border-box;
+    }
+    
+    .pd__ex .hp-pc-rc-SuperMenu .rc-menu-horizontal>.rc-menu-item,
+    .pd__ex .hp-pc-rc-SuperMenu .rc-menu-horizontal>.rc-menu-submenu>.rc-menu-submenu-title{
+        padding: 0 10px;
+    }
+    
+    .pd__ex .index_bbs-post-web-body-left-wrapper__O14II{
+        width: unset;
+        flex:1;
+    }
+    
+    .pd__ex .index_bbs-post-web-body-right-wrapper__WvQ4Q{
+        flex:unset;
+        width: 284px;
+        margin: 0 8px;
+    }
+    
+    .pd__ex .index_compact__osaGi .index_main__XrCzy .index_login___uxbK{
+        width: 100%;
+    }
+    .pd__ex .index_bbs-post-web-quote-title-container__A0rLq{
+        width: 100%;
+    }
+    
+    
+    .pd__ex .post-fix-title_post-fix-title-wrapper__7VZgk .post-fix-title-content-wrapper .main-c,
+    .pd__ex .post-fix-title_post-fix-title-wrapper__7VZgk .post-fix-title-content-wrapper,
+    .pd__ex .post-reply_post-reply__D1M4P .post-reply-list-content .m-c,
+    .pd__ex .index_bbs-post-web-body-right-wrapper__WvQ4Q .swiper-container .swiper-slide-title{
+        width: 100%;
+    }
+    
+    .pd__ex .index_hp-pc-footer__TyFBc{
+        min-width: unset;
+    }
+}
+
+@media (max-width : 968px){
+    
+    .pd__ex .hp-pc-rc-SuperMenu .rc-menu-horizontal>.rc-menu-item,
+    .pd__ex .hp-pc-rc-SuperMenu .rc-menu-horizontal>.rc-menu-submenu>.rc-menu-submenu-title{
+        padding: 0 5px;
+    }
+    
+    .pd__ex .post-operate_post-operate-comp-wrapper___odBI .post-operate-comp .todo-list{
+        padding: 0 5px;
+        margin:0;
+    }
+    
+    .pd__ex .post-operate_post-operate-comp-wrapper___odBI .post-operate-comp-main,
+    .pd__ex .post-operate_post-operate-comp-wrapper___odBI .post-operate-comp-simple{
+        min-width:unset;
+        font-size:12px;
+    }
+}
+
+@media (max-width : 768px){
+    
+    .pd__ex .index_bbs-post-web-body-right-wrapper__WvQ4Q{
+        display:none;
+    }
+    
+    .pd__ex  .index_backToTop__rx3__{
+        display:none;
+    }
+    
+    .pd__ex  .post-fix-title_post-fix-title-wrapper__7VZgk .post-fix-title-title{
+        font-size:16px;
+        flex:1;
+    }
+    
+    .pd__ex .index_hp-pc-footer-mod_menu__aTFud{
+        width: 100%;
+    }
+    
+
+    .pd__ex .hp-pc-rc-SuperMenu-sub-menu{
+        height:unset;
+        display:none;
+    }
+    
+    .pd__ex .hp-pc-rc-SuperMenu-sub-menu-container{
+        flex-wrap: wrap;
+        padding: 5px;
+    }
+    
+    .pd__ex .hp-pc-rc-SuperMenu .rc-menu-horizontal{
+        white-space:pre-wrap;
+        width: 100%;
+    }
+    
+    .pd__ex .post-content_bbs-post-content__cy7vN .post-content_main-post-info__qCbZu{
+        margin:0;
+    }
+    
+    
+    .pd__ex .index_bbs-post-web-main__D_K6v .index_post-wrapper__IXkg_{
+        padding: 5px;
+    }
+    
+    .pd__ex .index_bbs-post-web-body-left-wrapper__O14II{
+        padding: 5px;
+    }
+    
+    .pd__ex .post-reply_post-reply__D1M4P .post-reply-list{
+        padding:5px;
+    }
+    
+    .pd__ex .post-reply-list_post-reply-list-wrapper__o4_81 .post-reply-list .reply-list-avatar{
+        flex: unset;
+        margin-right:5px;
+    }
+    
+    .pd__ex .index_bbs-post-web-main-title__MJTN5{
+        height:auto;
+    }
+    
+    .pd__ex .index_bbs-post-web-main-title-provider__uHAn9 .index_name__M5qqs{
+        font-size: 16px;
+        max-width: 50%;
+    }
+    
+    
+    .pd__ex .post-operate_post-operate-comp-wrapper___odBI .post-operate-comp{
+        flex-wrap:wrap;
+    }
+    
+    .pd__ex .post-operate_post-operate-comp-wrapper___odBI .post-operate-comp .todo-list.post-operate-comp-main-share{
+        display:none;
+    }
+    
+    .pd__ex  .post-reply-list_post-reply-list-wrapper__o4_81 .post-reply-list .reply-list-content .post-reply-list-user-info-top{
+        flex-wrap:wrap;
+    }
+    
+    .pd__ex  .post-reply-list_post-reply-list-wrapper__o4_81 .post-reply-list .reply-list-content .post-reply-list-user-info-top .user-base-info,
+    .pd__ex .index_bbs-post-web-main-title-provider__uHAn9 .index_name__M5qqs,
+    .pd__ex .post-fix-title_post-fix-title-wrapper__7VZgk .post-fix-title-title{
+        white-space:pre-wrap;
+    }
+    
+    
+    .pd__ex .index_compact__osaGi .index_main__XrCzy .index_login___uxbK{
+        font-size: 12px;
+    }
+    
+    .pd__ex .post-fix-title_post-fix-title-wrapper__7VZgk .post-fix-title,
+    .pd__ex  .index_bbs-post-web-main-title__MJTN5{
+        position:relative;
+    }
+    
+    .pd__ex  .post-fix-title_post-fix-title-wrapper__7VZgk .post-fix-title-config{
+        display:none;
+    }
+    
+    /* 测试模块长度 start   */
+    .pd__ex .index_bbs-post-web__2_mmZ .index_br__hJajv{
+/*        display:none;*/
+    }
+
+    .pd__ex .index_bbs-post-web-main-title__MJTN5{
+/*        display:none;*/
+    }
+    
+    .pd__ex .index_bbs-post-web-main__D_K6v .index_post-wrapper__IXkg_{
+/*        display:none;*/
+    }
+    .pd__ex .post-user_post-user-comp__3azJ2{
+/*        display:none;*/
+    }
+    .pd__ex .post-content_bbs-post-content__cy7vN .post-content_main-post-info__qCbZu{
+/*        display:none;*/
+    }
+    
+    .pd__ex .index_bbs-thread-comp__PC7_r.main-thread{
+/*        display:none;*/
+    }
+    
+    .pd__ex .post-operate_post-operate-comp-wrapper___odBI{
+/*        display:none;*/
+    }
+
+    
+    .pd__ex  .index_bbs-post-web__2_mmZ .index_margin-top-10__gRpdR{
+/*        display:none;*/
+    }
+    
+    .pd__ex .post-wrapper_bbs-post-wrapper__UdhwQ.post-wrapper_light__fi4Jz .post-wrapper_bbs-post-wrapper-title__TLQdd{
+/*        display:none;*/
+    }
+    
+    .pd__ex .post-reply_post-reply__D1M4P .post-reply-list{
+/*        display:none;*/
+    }
+    
+    .pd__ex .post-reply-list_post-reply-list-wrapper__o4_81 .post-reply-list .reply-list-content .post-reply-list-user{
+/*        display:none;*/
+    }
+    
+    .pd__ex .post-reply_post-reply__D1M4P .post-reply-list-content{
+/*        display:none;*/
+    }
+    
+    
+    .pd__ex  .index_bbs-post-web__2_mmZ .index_pagination__4IppE.index_bottom__FWVkw{
+/*        display:none;*/
+    }
+    
+    .pd__ex  .index_bbs-post-web__2_mmZ .index_br__hJajv.index_bottom__FWVkw{
+/*        display:none;*/
+    }
+    
+    .pd__ex   .index_bbs-post-web__2_mmZ .index_padding-20__njkns{
+/*        display:none;*/
+    }
+    
+    
+    .pd__ex .index_hp-pc-footer__TyFBc{
+/*        display:none;*/
+    }
+    
+    .pd__ex .index_bbs-post-web__2_mmZ .index_pagination__4IppE{
+/*        display:none;*/
+    }
+    
+    .pd__ex .post-user_post-user-comp-info-top__GqgwV{
+/*        display:none;*/
+    }
+    
+    .pd__ex .post-user_post-user-comp-info-bottom__CqR2O{
+/*        display:none;*/
+    }
+    
+    /* 测试模块长度 end   */
+
+    
+}
+
