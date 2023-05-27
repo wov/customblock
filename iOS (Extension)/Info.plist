@@ -118,6 +118,10 @@
 				<key>Script</key>
 				<string>xiaohongshu.js</string>
 			</dict>
+			<dict>
+				<key>Script</key>
+				<string>mafengwo.js</string>
+			</dict>
 		</array>
 		<key>SFSafariStyleSheet</key>
 		<array>
@@ -249,6 +253,10 @@
 				<key>Style Sheet</key>
 				<string>baidupan.css</string>
 			</dict>
+			<dict>
+				<key>Style Sheet</key>
+				<string>mafengwo.css</string>
+			</dict>
 		</array>
 		<key>SFSafariWebsiteAccess</key>
 		<dict>
@@ -279,6 +287,7 @@
 				<string>i.jandan.net</string>
 				<string>m.hupu.com</string>
 				<string>*.pdgzf.com</string>
+				<string>m.mafengwo.cn</string>
 			</array>
 		</dict>
 	</dict>

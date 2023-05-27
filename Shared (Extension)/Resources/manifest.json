@@ -338,7 +338,19 @@
         "matches" : [
             "*://*.pdgzf.com/*"
         ]
+    },{
+        "js" : ["mafengwo.js"],
+        "matches" : [
+            "*://m.mafengwo.cn/*"
+        ]
+    },{
+        "css" : ["mafengwo.css"],
+        "matches" : [
+            "*://m.mafengwo.cn/*"
+        ]
     }],
+    
+    
 
     "browser_action": {
         "default_popup": "popup.html",

@@ -1,0 +1,17 @@
+
+/*https://m.mafengwo.cn/i/12045358.html*/
+
+/*默认展开全文*/
+
+
+.pd__ex .notes-detail{
+    height:auto!important;
+}
+
+.pd__ex .notes-end{
+    display:block!important;
+}
+
+.pd__ex .notes-more{
+    display:none;
+}
