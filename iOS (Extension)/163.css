@@ -210,6 +210,9 @@ img[lazy=loaded]{
         color: var(--puddingdark-secondfont-color);
     }
     
+    .pd__ex .widget-topNav .s-back strong:before{
+        filter: brightness(1) invert(1);
+    }
 
     
 }
@@ -728,6 +731,14 @@ body.pd__ex{
 @media (prefers-color-scheme: dark) {
     .pd__ex .money-stock li .s-title{
         color: rgba(255,255,255,0.6);
+    }
+}
+
+
+/*教育频道*/
+@media (prefers-color-scheme: dark) {
+    .pd__ex .edu-quickLink a{
+        background:var(--puddingdark-03dp-bgcolor);
     }
 }
 

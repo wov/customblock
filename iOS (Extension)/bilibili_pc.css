@@ -120,6 +120,16 @@ body > .lt-row{
     margin-top: 0;
 }
 
+/* desc 默认展开 */
+.pd__ex .video-desc-v1 .desc-info{
+    height:auto!important;
+}
+
+.pd__ex  .video-desc-v1 .toggle-btn{
+    display:none;
+}
+
+
 /*为iPhone PC站设置样式*/
 @media (max-width: 440px) and (orientation: portrait),
 (max-width: 940px) and (orientation: landscape){
@@ -946,6 +956,16 @@ body > .lt-row{
         padding: 5px 0!important;
     }
 
+    
+    /*   点赞控件撑开页面 */
+    .pd__ex .video-toolbar-left-item{
+        width:auto;
+    }
+    
+    .pd__ex  .video-share-wrap .video-share div.video-share-info{
+        width:auto;
+    }
+    
 
     /*登陆框*/
 
@@ -1649,7 +1669,11 @@ body > .lt-row{
     .pd__ex .bili-header .center-search-container .center-search__bar #nav-searchform:hover,
     .pd__ex .bili-header .trending-item.active, .pd__ex .bili-header .trending-item:hover,.pd__ex .bili-header .trending-item:focus,
     .pd__ex  .bili-header .center-search-container .center-search__bar .nav-search-btn:hover,
-    .pd__ex  .bili-header .slide-down .center-search-container .center-search__bar #nav-searchform:hover{
+    .pd__ex  .bili-header .slide-down .center-search-container .center-search__bar #nav-searchform:hover,
+    .pd__ex  .multi-page-v1,
+    .pd__ex   .multi-page-v1 .cur-list .list-box li.on,
+    .pd__ex  .bpx-player-block-list,
+    .pd__ex .bpx-player-block-list-line{
         background: var(--puddingdark-03dp-bgcolor);
     }
     
@@ -1681,7 +1705,12 @@ body > .lt-row{
     .pd__ex .primary-btn,
     .pd__ex .bili-header,
     .pd__ex .bili-header .trending-item .trendings-rank.search-rank-top,
-    .pd__ex .bili-header .center-search-container .center-search__bar .nav-search-content .nav-search-input:focus{
+    .pd__ex .bili-header .center-search-container .center-search__bar .nav-search-content .nav-search-input:focus,
+    .pd__ex .multi-page-v1 .head-con .head-left h3,
+    .pd__ex  .video-page-special-card-small .card-box .info p.title,
+    .pd__ex .bpx-player-block-top .bpx-player-block-label,
+    .pd__ex  .bpx-player-block-list-line,
+    .pd__ex  .bui-tabs .bui-tabs-header .bui-tabs-header-item{
         color: var(--puddingdark-mainfont-color);
     }
     
@@ -1689,8 +1718,6 @@ body > .lt-row{
     .pd__ex .bili-header .left-entry .entry-title .zhuzhan-icon{
         color: var(--puddingdark-mainfont-color)!important;
     }
-    
-
     
     /*  second font color  */
     .pd__ex .header-channel-fixed-right-item,
@@ -1799,7 +1826,8 @@ body > .lt-row{
     .pd__ex div.reply-box.fixed-box,
     .pd__ex  .float-nav-exp .nav-menu .item,
     .pd__ex .v-popover-content,
-    .pd__ex  .bili-header .bili-header-channel-panel div.channel-panel__column{
+    .pd__ex  .bili-header .bili-header-channel-panel div.channel-panel__column,
+    .pd__ex div.video-toolbar-container{
         border-color: var(--puddingdark-03dp-bgcolor);
     }
     
