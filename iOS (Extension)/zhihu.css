@@ -173,9 +173,22 @@ html .Baidu-ad{
         background: rgba(18,18,18,0.8)!important;
     }
     
+    html .css-fc9p1q,
+    html .css-3rj67r{
+        background: none;
+    }
+    
+    html  .ViewAll--bottom:before{
+        border-color: var(--puddingdark-03dp-bgcolor);
+    }
+    
+
+    
+    
     /* 知乎专栏 */
     html .Post-content,
-    html .KfeCollection-VipRecommendCard{
+    html .KfeCollection-VipRecommendCard,
+    html .PostIndex-body.Body--Mobile{
         background: var(--puddingdark-main-bgcolor);
     }
     
@@ -187,7 +200,8 @@ html .Baidu-ad{
     html .css-n51fzv,
     html .BlockTitle,
     html .Column-ColumnItem .ContentItem-title,
-    html .MobilePostItem-Title{
+    html .MobilePostItem-Title,
+    html .css-i6a6te{
         color: var(--puddingdark-mainfont-color);
     }
     
@@ -196,7 +210,9 @@ html .Baidu-ad{
     html .FeeConsultCard-times, html[data-theme=dark] .FeeConsultCard-times,
     html .css-1i5ys3k .LinkCard.new .LinkCard-desc,
     html .CPSCommonCard-subtitle-text,
-    html .KfeCollection-VipRecommendCard-content{
+    html .KfeCollection-VipRecommendCard-content,
+    html  .css-1d6gsgn,
+    html .css-n5kl24 blockquote{
         color: var(--puddingdark-secondfont-color);
     }
     
@@ -214,6 +230,55 @@ html .Baidu-ad{
         border-color: var(--puddingdark-03dp-bgcolor);
     }
     
+    /* 专栏 iPad 暗黑模式   */
+    
+    html .css-vpssrj,
+    html .css-1rd0h6f,
+    html .css-x9dm90,
+    html .css-1p9g937,
+    html .css-125lt7r,
+    html .css-tcdp81,
+    html .css-l47gq8{
+        color: var(--puddingdark-mainfont-color);
+    }
+    
+    html .css-1t9bp9f,
+    html .css-117anjg blockquote,
+    html .css-zjpd6e,
+    html  .css-136eovo,
+    html .css-mz8bj,
+    html .css-w554vo,
+    html .css-9r8d2q,
+    html .css-1a3gkhc,
+    html .css-1besdh8,
+    html .css-g9ynb2,
+    html .css-1arze70{
+        color: var(--puddingdark-secondfont-color);
+    }
+    
+    html .ColumnPageHeader,
+    html .css-805ti0,
+    html .RichContent-actions.is-fixed,
+    html  .Recommendations-Main,
+    html .WhiteBg-body,
+    html .css-5k4zcx{
+        background: var(--puddingdark-main-bgcolor);
+    }
+    
+    html .css-x0pxoz,
+    html .css-z07uxh,
+    html .css-we6n55::before,
+    html .css-iin461,
+    html .css-1ki0pxd,
+    html  .css-2ovwuy::before{
+        border-color: var(--puddingdark-03dp-bgcolor);
+    }
+    
+    html .css-117anjg pre,
+    html .css-hvo7ig,
+    html .css-n5kl24 pre{
+        background-color: #222;
+    }
     
     
     

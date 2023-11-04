@@ -78,6 +78,10 @@ img[lazy=loaded]{
     height: auto;
 }
 
+/* App内打开 悬浮按钮*/
+.pd__ex .backflow-floating{
+    display:none;
+}
 /*暗黑模式*/
 @media (prefers-color-scheme: dark) {
     body{
@@ -178,19 +182,23 @@ img[lazy=loaded]{
         border-color: var(--puddingdark-border-color);
     }
 
-    .pd__ex .app-header{
+    .pd__ex .app-header,
+    .pd__ex .home-footer{
         background-color: var(--puddingdark-main-bgcolor);
     }
 
-    .pd__ex  .searchBar-cancel{
+    .pd__ex  .searchBar-cancel,
+    .pd__ex .article-payVip-recommend .s-name{
         color: var(--puddingdark-secondfont-color);
     }
 
-    .pd__ex .searchResult .newsCard{
+    .pd__ex .searchResult .newsCard,
+    .pd__ex .article-payVip-recommend{
         background-color: var(--puddingdark-03dp-bgcolor);
     }
 
-    .pd__ex .card-title{
+    .pd__ex .card-title,
+    .pd__ex .home-footer .s-links{
         color: var(--puddingdark-mainfont-color);
     }
 
@@ -210,9 +218,12 @@ img[lazy=loaded]{
         color: var(--puddingdark-secondfont-color);
     }
     
-    .pd__ex .widget-topNav .s-back strong:before{
+    .pd__ex .widget-topNav .s-back strong:before,
+    .pd__ex .home-footer .s-links > *:before{
         filter: brightness(1) invert(1);
     }
+    
+    
 
     
 }
