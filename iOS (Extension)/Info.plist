@@ -122,6 +122,10 @@
 				<key>Script</key>
 				<string>mafengwo.js</string>
 			</dict>
+			<dict>
+				<key>Script</key>
+				<string>baijiahao.js</string>
+			</dict>
 		</array>
 		<key>SFSafariStyleSheet</key>
 		<array>
@@ -256,6 +260,10 @@
 			<dict>
 				<key>Style Sheet</key>
 				<string>mafengwo.css</string>
+			</dict>
+			<dict>
+				<key>Style Sheet</key>
+				<string>baijiahao.css</string>
 			</dict>
 		</array>
 		<key>SFSafariWebsiteAccess</key>

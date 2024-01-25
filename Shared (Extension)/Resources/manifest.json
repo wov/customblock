@@ -36,7 +36,6 @@
             "*://m.baidu.com/*",
             "*://baike.baidu.com/item/*",
             "*://baike.baidu.com/",
-            "*://baijiahao.baidu.com/s*",
             "*://jingyan.baidu.com/article/*",
             "*://gamecenter.baidu.com/static/game/*"
         ]
@@ -48,6 +47,16 @@
             "*://baike.baidu.com/item/*",
             "*://baike.baidu.com/",
             "*://gamecenter.baidu.com/static/game/*",
+            "*://baijiahao.baidu.com/s*"
+        ]
+    },{
+        "css" : ["baijiahao.css"],
+        "matches" : [
+            "*://baijiahao.baidu.com/s*"
+        ]
+    },{
+        "js" : ["baijiaohao.js"],
+        "matches" : [
             "*://baijiahao.baidu.com/s*"
         ]
     },{

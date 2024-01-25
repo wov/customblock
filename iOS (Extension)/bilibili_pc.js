@@ -220,6 +220,10 @@ function pd_showBlockModal(up){
     const cancel = document.createElement('button');
     cancel.textContent = '取消';
     
+    const download = document.createElement('button');
+    download.textContent = '下载';
+    
+    
     inner.appendChild(description);
     upLabel.appendChild(upCheck)
     upLabel.appendChild(upSpan)
@@ -231,6 +235,8 @@ function pd_showBlockModal(up){
 
     buttons.appendChild(confirm);
     buttons.appendChild(cancel);
+//    buttons.appendChild(download);
+
     inner.appendChild(buttons);
     
     blockModal.appendChild(inner);
@@ -247,9 +253,6 @@ function pd_showBlockModal(up){
         if(upCheck.checked){
             let blockUsers = localStorage.getItem(BS_NAME) ? JSON.parse(localStorage.getItem(BS_NAME)) : [];
             blockUsers.push(up);
-            
-            
-            
             localStorage.setItem(BS_NAME,JSON.stringify(blockUsers));
         }
         //添加到关键字屏蔽名单
@@ -265,6 +268,12 @@ function pd_showBlockModal(up){
         }
         BlockContent();
         blockModal.remove();
+    });
+    
+    download.addEventListener('click',e => {
+        let blockUsers = localStorage.getItem(BS_NAME) ? JSON.parse(localStorage.getItem(BS_NAME)) : [];
+        let blockKeyWords = localStorage.getItem(BK_NAME) ? JSON.parse(localStorage.getItem(BK_NAME)) : [];
+        downloadObjectAsJson({blockUsers , blockKeyWords},'B站屏蔽')
     });
     
 }
@@ -296,6 +305,8 @@ function pd_showBlockChannelModal(name){
 
     buttons.appendChild(confirm);
     buttons.appendChild(cancel);
+
+    
     inner.appendChild(buttons);
     
     blockModal.appendChild(inner);
@@ -332,4 +343,15 @@ if(rootChangeDom){
     };
     const observer = new MutationObserver(callback);
     observer.observe(rootChangeDom, config);
+}
+
+// 下载屏蔽数据。
+function downloadObjectAsJson(exportObj, exportName){
+  var dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(exportObj));
+  var downloadAnchorNode = document.createElement('a');
+  downloadAnchorNode.setAttribute("href",     dataStr);
+  downloadAnchorNode.setAttribute("download", exportName + ".json");
+  document.body.appendChild(downloadAnchorNode); // required for firefox
+  downloadAnchorNode.click();
+  downloadAnchorNode.remove();
 }

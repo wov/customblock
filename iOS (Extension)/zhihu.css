@@ -212,7 +212,8 @@ html .Baidu-ad{
     html .CPSCommonCard-subtitle-text,
     html .KfeCollection-VipRecommendCard-content,
     html  .css-1d6gsgn,
-    html .css-n5kl24 blockquote{
+    html .css-n5kl24 blockquote,
+    html .ztext blockquote{
         color: var(--puddingdark-secondfont-color);
     }
     
@@ -220,13 +221,15 @@ html .Baidu-ad{
     html .FeeConsultCard,
     html .css-1i5ys3k .LinkCard.new,
     html  .css-1i5ys3k pre,
-    html .GoodsRecommendCard{
+    html .GoodsRecommendCard,
+    html .App-pc .RelatedReadings .RelatedReadingsItem{
         background-color: var(--puddingdark-03dp-bgcolor);
     }
     
     html .Post-Author-Mobile,
     html .KfeCollection-VipRecommendCard-article,
-    html  .MobilePostItem{
+    html  .MobilePostItem,
+    html .ztext blockquote{
         border-color: var(--puddingdark-03dp-bgcolor);
     }
     
@@ -238,7 +241,10 @@ html .Baidu-ad{
     html .css-1p9g937,
     html .css-125lt7r,
     html .css-tcdp81,
-    html .css-l47gq8{
+    html .css-l47gq8,
+    html .App-pc .QuestionHeader .QuestionHeader-title,
+    html .App-pc .RelatedReadings,
+    html .App-pc{
         color: var(--puddingdark-mainfont-color);
     }
     
@@ -261,7 +267,8 @@ html .Baidu-ad{
     html .RichContent-actions.is-fixed,
     html  .Recommendations-Main,
     html .WhiteBg-body,
-    html .css-5k4zcx{
+    html .css-5k4zcx,
+    html .sgui-header{
         background: var(--puddingdark-main-bgcolor);
     }
     
@@ -270,7 +277,8 @@ html .Baidu-ad{
     html .css-we6n55::before,
     html .css-iin461,
     html .css-1ki0pxd,
-    html  .css-2ovwuy::before{
+    html .css-2ovwuy::before,
+    html .App-pc .RelatedReadings .RelatedReadings-title{
         border-color: var(--puddingdark-03dp-bgcolor);
     }
     

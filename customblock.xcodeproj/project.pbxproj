@@ -110,6 +110,8 @@
 		83FB464B29E971F9007B1B7B /* xiaohongshu.js in Resources */ = {isa = PBXBuildFile; fileRef = 83FB464A29E971F9007B1B7B /* xiaohongshu.js */; };
 		83FC53B1281E4CF300C335C3 /* myseller.css in Resources */ = {isa = PBXBuildFile; fileRef = 83FC53B0281E4CF300C335C3 /* myseller.css */; };
 		83FC53B3281E4EB600C335C3 /* myseller.js in Resources */ = {isa = PBXBuildFile; fileRef = 83FC53B2281E4EB600C335C3 /* myseller.js */; };
+		83FEB6B12B46DFC1007B5F37 /* baijiahao.css in Resources */ = {isa = PBXBuildFile; fileRef = 83FEB6B02B46DFC1007B5F37 /* baijiahao.css */; };
+		83FEB6B32B46DFE8007B5F37 /* baijiahao.js in Resources */ = {isa = PBXBuildFile; fileRef = 83FEB6B22B46DFE8007B5F37 /* baijiahao.js */; };
 		8A9A58B528083ABB00C60926 /* CustomBlockWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9A58B428083ABB00C60926 /* CustomBlockWebView.swift */; };
 		8A9A58B628083ABB00C60926 /* CustomBlockWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9A58B428083ABB00C60926 /* CustomBlockWebView.swift */; };
 		8A9A58BB28083D5C00C60926 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9A58BA28083D5C00C60926 /* ContentView.swift */; };
@@ -254,6 +256,8 @@
 		83FB464A29E971F9007B1B7B /* xiaohongshu.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = xiaohongshu.js; sourceTree = "<group>"; };
 		83FC53B0281E4CF300C335C3 /* myseller.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = myseller.css; sourceTree = "<group>"; };
 		83FC53B2281E4EB600C335C3 /* myseller.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = myseller.js; sourceTree = "<group>"; };
+		83FEB6B02B46DFC1007B5F37 /* baijiahao.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = baijiahao.css; sourceTree = "<group>"; };
+		83FEB6B22B46DFE8007B5F37 /* baijiahao.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = baijiahao.js; sourceTree = "<group>"; };
 		8A9A58B428083ABB00C60926 /* CustomBlockWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBlockWebView.swift; sourceTree = "<group>"; };
 		8A9A58BA28083D5C00C60926 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -469,6 +473,8 @@
 				83D1B9C629B324340030B701 /* baidupan.js */,
 				83C020332A21BB2A00D0B801 /* mafengwo.js */,
 				83C020352A21BB3C00D0B801 /* mafengwo.css */,
+				83FEB6B02B46DFC1007B5F37 /* baijiahao.css */,
+				83FEB6B22B46DFE8007B5F37 /* baijiahao.js */,
 			);
 			path = "iOS (Extension)";
 			sourceTree = "<group>";
@@ -669,6 +675,8 @@
 				837F025927FC748D00A677BD /* 36kr.js in Resources */,
 				83D4CCC2283249C20053D349 /* tieba.css in Resources */,
 				83CD752727E4D486004CE7AF /* smzdm.css in Resources */,
+				83FEB6B32B46DFE8007B5F37 /* baijiahao.js in Resources */,
+				83FEB6B12B46DFC1007B5F37 /* baijiahao.css in Resources */,
 				83174B2A294ED40D0041DE4F /* pdgzf.js in Resources */,
 				83CD753527EDED74004CE7AF /* douban.js in Resources */,
 				83528D7C29252C79003019A7 /* hupu.js in Resources */,
@@ -999,7 +1007,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.1.3;
+				MARKETING_VERSION = 2.1.5;
 				OTHER_LDFLAGS = (
 					"-framework",
 					WebKit,
@@ -1038,7 +1046,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.1.3;
+				MARKETING_VERSION = 2.1.5;
 				OTHER_LDFLAGS = (
 					"-framework",
 					WebKit,
