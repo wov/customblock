@@ -33,6 +33,11 @@ body > .lt-row{
     background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gU3ZnIFZlY3RvciBJY29ucyA6IGh0dHA6Ly93d3cub25saW5ld2ViZm9udHMuY29tL2ljb24gLS0+DQo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMTAwMCAxMDAwIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAxMDAwIDEwMDAiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPG1ldGFkYXRhPiBTdmcgVmVjdG9yIEljb25zIDogaHR0cDovL3d3dy5vbmxpbmV3ZWJmb250cy5jb20vaWNvbiA8L21ldGFkYXRhPg0KPGc+PHBhdGggZD0iTTUwMCw5OTBDMjI5LjgsOTkwLDEwLDc3MC4yLDEwLDUwMFMyMjkuOCwxMCw1MDAsMTBzNDkwLDIxOS44LDQ5MCw0OTBTNzcwLjIsOTkwLDUwMCw5OTB6IE01MDAsODAuM0MyNjguNiw4MC4zLDgwLjMsMjY4LjYsODAuMyw1MDBjMCwyMzEuNCwxODguMyw0MTkuNyw0MTkuNyw0MTkuN2MyMzEuNCwwLDQxOS43LTE4OC4zLDQxOS43LTQxOS43QzkxOS43LDI2OC42LDczMS40LDgwLjMsNTAwLDgwLjN6IE01NDkuMyw1MDEuNWwxNTEuMy0xNDkuN2MxMy44LTEzLjYsMTMuOS0zNS43LDAuMy00OS41Yy0xMy42LTEzLjgtMzUuOC0xMy45LTQ5LjUtMC4zTDQ5OS45LDQ1MS45TDM1MC42LDMwMi4yYy0xMy43LTEzLjctMzUuOC0xMy44LTQ5LjUtMC4xYy0xMy43LDEzLjYtMTMuNywzNS44LTAuMSw0OS41bDE0OSwxNDkuNUwyOTkuOCw2NDkuOGMtMTMuOCwxMy42LTEzLjksMzUuNy0wLjMsNDkuNWM2LjksNi45LDE1LjksMTAuNCwyNC45LDEwLjRjOC45LDAsMTcuOC0zLjQsMjQuNi0xMC4xbDE1MC41LTE0OC44bDE1MS43LDE1Mi4yYzYuOCw2LjksMTUuOCwxMC4zLDI0LjgsMTAuM2M5LDAsMTcuOS0zLjQsMjQuNy0xMC4yYzEzLjctMTMuNywxMy43LTM1LjgsMC4xLTQ5LjVMNTQ5LjMsNTAxLjV6Ii8+PC9nPg0KPC9zdmc+");
 }
 
+.pd__ex .bili-watch-later--wrap{
+    top: 40px;
+}
+
+
 .pudding_block_Modal{
     position:fixed;
     width: 100%;
@@ -46,6 +51,7 @@ body > .lt-row{
     justify-content : center;
     align-items: center;
     font-size: 12px;
+        
 }
 
 .pudding_block_Modal .pudding_block_inner{
@@ -68,6 +74,12 @@ body > .lt-row{
     align-items: center;
 }
 
+
+.pudding_block_inner label span{
+    margin-right: 5px;
+}
+
+
 .pudding_block_inner input[type="text"]{
     flex:1;
     padding: 3px;
@@ -86,8 +98,14 @@ body > .lt-row{
     display: flex;
     justify-content: space-between;
     height: 32px;
-    
 }
+
+.pudding_block_inner em{
+    font-size:10px;
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+
 
 .pudding_block_inner .buttons button{
     display: block;
@@ -102,8 +120,19 @@ body > .lt-row{
 @media (prefers-color-scheme: dark)  {
     .pudding_block_Modal .pudding_block_inner{
         background: var(--puddingdark-main-bgcolor);
-        border:1px solid var(--puddingdark-03dp-bgcolor);
+        border:1px solid #888;
     }
+    
+    .pudding_block_inner em{
+        color: var(--puddingdark-secondfont-color);
+    }
+    
+    .pudding_block_inner input[type="text"],
+    .pudding_block_inner input[type="checkbox"]{
+        background: var(--puddingdark-03dp-bgcolor);
+        color: var(--puddingdark-mainfont-color);
+    }
+
 }
 
 
@@ -2110,9 +2139,8 @@ body > .lt-row{
     /* 在动态下的背景图片   */
     .pd__ex #app .bg,
     .pd__ex #app .bgc{
-        background:none;
+        background:none!important;
     }
-    
     
     
     /* message. .space-right .space-right-top .title[data-v-20f352ce]   */

@@ -1,0 +1,945 @@
+/*iPhone 竖屏*/
+/*@media only screen*/
+/*  and (min-device-width: 320px)*/
+/*  and (max-device-width: 736px)*/
+/*  and (-webkit-min-device-pixel-ratio: 2)*/
+/*  and (orientation: portrait) {*/
+/*      */
+
+/*去掉所有hover属性，豆瓣实在太喜欢用hover了。*/
+/*.pd__ex *:hover,*/
+/*.pd__ex *:active{*/
+/*    all:unset!important;*/
+/*}*/
+
+:root{
+    --puddingdark-mainfont-color: rgba(255,255,255,0.87);
+    --puddingdark-secondfont-color: rgba(255,255,255,0.6);
+    --puddingdark-border-color: rgba(255,255,255,0.08);
+    --puddingdark-main-bgcolor: #121212;
+    --puddingdark-03dp-bgcolor: rgba(255,255,255,0.08);
+    --puddingdark-06dp-bgcolor : rgba(255,255,255,0.11);
+    --puddingdark-blue-color: rgb(10,132,255);
+    --color-dark-orange: rgb(255, 159, 10);
+}
+
+
+.pd__ex #screening .ui-slide-content{
+    width:100%;
+    overflow:scroll!important;
+    -webkit-overflow-scrolling: touch; /* Lets it scroll lazy */
+    left:0!important;
+}
+
+.pd__ex #screening .screening-hd .ui-slide-control,
+.pd__ex #screening .screening-hd .slide-tip{
+    display:none;
+}
+
+
+@media (max-width: 440px) and (orientation: portrait),
+(max-width: 940px) and (orientation: landscape){
+    
+    body.pd__ex,body.pd__ex *{
+        -webkit-text-size-adjust: none;
+    }
+    
+    html body, html td, html th, html .pl, html input{
+        font-size:12px!important;
+    }
+    
+    body{
+        width: 100%!important;
+    }
+    
+    #db-global-nav{
+        width: 100%!important;
+        min-width: 0!important;
+        height: auto!important;
+    }
+    
+    
+    #db-global-nav .top-nav-doubanapp{
+        display:none;
+    }
+    
+    .nav{
+        min-width:unset!important;
+        margin-bottom:10px!important;
+    }
+    
+    .nav .nav-primary, .nav .nav-secondary{
+        width:100%!important;
+        padding: 0 10px!important;
+        box-sizing:border-box;
+    }
+    
+    .nav .nav-logo{
+        float:none!important;
+        width:72px!important;
+        height:28px!important;
+        background-size:contain!important;
+    }
+    
+    .nav-search{
+        margin:0!important;
+    }
+    
+    .nav-search fieldset{
+        display: flex;
+    }
+    
+    .nav-search .inp{
+        width: auto!important;
+        flex:1;
+        float:none!important;
+    }
+    
+    .nav-secondary .nav-items{
+        font-size:12px!important
+    }
+    
+    
+    
+    #wrapper{
+        width:100%!important;
+        padding: 0 10px!important;
+        box-sizing:border-box;
+    }
+    
+    .grid-16-8 .article{
+        float:none!important;
+        width: auto!important;
+        padding: 0!important;
+    }
+    
+    .grid-16-8 .aside{
+        float:none!important;
+        width: auto!important;
+        position:relative!important;
+        inset: 0!important;
+    }
+    
+    html h2{
+        font-size:14px!important
+    }
+    
+
+    
+    .pd__ex #gallery-frames{
+        display: none;
+    }
+    
+    #content h2{
+        position: sticky;
+        top:0;
+        background:#fff;
+    }
+    
+    #content h2 .filter{
+        margin:0!important;
+    }
+    
+    #content h2 .more-link{
+        position: absolute;
+        right:0;
+        top:5px;
+    }
+    
+    #content h2  .tags label{
+        margin-right: 5px!important;
+    }
+    
+    #content h2 span{
+        font-size:12px!important
+    }
+    
+    .pd__ex #screening .ui-slide-item{
+        width:auto;
+        margin-right: 5px;
+    }
+    
+    .pd__ex #screening .ui-slide-item:empty,
+    .pd__ex #screening .ui-slide-item:blank{
+        display:none;
+    }
+    
+    /*手机上的hover展示模块不太友好了*/
+    .pd__ex #subject-tip{
+        display:none!important;
+    }
+    
+    /*暂时没有浏览器支持Orz*/
+    #screening .ui-slide-item:blank{
+        display:none;
+    }
+    
+    
+    .gaia.gaia-lite .fliter-wp h2>[data-type], .gaia.gaia-lite .fliter-wp .filter{
+        float:none!important;
+    }
+    
+    .gaia.gaia-lite .fliter-wp .filter{
+        width: auto!important;
+    }
+    
+    .gaia.gaia-lite .fliter-wp .more-link{
+        float:none!important;
+    }
+    
+    .gaia .list-wp{
+        width: 100%!important;
+    }
+    
+    #gallery-frames{
+        overflow:hidden;
+    }
+    
+    .rating_answer{
+        width: 100%!important;
+        box-sizing:border-box;
+    }
+    
+    .gaia .slider .slide-container{
+        height:auto!important;
+    }
+    
+    .gaia .slider .slide-container .slide-wrapper{
+        width:100%!important;
+        position:relative!important;
+        left:0!important;
+    }
+    
+    .gaia .slider .slide-container .slide-wrapper .slide-page{
+        float:none!important;
+        width:100%!important;
+    }
+    
+    .gaia .slider .slide-container .slide-wrapper .slide-page:first-of-type,
+    .gaia .slider .slide-container .slide-wrapper .slide-page:last-of-type{
+        display:none!important;
+    }
+    
+    .gaia .slider .slide-ctrl{
+        display:none!important;
+    }
+    
+    
+    /*电影详情页*/
+    .subject{
+        width: 100%!important;
+    }
+    #mainpic{
+        float:none!important;
+    }
+    #info{
+        float:none!important;
+        width: 100%!important;
+        max-width:unset!important;
+    }
+    
+    #recommendations .recommendations-bd{
+        margin: 0!important;
+    }
+    
+    #recommendations .recommendations-bd dl{
+        margin-right: 5px!important;
+    }
+    
+    #interest_sectl{
+        float:none!important;
+        position:absolute;
+        right:0;
+        top:0;
+    }
+    
+    #celebrities .celebrities-list.__oneline li{
+        margin: 0 5px!important;
+    }
+    
+    .related-pic-bd{
+        text-align: left!important;
+    }
+    
+    .related-pic-bd li{
+        margin: 4px;
+    }
+    
+    #dale_movie_nowplaying_top_left{
+        display:none!important;
+    }
+    
+    #nowplaying .mod-bd .lists, #upcoming .mod-bd .lists{
+        margin:0!important;
+    }
+    
+    .list-item{
+        margin:4px!important;
+    }
+    
+    
+    .pd__ex #celebrities .celebrities-list.__oneline{
+        white-space: nowrap;
+        overflow: scroll;
+        -webkit-overflow-scrolling: touch; /* Lets it scroll lazy */
+    }
+    
+    .pd__ex  #dialog,
+    .pd__ex #overlay{
+        width:90%!important;
+        margin-left:5%!important;
+        left:0!important;
+    }
+    
+
+    
+    
+    /*}*/
+    
+    
+    /*视频页*/
+    
+    .stage{
+        width:100%!important;
+    }
+    
+    #player{
+        float:none!important;
+        width:100%!important;
+    }
+    
+    #player-cover{
+        width:100%!important;
+    }
+    
+    .video-js{
+        width:100%!important;
+    }
+    
+    
+    #video-list{
+        float:none!important;
+        height: auto!important;
+        width: 100%!important;
+        margin: 0!important;
+        padding: 5px;
+        box-sizing:border-box;
+    }
+    
+    #video-list-wp{
+        position:relative!important;
+        width:auto!important;
+    }
+    
+    .video-list-col{
+        float:none!important;
+    }
+    
+    .video-list-col li{
+        display:inline-block!important;
+        width: 32%!important;
+        padding:0!important;
+        background:none!important;
+    }
+    
+    .pr-video{
+        width:100%!important;
+    }
+    
+    .pr-video img{
+        width:100%!important;
+        object-fit:cover;
+    }
+    
+    #video-list-op{
+        display:none!important;
+    }
+    
+    .main-info{
+        width:100%!important;
+    }
+    
+    .aside{
+        position:relative!important;
+        width:100%!important;
+        inset:0!important;
+    }
+    
+    
+    #recent_movies li, #best_movies li{
+        margin-right:12px!important;
+    }
+    
+    #photos li{
+        margin-right:12px!important;
+    }
+    
+    
+    .comment_btn{
+        float:none!important;
+    }
+    
+    
+    .gaia{
+        overflow:unset!important;
+    }
+    
+    .gaia .fliter-wp,.reviews-hd{
+        position:sticky;
+        top:0;
+        background:#fff;
+        z-index:1000;
+    }
+    
+    .gaia .fliter-wp h2{
+        margin-bottom: 0!important;
+    }
+    
+    /*https://movie.douban.com/cinema/later/shanghai/*/
+    /*开始使用前缀，减少使用important*/
+    .pd__ex .tab-bd .mod{
+        width: 32%;
+        height: auto;
+        padding: 1%;
+        box-sizing:border-box;
+        margin: 0;
+        border:none;
+        text-align: center;
+    }
+    
+    .pd__ex .article .thumb{
+        position:relative;
+    }
+    
+    .pd__ex .tab-bd img{
+        width:100%;
+        height:auto;
+        aspect-ratio: 3 / 4;
+        object-fit: cover;
+    }
+    
+    .pd__ex .tab-bd .odd .thumb{
+        left:0;
+    }
+    
+    html .pd__ex h3{
+        font-size: 14px;
+        line-height: 1.4;
+        margin:5px 0;
+    }
+    
+    
+    .pd__ex .gaia .item{
+        width: 48%;
+        float: none;
+        margin: 5px 0.5% 15px;
+        display: inline-block;
+        vertical-align: top;
+        font-size: 12px;
+    }
+    
+    .pd__ex .gaia .item .cover-wp{
+        height: auto;
+        aspect-ratio: 3 / 4;
+    }
+    
+    .pd__ex .gaia .item .cover-wp img{
+        aspect-ratio: 3 / 4;
+        object-fit: cover;
+    }
+    
+    .pd__ex .gaia .item p{
+        height: auto;
+    }
+    /**/
+    
+    /* 分类开始：https://movie.douban.com/tag/#/*/
+    
+    .pd__ex  .item[data-v-2c455d87]{
+        width: 32%;
+        margin: 0 0.5%;
+    }
+    
+    .pd__ex .item .cover-wp[data-v-2c455d87]:after{
+        display:none;
+    }
+    
+    .pd__ex .more[data-v-3e982be2]{
+        margin: 0;
+    }
+    
+}
+
+
+@media (prefers-color-scheme: dark) {
+    .pd__ex .category li[data-v-3e982be2]{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .item p[data-v-2c455d87]{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .info .title[data-v-423dbb08]{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    
+    .pd__ex .more,
+    .pd__ex .more:hover{
+        background:rgba(255,255,255,0.08)!important;
+        color:rgba(255,255,255,0.87)!important;
+    }
+    
+}
+
+
+/*分类结束：https://movie.douban.com/tag/#/*/
+
+
+/*豆瓣电影 详情 讨论区*/
+
+
+
+/*.pd__ex .intro li{*/
+/*    display:inline-block;*/
+/*}*/
+/**/
+/*.pd__ex .trailer_icon:link, .trailer_icon:visited, .trailer_icon:hover, .trailer_icon:active{*/
+/*    display:block;*/
+/*}*/
+
+/*豆瓣小组讨论*/
+/*因为豆瓣电影包含了豆瓣小组的帖子列表*/
+/*https://www.douban.com/group/topic/263185689/?_i=8360513OFf_Y12,8631437X4BGccv*/
+
+@media (max-width: 440px) and (orientation: portrait),
+(max-width: 940px) and (orientation: landscape){
+    
+    .pd__ex #db-nav-group .nav-items{
+        float:none;
+    }
+    
+    .pd__ex #db-nav-group .nav-items li{
+        display:inline-block;
+        margin-right:15px;
+    }
+    
+    .pd__ex #db-nav-group .nav-search{
+        position:relative;
+        right:unset;
+    }
+    
+    html .pd__ex h1{
+        font-size: 18px;
+    }
+    
+    .pd__ex .topic-content .topic-doc{
+        width:100%;
+    }
+    
+    .pd__ex #landing-bar{
+        display:none;
+    }
+    .pd__ex .back-to-top{
+        display:none;
+    }
+    
+}
+
+@media (prefers-color-scheme: dark) {
+    .pd__ex #db-nav-group{
+        background: #121212;
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .rich-content .market-group-buying-caption,
+    .pd__ex .topic-richtext .market-group-buying-caption,
+    .pd__ex .rich-content .image-caption,
+    .pd__ex .topic-richtext .image-caption,
+    .pd__ex .rich-content .video-card .video-caption,
+    .pd__ex .topic-richtext .video-card .video-caption,
+    .pd__ex .rich-content .subject-caption,
+    .pd__ex .topic-richtext .subject-caption{
+        color:rgba(255,255,255,0.6);
+    }
+    
+    
+    .pd__ex .rich-content p,
+    .pd__ex .topic-richtext p,
+    .pd__ex .rich-content blockquote,
+    .pd__ex .topic-richtext blockquote{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .popular-hd{
+        background:rgba(255,255,255,0.08);
+        color:rgba(255,255,255,0.6);
+    }
+    
+    .pd__ex .bg-img-green,
+    .pd__ex .nlst,
+    .pd__ex .nlst h3,
+    .pd__ex .bg-img-green h4{
+        background:rgba(255,255,255,0.08);
+        color:rgba(255,255,255,0.6);
+    }
+    
+    
+    .pd__ex  #interest_sectl .rating_num{
+        color:rgba(255,255,255,0.87)!important;
+    }
+
+    
+    .pd__ex #comments-section .comment-item h3,
+    .pd__ex #comments-section .comment-item .comment-vote .vote-count{
+        color:rgba(255,255,255,0.6);
+    }
+    
+    /* 03dp bg color    */
+    .pd__ex  #comments-section .comment-item::before,
+    .pd__ex .tab-hd::before,
+    .pd__ex .review-list .review-item:after{
+        background:var(--puddingdark-03dp-bgcolor);
+    }
+    
+    /*  second font  */
+    .pd__ex .review_filter .cur,
+    .pd__ex  #subject-doulist li span,
+    .pd__ex #subject-others-interests li{
+        color: var(--puddingdark-second-font);
+    }
+    
+    
+
+    
+    
+    
+    
+}
+
+
+/*首页*/
+@media (prefers-color-scheme: dark) {
+    
+    img{
+        filter: brightness(0.8);
+    }
+    
+    html,body.pd__ex{
+        background: #121212;
+        color:rgba(255,255,255,0.87);
+    }
+    
+    body.pd__ex *{
+        border-color:rgba(255,255,255,0.08)!important;
+    }
+    
+    .pd__ex #db-nav-movie{
+        background: #121212;
+    }
+    
+    .pd__ex #content h2{
+        background: #121212;
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex #screening .title a,
+    .pd__ex #screening .title a:hover{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex #screening .title a:link,
+    .pd__ex #screening .title a:visited,
+    .pd__ex #screening .title a:hover,
+    .pd__ex #screening .title a:active{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .gaia.gaia-lite .fliter-wp h2 .activate{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .gaia.gaia-lite .fliter-wp h2 .activate{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .gaia.gaia-lite .tags label.activate:hover{
+        color:rgba(255,255,255,0.6);
+    }
+    
+    .pd__ex #search_suggest{
+        background: #333;
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex #search_suggest li a:hover{
+        color:rgba(255,255,255,0.6);
+    }
+    
+    .pd__ex .rating_answer{
+        background:rgba(255,255,255,0.6);
+    }
+    .pd__ex a:visited{
+        color:rgba(255,255,255,0.6);
+    }
+    
+    .pd__ex  .review-bd .review-meta a{
+        color:rgba(255,255,255,0.6);
+    }
+    
+    .pd__ex  .gallery-frame .gallery-detail{
+        background:var(--puddingdark-main-bgcolor);
+    }
+    
+    .pd__ex .gallery-hd h3{
+        color: var(--puddingdark-mainfont-color);
+    }
+}
+
+
+/*评论*/
+@media (prefers-color-scheme: dark) {
+    .pd__ex h1{
+        color:rgba(255,255,255,0.87)!important;
+    }
+    
+    .pd__ex .review-content p,
+    .pd__ex .review-content blockquote,
+    .pd__ex .review-content .DRE-unstyled{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .review-content .subject-wrapper,
+    .pd__ex .review-content .video-card{
+        background:rgba(255,255,255,0.08);
+    }
+    
+    .pd__ex .review-content .subject-wrapper .subject-summary{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .review-content .subject-wrapper .subject-title,
+    .pd__ex .review-content .video-card .video-card-title{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .meta-header{
+        background:rgba(255,255,255,0.08)!important;
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .comments-app-wrapper{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .sidebar-info-wrapper .info-item .info-item-val{
+        color:rgba(255,255,255,0.87);
+    }
+
+}
+
+/*电影页面*/
+@media (prefers-color-scheme: dark) {
+    .pd__ex #wrapper{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex #celebrities .celebrities-list .info span.name a{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .tab-hd .on:link,
+    .pd__ex .tab-hd .on:visited,
+    .pd__ex .tab-hd .on:hover,
+    .pd__ex .tab-hd .on:active{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex #comments-section .comment-item .comment,
+    .pd__ex .interest_form .comment-label .num,
+    .pd__ex .author-info .author-link .verify{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .comment-content,
+    .pd__ex .interest_form dt,
+    .pd__ex .review-list .review-item .main-bd .spoiler-tip{
+        color:rgba(255,255,255,0.6);
+    }
+    
+    .pd__ex .review-list .review-item .review-short{
+        color:rgba(255,255,255,0.6);
+    }
+    
+    .pd__ex .ticket{
+        background: #121212;
+    }
+    
+    .pd__ex #dialog{
+        background: #222;
+    }
+    
+    .pd__ex .interest-form-ft{
+        background:var(--puddingdark-03dp-bgcolor);
+    }
+}
+
+
+/*影讯&购票*/
+@media (prefers-color-scheme: dark) {
+    
+    .pd__ex .list-item .stitle a:hover,
+    .pd__ex .list-item .stitle a:active,
+    .pd__ex .list-item .stitle a:link,
+    .pd__ex .list-item .stitle a:visited{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    
+    .pd__ex .list-item .sbtn a,
+    .pd__ex .chart-item .mod-bd .sbtn{
+        background:rgba(255,255,255,0.08)!important;
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex #nowplaying .more,
+    .pd__ex #nowplaying .more:hover{
+        background:rgba(255,255,255,0.08)!important;
+        color:rgba(255,255,255,0.87);
+    }
+
+    .pd__ex .gaia .fliter-wp, .reviews-hd{
+        background: #121212;
+    }
+    
+    .pd__ex .gaia .tags label, .gaia .tags .custom-btn,
+    .pd__ex .gaia .sub-tags label,
+    .pd__ex .gaia .sub-tags .custom-btn{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .gaia .tags label:hover,
+    .pd__ex .gaia .tags .custom-btn:hover,
+    .pd__ex .gaia .sub-tags label:hover,
+    .pd__ex .gaia .sub-tags .custom-btn:hover{
+        background: none;
+    }
+    
+    .pd__ex .gaia .tags .activate:hover,
+    .pd__ex .gaia .sub-tags .activate:hover{
+        background: #4b8ccb;
+    }
+    
+    .pd__ex .gaia .tool{
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .gaia .more,
+    .pd__ex .gaia .more:hover{
+        background:rgba(255,255,255,0.08)!important;
+        color:rgba(255,255,255,0.87);
+    }
+    
+    .pd__ex .gaia .detail-pop{
+        display:none!important;
+    }
+    
+    .pd__ex .pl{
+        color:rgba(255,255,255,0.6);
+    }
+}
+
+/*剧照 开始*/
+
+@media (max-width: 440px) and (orientation: portrait),
+(max-width: 940px) and (orientation: landscape){
+    
+    .pd__ex .opt-bar-line{
+        display:flex;
+        justify-content: space-between;
+    }
+    .pd__ex .opt-bar-line #photo{
+        display:none;
+    }
+    
+    .pd__ex .opt-bar-line .opt-mid{
+        position:relative;
+        margin:0;
+    }
+    
+    .pd__ex .opt-bar-line .opt-left,
+    .pd__ex .opt-bar-line .fright{
+        position:relative;
+    }
+    
+    .pd__ex .clearfix:after{
+        display:none;
+    }
+    
+}
+
+@media (prefers-color-scheme: dark) {
+    .pd__ex .opt-bar-line{
+        color:rgba(255,255,255,0.6);
+    }
+    .pd__ex .fav-num{
+        color:rgba(255,255,255,0.6);
+    }
+    
+    .pd__ex .comment-item .author{
+        background:rgba(255,255,255,0.08)!important;
+        color:rgba(255,255,255,0.6);
+    }
+
+
+}
+
+
+
+/*电影搜索结果*/
+@media (prefers-color-scheme: dark) {
+    .pd__ex  .jPEetW ._lm92edjkh,
+    .pd__ex .hxTOIE ._92d6g3cm7{
+        width: 100%;
+        float:none;
+    }
+    
+    .pd__ex  #footer{
+        color:rgba(255,255,255,0.6);
+    }
+}
+
+
+/*https://movie.douban.com/cinema/later/shanghai/*/
+
+@media (prefers-color-scheme: dark) {
+    .pd__ex .intro li{
+        color:rgba(255,255,255,0.6);
+    }
+    
+    .pd__ex .article p{
+        color:rgba(255,255,255,0.6);
+    }
+    
+    .pd__ex .douban-movie-official-site{
+        background:rgba(255,255,255,0.08);
+    }
+}
+
+/*即将上映*/
+
+@media (prefers-color-scheme: dark) {
+    .pd__ex .article #showing-soon p{
+        background:rgba(255,255,255,0.08);
+    }
+    
+    .pd__ex .article #showing-soon p a:hover{
+        background:none;
+    }
+    
+    .pd__ex .coming_list th{
+        background:rgba(255,255,255,0.08);
+    }
+}
+

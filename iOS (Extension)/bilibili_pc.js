@@ -76,9 +76,11 @@ function addButtonAndBlock(){
         const h = i.querySelector('.video-card__content,.img,.bili-video-card__image--wrap,.bili-live-card__image');
         // up主的名字..
         const upDom = i.querySelector('.up-name,.bili-video-card__info--author,.bili-live-card__info--uname');
-                
+        const titleDom = i.querySelector('.bili-video-card__info--tit,.bili-live-card__info--tit,.bili-movie-card__info--tit,.video-name,.info .title');
+
         if(h && upDom){
             let up = upDom.textContent.replaceAll(/\s+/g, '');
+            let title = titleDom.textContent;
             if(!up){return;}
             const blockDom = document.createElement('div');
             blockDom.className = '__pudding_block';
@@ -87,7 +89,7 @@ function addButtonAndBlock(){
             blockDom.addEventListener('click', e => {
                 e.stopPropagation();
                 e.preventDefault();
-                pd_showBlockModal(up);
+                pd_showBlockModal(up,title);
             })
         }
     })
@@ -183,7 +185,7 @@ function BlockChannel(){
 }
 
 
-function pd_showBlockModal(up){
+function pd_showBlockModal(up,title){
     
     if(document.querySelector('.pudding_block_Modal')){return;}
     
@@ -204,12 +206,16 @@ function pd_showBlockModal(up){
     upSpan.textContent = `屏蔽：${up}`;
     upSpan.checked = true;
     
+    const titleEm = document.createElement('em');
+    titleEm.textContent = title;
+    
+    
     const keyWordLabel = document.createElement('label');
     const keySpan = document.createElement('span');
     keySpan.textContent = '关键词:'
     const keyInput = document.createElement('input');
     keyInput.type = "text";
-    keyInput.placeholder = "填入你想屏蔽的关键词";
+    keyInput.placeholder = "填入想屏蔽的关键词";
     
     const buttons = document.createElement('div');
     buttons.className = "buttons";
@@ -220,22 +226,25 @@ function pd_showBlockModal(up){
     const cancel = document.createElement('button');
     cancel.textContent = '取消';
     
-    const download = document.createElement('button');
-    download.textContent = '下载';
-    
+//    const download = document.createElement('button');
+//    download.textContent = '下载';
     
     inner.appendChild(description);
-    upLabel.appendChild(upCheck)
-    upLabel.appendChild(upSpan)
+    upLabel.appendChild(upCheck);
+    upLabel.appendChild(upSpan);
+    
     inner.appendChild(upLabel);
+
+    inner.appendChild(titleEm);
+    
     
     keyWordLabel.appendChild(keySpan);
     keyWordLabel.appendChild(keyInput);
     inner.appendChild(keyWordLabel);
-
+    
     buttons.appendChild(confirm);
     buttons.appendChild(cancel);
-//    buttons.appendChild(download);
+    buttons.appendChild(download);
 
     inner.appendChild(buttons);
     

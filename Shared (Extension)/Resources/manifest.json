@@ -171,6 +171,16 @@
             "*://search.douban.com/movie/*"
         ]
     },{
+        "js" : ["doubandushu.js"],
+        "matches" : [
+            "*://book.douban.com/*"
+        ]
+    },{
+        "css" : ["doubandushu.css"],
+        "matches" : [
+            "*://book.douban.com/*"
+        ]
+    },{
         "js" : ["qq.js"],
         "matches" : [
             "*://xw.qq.com/",
