@@ -125,7 +125,6 @@
         "css" : ["bilibili_pc.css"],
         "matches" : [
             "*://www.bilibili.com/",
-            "*://www.bilibili.com/video/*",
             "*://www.bilibili.com/v/popular/*",
             "*://www.bilibili.com/v/tech/*",
             "*://t.bilibili.com/*",
@@ -143,6 +142,14 @@
             "*://message.bilibili.com/*",
             "*://passport.bilibili.com/login"
         ]
+    },{
+        "css" : ["bilibili_pc_video.css"],
+        "matches" : [
+            "*://www.bilibili.com/video/*"
+        ]
+    },{
+        "js" : ["ifanr.js"],
+        "matches" : ["*://*.ifanr.com/*"]
     },{
         "css" : ["ifanr.css"],
         "matches" : ["*://*.ifanr.com/*"]
@@ -169,16 +176,6 @@
             "*://movie.douban.com/*",
             "*://www.douban.com/group/topic/*",
             "*://search.douban.com/movie/*"
-        ]
-    },{
-        "js" : ["doubandushu.js"],
-        "matches" : [
-            "*://book.douban.com/*"
-        ]
-    },{
-        "css" : ["doubandushu.css"],
-        "matches" : [
-            "*://book.douban.com/*"
         ]
     },{
         "js" : ["qq.js"],

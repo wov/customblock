@@ -1,5 +1,16 @@
 /*首页*/
 
+:root{
+    --puddingdark-mainfont-color: rgba(255,255,255,0.87);
+    --puddingdark-secondfont-color: rgba(255,255,255,0.6);
+    --puddingdark-border-color: rgba(255,255,255,0.08);
+    --puddingdark-main-bgcolor: #121212;
+    --puddingdark-03dp-bgcolor: rgba(255,255,255,0.08);
+    --puddingdark-06dp-bgcolor : rgba(255,255,255,0.11);
+    --puddingdark-blue-color: rgb(10,132,255);
+    --color-dark-orange: rgb(255, 159, 10);
+}
+
 
 .home-container .home-buzz-container .home-buzz--right{
     height: 9rem!important;
@@ -198,4 +209,82 @@
     .home-container .article-container .article-item .article-separator{
         background-color:rgba(255,255,255,0.08)!important;
     }
+    
+    /* ipad   */
+    .pd__ex .page-body,
+    .pd__ex .c-home,
+    .pd__ex .article-collection--list .collection-container,
+    .pd__ex .article-collection--list .collection-sidebar,
+    .pd__ex .article-item--list,
+    .pd__ex .sub-nav.nav-bar--fixed,
+    .pd__ex .buzz-widget,
+    .pd__ex .top-banner .top-banner-item .banner-item-image .banner-img-hover,
+    .pd__ex .article-large-item .article-info,
+    .pd__ex .c-global-header .c-header-navbar__white,
+    .pd__ex .o-single-content__body--main,
+    .pd__ex .c-card,
+    .pd__ex .c-article-comments,
+    .pd__ex .article-item--card{
+        background-color:var(--puddingdark-main-bgcolor);
+    }
+    
+    .pd__ex .container-middle{
+        background:var(--puddingdark-main-bgcolor);
+    }
+    
+    .pd__ex .load-more-card,
+    .pd__ex .buzz-widget .buzz-widget-items .buzz-widget-items__item .buzz-widget-items__item__content .summary,
+    .pd__ex .c-goto-top,
+    .pd__ex .s-single-article blockquote,
+    .pd__ex .c-article-tags__item,
+    .pd__ex .c-article-likes__button,
+    .pd__ex .c-article-share__button,
+    .pd__ex .c-comment-label,
+    .pd__ex .c-article-comments__nav button.is-active,
+    .pd__ex .c-article-comments__nav button:hover,
+    .pd__ex .c-article-comments-form .c-article-comments-form__input--textarea--box{
+        background-color:var(--puddingdark-03dp-bgcolor);
+    }
+    
+    .pd__ex .sub-nav,
+    .pd__ex .sub-nav .sub-nav-item,
+    .pd__ex .top-banner .top-banner-item .banner-item-title,
+    .pd__ex .buzz-widget,
+    .pd__ex .buzz-widget .buzz-widget-items .buzz-widget-items__item .buzz-widget-items__item__title,
+    .pd__ex .article-large-item .article-info .article-info-type,
+    .pd__ex  .c-global-header .c-header-navbar__white .c-header-navbar－content__left .c-header-navigation .c-header-navigation__item,
+    .pd__ex .c-single-normal__title,
+    .pd__ex .s-single-article h1,
+    .pd__ex .s-single-article h2,
+    .pd__ex .s-single-article h3,
+    .pd__ex .c-card-author__name,
+    .pd__ex .c-card-category.c-article-comments__headline,
+    .pd__ex .c-article-comments,
+    .pd__ex .c-article-comments-item__name,
+    .pd__ex  #footerRecPosts .inner-box .footer-articles-title,
+    .pd__ex .article-item h{
+        color: var(--puddingdark-mainfont-color);
+    }
+    
+    .pd__ex .top-banner .top-banner-item .banner-item-image .banner-img-hover,
+    .pd__ex .load-more-card,
+    .pd__ex .s-single-article,
+    .pd__ex .s-single-article p,
+    .pd__ex .c-article-comments__nav button.is-active,
+    .pd__ex .c-article-comments__nav button:hover{
+        color: var(--puddingdark-secondfont-color);
+    }
+    
+    
+    .pd__ex .sub-nav .left-arrow .right-white-cover,
+    .pd__ex .sub-nav .right-arrow .right-white-cover{
+        display:none;
+    }
+    
+    
+
+    
+    
+    
+    
 }

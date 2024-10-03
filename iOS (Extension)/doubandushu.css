@@ -468,6 +468,15 @@
         margin: 0;
     }
     
+    /* 豆瓣读书 */
+    .pd__ex  .carousel{
+        max-width: 100%;
+    }
+    
+    .pd__ex .slide-list{
+        width: 100%;
+    }
+    
 }
 
 

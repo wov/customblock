@@ -1139,7 +1139,8 @@ body.scrollHide{
     
     .pd__ex .k56w2 ._3Dtkx ._2FAmO ._1SOVL,
     .pd__ex  .k56w2 ._3Dtkx ._2FAmO .TuMtR,
-    .pd__ex  .k56w2 ._3Dtkx .urs6m ._3cA4N{
+    .pd__ex  .k56w2 ._3Dtkx .urs6m ._3cA4N,
+    .pd__ex ._2CZkm .interact-btn img{
         filter: brightness(0) invert(1);
     }
     
@@ -1149,6 +1150,10 @@ body.scrollHide{
     
     .pd__ex p[style*="background-color"]{
         background:unset!important;
+    }
+    
+    .pd__ex ._18p7x .dpu8C._2kCxD section{
+        color: var(--puddingdark-mainfont-color)!important;
     }
 }
 

@@ -226,8 +226,8 @@ function pd_showBlockModal(up,title){
     const cancel = document.createElement('button');
     cancel.textContent = '取消';
     
-//    const download = document.createElement('button');
-//    download.textContent = '下载';
+    const download = document.createElement('button');
+    download.textContent = '下载';
     
     inner.appendChild(description);
     upLabel.appendChild(upCheck);
@@ -244,7 +244,9 @@ function pd_showBlockModal(up,title){
     
     buttons.appendChild(confirm);
     buttons.appendChild(cancel);
-    buttons.appendChild(download);
+    
+    
+//    buttons.appendChild(download);
 
     inner.appendChild(buttons);
     

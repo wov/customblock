@@ -79,7 +79,8 @@ img[lazy=loaded]{
 }
 
 /* App内打开 悬浮按钮*/
-.pd__ex .backflow-floating{
+.pd__ex .backflow-floating,
+.pd__ex .widget-floatMenu .floatMenu-backflow{
     display:none;
 }
 /*暗黑模式*/

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		830816DE28672EFF0076A2ED /* ke.css in Resources */ = {isa = PBXBuildFile; fileRef = 830816DD28672EFF0076A2ED /* ke.css */; };
 		830816E028672F0D0076A2ED /* ke.js in Resources */ = {isa = PBXBuildFile; fileRef = 830816DF28672F0D0076A2ED /* ke.js */; };
+		83102A982C5021B50065E060 /* bilibili_pc_video.css in Resources */ = {isa = PBXBuildFile; fileRef = 83102A972C5021B50065E060 /* bilibili_pc_video.css */; };
 		83174B2A294ED40D0041DE4F /* pdgzf.js in Resources */ = {isa = PBXBuildFile; fileRef = 83174B29294ED40D0041DE4F /* pdgzf.js */; };
 		83174B2C294ED4210041DE4F /* pdgzf.css in Resources */ = {isa = PBXBuildFile; fileRef = 83174B2B294ED4210041DE4F /* pdgzf.css */; };
 		831955E127C8E1AD00446554 /* xiaohongshu.css in Resources */ = {isa = PBXBuildFile; fileRef = 831955E027C8E1AD00446554 /* xiaohongshu.css */; };
@@ -26,6 +27,7 @@
 		835637CE280EDA7100F12F03 /* gjp.css in Resources */ = {isa = PBXBuildFile; fileRef = 835637CD280EDA7100F12F03 /* gjp.css */; };
 		835637D028144A1700F12F03 /* csdn.css in Resources */ = {isa = PBXBuildFile; fileRef = 835637CF28144A1700F12F03 /* csdn.css */; };
 		835637D2281C0F8A00F12F03 /* sohu.css in Resources */ = {isa = PBXBuildFile; fileRef = 835637D1281C0F8A00F12F03 /* sohu.css */; };
+		835AE6F02CAE5BA4008826D7 /* ifanr.js in Resources */ = {isa = PBXBuildFile; fileRef = 835AE6EF2CAE5BA4008826D7 /* ifanr.js */; };
 		836479AA27F1DBEA0081B72B /* bilibili_pc.css in Resources */ = {isa = PBXBuildFile; fileRef = 836479A927F1DBEA0081B72B /* bilibili_pc.css */; };
 		836479AC27F1DC090081B72B /* bilibili_pc.js in Resources */ = {isa = PBXBuildFile; fileRef = 836479AB27F1DC090081B72B /* bilibili_pc.js */; };
 		837467E42853A59900909A43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83E016EC2675036B00A30A29 /* Assets.xcassets */; };
@@ -165,6 +167,7 @@
 /* Begin PBXFileReference section */
 		830816DD28672EFF0076A2ED /* ke.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = ke.css; sourceTree = "<group>"; };
 		830816DF28672F0D0076A2ED /* ke.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = ke.js; sourceTree = "<group>"; };
+		83102A972C5021B50065E060 /* bilibili_pc_video.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = bilibili_pc_video.css; sourceTree = "<group>"; };
 		83174B29294ED40D0041DE4F /* pdgzf.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = pdgzf.js; sourceTree = "<group>"; };
 		83174B2B294ED4210041DE4F /* pdgzf.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = pdgzf.css; sourceTree = "<group>"; };
 		831955E027C8E1AD00446554 /* xiaohongshu.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = xiaohongshu.css; sourceTree = "<group>"; };
@@ -182,6 +185,7 @@
 		835637CD280EDA7100F12F03 /* gjp.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = gjp.css; sourceTree = "<group>"; };
 		835637CF28144A1700F12F03 /* csdn.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = csdn.css; sourceTree = "<group>"; };
 		835637D1281C0F8A00F12F03 /* sohu.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = sohu.css; sourceTree = "<group>"; };
+		835AE6EF2CAE5BA4008826D7 /* ifanr.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = ifanr.js; sourceTree = "<group>"; };
 		836479A927F1DBEA0081B72B /* bilibili_pc.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = bilibili_pc.css; sourceTree = "<group>"; };
 		836479AB27F1DC090081B72B /* bilibili_pc.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = bilibili_pc.js; sourceTree = "<group>"; };
 		837F025827FC748D00A677BD /* 36kr.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = 36kr.js; sourceTree = "<group>"; };
@@ -431,6 +435,8 @@
 				839CD0E427D24DB300E86463 /* bilibili.css */,
 				836479AB27F1DC090081B72B /* bilibili_pc.js */,
 				836479A927F1DBEA0081B72B /* bilibili_pc.css */,
+				83102A972C5021B50065E060 /* bilibili_pc_video.css */,
+				835AE6EF2CAE5BA4008826D7 /* ifanr.js */,
 				83B8D43D27DDFD1B00FCC661 /* ifanr.css */,
 				83CD752427E4D3B2004CE7AF /* smzdm.js */,
 				83CD752627E4D486004CE7AF /* smzdm.css */,
@@ -657,6 +663,7 @@
 				837F025D27FDC14900A677BD /* qq.js in Resources */,
 				83417EAF28072D1600BC58BA /* weibo.js in Resources */,
 				836479AC27F1DC090081B72B /* bilibili_pc.js in Resources */,
+				83102A982C5021B50065E060 /* bilibili_pc_video.css in Resources */,
 				8343695F287C63A100540ED2 /* mi.js in Resources */,
 				83EBB688290176C500C9DAF2 /* jandan.js in Resources */,
 				83EBB686290176B500C9DAF2 /* jandan.css in Resources */,
@@ -692,6 +699,7 @@
 				83C88297281FCA240048AAED /* autohome.css in Resources */,
 				838499BC2826CCAD001F053B /* jd.js in Resources */,
 				833AF29F27C9F0E60011C1BC /* sina.css in Resources */,
+				835AE6F02CAE5BA4008826D7 /* ifanr.js in Resources */,
 				83FB464B29E971F9007B1B7B /* xiaohongshu.js in Resources */,
 				835637CE280EDA7100F12F03 /* gjp.css in Resources */,
 				839CD0E327D247D200E86463 /* bilibili.js in Resources */,
@@ -954,7 +962,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 2.1.3;
+				MARKETING_VERSION = 2.1.7;
 				PRODUCT_BUNDLE_IDENTIFIER = com.inact.customblock.Extension;
 				PRODUCT_NAME = "customblock Extension";
 				SDKROOT = iphoneos;
@@ -981,7 +989,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 2.1.3;
+				MARKETING_VERSION = 2.1.7;
 				PRODUCT_BUNDLE_IDENTIFIER = com.inact.customblock.Extension;
 				PRODUCT_NAME = "customblock Extension";
 				SDKROOT = iphoneos;
@@ -1015,7 +1023,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.1.5;
+				MARKETING_VERSION = 2.1.7;
 				OTHER_LDFLAGS = (
 					"-framework",
 					WebKit,
@@ -1054,7 +1062,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.1.5;
+				MARKETING_VERSION = 2.1.7;
 				OTHER_LDFLAGS = (
 					"-framework",
 					WebKit,
