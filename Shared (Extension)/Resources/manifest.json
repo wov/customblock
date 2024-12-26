@@ -34,8 +34,6 @@
         "matches" : [
             "*://www.baidu.com/*",
             "*://m.baidu.com/*",
-            "*://baike.baidu.com/item/*",
-            "*://baike.baidu.com/",
             "*://jingyan.baidu.com/article/*",
             "*://gamecenter.baidu.com/static/game/*"
         ]
@@ -127,7 +125,6 @@
             "*://www.bilibili.com/",
             "*://www.bilibili.com/v/popular/*",
             "*://www.bilibili.com/v/tech/*",
-            "*://t.bilibili.com/*",
             "*://message.bilibili.com/*",
             "*://passport.bilibili.com/login"
         ]
@@ -145,7 +142,8 @@
     },{
         "css" : ["bilibili_pc_video.css"],
         "matches" : [
-            "*://www.bilibili.com/video/*"
+            "*://www.bilibili.com/video/*",
+            "*://t.bilibili.com/*"
         ]
     },{
         "js" : ["ifanr.js"],

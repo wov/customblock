@@ -160,6 +160,11 @@ body > .lt-row{
     display:none;
 }
 
+/*悬浮的预览，对移动设备可以去掉了*/
+.pd__ex .v-inline-player{
+    display:none;
+}
+
 
 /*为iPhone PC站设置样式*/
 @media (max-width: 440px) and (orientation: portrait),
@@ -1744,7 +1749,8 @@ body > .lt-row{
     .pd__ex  .bpx-player-block-list,
     .pd__ex .bpx-player-block-list-line,
     .pd__ex .international-header .mini-type .nav-search #nav_searchform,
-    .pd__ex .van-popover .mini-type .nav-search #nav_searchform{
+    .pd__ex .van-popover .mini-type .nav-search #nav_searchform,
+    .pd__ex .bili-dyn-more__btn.tp:hover{
         background: var(--puddingdark-03dp-bgcolor);
     }
     
@@ -1907,7 +1913,10 @@ body > .lt-row{
     .pd__ex #app .content .card,
     .pd__ex .bili-tabs__header,
     .pd__ex .reply-box.disabled .box-normal .reply-box-warp div.disable-mask,
-    .pd__ex .side-toolbar__box,.pd__ex .side-toolbar__btn{
+    .pd__ex .side-toolbar__box,.pd__ex .side-toolbar__btn,
+    .pd__ex .dyn-dispute__title,
+    .pd__ex .bili-dyn-publishing__title__input,
+    .pd__ex .bili-dyn-card-pgc__body{
         background: var(--puddingdark-03dp-bgcolor);
     }
     
@@ -1959,7 +1968,8 @@ body > .lt-row{
     .pd__ex .bpx-player-auxiliary .bpx-player-dm-container .dm-info-row .dm-info-dm,
     .pd__ex .base-video-sections-v1 .video-sections-head_first-line .first-line-left a.first-line-title,
     .pd__ex .base-video-sections-v1 .video-section-list div.video-episode-card__info-title,
-    .pd__ex .bpx-player-auxiliary .bpx-player-dm-load-status{
+    .pd__ex .bpx-player-auxiliary .bpx-player-dm-load-status,
+    .pd__ex .bili-dyn-card-pgc__title{
         color: var(--puddingdark-mainfont-color);
     }
     
@@ -2051,7 +2061,8 @@ body > .lt-row{
     .pd__ex  div.video-card__content,
     .pd__ex .other,
     .pd__ex .bili-dyn-card-video__body,
-    .pd__ex .bili-dyn-card-music{
+    .pd__ex .bili-dyn-card-music,
+    .pd__ex .bili-dyn-card-pgc__body{
         border-color: var(--puddingdark-03dp-bgcolor);
     }
     
@@ -2107,7 +2118,8 @@ body > .lt-row{
     .pd__ex .bili-dyn-up-list__shadow-left,
     .pd__ex .bili-dyn-up-list__shadow-right,
     .pd__ex .bili-dyn-up-list__shadow-left .shadow,
-    .pd__ex .bili-dyn-up-list__shadow-right .shadow{
+    .pd__ex .bili-dyn-up-list__shadow-right .shadow,
+    .pd__ex .floor-skeleton div.skeleton-item{
         background : var(--puddingdark-03dp-bgcolor);
     }
     

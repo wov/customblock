@@ -601,8 +601,14 @@
     /* 03dp bg color    */
     .pd__ex  #comments-section .comment-item::before,
     .pd__ex .tab-hd::before,
-    .pd__ex .review-list .review-item:after{
+    .pd__ex .review-list .review-item:after,
+    .pd__ex .stage,
+    .pd__ex #player{
         background:var(--puddingdark-03dp-bgcolor);
+    }
+    
+    .pd__ex .stage-cont{
+        background: #222;
     }
     
     /*  second font  */

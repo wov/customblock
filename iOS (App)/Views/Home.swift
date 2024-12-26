@@ -66,6 +66,11 @@ struct Home: View {
                         ReviewHandler.requestReview()
                     })
                     
+                    
+                    HStack {
+                        Link("关注小红书", destination: URL(string: "https://www.xiaohongshu.com/user/profile/55fbf3a8c2bdeb3c9cdb848a")!)
+                    }
+                    
 //                    HStack {
 //                        Link("微博互动", destination: URL(string: "https://weibo.com/u/1681934680")!)
 //                    }

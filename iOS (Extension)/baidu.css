@@ -16,6 +16,9 @@
  disable-text-color : color:rgba(255,255,255,0.38)!important;
  */
 
+
+
+
 :root{
     --puddingdark-mainfont-color: rgba(255,255,255,0.87);
     --puddingdark-secondfont-color: rgba(255,255,255,0.6);
@@ -838,11 +841,13 @@ a[data-module=entrance]{
     .pd__ex.cos-fresh .series-tag-info_2sH5w .owner-tag_9qkiC,
     .pd__ex .comment-item_wA0Al,
     .pd__ex.cos-wise .release-news-gray_6WN3R,
-    .pd__ex.cos-fresh .new-ux-recom-wrapper{
+    .pd__ex.cos-fresh .new-ux-recom-wrapper,
+    .pd__ex .cos-color-bg-page{
         background: var(--puddingdark-03dp-bgcolor);
     }
     
-    .pd__ex .cover-container_1Nem2{
+    .pd__ex .cover-container_1Nem2,
+    .pd__ex ._vertical-gradient_k1zml_192{
         background:none;
     }
     
@@ -1494,7 +1499,8 @@ body.scrollHide{
     .pd__ex  #userFeeds .operations,
     .pd__ex  #userFeeds .operations .operations_btn a,
     .pd__ex  .featureArea-wrapper .fancyCategories-container,
-    .pd__ex .cmn-btn-hover-blue{
+    .pd__ex .cmn-btn-hover-blue,
+    .pd__ex .table-container_39X6k .table-thead_2yUCX{
         border-color:  var(--puddingdark-03dp-bgcolor);
     }
     
@@ -1505,7 +1511,8 @@ body.scrollHide{
     .pd__ex #hotLemmas .title .title_tit,
     .pd__ex h1,.pd__ex h2,.pd__ex h3,.pd__ex h4,.pd__ex h5,.pd__ex h6,
     .pd__ex  #eventsOnHistory .content .content_evt dd .event .event_tit,
-    .pd__ex  .lemma-starmap .starmap-multi-item-info-title{
+    .pd__ex  .lemma-starmap .starmap-multi-item-info-title,
+    .pd__ex .money-style_59F57{
         color: var(--puddingdark-mainfont-color);
     }
     
@@ -1516,7 +1523,8 @@ body.scrollHide{
     .pd__ex  #cooperation .abstract .abstract_cnt,
     .pd__ex .wiki-common-headTabBar .baike,
     .pd__ex  .lemma-count,
-    .pd__ex .lemma-starmap .starmap-multi-item-info-desc{
+    .pd__ex .lemma-starmap .starmap-multi-item-info-desc,
+    .pd__ex .time_5zomV{
         color: var(--puddingdark-secondfont-color);
     }
     
@@ -1534,7 +1542,10 @@ body.scrollHide{
     
     .pd__ex  .userArea-wrapper,
     .pd__ex .wgt-footer-main,
-    .pd__ex #userFeeds #viewport .feeds dd .time{
+    .pd__ex #userFeeds #viewport .feeds dd .time,
+    .pd__ex .travel-select_23SrD .travel-select-board-layout_2yvdy,
+    .pd__ex .travel-select-board-layout-left_3JfDs,
+    .pd__ex .tenon_pc_comp_table table{
         background:#222;
     }
     
@@ -1571,7 +1582,10 @@ body.scrollHide{
     .pd__ex .lemma-reference .toggle,
     .pd__ex .lemma-paper .toggle,
     .pd__ex  .opui-scroll-ctrl-scroll .opui-scroll-axis,
-    .pd__ex  .opui-scroll-ctrl-scroll .opui-scroll-slider{
+    .pd__ex  .opui-scroll-ctrl-scroll .opui-scroll-slider,
+    .pd__ex .desc__vmR5l,
+    .pd__ex .rs__rTHfp,
+    .pd__ex .travel-select_23SrD .select-wrapper_4ubAm .select-box_6Czwf{
         background: var(--puddingdark-03dp-bgcolor);
     }
     
@@ -1580,7 +1594,9 @@ body.scrollHide{
     .pd__ex  .bksharebuttonbox.top-share .new-top-share,
     .pd__ex #hotspotmining_s .hotspotminingContent,
     .pd__ex  .drama-staff .staff-list tr:nth-child(even),
-    .pd__ex .main-content table th{
+    .pd__ex .main-content table th,
+    .pd__ex .sfa-content,
+    .pd__ex .topbar-wrapper__1O5lQ{
         background:#222;
     }
     
@@ -1593,7 +1609,10 @@ body.scrollHide{
     .pd__ex .para-title.level-2 .audio-play,
     .pd__ex .para-title.level-2 .edit-icon,
     .pd__ex  .lemma-starmap-container .swiper-nav-next-bg,
-    .pd__ex  .lemma-starmap-container .swiper-nav-prev-bg{
+    .pd__ex  .lemma-starmap-container .swiper-nav-prev-bg,
+    .pd__ex .infinite__POAnF,
+    .pd__ex .topbar-wrapper__1O5lQ .topbar__2W3xI,
+    .pd__ex ._vertical-gradient_zc167_197{
         background:none;
     }
     
@@ -1700,7 +1719,9 @@ body.scrollHide{
     .pd__ex .lemmaWgt-roleIntroduction ul .roleIntroduction-item .roleIntrodcution-descritpion .item-key,
     .pd__ex .lemma-starmap .starmap-unique-item-info-desc,
     .pd__ex .tashuo-bottom .tashuo-bottom-title-essence span,
-    .pd__ex  #container.sam_newgrid .c-showurl{
+    .pd__ex  #container.sam_newgrid .c-showurl,
+    .pd__ex .info__3_b3F,
+    .pd__ex  .cosd-markdown .marklang{
         color: var(--puddingdark-secondfont-color);
     }
     
