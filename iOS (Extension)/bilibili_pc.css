@@ -141,6 +141,10 @@ body > .lt-row{
     display:none!important;
 }
 
+.pd__ex input::placeholder{
+    color:rgba(0,0,0,0)!important;
+}
+
 .pd__ex .bili-watch-later{
     top:unset;
     bottom: 8px;
@@ -1750,7 +1754,8 @@ body > .lt-row{
     .pd__ex .bpx-player-block-list-line,
     .pd__ex .international-header .mini-type .nav-search #nav_searchform,
     .pd__ex .van-popover .mini-type .nav-search #nav_searchform,
-    .pd__ex .bili-dyn-more__btn.tp:hover{
+    .pd__ex .bili-dyn-more__btn.tp:hover,
+    .pd__ex .floor-skeleton.show-animation div.skeleton-item:after{
         background: var(--puddingdark-03dp-bgcolor);
     }
     
@@ -2210,6 +2215,15 @@ body > .lt-row{
     .pd__ex .divided-line[data-v-46fab800],
     .pd__ex .love-item[data-v-6a842a45]:not(:last-child)::after{
         border-color: var(--puddingdark-03dp-bgcolor);
+    }
+    
+    
+    .pd__ex .bili-video-card .loading_animation .bili-video-card__skeleton--light:after,
+    .pd__ex  .bili-video-card .loading_animation .bili-video-card__skeleton--text:after,
+    .pd__ex .bili-video-card .loading_animation .bili-video-card__skeleton--face:after,
+    .pd__ex .bili-video-card .loading_animation .bili-video-card__skeleton--cover:after,
+    .pd__ex .floor-skeleton.show-animation .skeleton-item[data-v-24179de8]:after{
+        background : var(--puddingdark-03dp-bgcolor);
     }
 
 }

@@ -1,52 +1,137 @@
-
-/*小红书discovery*/
-/*隐藏头部app*/
-.normal-launch-app-container{
-    display:none!important;
+:root{
+    --puddingdark-mainfont-color: rgba(255,255,255,0.87);
+    --puddingdark-secondfont-color: rgba(255,255,255,0.6);
+    --puddingdark-border-color: rgba(255,255,255,0.08);
+    --puddingdark-main-bgcolor: #121212;
+    --puddingdark-03dp-bgcolor: rgba(255,255,255,0.08);
 }
 
-/*展开隐藏内容*/
-main.content{
-    height:auto!important;
+.__pudding_block{
+    position:absolute;
+    right: 0;
+    top: 0px;
+    width: 32px;
+    height: 32px;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:50%;
+    background-color: rgba(255,255,255,0.4);
+    border-bottom-left-radius: 5px;
+    z-index:10;
+    background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gU3ZnIFZlY3RvciBJY29ucyA6IGh0dHA6Ly93d3cub25saW5ld2ViZm9udHMuY29tL2ljb24gLS0+DQo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMTAwMCAxMDAwIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAxMDAwIDEwMDAiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPG1ldGFkYXRhPiBTdmcgVmVjdG9yIEljb25zIDogaHR0cDovL3d3dy5vbmxpbmV3ZWJmb250cy5jb20vaWNvbiA8L21ldGFkYXRhPg0KPGc+PHBhdGggZD0iTTUwMCw5OTBDMjI5LjgsOTkwLDEwLDc3MC4yLDEwLDUwMFMyMjkuOCwxMCw1MDAsMTBzNDkwLDIxOS44LDQ5MCw0OTBTNzcwLjIsOTkwLDUwMCw5OTB6IE01MDAsODAuM0MyNjguNiw4MC4zLDgwLjMsMjY4LjYsODAuMyw1MDBjMCwyMzEuNCwxODguMyw0MTkuNyw0MTkuNyw0MTkuN2MyMzEuNCwwLDQxOS43LTE4OC4zLDQxOS43LTQxOS43QzkxOS43LDI2OC42LDczMS40LDgwLjMsNTAwLDgwLjN6IE01NDkuMyw1MDEuNWwxNTEuMy0xNDkuN2MxMy44LTEzLjYsMTMuOS0zNS43LDAuMy00OS41Yy0xMy42LTEzLjgtMzUuOC0xMy45LTQ5LjUtMC4zTDQ5OS45LDQ1MS45TDM1MC42LDMwMi4yYy0xMy43LTEzLjctMzUuOC0xMy44LTQ5LjUtMC4xYy0xMy43LDEzLjYtMTMuNywzNS44LTAuMSw0OS41bDE0OSwxNDkuNUwyOTkuOCw2NDkuOGMtMTMuOCwxMy42LTEzLjksMzUuNy0wLjMsNDkuNWM2LjksNi45LDE1LjksMTAuNCwyNC45LDEwLjRjOC45LDAsMTcuOC0zLjQsMjQuNi0xMC4xbDE1MC41LTE0OC44bDE1MS43LDE1Mi4yYzYuOCw2LjksMTUuOCwxMC4zLDI0LjgsMTAuM2M5LDAsMTcuOS0zLjQsMjQuNy0xMC4yYzEzLjctMTMuNywxMy43LTM1LjgsMC4xLTQ5LjVMNTQ5LjMsNTAxLjV6Ii8+PC9nPg0KPC9zdmc+");
 }
 
-.check-more{
-    display:none!important;
+
+.pudding_block_Modal{
+    position:fixed;
+    width: 100%;
+    height: 100%;
+
+    top:0;
+    left:0;
+        
+    z-index: 99999;
+    display:flex;
+    justify-content : center;
+    align-items: center;
+    font-size: 12px;
+        
 }
 
-.bottom-bar{
-    position:relative!important;
-    transform: none!important;
-    left:unset!important;
-    bottom:unset!important;
+.pudding_block_Modal .pudding_block_inner{
+    background:#fefefe;
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    padding: 10px 10px 5px;
+    box-sizing: border-box;
+    
+    display:flex;
+    flex-direction : column;
+    box-shadow: 0 0 3px rgba(0,0,0,0.3);
+}
+
+.pudding_block_inner label{
+    display: block;
+    margin: 2px 0 5px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.pudding_block_inner label span{
+    margin-right: 5px;
+}
+
+
+.pudding_block_inner input[type="text"]{
+    flex:1;
+    padding: 3px;
+    box-sizing:border-box;
+    box-shadow: 0 0 1px rgba(0,0,0,0.3) inset;
+    width:130px;
+}
+
+.pudding_block_inner input[type="checkbox"]{
+    margin-right: 5px;
+    appearance : checkbox;
+}
+
+.pudding_block_inner .buttons{
+    width: 80%;
     margin: 0 auto;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    height: 32px;
+    appearance : button;
+
+}
+
+.pudding_block_inner em{
+    font-size:10px;
+    margin-top: 10px;
+    margin-bottom: 2px;
 }
 
 
-/*小红书优化PC站手机样式*/
-/*他们没有维护768以下的尺寸了*/
-/*@media (max-width : 696px){*/
-/*    */
-/*    body, html{*/
-/*        min-width:unset!important;*/
-/*    }*/
-/*    */
-/*    /*  登陆框  */*/
-/*    .pd__ex div.login-container{*/
-/*        max-width: 100%;*/
-/*    }*/
-/*    */
-/*    .pd__ex div.login-container .left{*/
-/*        display:none;*/
-/*    }*/
-/*    */
-/*    .pd__ex div.layout{*/
-/*        min-width:unset!important;*/
-/*    }*/
-/*    */
-/*    .pd__ex div.feeds-page{*/
-/*        margin: 5px!important;*/
-/*    }*/
-/*    */
-/*    */
-/*}*/
+.pudding_block_inner .buttons button{
+    display: block;
+    flex:1;
+    background: transparent;
+}
+
+.pudding_block_inner  h3{
+    margin-bottom: 15px;
+    font-size:16px;
+}
+
+.pd__ex .note-item.hide{
+/*    opacity:0;*/
+    pointer-events:none;
+    visibility:hidden;
+}
+
+@media (prefers-color-scheme: dark)  {
+    .pudding_block_Modal .pudding_block_inner{
+        background: var(--puddingdark-main-bgcolor);
+        border:1px solid #888;
+    }
+    
+    .pudding_block_inner em{
+        color: var(--puddingdark-secondfont-color);
+    }
+    
+    .pudding_block_inner input[type="text"],
+    .pudding_block_inner input[type="checkbox"]{
+        background: var(--puddingdark-03dp-bgcolor);
+        color: var(--puddingdark-mainfont-color);
+    }
+    
+    .pudding_block_inner .buttons button{
+        color:#fff;
+    }
+
+}
+

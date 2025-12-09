@@ -1,6 +1,8 @@
-const BS_NAME = 'pudding_block_channel'
-
+const BS_NAME = "pudding_block_ups";
+const BAD_NAME = "pudding_block_channels";
+const BK_NAME = "pudding_block_keywords";
 // add a class for reset the styles easly.
+
 document.querySelector('body').classList.add('pd__ex');
 
 function replaceToAppText(){
@@ -63,6 +65,189 @@ function addCloseAndHideResult(){
         _r.appendChild(_close);
     });
 }
+
+
+function addButtonAndBlock(){
+//    console.log('addButtonAndBlock');
+    const items = document.querySelectorAll('.widget-flowList li,.home-channelNews li,.home-hot li');
+    const CLASSFLAG = "pudding_extension";
+    if(!items.length){return;}
+    
+    BlockContent();
+    
+    items.forEach( i => {
+        if(i.classList.contains(CLASSFLAG)){return;}
+        i.classList.add(CLASSFLAG);
+        // 添加直接展开的功能
+//        const t = i.querySelector('.video-card__content');
+
+        // 添加屏蔽的功能
+        // 用来放关闭按钮的容器
+//        const h = i.querySelector('article');
+        // up主的名字..
+        const upDom = i.querySelector('.s-source');
+        const titleDom = i.querySelector('h4');
+
+        if(upDom){
+            let up = upDom.textContent.replaceAll(/\s+/g, '');
+            let title = titleDom.textContent;
+            if(!up){return;}
+            const blockDom = document.createElement('div');
+            blockDom.className = '__pudding_block';
+            i.appendChild(blockDom);
+
+            blockDom.addEventListener('click', e => {
+                console.log('block button cliced!')
+                e.stopPropagation();
+                e.preventDefault();
+                pd_showBlockModal(up,title);
+            })
+        }
+    })
+}
+
+function BlockContent(){
+    const items = document.querySelectorAll('.widget-flowList li,.home-channelNews li,.home-topNews a,.home-hot li');
+    items.forEach( i => {
+        
+        // 添加屏蔽的功能
+        // up主的名字..
+        const upDom = i.querySelector('.s-source');
+        const titleDom = i.querySelector('h4');
+                
+        if(upDom){
+            let up = upDom.textContent.replaceAll(/\s+/g, '');
+            if(!up){return;}
+            
+            let blockUsers = localStorage.getItem(BS_NAME) ? JSON.parse(localStorage.getItem(BS_NAME)) : [];
+            if(blockUsers.includes(up)){
+                i.remove();
+            }
+        }
+        
+        if(titleDom){
+            let title = titleDom.textContent.replaceAll(/\s+/g, '');
+            if(!title){return;}
+            
+            let blockKeyWords = localStorage.getItem(BK_NAME) ? JSON.parse(localStorage.getItem(BK_NAME)) : [];
+            blockKeyWords.forEach( w => {
+                if(title.indexOf(w) !== -1){
+                    console.log('bingo',w);
+                    i.remove();
+                }
+            })
+        }
+    })
+}
+
+function pd_showBlockModal(up,title){
+    
+    if(document.querySelector('.pudding_block_Modal')){return;}
+    
+    const blockModal = document.createElement('div');
+    blockModal.className = 'pudding_block_Modal';
+    
+    const inner = document.createElement('div');
+    inner.className = 'pudding_block_inner';
+    
+    const description = document.createElement('h3');
+    description.textContent = "布丁扩展:屏蔽来源，或关键词。屏蔽只在本地有效。"
+    
+    const upLabel = document.createElement('label');
+//    upLabel.classList.add('label');
+    
+    const upCheck = document.createElement('input');
+    upCheck.type = 'checkbox';
+    
+    const upSpan = document.createElement('span');
+    upSpan.textContent = `屏蔽：${up}`;
+    upSpan.checked = true;
+    
+    const titleEm = document.createElement('em');
+    titleEm.textContent = title;
+    
+    
+    const keyWordLabel = document.createElement('div');
+    keyWordLabel.classList.add('label');
+    
+    const keySpan = document.createElement('span');
+    keySpan.textContent = '关键词:'
+    const keyInput = document.createElement('input');
+    keyInput.type = "text";
+    keyInput.placeholder = "填入想屏蔽的关键词";
+    
+    const buttons = document.createElement('div');
+    buttons.className = "buttons";
+    
+    const confirm = document.createElement('button');
+    confirm.textContent = '确定';
+    
+    const cancel = document.createElement('button');
+    cancel.textContent = '取消';
+    
+    const download = document.createElement('button');
+    download.textContent = '下载';
+    
+    inner.appendChild(description);
+    upLabel.appendChild(upCheck);
+    upLabel.appendChild(upSpan);
+    
+    inner.appendChild(upLabel);
+
+    inner.appendChild(titleEm);
+    
+    
+    keyWordLabel.appendChild(keySpan);
+    keyWordLabel.appendChild(keyInput);
+    inner.appendChild(keyWordLabel);
+    
+    buttons.appendChild(confirm);
+    buttons.appendChild(cancel);
+    
+    
+//    buttons.appendChild(download);
+
+    inner.appendChild(buttons);
+    
+    blockModal.appendChild(inner);
+    document.body.appendChild(blockModal);
+    
+    //取消按钮
+    cancel.addEventListener('click',e => {
+        blockModal.remove();
+    });
+    
+    //确定按钮
+    confirm.addEventListener('click',e => {
+        //添加到up主屏蔽名单
+        if(upCheck.checked){
+            let blockUsers = localStorage.getItem(BS_NAME) ? JSON.parse(localStorage.getItem(BS_NAME)) : [];
+            blockUsers.push(up);
+            localStorage.setItem(BS_NAME,JSON.stringify(blockUsers));
+        }
+        //添加到关键字屏蔽名单
+        if(keyInput.value){
+            let blockKeyWords = localStorage.getItem(BK_NAME) ? JSON.parse(localStorage.getItem(BK_NAME)) : [];
+            blockKeyWords.push(keyInput.value);
+            
+            blockKeyWords = blockKeyWords.filter(function(item, pos) {
+                return blockKeyWords.indexOf(item) == pos;
+            })
+            
+            localStorage.setItem(BK_NAME,JSON.stringify(blockKeyWords));
+        }
+        BlockContent();
+        blockModal.remove();
+    });
+    
+    download.addEventListener('click',e => {
+        let blockUsers = localStorage.getItem(BS_NAME) ? JSON.parse(localStorage.getItem(BS_NAME)) : [];
+        let blockKeyWords = localStorage.getItem(BK_NAME) ? JSON.parse(localStorage.getItem(BK_NAME)) : [];
+        downloadObjectAsJson({blockUsers , blockKeyWords},'B站屏蔽')
+    });
+    
+}
+
 
 
 // 显示可以重置屏蔽的按钮
@@ -210,7 +395,7 @@ if(sectionChannels.length){
 function addDarkMeta(){
     if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
         // remove origin theme color...
-        document.querySelector("[name='theme-color']").remove();
+//        document.querySelector("[name='theme-color']").remove();
 
         //add a dark meta..
         var meta = document.createElement('meta');
@@ -240,5 +425,22 @@ if(pageDom){
 }
 
 
+setTimeout(_ => {
+    console.log('ready to add ')
+    addButtonAndBlock();
+//    addButtonAndBlockToChannel();
+},1000)
 
+
+const rootChangeDom = document.querySelector('#app');
+if(rootChangeDom){
+    const config = { attributes: false, childList: true, subtree: true };
+    const callback = function(mutationsList, observer) {
+        addButtonAndBlock();
+//        addButtonAndBlockToChannel();
+//        openLongPictureInNewWindow();
+    };
+    const observer = new MutationObserver(callback);
+    observer.observe(rootChangeDom, config);
+}
 //

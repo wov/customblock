@@ -96,7 +96,7 @@ function addButtonAndBlock(){
 }
 
 function BlockContent(){
-    const items = document.querySelectorAll('.video-card,.rank-item,.bili-video-card,.bili-live-card');
+    const items = document.querySelectorAll('.video-card,.rank-item,.bili-video-card,.bili-live-card,.bili-feed-card');
     items.forEach( i => {
         
         // 添加屏蔽的功能

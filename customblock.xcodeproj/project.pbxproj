@@ -109,6 +109,7 @@
 		83E7268828BFABE300B043BA /* csdn.js in Resources */ = {isa = PBXBuildFile; fileRef = 83E7268728BFABE300B043BA /* csdn.js */; };
 		83EBB686290176B500C9DAF2 /* jandan.css in Resources */ = {isa = PBXBuildFile; fileRef = 83EBB685290176B500C9DAF2 /* jandan.css */; };
 		83EBB688290176C500C9DAF2 /* jandan.js in Resources */ = {isa = PBXBuildFile; fileRef = 83EBB687290176C500C9DAF2 /* jandan.js */; };
+		83EC0F0C2ECA1893001E83D7 /* v2ex.js in Resources */ = {isa = PBXBuildFile; fileRef = 83EC0F0B2ECA1893001E83D7 /* v2ex.js */; };
 		83F2DCDF29850F1700885DB3 /* baiduzhidao.css in Resources */ = {isa = PBXBuildFile; fileRef = 83F2DCDE29850F1700885DB3 /* baiduzhidao.css */; };
 		83F2DCE129850F3800885DB3 /* baiduzhidao.js in Resources */ = {isa = PBXBuildFile; fileRef = 83F2DCE029850F3800885DB3 /* baiduzhidao.js */; };
 		83FB464B29E971F9007B1B7B /* xiaohongshu.js in Resources */ = {isa = PBXBuildFile; fileRef = 83FB464A29E971F9007B1B7B /* xiaohongshu.js */; };
@@ -259,6 +260,7 @@
 		83E7268728BFABE300B043BA /* csdn.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = csdn.js; sourceTree = "<group>"; };
 		83EBB685290176B500C9DAF2 /* jandan.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = jandan.css; sourceTree = "<group>"; };
 		83EBB687290176C500C9DAF2 /* jandan.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = jandan.js; sourceTree = "<group>"; };
+		83EC0F0B2ECA1893001E83D7 /* v2ex.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = v2ex.js; sourceTree = "<group>"; };
 		83F2DCDE29850F1700885DB3 /* baiduzhidao.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = baiduzhidao.css; sourceTree = "<group>"; };
 		83F2DCE029850F3800885DB3 /* baiduzhidao.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = baiduzhidao.js; sourceTree = "<group>"; };
 		83FB464A29E971F9007B1B7B /* xiaohongshu.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = xiaohongshu.js; sourceTree = "<group>"; };
@@ -441,6 +443,7 @@
 				83CD752427E4D3B2004CE7AF /* smzdm.js */,
 				83CD752627E4D486004CE7AF /* smzdm.css */,
 				83CD752E27E783CF004CE7AF /* v2ex.css */,
+				83EC0F0B2ECA1893001E83D7 /* v2ex.js */,
 				83CD753427EDED74004CE7AF /* douban.js */,
 				83CD753627EDED8B004CE7AF /* douban.css */,
 				83C9FD492B626FF1005397EC /* doubandushu.css */,
@@ -582,7 +585,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 2610;
 				TargetAttributes = {
 					83E016FB2675036B00A30A29 = {
 						CreatedOnToolsVersion = 13.0;
@@ -713,6 +716,7 @@
 				83D1B9C329B323BA0030B701 /* baidupan.css in Resources */,
 				83C882A12820CBA80048AAED /* taobao.css in Resources */,
 				83B2530227F5550C00C11371 /* base.css in Resources */,
+				83EC0F0C2ECA1893001E83D7 /* v2ex.js in Resources */,
 				83FC53B1281E4CF300C335C3 /* myseller.css in Resources */,
 				83CD753127E78804004CE7AF /* v2ex.css in Resources */,
 				837F025B27FDC13C00A677BD /* qq.css in Resources */,
@@ -869,8 +873,10 @@
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 7EDV5GHJYS;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -888,6 +894,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -929,8 +936,10 @@
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 7EDV5GHJYS;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -941,6 +950,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
@@ -951,7 +961,6 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7EDV5GHJYS;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "布丁扩展";
@@ -962,7 +971,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 2.1.8;
+				MARKETING_VERSION = 2.1.9;
 				PRODUCT_BUNDLE_IDENTIFIER = com.inact.customblock.Extension;
 				PRODUCT_NAME = "customblock Extension";
 				SDKROOT = iphoneos;
@@ -978,7 +987,6 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7EDV5GHJYS;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "布丁扩展";
@@ -989,7 +997,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 2.1.8;
+				MARKETING_VERSION = 2.1.9;
 				PRODUCT_BUNDLE_IDENTIFIER = com.inact.customblock.Extension;
 				PRODUCT_NAME = "customblock Extension";
 				SDKROOT = iphoneos;
@@ -1004,13 +1012,11 @@
 		83E0174F2675036B00A30A29 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7EDV5GHJYS;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "布丁";
@@ -1023,7 +1029,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.1.8;
+				MARKETING_VERSION = 2.1.9;
 				OTHER_LDFLAGS = (
 					"-framework",
 					WebKit,
@@ -1043,13 +1049,11 @@
 		83E017502675036B00A30A29 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7EDV5GHJYS;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "布丁";
@@ -1062,7 +1066,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.1.8;
+				MARKETING_VERSION = 2.1.9;
 				OTHER_LDFLAGS = (
 					"-framework",
 					WebKit,
@@ -1087,7 +1091,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = 7EDV5GHJYS;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
@@ -1100,7 +1103,7 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.19;
 				PRODUCT_BUNDLE_IDENTIFIER = com.inact.customblock.Extension;
 				PRODUCT_NAME = "customblock Extension";
@@ -1118,7 +1121,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = 7EDV5GHJYS;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
@@ -1131,7 +1133,7 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.19;
 				PRODUCT_BUNDLE_IDENTIFIER = com.inact.customblock.Extension;
 				PRODUCT_NAME = "customblock Extension";
@@ -1145,7 +1147,6 @@
 		83E017562675036B00A30A29 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "macOS (App)/customblock.entitlements";
@@ -1153,9 +1154,9 @@
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = 7EDV5GHJYS;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = customblock;
@@ -1165,7 +1166,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.19;
 				OTHER_LDFLAGS = (
 					"-framework",
@@ -1183,7 +1184,6 @@
 		83E017572675036B00A30A29 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "macOS (App)/customblock.entitlements";
@@ -1191,9 +1191,9 @@
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = 7EDV5GHJYS;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = customblock;
@@ -1203,7 +1203,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.19;
 				OTHER_LDFLAGS = (
 					"-framework",

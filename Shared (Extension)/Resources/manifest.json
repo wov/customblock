@@ -19,7 +19,7 @@
     },
 
     "content_scripts": [{
-        "js" : ["pudding_global.js"],
+        "js" : ["v2ex.js"],
         "matches" : [
             "*://*.v2ex.com/*"
         ]
